@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "FlaskWebProject", "FlaskWebProject\FlaskWebProject.pyproj", "{4783FFAE-564D-4C5B-98B7-79DA1DAD6463}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4783FFAE-564D-4C5B-98B7-79DA1DAD6463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4783FFAE-564D-4C5B-98B7-79DA1DAD6463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4783FFAE-564D-4C5B-98B7-79DA1DAD6463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4783FFAE-564D-4C5B-98B7-79DA1DAD6463}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95B5547B-A5B2-49DE-B117-20634144D918}
+	EndGlobalSection
+EndGlobal
