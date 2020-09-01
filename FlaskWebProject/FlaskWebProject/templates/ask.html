@@ -1,10 +1,155 @@
 ﻿{% extends "layout.html" %}
 
 {% block content %}
+<br />
 
-<h2>{{ title }}.</h2>
-<h3>{{ message }}</h3>
+<ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Find materials</a></li>
+    <li><a data-toggle="tab" href="#menu1">Give away materials</a></li>
+    <li><a data-toggle="tab" href="#menu2">My posts</a></li>
+</ul>
 
-<p>Use this area to provide additional information.</p>
+<div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+        <h3>Find printed materials by choosing your faculty and the course:</h3>
 
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                Fauclty
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-header">Engineering</li>
+                <li><a href="#">Elecric engineering</a></li>
+                <li><a href="#">Mechanical engineering</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Medecine</li>
+                <li><a href="#">Medecine</a></li>
+            </ul>
+        </div>
+        <br />
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                Course
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-header">First year</li>
+                <li><a href="#">Physics 1</a></li>
+                <li><a href="#">Linear algebra</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Second year</li>
+                <li><a href="#">Python</a></li>
+            </ul>
+        </div>
+        <br />
+        <div>
+            <form action="{{ url_for('ask') }}">
+                <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-search"></span> Search</button>
+            </form>
+        </div>
+        <div class="container">
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Descripton</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10 printed Tests</td>
+                        <td>john@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Course book</td>
+                        <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>My notes</td>
+                        <td>july@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+    <div id="menu1" class="tab-pane fade">
+        <h3>Find a student to take away the materials you no longer need:</h3>
+        <p>After posting, You can review the post under 'My posts'</p>
+        <br />
+        <form action="/action_page.php">
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                    Fauclty
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-header">Engineering</li>
+                    <li><a href="#">Elecric engineering</a></li>
+                    <li><a href="#">Mechanical engineering</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Medecine</li>
+                    <li><a href="#">Medecine</a></li>
+                </ul>
+            </div>
+            <br />
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                    Course
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-header">First year</li>
+                    <li><a href="#">Physics 1</a></li>
+                    <li><a href="#">Linear algebra</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Second year</li>
+                    <li><a href="#">Python</a></li>
+                </ul>
+            </div>
+            <br />
+            <div class="form-group">
+                <label>Description:</label>
+                <p>(What are you plannig to give away? ex: a printed book of the course)</p>
+                <input class="form-control" id="Description">
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox"> I agree to be contacted by my university email address.</label>
+            </div>
+            <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-send"></span> Post</button>
+        </form>
+    </div>
+
+    <div id="menu2" class="tab-pane fade">
+        <h3>Here is a list of materials you gave away. You may delete these at any time.</h3>
+        <p>you will be contacted via the Email address you provided.</p>
+        <br />
+        <div class="container">
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Faculty</th>
+                        <th>Course</th>
+                        <th>Descripton</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Electrical Engineering</td>
+                        <td>Math</td>
+                        <td>10 printed Tests</td>
+                    </tr>
+                    <tr>
+                        <td>Electrical Engineering</td>
+                        <td>Python</td>
+                        <td>My notes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
 {% endblock %}
