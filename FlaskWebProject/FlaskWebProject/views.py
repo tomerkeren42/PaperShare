@@ -11,7 +11,7 @@ from FlaskWebProject import app
 def home():
     """Renders the home page."""
     return render_template(
-        'index.html',
+        'login.html',
         title='Home Page',
         year=datetime.now().year,
     )
@@ -26,21 +26,21 @@ def give():
         message='Your application give paper page.'
     )
 
-@app.route('/ask')
+@app.route('/menu')
 def ask():
     """Renders the about page."""
     return render_template(
-        'ask.html',
+        'menu.html',
         title='Ask For Paper',
         year=datetime.now().year,
         message='Your application ask for paper page.'
     )
 
-@app.route('/help')
+@app.route('/how_to')
 def help():
     """Renders the about page."""
     return render_template(
-        'help.html',
+        'how_to.html',
         title='Help',
         year=datetime.now().year,
         message='Your application help page.'
