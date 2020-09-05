@@ -5,6 +5,14 @@ Routes and views for the flask application.
 from datetime import datetime
 from flask import render_template
 from FlaskWebProject import app
+from flask_mysqldb import MySQL
+
+app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_DB'] = 'epiz_26668577_PaperShare'
+
+mysql = MySQL(app)
 
 @app.route('/')
 @app.route('/home')
@@ -14,16 +22,6 @@ def home():
         'login.html',
         title='Home Page',
         year=datetime.now().year,
-    )
-
-@app.route('/give')
-def give():
-    """Renders the contact page."""
-    return render_template(
-        'give.html',
-        title='Give Paper',
-        year=datetime.now().year,
-        message='Your application give paper page.'
     )
 
 @app.route('/menu')
