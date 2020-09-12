@@ -21,17 +21,24 @@
 <div class="row">
     <h2>Login using your university Email address</h2>
     <p>No registration required</p>
-    <form action="{{ url_for('ask') }}">
+    <!--  <form action="{{ url_for('menu') }}"> -->
+    <form name="login" action="." method="POST">
         <div class="form-group">
             <label for="email">University student Email address: (ex: myname@mail.tau.ac.il)</label>
-            <input type="email" class="form-control" id="email">
+            {% if email %}
+                <input type="email" class="form-control" id="email" name="email" value={{ email }}>
+            {% else %}
+                <input type="email" class="form-control" id="email" name="email" placeholder="write your email here">
+            {% endif %}
+            {% if login_err_message %}
+            <p>{{ login_err_message }}</p>
+            {% endif %}
         </div>
         <div class="checkbox">
             <label><input type="checkbox">Remember me</label>
         </div>
         <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-log-in"></span> Enter</button>
     </form>
-
 </div>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
