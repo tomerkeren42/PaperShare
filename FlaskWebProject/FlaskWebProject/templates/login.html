@@ -9,28 +9,44 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    form {
+        overflow: hidden;
+    }
+
+    input {
+        float: right;
+        clear: both;
+    }
 </style>
 
+
 <div class="jumbotron">
-    <img src="/static/img/psbannergrey.png" alt="PaperShare" class="center" >
+    <img src="/static/img/psbannergrey.png" alt="PaperShare" class="center" style="width:750px;height:128px;">
     <!-- <p class="lead">Flask is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
     <p><a href="http://flask.pocoo.org/" class="btn btn-primary btn-large">Learn more &raquo;</a></p> -->
     <br />
-    <p class="lead">PaperShare is the place for you to easily find the printed study material you need or to pass on the one you don't need.</p>
+    <p class="lead text-right">!פפיפר-שייר הוא המקום למסור חומרי לימוד או לקבל חומרי לימוד מסטודנט שסיים\מה להשתמש בהם</p>
 </div>
 
 <div class="row">
-    <h2>Login using your university Email address</h2>
-    <p>No registration required</p>
+    <h2 class="text-right">התחבר\י עם כתובת מייל אוניברסיטאית</h2>
+    <p class="text-right">אין צורך ברישום</p>
     <form action="{{ url_for('ask') }}">
-        <div class="form-group">
-            <label for="email">University student Email address: (ex: myname@mail.tau.ac.il)</label>
+        <div class="form-group text-right">
+            <label for="email">:כתובת מייל אוניברסיטאית </label>
+            <br />
             <input type="email" class="form-control" id="email">
+            <button type="submit" class="btn btn-success pull-right"><span class="glyphicon glyphicon-log-in"></span> כניסה</button>
         </div>
-        <div class="checkbox">
+
+        <br />
+        <br />
+        <div class="checkbox pull-right">
             <label><input type="checkbox">Remember me</label>
         </div>
-        <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-log-in"></span> Enter</button>
+        <br />
+
     </form>
 
 </div>
