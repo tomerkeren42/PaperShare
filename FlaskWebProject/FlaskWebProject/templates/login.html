@@ -1,7 +1,14 @@
-﻿{% extends "layout.html" %}
+﻿<!---           
+    LOGIN PAGE
+    -->
+
+
+{% extends "layout.html" %}
 
 {% block content %}
 
+
+<!--CSS entries to get the banner img centered-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
     img {
@@ -21,14 +28,15 @@
 </style>
 
 
+<!-- big banner of PS logo and introduction text-->
 <div class="jumbotron">
-    <img src="/static/img/psbannergrey.png" alt="PaperShare" class="center" style="width:750px;height:128px;">
-    <!-- <p class="lead">Flask is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://flask.pocoo.org/" class="btn btn-primary btn-large">Learn more &raquo;</a></p> -->
+    <img src="/static/img/psbannergrey.png" alt="PaperShare" class="center" >
     <br />
-    <p class="lead text-right">!פפיפר-שייר הוא המקום למסור חומרי לימוד או לקבל חומרי לימוד מסטודנט שסיים\מה להשתמש בהם</p>
+    <p class="lead text-center">!פפיפר-שייר הוא המקום למסור חומרי לימוד או לקבל חומרי לימוד מסטודנט שסיים\מה להשתמש בהם</p>
 </div>
 
+
+<!--Input bar to give University email. ENTER button-->
 <div class="row">
     <h2 class="text-right">התחבר\י עם כתובת מייל אוניברסיטאית</h2>
     <p class="text-right">אין צורך ברישום</p>
@@ -39,21 +47,13 @@
             <input type="email" class="form-control" id="email">
             <button type="submit" class="btn btn-success pull-right"><span class="glyphicon glyphicon-log-in"></span> כניסה</button>
         </div>
-
         <br />
-        <br />
-        <div class="checkbox pull-right">
-            <label><input type="checkbox">Remember me</label>
-        </div>
-        <br />
-
     </form>
-
 </div>
 
+
+<!--set of 3 pics interchanging-->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
             <img src="/static/img/car1.PNG" alt="Give away materials">
@@ -67,8 +67,7 @@
             <img src="/static/img/car3.PNG" alt="Save money $">
         </div>
     </div>
-
-
 </div>
 
-    {% endblock %}
+
+{% endblock %}

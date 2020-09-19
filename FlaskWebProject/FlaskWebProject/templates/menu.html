@@ -1,15 +1,27 @@
-﻿{% extends "layout.html" %}
+﻿<!---
+    MENU PAGE
+    -->
+
+
+{% extends "layout.html" %}
 
 {% block content %}
 <br />
 
+
+<!--3 tabs for actions-->
 <ul class="nav nav-tabs pull-right">
     <li><a data-toggle="tab" href="#menu2">המסירות שלי</a></li>
     <li><a data-toggle="tab" href="#menu1">מסירת חומרי לימוד</a></li>
     <li class="active"><a data-toggle="tab" href="#home">חיפוש חומרי לימוד</a></li>
 </ul>
 
+
+
 <div class="tab-content">
+
+
+    <!--TAB1- find materials-->
     <div id="home" class="tab-pane fade in active">
         <br />
         <br />
@@ -86,62 +98,65 @@
     </div>
     <br />
 
-
+     
+    <!--TAB2-give away materials-->
     <div id="menu1" class="tab-pane fade">
         <br />
         <br />
-        <h3 class="text-right">מצא סטודנטים למסור להם חומרי לימוד</h3>
-        <p class="text-right">אחרי השליחה, תוכל לראות את המסירות שלך תחת המסירות שלי</p>
-        <br />
+        <div class="row">
+            <h3 class="text-right">מצא סטודנטים למסור להם חומרי לימוד</h3>
+            <p class="text-right">אחרי השליחה, תוכל\י לראות את המסירות שלך תחת המסירות שלי</p>
+        </div>
+
         <form action="/action_page.php">
-            <div class="dropdown pull-right">
-                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-                    פקולטה
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                    <li class="dropdown-header text-right">הנדסה</li>
-                    <li class="text-right"><a href="#">הנדסת חשמל</a></li>
-                    <li class="text-right"><a href="#">הנדסה מכנית</a></li>
-                    <li class="text-right"><a href="#">הנדסה ביו-רפואית</a></li>
-                    <li class="text-right"><a href="#">הנדסת חומרים</a></li>
-                    <li class="text-right"><a href="#">הנדסת תעשייה וניהול</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header text-right">רפואה</li>
-                    <li class="text-right"><a href="#">רפואה</a></li>
-                    <li class="text-right"><a href="#">סיעוד</a></li>
-                </ul>
-            </div>
-            <br />
-            <br />
-            <div class="dropdown pull-right">
-                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-                    קורס
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                    <li class="dropdown-header text-right">שנה א</li>
-                    <li class="text-right"><a href="#">מכניקה קלאסית</a></li>
-                    <li class="text-right"><a href="#">אלגברה לינארית</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header text-right">שנה ב</li>
-                    <li class="text-right"><a href="#">מבני נתונים</a></li>
-                    <li class="text-right"><a href="#">אנליזה הרמונית</a></li>
-                    <li class="text-right"><a href="#">פיזיקה קוואנטית</a></li>
-                </ul>
-            </div>
-            <br />
-            <br />
-            <div class="form-group">
+            <div class="row">
+                <div class="dropdown pull-right">
+                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                        פקולטה
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-header text-right">הנדסה</li>
+                        <li class="text-right"><a href="#">הנדסת חשמל</a></li>
+                        <li class="text-right"><a href="#">הנדסה מכנית</a></li>
+                        <li class="text-right"><a href="#">הנדסה ביו-רפואית</a></li>
+                        <li class="text-right"><a href="#">הנדסת חומרים</a></li>
+                        <li class="text-right"><a href="#">הנדסת תעשייה וניהול</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header text-right">רפואה</li>
+                        <li class="text-right"><a href="#">רפואה</a></li>
+                        <li class="text-right"><a href="#">סיעוד</a></li>
+                    </ul>
+                </div>
                 <br />
-                <label class="pull-right"> :תיאור</label>
-                <p class="text-right">מה את\ה מוסר\ת? (למשל: קובץ מבחנים מודפס)</p>
-                <input class="form-control pull-right text-right" id="Description">
+                <br />
+
+                <div class="dropdown pull-right ">
+                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                        קורס
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-header text-right">שנה א</li>
+                        <li class="text-right"><a href="#">מכניקה קלאסית</a></li>
+                        <li class="text-right"><a href="#">אלגברה לינארית</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header text-right">שנה ב</li>
+                        <li class="text-right"><a href="#">מבני נתונים</a></li>
+                        <li class="text-right"><a href="#">אנליזה הרמונית</a></li>
+                        <li class="text-right"><a href="#">פיזיקה קוואנטית</a></li>
+                    </ul>
+                </div>
             </div>
             <br />
-            <br />
-            <div class="checkbox pull-right">
-                <label><input type="checkbox"> אני מסכים שיצרו איתי קשר במייל האוניברסיטאי בקשר למסירת חומרי הלימוד</label>
+            <div class="row">
+                <p class="text-right">מה את\ה מוסר\ת? (למשל: קובץ מבחנים מודפס)</p>
+                <input class="form-control pull-right text-right input-lg col-sx-10" id="Description">
+            </div>
+            <div class="row">
+                <div class="checkbox pull-right">
+                    <label><input type="checkbox"> אני מסכים\ה שיצרו איתי קשר במייל האוניברסיטאי בנוגע למסירת חומרי הלימוד</label>
+                </div>
             </div>
             <br />
             <br />
@@ -151,6 +166,7 @@
     <br />
 
 
+    <!--TAB3-your posts-->
     <div id="menu2" class="tab-pane fade">
         <br />
         <h3 class="text-right">אלו הם חומרי הלימוד שפרסמת למסירה, ניתן להסיר אותם מהאתר בכל זמן</h3>
@@ -179,6 +195,12 @@
                 </tbody>
             </table>
         </div>
+        <div class="row pull-right">
+            <button type="button" class="btn btn-danger pull-right"><span class="glyphicon glyphicon-fire"></span> הסר מהאתר</button>
+        </div>
+        <br />
     </div>
 </div>
+
+
 {% endblock %}
