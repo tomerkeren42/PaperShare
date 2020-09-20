@@ -38,7 +38,7 @@ def login():
         if(splitted_mail[1] == tecnion_suff or splitted_mail[1] == tau_suff):
             #check if this user already exists in the data base
             #if exists - fetch its details to this session
-            #if desn't exist - add to data base
+            #if dosn't exist - add to data base
 
             #go to menu page
             return render_template(
@@ -47,7 +47,7 @@ def login():
             )
         else:
             #print to screen an error message
-            login_err_message = "Wrong Email address"
+            login_err_message = "Invalid Email address"
             #stay in login page
             return render_template(
                 'login.html',
