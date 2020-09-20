@@ -1,6 +1,16 @@
-﻿{% extends "layout.html" %}
+﻿<!---           
+    
+    HOW_TO PAGE
+    
+    -->
+
+
+{% extends "layout.html" %}
 
 {% block content %}
+
+
+<!--CSS entries to get img centered-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
     img {
@@ -9,9 +19,15 @@
         margin-right: auto;
     }
 </style>
+
+
+<!--Detailed explenation of the PS idea and proccess-->
 <h2 class="text-right">?איך זה עובד</h2>
 <p class="text-right">תיאור של תהליך המסירה והקבלה</p>
 <br />
+
+
+<!--Row of 3 pillars-->
 <div class="row">
     <div class="col-md-4">
         <h3 class="text-right">מסרו את חומרי הלימוד שהדפסתם</h3>
@@ -40,15 +56,19 @@
         <img src="/static/img/dollarIcon.png" alt="dollar icon" class="center" style="width:100px;height:128px;">
     </div>
 </div>
+
+
+<!--Back (history -1) button-->
 <br />
 <div>
-    <button onclick="goBack()" class="btn btn-success pull-right">חזרה לאתר</button>
+    <button onclick="goBack()" class="btn btn-success pull-right"><span class="glyphicon glyphicon-home"></span> חזרה לאתר </button>
     <script>
-function goBack() {
-  window.history.back();
-}
+        function goBack() {
+            window.history.back();
+        }
     </script>
 </div>
 <br />
+
 
 {% endblock %}
