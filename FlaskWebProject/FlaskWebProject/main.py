@@ -24,15 +24,34 @@ def home():
         year=datetime.now().year,
     )
 
-@app.route('/give')
-def give():
-    """Renders the contact page."""
-    return render_template(
-        'give.html',
-        title='Give Paper',
-        year=datetime.now().year,
-        message='Your application give paper page.'
-    )
+@app.route('/', methods=['POST'])
+def login():
+    tecnion_suff = "campus.technion.ac.il"
+    tau_suff = "mail.tau.ac.il"
+    email = request.form['email']
+    if(email.find('@') != -1):
+        splitted_mail = email.split("@")
+        if(splitted_mail[1] == tecnion_suff or splitted_mail[1] == tau_suff):
+            #check if this user already exists in the data base
+            #if exists - fetch its details to this session
+            #if dosn't exist - add to data base
+
+            #go to menu page
+            return render_template(
+                'menu.html',
+                year=datetime.now().year,
+            )
+        else:
+            #print to screen an error message
+            login_err_message = "הכניסה באמצעות כתובת מייל אוניברסיטאית בלבד"
+            #login_err_message = "...חשבת שתצליח לתחמן את המערכת   "
+            #stay in login page
+            return render_template(
+                'index.html',
+                year=datetime.now().year,
+                login_err_message=login_err_message,
+                email = email
+            )
 
 @app.route('/menu')
 def ask():
@@ -59,13 +78,13 @@ def help():
 if __name__ == '__main__':
     # For local enviornment:
 
-    #HOST = environ.get('SERVER_HOST', 'localhost')
-    #try:
-    #    PORT = int(environ.get('SERVER_PORT', 5555))  
-    #except ValueError:
-    #    PORT = 5555
-    #app.run(HOST, PORT)
+    HOST = environ.get('SERVER_HOST', 'localhost')
+    try:
+        PORT = int(environ.get('SERVER_PORT', 5555))  
+    except ValueError:
+        PORT = 5555
+    app.run(HOST, PORT)
 
 
     # for external (google app engine enviornment):
-    app.run(host='0.0.0.0', port=8080, debug=True)
+    # app.run(host='0.0.0.0', port=8080, debug=True)

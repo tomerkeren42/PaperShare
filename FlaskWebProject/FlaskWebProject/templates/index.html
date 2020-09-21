@@ -39,12 +39,20 @@
 <div class="row">
     <h2 class="text-right">התחבר\י עם כתובת מייל אוניברסיטאית</h2>
     <p class="text-right">אין צורך ברישום</p>
-    <form action="{{ url_for('ask') }}">
+
+    <form name="login" action="." method="POST">
         <div class="form-group text-right">
             <label for="email">:כתובת מייל אוניברסיטאית </label>
             <br />
-            <input type="email" class="form-control" id="email">
-            <button type="submit" class="btn btn-success pull-right"><span class="glyphicon glyphicon-log-in"></span> כניסה</button>
+            {% if email %}
+            <input type="email" class="form-control" id="email" name="email" value={{ email }}>
+            {% else %}
+            <input type="email" class="form-control" id="email" name="email" placeholder="write your email here">
+            {% endif %}
+            {% if login_err_message %}
+            <p style="color:red"> {{ login_err_message }}</p>
+            {% endif %}
+            <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-log-in"></span> Enter</button>
         </div>
         <br />
     </form>
