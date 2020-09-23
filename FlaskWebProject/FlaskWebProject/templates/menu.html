@@ -151,11 +151,11 @@
             <br />
             <div class="row">
                 <p class="text-right">מה את\ה מוסר\ת? (למשל: קובץ מבחנים מודפס)</p>
-                <input class="form-control pull-right text-right input-lg col-sx-10" id="Description">
+                <input class="form-control pull-right text-right input-lg col-sx-10" id="Description" required oninvalid="this.setCustomValidity('אנא תאר את חומר הלימוד אותו אתה מוסר')" oninput="this.setCustomValidity('')">
             </div>
             <div class="row">
                 <div class="checkbox pull-right">
-                    <label><input type="checkbox" required> אני מסכים\ה שיצרו איתי קשר במייל האוניברסיטאי בנוגע למסירת חומרי הלימוד</label>
+                    <label><input type="checkbox" id="agree-terms" required oninvalid="this.setCustomValidity('אנא אשר קבלת מייל')"  oninput="this.setCustomValidity('')"> אני מסכים\ה שיצרו איתי קשר במייל האוניברסיטאי בנוגע למסירת חומרי הלימוד</label>
                 </div>
             </div>
             <br />
