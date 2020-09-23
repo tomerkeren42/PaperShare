@@ -45,9 +45,9 @@
             <label for="email">:כתובת מייל אוניברסיטאית </label>
             <br />
             {% if email %}
-            <input type="email" class="form-control" id="email" name="email" value={{ email }}>
+            <input type="email" class="form-control" id="email" name="email" value={{ email }} required oninvalid="this.setCustomValidity('הכנס כתובת מייל לצורך כניסה למערכת')" oninput="this.setCustomValidity('')" onchange="this.setCustomValidity('')">
             {% else %}
-            <input type="email" class="form-control" id="email" name="email" placeholder="הכנס את כתובת המייל שלך כאן">
+            <input type="email" class="form-control" id="email" name="email" placeholder="הכנס את כתובת המייל שלך כאן" required oninvalid="this.setCustomValidity('הכנס כתובת מייל לצורך כניסה למערכת')" oninput="this.setCustomValidity('')">
             {% endif %}
             {% if login_err_message %}
             <p style="color:red"> {{ login_err_message }}</p>
