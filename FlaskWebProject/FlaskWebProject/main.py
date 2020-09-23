@@ -66,7 +66,7 @@ def ask():
 @app.route('/how_to')
 def help():
     """Renders the about page."""
-    return render_template(
+    return render_template( 
         'how_to.html',
         title='Help',
         year=datetime.now().year,
@@ -78,13 +78,13 @@ def help():
 if __name__ == '__main__':
     # For local enviornment:
 
-    HOST = environ.get('SERVER_HOST', 'localhost')
-    try:
-        PORT = int(environ.get('SERVER_PORT', 5555))  
-    except ValueError:
-        PORT = 5555
-    app.run(HOST, PORT)
+    #HOST = environ.get('SERVER_HOST', 'localhost')
+    #try:
+    #    PORT = int(environ.get('SERVER_PORT', 5555))  
+    #except ValueError:
+    #    PORT = 5555
+    #app.run(HOST, PORT)
 
 
     # for external (google app engine enviornment):
-    # app.run(host='0.0.0.0', port=8080, debug=True)
+     app.run(host='0.0.0.0', port=8080, debug=True)
