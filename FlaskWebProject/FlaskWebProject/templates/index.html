@@ -47,12 +47,12 @@
             {% if email %}
             <input type="email" class="form-control" id="email" name="email" value={{ email }}>
             {% else %}
-            <input type="email" class="form-control" id="email" name="email" placeholder="write your email here">
+            <input type="email" class="form-control" id="email" name="email" placeholder="הכנס את כתובת המייל שלך כאן">
             {% endif %}
             {% if login_err_message %}
             <p style="color:red"> {{ login_err_message }}</p>
             {% endif %}
-            <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-log-in"></span> Enter</button>
+            <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-log-in"></span> כניסה</button>
         </div>
         <br />
     </form>
