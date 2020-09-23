@@ -86,5 +86,5 @@ if __name__ == '__main__':
     app.run(HOST, PORT)
 
 
-    for external (google app engine enviornment):
+    #for external (google app engine enviornment):
     #app.run(host='0.0.0.0', port=8080, debug=True)
