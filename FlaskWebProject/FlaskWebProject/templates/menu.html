@@ -1,8 +1,6 @@
 ﻿<!---
     MENU PAGE
     -->
-
-
 {% extends "layout.html" %}
 
 {% block content %}
@@ -17,57 +15,22 @@
 </ul>
 
 
-
 <div class="tab-content">
 
 
     <!--TAB1- find materials-->
 
     <div id="home" class="tab-pane fade in active">
-        <br /> <br />  <br />
-        <h3 class="text-right">חיפוש חומרי לימוד למסירה</h3>
-        <br />
-        <form action="{{ url_for('ask') }}">
-            <div class="row">
-                <div class="row pull-right">
-                    <select name="קורסים" id="קורסים" dir="rtl" required oninvalid="this.setCustomValidity('אנא אשר קבלת מייל')" oninput="this.setCustomValidity('')">
-                        <option value="" selected disabled hidden>בחר קורס</option>
-                        <optgroup label="מכשפים מוסמכים">
-                            <option value="a">כשפות עתידנית</option>
-                            <option value="b">שיקויים ומינונים</option>
-                        </optgroup>
-                        <optgroup label="הכשפת חשמל">
-                            <option value="c">מכונאות מטאטאים</option>
-                            <option value="d">דיודות ודודאים</option>
-                        </optgroup>
-                    </select>
-                </div>
-            </div>
-            <!--
-         <div class="dropdown pull-right">
-             <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-             פקולטה
-                 <span class="caret"></span>
-             </button>
-             <ul class="dropdown-menu">
-                 <li class="dropdown-header text-right">הנדסה</li>
-                 <li class="text-right"><a href="#">הנדסת חשמל</a></li>
-                 <li class="text-right"><a href="#">הנדסה מכנית</a></li>
-                 <li class="text-right"><a href="#">הנדסה ביו-רפואית</a></li>
-                 <li class="text-right"><a href="#">הנדסת חומרים</a></li>
-                 <li class="text-right"><a href="#">הנדסת תעשייה וניהול</a></li>
-                 <li class="divider"></li>
-                 <li class="dropdown-header text-right">רפואה</li>
-                 <li class="text-right"><a href="#">רפואה</a></li>
-                 <li class="text-right"><a href="#">סיעוד</a></li>
-              </ul>
+        <br /> <br />
+        <div class="row">
+            <h3 class="text-right">חיפוש חומרי לימוד למסירה</h3>
+            <p class="text-right">כדי ליצור קשר עם המוסר, תוכל לפנות אליו במייל</p>
         </div>
-         -->
-            <br />
-            <br />
+        <form action="{{ url_for('ask') }}">
+            <br /> <br />
             <div class="row">
                 <div class="row pull-right">
-                    <select name="פקולטות" id="פקולטות" required  oninvalid="this.setCustomValidity('אנא אשר קבלת מייל')" oninput="this.setCustomValidity('')" dir="rtl">
+                    <select name="פקולטות" id="פקולטות" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" oninput="this.setCustomValidity('')" dir="rtl">
                         <option value="" selected disabled hidden>בחר פקולטה</option>
                         <optgroup label="מכשפים מוסמכים">
                             <option value="e">כשפות עתידנית</option>
@@ -82,31 +45,24 @@
                     <br />
                 </div>
             </div>
-            <!--
-        <div class="dropdown pull-right">
-            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-                קורס
-                <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu">
-                <li class="dropdown-header text-right">שנה א</li>
-                <li class="text-right"><a href="#">מכניקה קלאסית</a></li>
-                <li class="text-right"><a href="#">אלגברה לינארית</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header text-right">שנה ב</li>
-                <li class="text-right"><a href="#">מבני נתונים</a></li>
-                <li class="text-right"><a href="#">אנליזה הרמונית</a></li>
-                <li class="text-right"><a href="#">פיזיקה קוואנטית</a></li>
-            </ul>
-        </div>
-                 -->
-            <br />
-            <br />
-            <div>
-
-                <button type="submit" class="btn btn-success pull-right"><span class="glyphicon glyphicon-search"></span> חיפוש</button>
+            <div class="row">
+                <div class="row pull-right">
+                    <select name="קורסים" id="קורסים" dir="rtl" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" oninput="this.setCustomValidity('')">
+                        <option value="" selected disabled hidden>בחר קורס</option>
+                        <optgroup label="מכשפים מוסמכים">
+                            <option value="a">כשפות עתידנית</option>
+                            <option value="b">שיקויים ומינונים</option>
+                        </optgroup>
+                        <optgroup label="הכשפת חשמל">
+                            <option value="c">מכונאות מטאטאים</option>
+                            <option value="d">דיודות ודודאים</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+            <br /> <br />
+            <button type="submit" class="btn btn-success pull-right"><span class="glyphicon glyphicon-search"></span> חיפוש</button>
         </form>
-    </div>
         <div class="container">
             <table class="table table-striped table-hover text-right">
                 <thead>
@@ -141,11 +97,10 @@
             <h3 class="text-right">מצא סטודנטים למסור להם חומרי לימוד</h3>
             <p class="text-right">אחרי השליחה, תוכל\י לראות את המסירות שלך תחת המסירות שלי</p>
         </div>
-        <!-- need to change this form action from pointing to "how to" page into showing sql results -->
         <form action="how_to">
             <div class="row">
                 <div class="row pull-right">
-                    <select name="פקולטות" id="פקולטות" required oninvalid="this.setCustomValidity('אנא אשר קבלת מייל')" oninput="this.setCustomValidity('')" dir="rtl">
+                    <select class="selectpicker" name="פקולטות" id="פקולטות" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" oninput="this.setCustomValidity('')" dir="rtl">
                         <option value="" selected disabled hidden>בחר פקולטה</option>
                         <optgroup label="מכשפים מוסמכים">
                             <option value="e">כשפות עתידנית</option>
@@ -162,7 +117,7 @@
             </div>
             <div class="row">
                 <div class="row pull-right">
-                    <select name="קורסים" id="קורסים" required oninvalid="this.setCustomValidity('אנא אשר קבלת מייל')" oninput="this.setCustomValidity('')" dir="rtl">
+                    <select name="קורסים" id="קורסים" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" oninput="this.setCustomValidity('')" dir="rtl">
                         <option value="" selected disabled hidden>בחר קורס</option>
                         <optgroup label="מכשפים מוסמכים">
                             <option value="a">כשפות עתידנית</option>
@@ -176,50 +131,9 @@
                 </div>
             </div>
             <br /><br />
-            <!--
-    <div class="row">
-        <div class="dropdown pull-right">
-            <select name="faculty" id="faculties" required>                        </select>
-            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" name="faculty">
-                פקולטה
-                <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu">
-                <li class="dropdown-header text-right">הנדסה</li>
-                <li class="text-right"><a href="#">הנדסת חשמל</a></li>
-                <li class="text-right"><a href="#">הנדסה מכנית</a></li>
-                <li class="text-right"><a href="#">הנדסה ביו-רפואית</a></li>
-                <li class="text-right"><a href="#">הנדסת חומרים</a></li>
-                <li class="text-right"><a href="#">הנדסת תעשייה וניהול</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header text-right">רפואה</li>
-                <li class="text-right"><a href="#">רפואה</a></li>
-                <li class="text-right"><a href="#">סיעוד</a></li>
-            </ul>
-        </div>
-        <br />
-        <br />
-
-            <div class="dropdown pull-right ">
-                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-                    קורס
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                    <li class="dropdown-header text-right">שנה א</li>
-                    <li class="text-right"><a href="#">מכניקה קלאסית</a></li>
-                    <li class="text-right"><a href="#">אלגברה לינארית</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header text-right">שנה ב</li>
-                    <li class="text-right"><a href="#">מבני נתונים</a></li>
-                    <li class="text-right"><a href="#">אנליזה הרמונית</a></li>
-                    <li class="text-right"><a href="#">פיזיקה קוואנטית</a></li>
-                </ul>
-            </div>
-                    -->
             <div class="row">
                 <p class="text-right">מה את\ה מוסר\ת? (למשל: קובץ מבחנים מודפס)</p>
-                <input class="form-control pull-right text-right input-lg col-sx-10" id="Description" required oninvalid="this.setCustomValidity('אנא תאר את חומר הלימוד אותו אתה מוסר')" oninput="this.setCustomValidity('')">
+                <input class="form-control pull-right text-right input-lg col-sx-10" min="5" id="Description" required oninvalid="this.setCustomValidity('אנא תאר את חומר הלימוד אותו אתה מוסר')" oninput="this.setCustomValidity('')">
             </div>
             <div class="row">
                 <div class="checkbox pull-right">
@@ -234,10 +148,11 @@
 
     <!--TAB3-your posts-->
     <div id="menu2" class="tab-pane fade">
-        <br />
-        <h3 class="text-right">אלו הם חומרי הלימוד שפרסמת למסירה, ניתן להסיר אותם מהאתר בכל זמן</h3>
-        <p class="text-right">.כאשר סטודנט ירצה לקבל את אחד החומרים שמסרת, הוא יצור איתך קשר במייל האוניברסיטאי שלך</p>
-        <br />
+        <br /> <br />
+        <div class="row">
+            <h3 class="text-right">אלו הם חומרי הלימוד שפרסמת למסירה, ניתן להסיר אותם מהאתר בכל זמן</h3>
+            <p class="text-right">.כאשר סטודנט ירצה לקבל את אחד החומרים שמסרת, הוא יצור איתך קשר במייל האוניברסיטאי שלך</p>
+        </div>
         <div class="container">
             <table class="table table-striped table-hover text-right">
                 <thead>
@@ -262,11 +177,10 @@
             </table>
         </div>
         <div class="row pull-right">
-            <button type="button" class="btn btn-danger pull-right"><span class="glyphicon glyphicon-fire"></span> הסר מהאתר</button>
+            <button type="button" class="btn btn-danger pull-right" onclick="confirm('האם אתה בטוח שברצונך להסיר את הרשומה?')"><span class="glyphicon glyphicon-fire"></span> הסר מהאתר</button>
         </div>
         <br />
     </div>
 </div>
-
 
 {% endblock %}
