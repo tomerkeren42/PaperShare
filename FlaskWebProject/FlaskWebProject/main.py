@@ -26,12 +26,14 @@ def home():
 
 @app.route('/', methods=['POST'])
 def login():
-    tecnion_suff = "campus.technion.ac.il"
-    tau_suff = "mail.tau.ac.il"
+    universities_dict = {
+        "campus.technion.ac.il" : "Technion",
+        "mail.tau.ac.il"        : "TAU"
+    }
     email = request.form['email']
     if(email.find('@') != -1):
         splitted_mail = email.split("@")
-        if(splitted_mail[1] == tecnion_suff or splitted_mail[1] == tau_suff):
+        if splitted_mail[1] in universities_dict:
             #check if this user already exists in the data base
             #if exists - fetch its details to this session
             #if dosn't exist - add to data base
@@ -39,18 +41,19 @@ def login():
             #go to menu page
             return render_template(
                 'menu.html',
-                year=datetime.now().year,
+                year                 = datetime.now().year,
+                university           = universities_dict[splitted_mail[1]],
+                email                = email
             )
         else:
             #print to screen an error message
             login_err_message = "הכניסה באמצעות כתובת מייל אוניברסיטאית בלבד"
-            #login_err_message = "...חשבת שתצליח לתחמן את המערכת   "
             #stay in login page
             return render_template(
                 'index.html',
-                year=datetime.now().year,
-                login_err_message=login_err_message,
-                email = email
+                year                = datetime.now().year,
+                login_err_message   = login_err_message,
+                email               = email
             )
 
 @app.route('/menu')
@@ -88,3 +91,4 @@ if __name__ == '__main__':
 
     ### for external (google app engine enviornment):
     #app.run(host='0.0.0.0', port=8080, debug=True)
+
