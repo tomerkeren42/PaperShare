@@ -1,19 +1,19 @@
-"""
-The flask application package.
-"""
-
 from datetime import datetime
 from flask import render_template, Flask, request, redirect
 from os import environ
-# from google.cloud import storage
+from validate_email import validate_email
+from PyCloudNS import *
 
-# __init__ file
-# the Flask APP and the Google Cloud storage initiation
+# the Flask APP
 app = Flask(__name__)
 
-# CLOUD_STORAGE_BUCKET = environ['CLOUD_STORAGE_BUCKET']
+# constants
+universities_dict = {
+        "campus.technion.ac.il" : "Technion",
+        "mail.tau.ac.il"        : "TAU"
+    }
 
-# views.py file
+# flask methods
 @app.route('/')
 @app.route('/home')
 def home():
@@ -26,35 +26,36 @@ def home():
 
 @app.route('/', methods=['POST'])
 def login():
-    universities_dict = {
-        "campus.technion.ac.il" : "Technion",
-        "mail.tau.ac.il"        : "TAU"
-    }
     email = request.form['email']
-    if(email.find('@') != -1):
-        splitted_mail = email.split("@")
-        if splitted_mail[1] in universities_dict:
+    splitted_mail = email.split("@")
+    not_uni   = False
+    not_exist = False
+    if splitted_mail[1] in universities_dict:
+        if validate_email(email, verify=True):
             #check if this user already exists in the data base
             #if exists - fetch its details to this session
-            #if dosn't exist - add to data base
-
-            #go to menu page
-            return render_template(
+            #if doesn't exist - add to data base
+            return render_template(            #go to menu page
                 'menu.html',
                 year                 = datetime.now().year,
                 university           = universities_dict[splitted_mail[1]],
                 email                = email
-            )
+                )
         else:
-            #print to screen an error message
-            login_err_message = "הכניסה באמצעות כתובת מייל אוניברסיטאית בלבד"
-            #stay in login page
-            return render_template(
+            not_exist   = True,
+    else:
+        not_uni= True,
+
+    return render_template(
                 'index.html',
                 year                = datetime.now().year,
-                login_err_message   = login_err_message,
+                not_uni             = not_uni,
+                not_exist           = not_exist,
                 email               = email
             )
+
+
+
 
 @app.route('/menu')
 def ask():
@@ -90,4 +91,4 @@ if __name__ == '__main__':
 
 
     ### for external (google app engine enviornment):
-    # app.run(host='0.0.0.0', port=8080, debug=True)
+    #app.run(host='0.0.0.0', port=8080, debug=True)
