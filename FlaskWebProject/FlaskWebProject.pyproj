@@ -40,6 +40,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FlaskWebProject\requirements.txt" />
+    <Content Include="FlaskWebProject\static\content\bootstrap-select.css" />
+    <Content Include="FlaskWebProject\static\content\bootstrap-select.min.css" />
+    <Content Include="FlaskWebProject\static\scripts\bootstrap-select.js" />
+    <Content Include="FlaskWebProject\static\scripts\bootstrap-select.min.js" />
     <Content Include="FlaskWebProject\templates\how_to.html" />
     <Content Include="FlaskWebProject\templates\index.html" />
     <Content Include="FlaskWebProject\templates\menu.html" />
