@@ -7,6 +7,7 @@
 {% block content %}
 
 
+
 <!--CSS entries to get the banner img centered-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -50,7 +51,10 @@
             <input type="email" class="form-control" id="email" name="email" placeholder="הכנס את כתובת המייל שלך כאן" required oninvalid="this.setCustomValidity('הכנס כתובת מייל לצורך כניסה למערכת')" oninput="this.setCustomValidity('')">
             {% endif %}
             {% if login_err_message %}
-            <p style="color:red"> {{ login_err_message }}</p>
+            <div class="alert alert-danger alert-dismissible" role="alert" dir="rtl" lang="he">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                הכניסה באמצעות כתובת מייל אוניברסיטאית בלבד!
+            </div>
             {% endif %}
             <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-log-in"></span> כניסה</button>
         </div>
