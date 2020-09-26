@@ -50,7 +50,13 @@
             {% else %}
             <input type="email" class="form-control" id="email" name="email" placeholder="הכנס את כתובת המייל שלך כאן" required oninvalid="this.setCustomValidity('הכנס כתובת מייל לצורך כניסה למערכת')" oninput="this.setCustomValidity('')">
             {% endif %}
-            {% if login_err_message %}
+            {% if not_exist %}
+            <div class="alert alert-danger alert-dismissible" role="alert" dir="rtl" lang="he">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                כתובת מייל לא נמצאה. אנא הכנס כתובת מייל קיימת בלבד!
+            </div>
+            {% endif %}
+            {% if not_uni %}
             <div class="alert alert-danger alert-dismissible" role="alert" dir="rtl" lang="he">
                 <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                 הכניסה באמצעות כתובת מייל אוניברסיטאית בלבד!
