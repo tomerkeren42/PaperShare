@@ -26,11 +26,20 @@
                 <a class="navbar-brand" href="/"><img src="/static/img/psbannerblack.png" alt="PaperShare" class="center" style="width:120px;height:25px;" href="/"></a>
             </div>
             <ul class="nav navbar-nav">
-                <li><a><span class="fas fa-school"></span>TAU</a></li>
-                <li><a><span class="fas fa-user-graduate"></span>user_email</a></li>
+                {% if university %}
+                <li><a><span class="fas fa-school"></span> {{ university }}</a></li>
+                {% else %}
+                <li><a></a></li>
+                {% endif %}
+                {% if username %}
+                <li><a><span class="fas fa-user-graduate"></span> {{ username }}</a></li>
+                {% else %}
+                <li><a></a></li>
+                {% endif %}
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ url_for('help') }}"><span class="fas fa-question-circle"></span> איך זה עובד</a></li>
+                <li><a href="{{ url_for('help') }}"><span class="fas fa-question-circle"></span>איך זה עובד
+</a></li>
             </ul>
         </div>
     </nav>
