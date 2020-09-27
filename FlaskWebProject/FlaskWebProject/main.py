@@ -1,17 +1,43 @@
 from datetime import datetime
 from flask import render_template, Flask, request, redirect
 from os import environ
-from validate_email import validate_email
-from PyCloudNS import *
+import requests as req
+import re
+
+# leaving this python code because it works perfectly well on local hosts, but never return true when verify a remote host. add to requirments if want to try again.
+# from validate_email import validate_email
+# from PyCloudNS import *        
+#     if validate_email(email, verify=True):
+#     else:
+#         not_exist   = True,
 
 # the Flask APP
 app = Flask(__name__)
+
+# url for outside microsoft login form
+url = 'https://login.microsoftonline.com/common/GetCredentialType'
 
 # constants
 universities_dict = {
         "campus.technion.ac.il" : "Technion",
         "mail.tau.ac.il"        : "TAU"
     }
+
+def valid(email):
+    email = email
+    body = '{"Username":"%s"}' % email
+    #send to url the request
+    request = req.post(url, data=body)
+    # get response from port
+    response = request.text
+    # if mail exist in microsoft servers it'll return 0 in IfExistResult
+    valid = re.search('"IfExistsResult":0', response)
+    invalid = re.search('"IfExistsResult":1', response)
+    if valid:
+        return True
+    else:
+        return False
+
 
 # flask methods
 @app.route('/')
@@ -30,19 +56,22 @@ def login():
     splitted_mail = email.split("@")
     not_uni   = False
     not_exist = False
+    # check if tau \ tech
     if splitted_mail[1] in universities_dict:
-        if validate_email(email, verify=True):
-            #check if this user already exists in the data base
-            #if exists - fetch its details to this session
-            #if doesn't exist - add to data base
-            return render_template(            #go to menu page
+        # check if already exist
+        # if email in data_base:
+        # go to menu page
+        # else, check if new use is valid:
+        if valid(email):
+                # add to data base, go to menu page
+            return render_template(            
                 'menu.html',
                 year                 = datetime.now().year,
                 university           = universities_dict[splitted_mail[1]],
                 email                = email
                 )
         else:
-            not_exist   = True,
+            not_exist=True
     else:
         not_uni= True,
 
@@ -53,9 +82,6 @@ def login():
                 not_exist           = not_exist,
                 email               = email
             )
-
-
-
 
 @app.route('/menu')
 def ask():
@@ -81,7 +107,7 @@ def help():
 
 if __name__ == '__main__':
     
-    ### For local enviornment:
+    #### For local enviornment:
     HOST = environ.get('SERVER_HOST', 'localhost')
     try:
         PORT = int(environ.get('SERVER_PORT', 5555))  
@@ -90,5 +116,7 @@ if __name__ == '__main__':
     app.run(HOST, PORT)
 
 
-    ### for external (google app engine enviornment):
+    ## for external (google app engine enviornment):
+    
     #app.run(host='0.0.0.0', port=8080, debug=True)
+
