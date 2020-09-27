@@ -56,6 +56,7 @@ def login():
     splitted_mail = email.split("@")
     not_uni   = False
     not_exist = False
+    username  = None
     # check if tau \ tech
     if splitted_mail[1] in universities_dict:
         # check if already exist
@@ -68,7 +69,8 @@ def login():
                 'menu.html',
                 year                 = datetime.now().year,
                 university           = universities_dict[splitted_mail[1]],
-                email                = email
+                email                = email,
+                username             = splitted_mail[0]
                 )
         else:
             not_exist=True
