@@ -1,11 +1,10 @@
+﻿<<<<<<< HEAD
 ﻿<!---
    LOGIN PAGE
    -->
 {% extends "layout.html" %}
 
 {% block content %}
-
-
 
 <!--CSS entries to get the banner img centered-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,16 +23,40 @@
         float: right;
         clear: both;
     }
+    .alert {
+        padding: 6px;
+        background-color: #f15050;
+        color: white;
+        margin-right: 280px;
+    }
+
+    .closebtn {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: left;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .closebtn:hover {
+        color: black;
+    }
+    
+
 </style>
 
 
 <!-- big banner of PS logo and introduction text-->
 <div class="jumbotron">
-    <img src="/static/img/psbannergrey.png" alt="PaperShare" class="center">
-    <br />
-    <p class="lead text-center">!פייפר-שייר הוא המקום למסור חומרי לימוד או לקבל חומרי לימוד מסטודנט שסיים\מה להשתמש בהם</p>
+    <div class="container">
+        <img src="/static/img/psbannergrey.png" alt="PaperShare" class="center imgban">
+        <br />
+        <p class="lead text-center">פייפר-שייר הוא המקום למסור חומרי לימוד או לקבל חומרי לימוד מסטודנט שסיים\מה להשתמש בהם</p>
+    </div>
 </div>
-
 
 <!--Input bar to give University email. ENTER button-->
 <div class="row">
@@ -42,23 +65,22 @@
 
     <form name="login" action="." method="POST">
         <div class="form-group text-right">
-            <label for="email">:כתובת מייל אוניברסיטאית </label>
             <br />
             {% if email %}
             <input type="email" class="form-control" id="email" name="email" value={{ email }} required oninvalid="this.setCustomValidity('הכנס כתובת מייל לצורך כניסה למערכת')" oninput="this.setCustomValidity('')" onchange="this.setCustomValidity('')">
             {% else %}
-            <input type="email" class="form-control" id="email" name="email" placeholder="הכנס את כתובת המייל שלך כאן" required oninvalid="this.setCustomValidity('הכנס כתובת מייל לצורך כניסה למערכת')" oninput="this.setCustomValidity('')">
+            <input type="email" class="form-control" id="email" name="email" placeholder="הכנס\י כתובת מייל אוניברסיטאית" required oninvalid="this.setCustomValidity('הכנס כתובת מייל לצורך כניסה למערכת')" oninput="this.setCustomValidity('')">
             {% endif %}
             {% if not_exist %}
-            <div class="alert alert-danger alert-dismissible" role="alert" dir="rtl" lang="he">
-                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                כתובת מייל לא נמצאה. אנא הכנס כתובת מייל קיימת בלבד!
+            <div class="alert">
+                <span class="closebtn" dir="rtl" onclick="this.parentElement.style.display = 'none';">&times;</span>
+                כתובת מייל לא נכונה. אנא הכנס\י כתובת מייל קיימת בלבד
             </div>
             {% endif %}
             {% if not_uni %}
-            <div class="alert alert-danger alert-dismissible" role="alert" dir="rtl" lang="he">
-                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                הכניסה באמצעות כתובת מייל אוניברסיטאית בלבד!
+            <div class="alert">
+                <span class="closebtn" dir="rtl" onclick="this.parentElement.style.display = 'none';">&times;</span>
+                הכניסה באמצעות כתובת מייל אוניברסיטאית בלבד
             </div>
             {% endif %}
             <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-log-in"></span> כניסה</button>
@@ -84,6 +106,5 @@
         </div>
     </div>
 </div>
-
 
 {% endblock %}
