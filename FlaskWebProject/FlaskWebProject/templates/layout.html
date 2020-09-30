@@ -16,24 +16,45 @@
     <link rel="stylesheet" href="/static/content/bootstrap-select.min.css" />
     <script src="/static/scripts/modernizr-2.6.2.js"></script>
     <script src="https://kit.fontawesome.com/a5c66c8365.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 </head>
 
 <body>
     <!--upper nav bar-->
-    <nav class="navbar navbar-inverse navbar-fixed-top sticky-top">
-        <div class="container">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
             <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <a class="navbar-brand" href="/"><img src="/static/img/psbannerblack.png" alt="PaperShare" class="center" style="width:120px;height:25px;" href="/"></a>
             </div>
-            <ul class="nav navbar-nav">
-                <li><a><span class="fas fa-school"></span>TAU</a></li>
-                <li><a><span class="fas fa-user-graduate"></span>user_email</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ url_for('help') }}"><span class="fas fa-question-circle"></span> איך זה עובד</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    {% if university %}
+                    <li><a><span class="fas fa-school"></span> {{ university }}</a></li>
+                    {% else %}
+                    <li><a></a></li>
+                    {% endif %}
+                    {% if username %}
+                    <li><a><span class="fas fa-user-graduate"></span> {{ username }}</a></li>
+                    {% else %}
+                    <li><a></a></li>
+                    {% endif %}
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="{{ url_for('help') }}">
+                            <span class="fas fa-question-circle"></span>איך זה עובד
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </nav>
+</nav>
 
     <!--button year comment-->
     <div class="container body-content">

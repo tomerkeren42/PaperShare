@@ -1,4 +1,3 @@
-﻿<<<<<<< HEAD
 ﻿<!---
    LOGIN PAGE
    -->
@@ -9,12 +8,18 @@
 <!--CSS entries to get the banner img centered-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-    img {
+    .imgban {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%
+    }
+
+    .imgcar {
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-
     form {
         overflow: hidden;
     }
@@ -50,13 +55,16 @@
 
 
 <!-- big banner of PS logo and introduction text-->
-<div class="jumbotron">
-    <div class="container">
-        <img src="/static/img/psbannergrey.png" alt="PaperShare" class="center imgban">
-        <br />
-        <p class="lead text-center">פייפר-שייר הוא המקום למסור חומרי לימוד או לקבל חומרי לימוד מסטודנט שסיים\מה להשתמש בהם</p>
-    </div>
-</div>
+
+
+        <div class="jumbotron">
+            <div class="container">
+                <img src="/static/img/psbannergrey.png" alt="PaperShare" class="center imgban">
+                <br />
+                <p class="lead text-center">פייפר-שייר הוא המקום למסור חומרי לימוד או לקבל חומרי לימוד מסטודנט שסיים\מה להשתמש בהם</p>
+            </div>
+        </div>
+
 
 <!--Input bar to give University email. ENTER button-->
 <div class="row">
@@ -75,6 +83,7 @@
             <div class="alert">
                 <span class="closebtn" dir="rtl" onclick="this.parentElement.style.display = 'none';">&times;</span>
                 כתובת מייל לא נכונה. אנא הכנס\י כתובת מייל קיימת בלבד
+
             </div>
             {% endif %}
             {% if not_uni %}
@@ -94,15 +103,15 @@
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="item active">
-            <img src="/static/img/car1.PNG" alt="Give away materials">
+            <img src="/static/img/car1.PNG" alt="Give away materials" class="imgcar">
         </div>
 
         <div class="item">
-            <img src="/static/img/car2.PNG" alt="Save the planet">
+            <img src="/static/img/car2.PNG" alt="Save the planet" class="imgcar">
         </div>
 
         <div class="item">
-            <img src="/static/img/car3.PNG" alt="Save money $">
+            <img src="/static/img/car3.PNG" alt="Save money $" class="imgcar">
         </div>
     </div>
 </div>
