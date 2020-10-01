@@ -28,6 +28,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="FlaskWebProject\firebase_db.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskWebProject\login.py" />
     <Compile Include="FlaskWebProject\main.py" />
   </ItemGroup>
   <ItemGroup>
