@@ -18,40 +18,35 @@ class firebase_db(object):
         self.firebase = pyrebase.initialize_app(self.config)
         self.db = self.firebase.database()
 
+    def delete_point_in_name(self, name):
+        res_name = ""
+        if name.find(".") != -1:
+            res_name = name.replace(".","")
+        else:
+            res_name = name
+        return res_name
+
     def add_new_user(self, name, email, university):
         new_user_data = {
             'name'          :   name,
             'email'         :   email,
             'university'    :   university
         }
-        #self.db.child('users').child(university).child(name).set(new_user_data)
-        user_path = '/users/' + university + '/' + name + '/'
-        self.db.child(user_path).set(new_user_data)
+        name_for_db = self.delete_point_in_name(name)
+        self.db.child('users').child(university).child(name_for_db).set(new_user_data)
+        #user_path = '/users/' + university + '/' + name + '/'
+        #self.db.child(user_path).set(new_user_data)
 
     def delete_user(self, name, university):
         self.db.child('users').child(university).child(name).remove()
         #user_path = '/users/' + university + '/' + name + '/'
         #db.child(user_path).remove()
-    
-    #add_new_user("tomer", "tomerarama@gmail.com", "technion")
-    #add_new_user("itamar", "itamar@gmail.com", "technion")
-    #add_new_user("nir", "nir@gmail.com", "technion")
-    #add_new_user("yael", "yael@gmail.com", "technion")
 
+    def is_user_in_db(self, name, email, university):
+        name_for_db = self.delete_point_in_name(name)
+        all_users_keys = self.db.child('users').child(university).shallow().get().val()
+        if (all_users_keys is not None) and (name_for_db in all_users_keys):
+            return True
+        else:
+            return False
 
-    #delete_user("tomer", "tomerarama@gmail.com", "technion")
-
-    #users = self.db.reference()
-    #print(users)
-
-    #from firebase import firebase
-    #
-    #databaseURL = "https://paper-share.firebaseio.com"
-    #
-    #firebase = firebase.FirebaseApplication(databaseURL, None)
-    #data =  { 'Name': 'John Doe',
-    #          'RollNo': 3,
-    #          'Percentage': 70.02
-    #          }
-    #result = firebase.post('/python-example-f6d0b/Students/',data)
-    #print(result)

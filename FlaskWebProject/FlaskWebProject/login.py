@@ -55,13 +55,13 @@ def login():
 
     # check if tau \ technion
     if is_uni_valid(email):
-        # check if already exist
-        # if email in data_base:
-        # go to menu page
-        # else, check if new use is valid:
+        # check if the mail is real and exists
         if is_server_valid(email):
-            app_DB.add_new_user(name, email, universities_dict[university_suff])
-            # add to data base, go to menu page
+            # check if user already in database
+            if app_DB.is_user_in_db(name, email, universities_dict[university_suff]) is False:
+                # if new user - add to database
+                app_DB.add_new_user(name, email, universities_dict[university_suff])
+            # go to menu page
             return render_template(            
                 'menu.html',
                 year                 = datetime.now().year,
