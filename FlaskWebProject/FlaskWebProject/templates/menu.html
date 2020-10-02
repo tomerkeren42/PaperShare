@@ -39,13 +39,13 @@
                 <h3 class="text-right">חיפוש חומרי לימוד למסירה</h3>
                 <p class="text-right">כדי ליצור קשר עם המוסר, תוכל לפנות אליו במייל</p>
             </div>
-            <form action="{{ url_for('ask') }}">
+            <form action="{{ url_for('tabs_page') }}">
                 <br />
                 <div class="row">
                     <div class="row pull-right">
                         <!-- an example for how i changed default error message, before switching to selectpicker :   <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר פקולטה מהרשימה" name="פקולטות" id="פקולטות" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onclick="this.setCustomValidity('')" dir="rtl">
                             -->
-                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר פקולטה מהרשימה" name="פקולטות" id="פקולטות" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
+                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר פקולטה מהרשימה" name="פקולטות" id="search faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
                             <optgroup class="pull-right" label="מכשפים מוסמכים">
                                 <option class="text-right" value="1">כשפות עתידנית</option>
                                 <option class="text-right" value="2">שיקויים ומינונים</option>
@@ -62,7 +62,7 @@
 
                 <div class="row">
                     <div class="row pull-right">
-                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר קורס מהרשימה" name="קורסים" id="קורסים" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
+                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר קורס מהרשימה" name="קורסים" id="search courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
                             <optgroup class="pull-right" label="מכשפים מוסמכים" dir="rtl">
                                 <option class="text-right" value="a" dir="rtl">כשפות עתידנית</option>
                                 <option class="text-right" value="b" dir="rtl">שיקויים ומינונים</option>
@@ -121,7 +121,7 @@
             <form action="how_to">
                 <div class="row">
                     <div class="row pull-right">
-                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר פקולטה מהרשימה" name="פקולטות" id="פקולטות" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
+                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר פקולטה מהרשימה" name="פקולטות" id="give away faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
                             <optgroup class="pull-right" label="מכשפים מוסמכים">
                                 <option class="text-right" value="e">כשפות עתידנית</option>
                                 <option class="text-right" value="a">שיקויים ומינונים</option>
@@ -137,7 +137,7 @@
                 </div>
                 <div class="row">
                     <div class="row pull-right">
-                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר קורס מהרשימה" name="קורסים" id="קורסים" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
+                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר קורס מהרשימה" name="קורסים" id="give away courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
                             <optgroup class="pull-right" label="מכשפים מוסמכים">
                                 <option class="text-right" value="a">כשפות עתידנית</option>
                                 <option class="text-right" value="b">שיקויים ומינונים</option>
