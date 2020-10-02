@@ -52,6 +52,16 @@ def help():
         message='Your application help page.'
     )
 
+@app.route('/contacts')
+def contacts():
+    """Renders the about page."""
+    return render_template( 
+        'contacts.html',
+        title='contacts',
+        year=datetime.now().year,
+        message='Your application contact page.'
+    )
+
 # runserver file
 
 if __name__ == '__main__':

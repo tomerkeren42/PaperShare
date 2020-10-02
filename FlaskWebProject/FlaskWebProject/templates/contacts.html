@@ -1,0 +1,56 @@
+﻿<!---           
+    
+    CONTACTS PAGE
+    
+    -->
+
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+
+<!--CSS entries to get img centered-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    .img-how-to {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+
+<div class="container">
+    <!--Detailed explenation of the PS idea and proccess-->
+    <h2 class="text-right">אודות</h2>
+    <h3 class="text-right"> PaperShare צוות </h3>
+    <p class="text-right">תומר קרן, תומר ארמא, איתמר אייל</p>
+    <p class="text-right"> papershareproject@gmail.com כתובת מייל לפניות </p>
+
+    <br />
+    <h3 class="text-right">ספריית הקוד</h3>
+    <p class="text-right">https://github.com/tomerkeren42/PaperShare</p>
+    <br />
+
+
+    <!--Row of 3 pillars-->
+    <div class="container">
+            <img src="/static/img/pslogo.png" alt="airplane" class="center img-how-to" style="width:200px;height:128px;">
+    </div>
+
+
+    <!--Back (history -1) button-->
+    <br />
+    <div>
+        <button onclick="goBack()" class="btn btn-success pull-right"><span class="glyphicon glyphicon-home"></span> חזרה לאתר </button>
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+    </div>
+</div>
+<br />
+
+
+{% endblock %}
