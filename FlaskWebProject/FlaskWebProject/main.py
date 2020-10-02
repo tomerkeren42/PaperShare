@@ -24,7 +24,7 @@ import login
 # flask methods
 @app.route('/')
 @app.route('/home')
-def home():
+def login_page():
     """Renders the home page."""
     return render_template(
         'index.html',
@@ -33,7 +33,7 @@ def home():
     )
 
 @app.route('/menu')
-def ask():
+def tabs_page():
     """Renders the about page."""
     return render_template(
         'menu.html',
@@ -43,7 +43,7 @@ def ask():
     )
 
 @app.route('/how_to')
-def help():
+def how_to():
     """Renders the about page."""
     return render_template( 
         'how_to.html',
