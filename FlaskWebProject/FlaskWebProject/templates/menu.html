@@ -1,17 +1,31 @@
 ﻿<!---
     MENU PAGE
     -->
+
+
 {% extends "layout.html" %}
 
 {% block content %}
 
+<style>
+    .nav-tabs {
+        color: #5cb85c;
+        border-bottom: 1px solid #dddddd;
+    }
+    .nav-tabs > li > a {
+        color: #5cb85c;
+        cursor: default;
+
+    }
+</style>
 <br />
 
 <!--3 tabs for actions-->
+
 <ul class="nav nav-tabs pull-right">
     <li><a data-toggle="tab" href="#menu2">המסירות שלי</a></li>
     <li><a data-toggle="tab" href="#menu1">מסירת חומרי לימוד</a></li>
-    <li class="active"><a data-toggle="tab" href="#home">חיפוש חומרי לימוד</a></li>
+    <li><a data-toggle="tab" href="#home">חיפוש חומרי לימוד</a></li>
 </ul>
 
 <div class="tab-content">
@@ -22,74 +36,74 @@
         <br /> <br />
         <div class="container">
             <div class="row">
-            <h3 class="text-right">חיפוש חומרי לימוד למסירה</h3>
-            <p class="text-right">כדי ליצור קשר עם המוסר, תוכל לפנות אליו במייל</p>
+                <h3 class="text-right">חיפוש חומרי לימוד למסירה</h3>
+                <p class="text-right">כדי ליצור קשר עם המוסר, תוכל לפנות אליו במייל</p>
             </div>
-        <form action="{{ url_for('ask') }}">
-            <br />
-            <div class="row">
-                <div class="row pull-right">
-                    <!-- an example for how i changed default error message, before switching to selectpicker :   <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר פקולטה מהרשימה" name="פקולטות" id="פקולטות" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onclick="this.setCustomValidity('')" dir="rtl">
-                        -->
-                    <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר פקולטה מהרשימה" name="פקולטות" id="פקולטות" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')"  onchange="this.setCustomValidity('')" dir="rtl">
-                        <optgroup class="pull-right" label="מכשפים מוסמכים">
-                            <option class="text-right" value="1">כשפות עתידנית</option>
-                            <option class="text-right" value="2">שיקויים ומינונים</option>
-                        </optgroup>
-                        <optgroup class="pull-right" label="הכשפת חשמל">
-                            <option class="text-right" value="3">מכונאות מטאטאים</option>
-                            <option class="text-right" value="4">דיודות ודודאים</option>
-                        </optgroup>
-                    </select>
-                    <br />
-                    <br />
+            <form action="{{ url_for('ask') }}">
+                <br />
+                <div class="row">
+                    <div class="row pull-right">
+                        <!-- an example for how i changed default error message, before switching to selectpicker :   <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר פקולטה מהרשימה" name="פקולטות" id="פקולטות" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onclick="this.setCustomValidity('')" dir="rtl">
+                            -->
+                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר פקולטה מהרשימה" name="פקולטות" id="פקולטות" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
+                            <optgroup class="pull-right" label="מכשפים מוסמכים">
+                                <option class="text-right" value="1">כשפות עתידנית</option>
+                                <option class="text-right" value="2">שיקויים ומינונים</option>
+                            </optgroup>
+                            <optgroup class="pull-right" label="הכשפת חשמל">
+                                <option class="text-right" value="3">מכונאות מטאטאים</option>
+                                <option class="text-right" value="4">דיודות ודודאים</option>
+                            </optgroup>
+                        </select>
+                        <br />
+                        <br />
+                    </div>
                 </div>
-            </div>
 
-            <div class="row">
-                <div class="row pull-right">
-                    <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר קורס מהרשימה" name="קורסים" id="קורסים" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')"  onchange="this.setCustomValidity('')" dir="rtl">
-                        <optgroup class="pull-right" label="מכשפים מוסמכים" dir="rtl">
-                            <option class="text-right" value="a" dir="rtl">כשפות עתידנית</option>
-                            <option class="text-right" value="b" dir="rtl">שיקויים ומינונים</option>
-                        </optgroup>
-                        <optgroup class="pull-right" label="הכשפת חשמל" dir="rtl">
-                            <option class="text-right" value="c">מכונאות מטאטאים</option>
-                            <option class="text-right" value="d">דיודות ודודאים</option>
-                        </optgroup>
-                    </select>
+                <div class="row">
+                    <div class="row pull-right">
+                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר קורס מהרשימה" name="קורסים" id="קורסים" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
+                            <optgroup class="pull-right" label="מכשפים מוסמכים" dir="rtl">
+                                <option class="text-right" value="a" dir="rtl">כשפות עתידנית</option>
+                                <option class="text-right" value="b" dir="rtl">שיקויים ומינונים</option>
+                            </optgroup>
+                            <optgroup class="pull-right" label="הכשפת חשמל" dir="rtl">
+                                <option class="text-right" value="c">מכונאות מטאטאים</option>
+                                <option class="text-right" value="d">דיודות ודודאים</option>
+                            </optgroup>
+                        </select>
+                    </div>
                 </div>
-            </div>
+                <br /> <br />
+                <button type="submit" class="btn btn-success pull-right"><span class="glyphicon glyphicon-search"></span> חיפוש</button>
+            </form>
             <br /> <br />
-            <button type="submit" class="btn btn-success pull-right"><span class="glyphicon glyphicon-search"></span> חיפוש</button>
-        </form>
-        <br /> <br />
-        <h4 class="text-right"> מציג חומרי לימוד למסירה עבור הקורס: "" מהפקולטה : ""</h4>
-        <br />
-        <div class="container">
-            <table class="table table-striped table-hover text-right">
-                <thead>
-                    <tr>
-                        <th class="text-right">תיאור</th>
-                        <th class="text-right">Email</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td> מבחנים מודפסים</td>
-                        <td>john@example.com</td>
-                    </tr>
-                    <tr>
-                        <td>ספר הקורס</td>
-                        <td>mary@example.com</td>
-                    </tr>
-                    <tr>
-                        <td>סיכום שלי</td>
-                        <td>july@example.com</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+            <h4 class="text-right"> מציג חומרי לימוד למסירה עבור הקורס: "" מהפקולטה : ""</h4>
+            <br />
+            <div class="container">
+                <table class="table table-striped table-hover text-right">
+                    <thead>
+                        <tr>
+                            <th class="text-right">תיאור</th>
+                            <th class="text-right">Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> מבחנים מודפסים</td>
+                            <td>john@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>ספר הקורס</td>
+                            <td>mary@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>סיכום שלי</td>
+                            <td>july@example.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
         <br />
     </div>
@@ -107,7 +121,7 @@
             <form action="how_to">
                 <div class="row">
                     <div class="row pull-right">
-                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר פקולטה מהרשימה" name="פקולטות" id="פקולטות" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')"  onchange="this.setCustomValidity('')" dir="rtl">
+                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר פקולטה מהרשימה" name="פקולטות" id="פקולטות" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
                             <optgroup class="pull-right" label="מכשפים מוסמכים">
                                 <option class="text-right" value="e">כשפות עתידנית</option>
                                 <option class="text-right" value="a">שיקויים ומינונים</option>
@@ -121,35 +135,35 @@
                         <br />
                     </div>
                 </div>
-            <div class="row">
-                <div class="row pull-right">
-                    <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר קורס מהרשימה" name="קורסים" id="קורסים" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')"  onchange="this.setCustomValidity('')" dir="rtl">
-                        <optgroup class="pull-right" label="מכשפים מוסמכים">
-                            <option class="text-right" value="a">כשפות עתידנית</option>
-                            <option class="text-right" value="b">שיקויים ומינונים</option>
-                        </optgroup>
-                        <optgroup class="pull-right" label="הכשפת חשמל">
-                            <option class="text-right" value="c">מכונאות מטאטאים</option>
-                            <option class="text-right" value="d">דיודות ודודאים</option>
-                        </optgroup>
-                    </select>
+                <div class="row">
+                    <div class="row pull-right">
+                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר קורס מהרשימה" name="קורסים" id="קורסים" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
+                            <optgroup class="pull-right" label="מכשפים מוסמכים">
+                                <option class="text-right" value="a">כשפות עתידנית</option>
+                                <option class="text-right" value="b">שיקויים ומינונים</option>
+                            </optgroup>
+                            <optgroup class="pull-right" label="הכשפת חשמל">
+                                <option class="text-right" value="c">מכונאות מטאטאים</option>
+                                <option class="text-right" value="d">דיודות ודודאים</option>
+                            </optgroup>
+                        </select>
+                    </div>
                 </div>
-            </div>
-            <br /><br />
-            <div class="row">
-                <p class="text-right">מה את\ה מוסר\ת? (למשל: קובץ מבחנים מודפס)</p>
-                <input class="form-control pull-right text-right input-lg col-sx-10" min="5" id="Description" required oninvalid="this.setCustomValidity('אנא תאר את חומר הלימוד אותו אתה מוסר')" oninput="this.setCustomValidity('')">
-            </div>
-            <div class="row">
-                <div class="checkbox pull-right">
-                    <label><input type="checkbox" id="agree-terms" required oninvalid="this.setCustomValidity('אנא אשר קבלת מייל')" oninput="this.setCustomValidity('')"> אני מסכים\ה שיצרו איתי קשר במייל האוניברסיטאי בנוגע למסירת חומרי הלימוד</label>
+                <br /><br />
+                <div class="row">
+                    <p class="text-right">מה את\ה מוסר\ת? (למשל: קובץ מבחנים מודפס)</p>
+                    <input class="form-control pull-right text-right input-lg col-sx-10" min="5" id="Description" required oninvalid="this.setCustomValidity('אנא תאר את חומר הלימוד אותו אתה מוסר')" oninput="this.setCustomValidity('')">
                 </div>
-            </div>
-            <br /> <br />
-            <button type="submit" class="btn btn-success pull-right"><span class="glyphicon glyphicon-send"></span> שליחה</button>
-        </form>
-        <br />
-    </div>
+                <div class="row">
+                    <div class="checkbox pull-right">
+                        <label><input type="checkbox" id="agree-terms" required oninvalid="this.setCustomValidity('אנא אשר קבלת מייל')" oninput="this.setCustomValidity('')"> אני מסכים\ה שיצרו איתי קשר במייל האוניברסיטאי בנוגע למסירת חומרי הלימוד</label>
+                    </div>
+                </div>
+                <br /> <br />
+                <button type="submit" class="btn btn-success pull-right"><span class="glyphicon glyphicon-send"></span> שליחה</button>
+            </form>
+            <br />
+        </div>
     </div>
 
     <!--TAB3-your posts-->
