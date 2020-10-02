@@ -5,4 +5,4 @@ PaperShare is allowing students to give-away and request for study material, whi
 
 # Used Applications
 hosting on google app engine.
-using ___ DB.
+using firebase DB.
