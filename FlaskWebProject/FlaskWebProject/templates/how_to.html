@@ -13,60 +13,68 @@
 <!--CSS entries to get img centered-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-    img {
+    .img-how-to {
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
 </style>
 
+<div class="container">
+    <!--Detailed explenation of the PS idea and proccess-->
+    <h2 class="text-right">?איך זה עובד</h2>
+    <h3 class="text-right">מסירת חומרי לימוד מודפסים</h3>
+    <p class="text-right">בחרו בלשונית 'מסירת חומרי לימוד' הזינו את שם הפקולטה, שם הקורס ותיאור קצר של החומר אותו אתם מוסרים</p>
+    <p class="text-right">לאחר לחיצה על כפתור שלח, המסירה שלכם תפורסם באתר וסטודנטים המעונינים בחומר הלימוד יפנו אליכם במייל</p>
+    <p class="text-right">את כל הפריטים אותם מסרתם ניתן לראות בלשונית 'המסירות שלי'. ניתן להסיר את הפרטים מהאתר בכל עת</p>
+    <br />
+    <h3 class="text-right">חיפוש חומרי לימוד</h3>
+    <p class="text-right">בחרו בלשונית 'חיפוש חומרי לימוד' הזינו את שם הפקולטה ושם הקורס. לחצו על כפתור 'חיפוש' וצפו בתוצאות</p>
+    <p class="text-right">אם מצאתם חומר למסירה שמעניין אתכם, פנו לכתובת המייל של הסטודנט המוסר וצרו איתו\ה קשר</p>
+    <br />
 
-<!--Detailed explenation of the PS idea and proccess-->
-<h2 class="text-right">?איך זה עובד</h2>
-<p class="text-right">תיאור של תהליך המסירה והקבלה</p>
-<br />
 
-
-<!--Row of 3 pillars-->
-<div class="row">
-    <div class="col-md-4">
-        <h3 class="text-right">מסרו את חומרי הלימוד שהדפסתם</h3>
-        <p class="text-right">
-            כאן תוכלו למצוא סטודנטים שישמחו לקבל מכם חומרי לימוד אקדמיים שהדפסתם. במקום לזרוק ספרים ומבחנים, מסרו אותם לסטודנט שיעשה בהם עוד שימוש
-        </p>
-        <br />
-        <img src="/static/img/airplane.png" alt="airplane" class="center" style="width:200px;height:128px;">
+    <!--Row of 3 pillars-->
+    <div class="row">
+        <div class="col-md-4">
+            <h3 class="text-right">מסרו את חומרי הלימוד שהדפסתם</h3>
+            <p class="text-right">
+                כאן תוכלו למצוא סטודנטים שישמחו לקבל מכם חומרי לימוד אקדמיים שהדפסתם. במקום לזרוק ספרים ומבחנים, מסרו אותם לסטודנט שיעשה בהם עוד שימוש
+            </p>
+            <br />
+            <img src="/static/img/airplane.png" alt="airplane" class="center img-how-to" style="width:200px;height:128px;">
+        </div>
+        <div class="col-md-4">
+            <h3 class="text-right">שמרו על הסביבה</h3>
+            <p class="text-right">
+                השימוש החוזר בחומרי הלימוד יחסוך הדפסות נוספות. כך, נוכל לחסוך בנייר ולשמור יחד על הסביבה
+            </p>
+            <br />
+            <br />
+            <img src="/static/img/oak.png" alt="tree" class="center img-how-to" style="width:128px;height:128px;">
+        </div>
+        <div class="col-md-4">
+            <h3 class="text-right">חסכו כסף $$$</h3>
+            <p class="text-right">
+                המסירות באתר הן ללא תשלום. במקום לשלם על הדפסות חדשות, קבלו חומרים משומשים בחינם וחסכו בעלויות
+            </p>
+            <br />
+            <br />
+            <img src="/static/img/dollarIcon.png" alt="dollar icon" class="center img-how-to" style="width:100px;height:128px;">
+        </div>
     </div>
-    <div class="col-md-4">
-        <h3 class="text-right">שמרו על הסביבה</h3>
-        <p class="text-right">
-            השימוש החוזר בחומרי הלימוד יחסוך הדפסות נוספות. כך, נוכל לחסוך בנייר ולשמור יחד על הסביבה
-        </p>
-        <br />
-        <br />
-        <img src="/static/img/oak.png" alt="tree" class="center" style="width:128px;height:128px;">
-    </div>
-    <div class="col-md-4">
-        <h3 class="text-right">חסכו כסף $$$</h3>
-        <p class="text-right">
-            המסירות באתר הן ללא תשלום. במקום לשלם על הדפסות חדשות, קבלו חומרים משומשים בחינם וחסכו בעלויות
-        </p>
-        <br />
-        <br />
-        <img src="/static/img/dollarIcon.png" alt="dollar icon" class="center" style="width:100px;height:128px;">
-    </div>
-</div>
 
 
-<!--Back (history -1) button-->
-<br />
-<div>
-    <button onclick="goBack()" class="btn btn-success pull-right"><span class="glyphicon glyphicon-home"></span> חזרה לאתר </button>
-    <script>
-        function goBack() {
-            window.history.back();
-        }
-    </script>
+    <!--Back (history -1) button-->
+    <br />
+    <div>
+        <button onclick="goBack()" class="btn btn-success pull-right"><span class="glyphicon glyphicon-home"></span> חזרה לאתר </button>
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+    </div>
 </div>
 <br />
 
