@@ -49,4 +49,3 @@ class firebase_db(object):
             return True
         else:
             return False
-

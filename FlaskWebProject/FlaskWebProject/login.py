@@ -1,8 +1,10 @@
-from flask import render_template, Flask, request, redirect, Blueprint
+from flask import render_template, Flask, request, redirect
+import sys
 from datetime import datetime
 import requests as req
 import re
-from __main__ import app, app_DB
+from FlaskWebProject.main import *
+from __main__  import app, app_DB
 
 
 # constants
