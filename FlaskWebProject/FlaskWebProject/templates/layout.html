@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="/static/content/site.css" />
     <link rel="stylesheet" href="/static/content/bootstrap-select.css" />
     <link rel="stylesheet" href="/static/content/bootstrap-select.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/static/scripts/modernizr-2.6.2.js"></script>
     <script src="https://kit.fontawesome.com/a5c66c8365.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -54,35 +55,69 @@
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="{{ url_for('help') }}">
-                            <span class="fas fa-question-circle"></span> איך זה עובד  
+                        <a href="{{ url_for('how_to') }}">
+                            <span class="fas fa-question-circle"></span> איך זה עובד
                         </a>
                     </li>
                     <li>
-                        <a href="{{ url_for('contacts')}}">
-                            <span class="fas fa-address-book"></span> אודות 
-                        </a>
+                        <a data-toggle="modal" data-target="#myModal"><span class="fas fa-phone"></span> צור קשר</a>
                     </li>
                 </ul>
             </div>
         </div>
-</nav>
+    </nav>
 
-    <!--button year comment-->
-    <div class="container body-content">
-        {% block content %}{% endblock %}
-        <hr />
-        <footer>
-            <p>&copy; {{ year }} - PaperShare</p>
-        </footer>
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title text-center">PaperShare צוות </h4>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p class="text-right">תומר קרן</p>
+                            <p class="text-right">תומר ארמא</p>
+                            <p class="text-right">איתמר אייל</p>
+                            <p><span class="fas fa-envelope"></span> papershareproject@gmail.com  </p>
+                            <p><span class="fab fa-github-square"></span> https://github.com/tomerkeren42/PaperShare </p>
+
+                        </div>
+                        <div class="col-md-4">
+                            <img src="/static/img/pslogo.png" alt="airplane" style="width:200px;height:128px;">
+                        </div>
+
+                        </div>
+                    </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">סגור</button>
+                </div>
+            </div>
+
+
+        </div>
     </div>
 
-    <script src="/static/scripts/jquery-1.10.2.js"></script>
-    <script src="/static/scripts/bootstrap.js"></script>
-    <script src="/static/scripts/respond.js"></script>
-    <script src="/static/scripts/bootstrap-select.js"></script>
+        <!--button year comment-->
+        <div class="container body-content">
+            {% block content %}{% endblock %}
+            <hr />
+            <footer>
+                <p>&copy; {{ year }} - PaperShare</p>
+            </footer>
+        </div>
 
-    {% block scripts %}{% endblock %}
+        <script src="/static/scripts/jquery-1.10.2.js"></script>
+        <script src="/static/scripts/bootstrap.js"></script>
+        <script src="/static/scripts/respond.js"></script>
+        <script src="/static/scripts/bootstrap-select.js"></script>
+
+        {% block scripts %}{% endblock %}
 
 </body>
 </html>
