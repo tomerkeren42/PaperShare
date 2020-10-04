@@ -1,10 +1,8 @@
-from flask import render_template, Flask, request, redirect
-import sys
+from flask import render_template, request
 from datetime import datetime
 import requests as req
 import re
-from FlaskWebProject.main import *
-from __main__  import app, app_DB
+from FlaskWebProject.FlaskWebProject.main import app, app_DB
 
 
 # constants
@@ -17,9 +15,9 @@ universities_dict = {
 url = 'https://login.microsoftonline.com/common/GetCredentialType'
 
 
-#check if this user already exists in the data base
-#if exists - fetch its details to this session
-#if dosn't exist - add to data base
+# check if this user already exists in the data base
+# if exists - fetch its details to this session
+# if doesn't exist - add to data base
 def is_uni_valid(email):
     if(email.find('@') != -1):
         splitted_mail = email.split("@")
@@ -27,6 +25,7 @@ def is_uni_valid(email):
             return True
         else:
             return False
+
 
 def is_server_valid(email):
     email = email
@@ -42,6 +41,7 @@ def is_server_valid(email):
         return True
     else:
         return False
+
 
 @app.route('/', methods=['POST'])
 def login():
@@ -72,9 +72,9 @@ def login():
                 username             = name
                 )
         else:
-            not_exist=True
+            not_exist = True
     else:
-        not_uni= True,
+        not_uni = True,
 
     return render_template(
                 'index.html',
