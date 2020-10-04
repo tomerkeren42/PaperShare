@@ -3,7 +3,7 @@ import pyrebase
 
 class firebase_db(object):
     """description of class"""
-    
+
     # initiate the class
     def __init__(self):
         self.config = {
@@ -50,3 +50,6 @@ class firebase_db(object):
             return True
         else:
             return False
+
+
+app_DB = firebase_db()

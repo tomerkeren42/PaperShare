@@ -1,9 +1,6 @@
-from flask import render_template, request
-from datetime import datetime
+from flask import request, Flask
 import requests as req
 import re
-from FlaskWebProject.FlaskWebProject.main import app, app_DB
-
 
 # constants
 universities_dict = {
@@ -13,6 +10,8 @@ universities_dict = {
 
 # url for outside microsoft login form
 url = 'https://login.microsoftonline.com/common/GetCredentialType'
+
+app = Flask(__name__)
 
 
 # check if this user already exists in the data base
@@ -42,13 +41,11 @@ def is_server_valid(email):
     else:
         return False
 
-
-@app.route('/', methods=['POST'])
-def login():
+def login(app_DB):
     not_uni   = False
     not_exist = False
-    username  = None
-
+    username  = ""
+    university = None
     # parse email address
     email = request.form['email']
     splitted_mail = email.split("@")
@@ -57,29 +54,16 @@ def login():
 
     # check if tau \ technion
     if is_uni_valid(email):
+        university = universities_dict[university_suff]
         # check if the mail is real and exists
         if is_server_valid(email):
             # check if user already in database
-            if app_DB.is_user_in_db(name, email, universities_dict[university_suff]) is False:
+            if app_DB.is_user_in_db(name, email, university) is False:
                 # if new user - add to database
-                app_DB.add_new_user(name, email, universities_dict[university_suff])
-            # go to menu page
-            return render_template(            
-                'menu.html',
-                year                 = datetime.now().year,
-                university           = universities_dict[university_suff],
-                email                = email,
-                username             = name
-                )
+                app_DB.add_new_user(name, email, university)
         else:
             not_exist = True
     else:
         not_uni = True,
 
-    return render_template(
-                'index.html',
-                year                = datetime.now().year,
-                not_uni             = not_uni,
-                not_exist           = not_exist,
-                email               = email
-            )
+    return not_exist, not_uni, email, name, university
