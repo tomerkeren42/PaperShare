@@ -11,18 +11,12 @@ import argparse
 parser = argparse.ArgumentParser(description='Script purpose: Upload courses csv file to Firebase Storage')
 
 # Seed
-parser.add_argument('University',metavar='Seed', type=str,
-                    help='University. Must be Technion or TAU')
+parser.add_argument('--University', type=str, default='Technion', required=False,
+                    choices=['Technion', 'TAU'], help='University. Must be Technion or TAU')
                     
 args = parser.parse_args()
 
-if (args.University is not None) and(args.University is not 'Technion') and (args.University is not 'TAU'):
-	sys.exit("Error: Argument must be Technion or TAU")
-    
-if args.University is None:
-    University = 'Technion'
-else:
-    University = args.University
+University = args.University
 
 ################################### END ARGUMENTS ###################################
 
