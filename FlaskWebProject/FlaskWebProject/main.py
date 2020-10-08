@@ -1,27 +1,33 @@
 from datetime import datetime
-from flask import render_template, Flask, request, redirect
+from flask import render_template, request
 from os import environ
-import requests as req
-import re
-from firebase_db import firebase_db
+from firebase_db import *
+from login import *
 
-# leaving this python code because it works perfectly well on local hosts, but never return true when verify a remote host. add to requirments if want to try again.
-# from validate_email import validate_email
-# from PyCloudNS import *        
-#     if validate_email(email, verify=True):
-#     else:
-#         not_exist   = True,
-
-# the Flask APP
-app = Flask(__name__)
 app_DB = firebase_db()
 
-#this import has to be after "app = Flask(__name__)"
-import login
+@app.route('/', methods=['POST'])
+def login_func():
+    not_exist, not_uni, email, name, university = login(app_DB)
+    if not_exist is False and not_uni is False:
+        return render_template(
+                'menu.html',
+                year                 = datetime.now().year,
+                university           = university,
+                email                = email,
+                username             = name
+                )
+    else:
+        return render_template(
+                    'index.html',
+                    year                = datetime.now().year,
+                    not_uni             = not_uni,
+                    not_exist           = not_exist,
+                    email               = email
+                )
 
 
-
-# flask methods
+# page loading
 @app.route('/')
 @app.route('/home')
 def login_page():
@@ -42,39 +48,36 @@ def tabs_page():
         message='Your application ask for paper page.'
     )
 
+
 @app.route('/how_to')
 def how_to():
     """Renders the about page."""
-    return render_template( 
+    return render_template(
         'how_to.html',
         title='Help',
         year=datetime.now().year,
         message='Your application help page.'
     )
 
+
 @app.route('/contacts')
 def contacts():
     """Renders the about page."""
-    return render_template( 
+    return render_template(
         'contacts.html',
         title='contacts',
         year=datetime.now().year,
         message='Your application contact page.'
     )
 
-# runserver file
 
 if __name__ == '__main__':
-    
-    #### For local enviornment:
+    # For local enviornment:
     HOST = environ.get('SERVER_HOST', 'localhost')
     try:
-        PORT = int(environ.get('SERVER_PORT', 5555))  
+        PORT = int(environ.get('SERVER_PORT', 5555))
     except ValueError:
         PORT = 5555
     app.run(HOST, PORT)
-
-
-    ## for external (google app engine enviornment):
-    
-    #app.run(host='0.0.0.0', port=8080, debug=True)
+    # for external (google app engine enviornment):
+    # app.run(host='0.0.0.0', port=8080, debug=True)
