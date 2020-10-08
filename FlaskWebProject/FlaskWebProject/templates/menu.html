@@ -9,14 +9,32 @@
 
 
 <style>
+    .btn-ps:hover,
+    .btn-ps:focus,
+    .btn-ps:active,
+    .btn-ps.active,
+    .open .dropdown-toggle.btn-ps {
+        color: #ffffff;
+        background-color: #5cb85c;
+        border-color: #ffffff;
+    }
+
+    .btn-ps {
+        color: #ffffff;
+        background-color: green;
+        border-color: #ffffff;
+    }
     .nav-tabs {
         color: #5cb85c;
         border-bottom: 1px solid #dddddd;
     }
     .nav-tabs > li > a {
-        color: #5cb85c;
+        color: green;
         cursor: default;
 
+    }
+    .nav li {
+        display: table-cell !important;
     }
 </style>
 <br />
@@ -76,7 +94,7 @@
                     </div>
                 </div>
                 <br /> <br />
-                <button type="submit" class="btn btn-success pull-right"><span class="glyphicon glyphicon-search"></span> חיפוש</button>
+                <button type="submit" class="btn btn-ps pull-right"><span class="glyphicon glyphicon-search"></span> חיפוש</button>
             </form>
             <br /> <br />
             <h4 class="text-right"> מציג חומרי לימוד למסירה עבור הקורס: "" מהפקולטה : ""</h4>
@@ -161,7 +179,7 @@
                     </div>
                 </div>
                 <br /> <br />
-                <button type="submit" value="1" class="btn btn-success pull-right"><span class="glyphicon glyphicon-send"></span> שליחה</button>
+                <button type="submit" value="1" class="btn btn-ps pull-right"><span class="glyphicon glyphicon-send"></span> שליחה</button>
             </form>
             <br />
         </div>
@@ -199,7 +217,7 @@
                 </table>
             </div>
             <div class="row pull-right">
-                <button type="button" class="btn btn-danger pull-right" onclick="confirm('האם אתה בטוח שברצונך להסיר את הרשומה?')"><span class="glyphicon glyphicon-fire"></span> הסר מהאתר</button>
+                <button type="button" class="btn btn-ps pull-right" onclick="confirm('האם אתה בטוח שברצונך להסיר את הרשומה?')"><span class="glyphicon glyphicon-fire"></span> הסר מהאתר</button>
             </div>
             <br />
         </div>
