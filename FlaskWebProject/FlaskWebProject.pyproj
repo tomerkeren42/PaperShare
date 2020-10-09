@@ -33,6 +33,7 @@
     </Compile>
     <Compile Include="FlaskWebProject\login.py" />
     <Compile Include="FlaskWebProject\main.py" />
+    <Compile Include="FlaskWebProject\Technion_courses_dict.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FlaskWebProject\" />
