@@ -6063,7 +6063,7 @@ Technion_courses_list = [
 	},
 	{
 		'course_number':'617084',
-		'course_name':'נושאים נבחרים במערכות מידע',
+		'course_name':'תושאים נבחרים במערכות מידע',
 		'course_faculty':''
 	},
 	{

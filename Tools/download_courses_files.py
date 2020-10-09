@@ -54,7 +54,7 @@ if University == 'Technion':
     ##################################################################################################################
 
 
-    files_path = "..\\..\\Courses_files\\Technion\\raw_js_files"
+    files_path = "..\\..\\Courses_files\\" + University + "\\raw_js_files"
 
     # create the path if needed
     if not os.path.exists(files_path):
