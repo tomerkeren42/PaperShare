@@ -4,32 +4,6 @@
 
 
 <style>
-    .green-suc {
-        color: #5cb85c;
-    }
-    .body-ps {
-        padding: 50px;
-    }
-
-    .img-how-to {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .div-ps {
-        width: 100px;
-        height: 100px;
-        animation-name: spin;
-        animation-duration: 5000ms;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-        /* transform: rotate(3deg); */
-        /* transform: rotate(0.3rad);/ */
-        /* transform: rotate(3grad); */
-        /* transform: rotate(.03turn);  */
-    }
-
     @keyframes spin {
         from {
             transform: rotate(0deg);
@@ -39,7 +13,6 @@
             transform: rotate(360deg);
         }
     }
-
 </style>
 
 <!--upper layout settings-->
@@ -48,7 +21,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }} - PaperShare</title>
+    <title>PaperShare - {{ title }}</title>
     <link rel="stylesheet" type="text/css" href="/static/content/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="/static/content/site.css" />
     <link rel="stylesheet" href="/static/content/bootstrap-select.css" />
@@ -56,7 +29,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/static/scripts/modernizr-2.6.2.js"></script>
     <script src="https://kit.fontawesome.com/a5c66c8365.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="/static/img/favicon_io/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/static/img/favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="/static/content/papershare.css" />
 </head>
 
 
@@ -123,7 +101,7 @@
                         </div>
                         <div class="col-md-4">
 
-                                <img src="/static/img/pslogo.png" alt="airplane" class="div-ps" style="width:200px;height:128px;">
+                                <img src="/static/img/pslogo.png" alt="airplane" class="div-ps" style="width:100px;height:100px;">
 
                         </div>
                         </div>
