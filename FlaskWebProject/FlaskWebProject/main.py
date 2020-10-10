@@ -15,7 +15,8 @@ def login_func():
                 year                 = datetime.now().year,
                 university           = university,
                 email                = email,
-                username             = name
+                username             = name,
+                title                = 'Menu'
                 )
     else:
         return render_template(
@@ -35,7 +36,7 @@ def login_page():
     return render_template(
         'index.html',
         title='Home Page',
-        year=datetime.now().year,
+        year=datetime.now().year
     )
 
 @app.route('/menu')
@@ -43,9 +44,8 @@ def tabs_page():
     """Renders the about page."""
     return render_template(
         'menu.html',
-        title='Ask For Paper',
-        year=datetime.now().year,
-        message='Your application ask for paper page.'
+        title='Menu',
+        year=datetime.now().year
     )
 
 
