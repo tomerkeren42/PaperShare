@@ -1,12 +1,12 @@
 ﻿<!---
     MENU PAGE
     -->
-
-
 {% extends "layout.html" %}
 
 {% block content %}
 
+<script type="text/javascript" src="/static/scripts/courses_list.js"></script>
+<script src="/static/scripts/courses_dropdown.js"></script>
 
 <style>
     .btn-ps:hover,
@@ -24,15 +24,17 @@
         background-color: green;
         border-color: #ffffff;
     }
+
     .nav-tabs {
         color: #5cb85c;
         border-bottom: 1px solid #dddddd;
     }
-    .nav-tabs > li > a {
-        color: green;
-        cursor: default;
 
-    }
+        .nav-tabs > li > a {
+            color: green;
+            cursor: default;
+        }
+
     .nav li {
         display: table-cell !important;
     }
@@ -58,21 +60,22 @@
                 <h3 class="text-right">חיפוש חומרי לימוד למסירה</h3>
                 <p class="text-right">כדי ליצור קשר עם המוסר, תוכל לפנות אליו במייל</p>
             </div>
-            <form action="{{ url_for('tabs_page') }}">
+            <form name="courses_dropdown" action="{{ url_for('tabs_page') }}" method="POST">
+                <!--<form action="{{ url_for('tabs_page') }}">-->
                 <br />
                 <div class="row">
                     <div class="row pull-right">
                         <!-- an example for how i changed default error message, before switching to selectpicker :   <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר פקולטה מהרשימה" name="פקולטות" id="פקולטות" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onclick="this.setCustomValidity('')" dir="rtl">
-                            -->
-                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר פקולטה מהרשימה" name="פקולטות" id="search faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
-                            <optgroup class="pull-right" label="מכשפים מוסמכים">
-                                <option class="text-right" value="1">כשפות עתידנית</option>
-                                <option class="text-right" value="2">שיקויים ומינונים</option>
-                            </optgroup>
-                            <optgroup class="pull-right" label="הכשפת חשמל">
-                                <option class="text-right" value="3">מכונאות מטאטאים</option>
-                                <option class="text-right" value="4">דיודות ודודאים</option>
-                            </optgroup>
+                        -->
+                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר פקולטה מהרשימה" name="faculty" action="/" id="search_faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="courses_dropdown(this);" dir="rtl">
+                            <!--{% for faculty in faculties_list %}
+                            <option class="text-right" value="{{faculty}}" SELECTED>{{ faculty }}</option>"
+                            {% endfor %}-->
+                            <option value="empty">Select a Continent</option>
+                            <option value="North America">North America</option>
+                            <option value="South America">South America</option>
+                            <option value="Asia">Asia</option>
+                            <option value="Europe">Europe</option>
                         </select>
                         <br />
                         <br />
@@ -81,15 +84,11 @@
 
                 <div class="row">
                     <div class="row pull-right">
-                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר קורס מהרשימה" name="קורסים" id="search courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
-                            <optgroup class="pull-right" label="מכשפים מוסמכים" dir="rtl">
-                                <option class="text-right" value="a" dir="rtl">כשפות עתידנית</option>
-                                <option class="text-right" value="b" dir="rtl">שיקויים ומינונים</option>
-                            </optgroup>
-                            <optgroup class="pull-right" label="הכשפת חשמל" dir="rtl">
-                                <option class="text-right" value="c">מכונאות מטאטאים</option>
-                                <option class="text-right" value="d">דיודות ודודאים</option>
-                            </optgroup>
+                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר קורס מהרשימה" name="course" id="search_courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
+                            <!--{% for course in courses_names_list %}
+                                <option class="text-right" value="{{course}}" SELECTED>{{ course }}</option>"
+                            {% endfor %}-->
+                            <option value="0">Select a course</option>
                         </select>
                     </div>
                 </div>

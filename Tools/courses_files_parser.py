@@ -19,6 +19,8 @@ def write_course_to_csv_file(course_info_array, course_numbers, csv_writer):
 def write_course_to_py_file(course_info_array, course_numbers, output_file):
     new_course_number = course_info_array[0]
     new_course_name = course_info_array[1]
+    course_full_name = new_course_number + " - " + new_course_name
+    course_full_name = course_full_name.replace("'", "").replace("\\", "")
     new_course_faculty = course_info_array[2]
     # if new course - add to CSV file and to course_numbers list
     if new_course_number in course_numbers:
@@ -26,9 +28,8 @@ def write_course_to_py_file(course_info_array, course_numbers, output_file):
     else:
         course_numbers.append(new_course_number)
         output_file.write("\t{\n")
-        output_file.write("\t\t'course_number':'" + new_course_number + "',\n")
-        output_file.write("\t\t'course_name':'" + new_course_name + "',\n")
-        output_file.write("\t\t'course_faculty':'" + new_course_faculty + "'\n")
+        output_file.write("\t\t'course_name':'" + course_full_name + "',\n")
+        output_file.write("\t\t'faculty_name':'" + new_course_faculty + "'\n")
         output_file.write("\t},\n")
         
 

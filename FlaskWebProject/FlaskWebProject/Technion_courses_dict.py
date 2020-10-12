@@ -2,12738 +2,10191 @@
 
 Technion_courses_list = [
 	{
-		'course_number':'014003',
-		'course_name':'סטטיסטיקה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014003 - סטטיסטיקה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014004',
-		'course_name':'נתוח מערכות',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014004 - נתוח מערכות',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014005',
-		'course_name':'מעבדה הנדסית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014005 - מעבדה הנדסית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014006',
-		'course_name':'מבוא לשיטות נומריות',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014006 - מבוא לשיטות נומריות',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014008',
-		'course_name':'מידע גרפי הנדסי',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014008 - מידע גרפי הנדסי',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014011',
-		'course_name':'הנדסה לקהילות מתפתחות',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014011 - הנדסה לקהילות מתפתחות',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014101',
-		'course_name':'פרויקט בקונסטרוקציות',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014101 - פרויקט בקונסטרוקציות',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014103',
-		'course_name':'מבוא למכניקה הנדסית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014103 - מבוא למכניקה הנדסית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014104',
-		'course_name':'תורת החוזק 1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014104 - תורת החוזק 1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014107',
-		'course_name':'מבוא לתורת האלסטיות',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014107 - מבוא לתורת האלסטיות',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014108',
-		'course_name':'סטטיקת מבנים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014108 - סטטיקת מבנים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014113',
-		'course_name':'יסודות',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014113 - יסודות',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014123',
-		'course_name':'מבני בטון 1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014123 - מבני בטון 1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014131',
-		'course_name':'פרויקט מורחב במבנים-חלק א'',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014131 - פרויקט מורחב במבנים-חלק א',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014132',
-		'course_name':'פרויקט מורחב במבנים-חלק ב'',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014132 - פרויקט מורחב במבנים-חלק ב',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014142',
-		'course_name':'מבוא להנדסת רעידות אדמה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014142 - מבוא להנדסת רעידות אדמה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014143',
-		'course_name':'שיטות מחשב בסטטיקת מבנים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014143 - שיטות מחשב בסטטיקת מבנים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014145',
-		'course_name':'תורת החוזק 2',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014145 - תורת החוזק 2',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014147',
-		'course_name':'בניית המהנדס 1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014147 - בניית המהנדס 1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014149',
-		'course_name':'מבני בטון 2',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014149 - מבני בטון 2',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014151',
-		'course_name':'נושא אישי בהנדסת מבנים למצטיינים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014151 - נושא אישי בהנדסת מבנים למצטיינים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014153',
-		'course_name':'מבני בטון 1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014153 - מבני בטון 1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014201',
-		'course_name':'פרויקט בהנדסת מים 1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014201 - פרויקט בהנדסת מים 1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014205',
-		'course_name':'הידרוליקה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014205 - הידרוליקה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014211',
-		'course_name':'מכניקת זורמים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014211 - מכניקת זורמים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014212',
-		'course_name':'מבוא להידרולוגיה הנדסית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014212 - מבוא להידרולוגיה הנדסית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014214',
-		'course_name':'יסודות מכניקת הזורמים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014214 - יסודות מכניקת הזורמים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014300',
-		'course_name':'סמינריון בהנ. סביבתית ומשאבי מים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014300 - סמינריון בהנ. סביבתית ומשאבי מים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014301',
-		'course_name':'פרויקט בהנדסה סביבתית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014301 - פרויקט בהנדסה סביבתית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014305',
-		'course_name':'מעבדה לטיפול במים ושפכים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014305 - מעבדה לטיפול במים ושפכים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014313',
-		'course_name':'מיקרוביולוגיה סביבתית ואפידמיולוג',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014313 - מיקרוביולוגיה סביבתית ואפידמיולוג',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014321',
-		'course_name':'טוקסיקולוגיה סביבתית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014321 - טוקסיקולוגיה סביבתית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014322',
-		'course_name':'יסודות הטיפול במים ושפכים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014322 - יסודות הטיפול במים ושפכים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014409',
-		'course_name':'גיאומכניקה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014409 - גיאומכניקה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014501',
-		'course_name':'פרויקט בחומרים ותפקוד',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014501 - פרויקט בחומרים ותפקוד',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014503',
-		'course_name':'פרויקט מעבדתי בחומרי בניה (1)',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014503 - פרויקט מעבדתי בחומרי בניה (1)',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014505',
-		'course_name':'חומרי בנייה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014505 - חומרי בנייה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014506',
-		'course_name':'טכנולוגיה מתקדמת של בטון',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014506 - טכנולוגיה מתקדמת של בטון',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014513',
-		'course_name':'בניה במתכות-חומרים וטכנולוגיה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014513 - בניה במתכות-חומרים וטכנולוגיה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014516',
-		'course_name':'יסודות קלימטולוגית הבניה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014516 - יסודות קלימטולוגית הבניה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014517',
-		'course_name':'חומרים ותהליכים 1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014517 - חומרים ותהליכים 1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014600',
-		'course_name':'סמינריון בניהול הבנייה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014600 - סמינריון בניהול הבנייה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014601',
-		'course_name':'פרויקט בניהול הבנייה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014601 - פרויקט בניהול הבנייה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014603',
-		'course_name':'כלכלה הנדסית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014603 - כלכלה הנדסית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014606',
-		'course_name':'מבוא לניהול הבנייה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014606 - מבוא לניהול הבנייה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014609',
-		'course_name':'מיכון בבנייה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014609 - מיכון בבנייה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014613',
-		'course_name':'ניהול משאבי אנוש בבנייה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014613 - ניהול משאבי אנוש בבנייה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014615',
-		'course_name':'מבוא לניהול פיננסי בבנייה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014615 - מבוא לניהול פיננסי בבנייה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014617',
-		'course_name':'תכנון ובקרה של פרוייקטי בנייה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014617 - תכנון ובקרה של פרוייקטי בנייה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014620',
-		'course_name':'עקרונות תכן מבנים בהנדסת ביצוע',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014620 - עקרונות תכן מבנים בהנדסת ביצוע',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014631',
-		'course_name':'אומדן עלויות של פרויקטי תשתית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014631 - אומדן עלויות של פרויקטי תשתית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014701',
-		'course_name':'פרויקט בתחבורה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014701 - פרויקט בתחבורה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014702',
-		'course_name':'תכנון תחבורה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014702 - תכנון תחבורה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014703',
-		'course_name':'מבוא לתכנון תחבורה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014703 - מבוא לתכנון תחבורה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014706',
-		'course_name':'מעבדה בהנדסת תנועה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014706 - מעבדה בהנדסת תנועה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014709',
-		'course_name':'מעבדת דרכים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014709 - מעבדת דרכים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014710',
-		'course_name':'מיסעות גמישות',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014710 - מיסעות גמישות',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014716',
-		'course_name':'תכנון ותפעול תחבורה ציבורית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014716 - תכנון ותפעול תחבורה ציבורית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014717',
-		'course_name':'תחבורה אוירית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014717 - תחבורה אוירית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014718',
-		'course_name':'מבוא לתכן ומסעות תחבורה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014718 - מבוא לתכן ומסעות תחבורה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014719',
-		'course_name':'פרויקט מורחב בתחבורה - חלק א'',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014719 - פרויקט מורחב בתחבורה - חלק א',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014721',
-		'course_name':'פרויקט בתכנון תחבורה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014721 - פרויקט בתכנון תחבורה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014722',
-		'course_name':'פרויקט בהנדסת תעבורה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014722 - פרויקט בהנדסת תעבורה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014723',
-		'course_name':'פרויקט בתכן גיאומטרי של דרכים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014723 - פרויקט בתכן גיאומטרי של דרכים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014730',
-		'course_name':'מבוא להנדסת תחבורה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014730 - מבוא להנדסת תחבורה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014732',
-		'course_name':'הנדסה וניהול תנועה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014732 - הנדסה וניהול תנועה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014733',
-		'course_name':'הנדסה וניהול של תנועה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014733 - הנדסה וניהול של תנועה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014779',
-		'course_name':'תכן גיאומטרי ותפעול דרכים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014779 - תכן גיאומטרי ותפעול דרכים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014814',
-		'course_name':'חשבון תאום 1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014814 - חשבון תאום 1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014829',
-		'course_name':'תחיקת המדידה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014829 - תחיקת המדידה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014841',
-		'course_name':'יסודות המיפוי והמדידה 1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014841 - יסודות המיפוי והמדידה 1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014842',
-		'course_name':'יסודות המיפוי והמדידה 2',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014842 - יסודות המיפוי והמדידה 2',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014843',
-		'course_name':'פוטוגרמטריה 1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014843 - פוטוגרמטריה 1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014846',
-		'course_name':'מסדי נתונים גיאו-מרחביים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014846 - מסדי נתונים גיאו-מרחביים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014848',
-		'course_name':'מבוא לגיאודזיה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014848 - מבוא לגיאודזיה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014851',
-		'course_name':'רשתות בקרה גיאודטיות',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014851 - רשתות בקרה גיאודטיות',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014852',
-		'course_name':'מדידות ג'.פ.ס.',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014852 - מדידות ג.פ.ס.',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014853',
-		'course_name':'מדידות הנדסיות מיוחדות',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014853 - מדידות הנדסיות מיוחדות',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014855',
-		'course_name':'עבוד תמונה לצורכי מיפוי',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014855 - עבוד תמונה לצורכי מיפוי',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014858',
-		'course_name':'פוטוגרמטריה 2',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014858 - פוטוגרמטריה 2',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014863',
-		'course_name':'מחנה מדידות 1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014863 - מחנה מדידות 1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014864',
-		'course_name':'מחנה מדידות 2',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014864 - מחנה מדידות 2',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014866',
-		'course_name':'סמינר במיפוי וגיאו-אינפורמציה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014866 - סמינר במיפוי וגיאו-אינפורמציה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014867',
-		'course_name':'פרויקט בגיאודזיה ומדידות 1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014867 - פרויקט בגיאודזיה ומדידות 1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014869',
-		'course_name':'פרויקט במיפוי ספרתי 1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014869 - פרויקט במיפוי ספרתי 1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014874',
-		'course_name':'מבוא לחישה מרחוק',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014874 - מבוא לחישה מרחוק',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014882',
-		'course_name':'ניהול מקרקעין',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014882 - ניהול מקרקעין',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014883',
-		'course_name':'מעבדה בקדסטר',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014883 - מעבדה בקדסטר',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014884',
-		'course_name':'קדסטר 1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014884 - קדסטר 1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014885',
-		'course_name':'קדסטר 2',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014885 - קדסטר 2',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014886',
-		'course_name':'מחנה מדידות קדסטרליות',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014886 - מחנה מדידות קדסטרליות',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014940',
-		'course_name':'תופעות מעבר במערכות טבעיות',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014940 - תופעות מעבר במערכות טבעיות',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014942',
-		'course_name':'הנדסה הידרולית ומאגרים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014942 - הנדסה הידרולית ומאגרים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014952',
-		'course_name':'סקר קרקעות - מערכות מידע',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014952 - סקר קרקעות - מערכות מידע',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014968',
-		'course_name':'אקולוגיה למהנדסים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014968 - אקולוגיה למהנדסים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014977',
-		'course_name':'מבוא לתהליכי זרימה וזיהום בקרקע',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014977 - מבוא לתהליכי זרימה וזיהום בקרקע',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'015017',
-		'course_name':'ציוד מערכות ושיטות בעבודות עפר',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'015017 - ציוד מערכות ושיטות בעבודות עפר',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'015904',
-		'course_name':'מבוא לאגרוביולוגיה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'015904 - מבוא לאגרוביולוגיה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016111',
-		'course_name':'בטון דרוך',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016111 - בטון דרוך',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016142',
-		'course_name':'הנדסת רעידות אדמה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016142 - הנדסת רעידות אדמה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016143',
-		'course_name':'מבני בטון 3',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016143 - מבני בטון 3',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016144',
-		'course_name':'מבוא לאלמנטים סופיים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016144 - מבוא לאלמנטים סופיים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016203',
-		'course_name':'הנדסת מערכות משאבי מים 1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016203 - הנדסת מערכות משאבי מים 1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016206',
-		'course_name':'מכניקת זורמים סביבתית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016206 - מכניקת זורמים סביבתית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016210',
-		'course_name':'גלי מים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016210 - גלי מים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016302',
-		'course_name':'זיהום אויר',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016302 - זיהום אויר',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016304',
-		'course_name':'פיסיקה מתקדמת של האטמוספירה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016304 - פיסיקה מתקדמת של האטמוספירה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016327',
-		'course_name':'פירוק ביולוגי של מזהמים אורגניים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016327 - פירוק ביולוגי של מזהמים אורגניים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016328',
-		'course_name':'הפרדה ממברנלית בטיפול בשפכים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016328 - הפרדה ממברנלית בטיפול בשפכים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016329',
-		'course_name':'הידרוביולוגיה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016329 - הידרוביולוגיה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016336',
-		'course_name':'טכנולוגיות לניהול משאבי אויר',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016336 - טכנולוגיות לניהול משאבי אויר',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016337',
-		'course_name':'אלקטרוכימיה סביבתית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016337 - אלקטרוכימיה סביבתית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016403',
-		'course_name':'מבוא למכניקת הסלע',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016403 - מבוא למכניקת הסלע',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016504',
-		'course_name':'אבטחת איכות ובקרת איכות בבנייה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016504 - אבטחת איכות ובקרת איכות בבנייה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016505',
-		'course_name':'בנייה בעץ - חומרים וטכנולוגיה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016505 - בנייה בעץ - חומרים וטכנולוגיה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016619',
-		'course_name':'תכן טפסות לבטון',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016619 - תכן טפסות לבטון',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016631',
-		'course_name':'יזמות בינלאומית בנדל\ן',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016631 - יזמות בינלאומית בנדלן',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016709',
-		'course_name':'התכנון העירוני האזורי והארצי',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016709 - התכנון העירוני האזורי והארצי',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016801',
-		'course_name':'חשבון תאום 2',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016801 - חשבון תאום 2',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016803',
-		'course_name':'מערכות מידע גיאוגרפי',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016803 - מערכות מידע גיאוגרפי',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016815',
-		'course_name':'פוטוגרמטריה ספרתית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016815 - פוטוגרמטריה ספרתית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016816',
-		'course_name':'גיאודזיה פיסיקלית 1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016816 - גיאודזיה פיסיקלית 1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016818',
-		'course_name':'היבטים בקדסטר מודרני',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016818 - היבטים בקדסטר מודרני',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016819',
-		'course_name':'מיפוי ימי מתקדם',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016819 - מיפוי ימי מתקדם',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016826',
-		'course_name':'מיפוי ומדידה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016826 - מיפוי ומדידה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016827',
-		'course_name':'מיסוי מקרקעין',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016827 - מיסוי מקרקעין',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016828',
-		'course_name':'עקרונות בהערכת שווי מקרקעין',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016828 - עקרונות בהערכת שווי מקרקעין',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016829',
-		'course_name':'סדנה בהערכת שווי מקרקעין',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016829 - סדנה בהערכת שווי מקרקעין',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016832',
-		'course_name':'ניווט ומערכות אינרציאליות',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016832 - ניווט ומערכות אינרציאליות',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016834',
-		'course_name':'סדנא בפיתוח מערכות מידע גיאוגרפי',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016834 - סדנא בפיתוח מערכות מידע גיאוגרפי',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016835',
-		'course_name':'היבטים נומריים בפתרון תצלומים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016835 - היבטים נומריים בפתרון תצלומים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'017004',
-		'course_name':'תכן מערכות בקרה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'017004 - תכן מערכות בקרה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'017008',
-		'course_name':'כימיה של הקרקעאגרוכמיקלים וזיהום',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'017008 - כימיה של הקרקעאגרוכמיקלים וזיהום',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'017022',
-		'course_name':'תהליכים ביולוגיים בהנדסת סביבתית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'017022 - תהליכים ביולוגיים בהנדסת סביבתית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'034010',
-		'course_name':'דינמיקה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034010 - דינמיקה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034011',
-		'course_name':'תורת הרטט',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034011 - תורת הרטט',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034013',
-		'course_name':'תורת הזרימה 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034013 - תורת הזרימה 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034015',
-		'course_name':'תכן מכני 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034015 - תכן מכני 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034016',
-		'course_name':'תכן מכני 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034016 - תכן מכני 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034022',
-		'course_name':'מבוא למכטרוניקה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034022 - מבוא למכטרוניקה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034028',
-		'course_name':'מכניקת מוצקים 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034028 - מכניקת מוצקים 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034029',
-		'course_name':'מכניקת מוצקים 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034029 - מכניקת מוצקים 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034030',
-		'course_name':'תהליכי יצור',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034030 - תהליכי יצור',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034032',
-		'course_name':'מערכות ליניאריות מ'',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034032 - מערכות ליניאריות מ',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034033',
-		'course_name':'אנליזה נומרית מ'',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034033 - אנליזה נומרית מ',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034034',
-		'course_name':'הנע חשמלי',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034034 - הנע חשמלי',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034035',
-		'course_name':'תרמודינמיקה 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034035 - תרמודינמיקה 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034039',
-		'course_name':'מעבדה בשיטות ניסוי',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034039 - מעבדה בשיטות ניסוי',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034040',
-		'course_name':'מבוא לבקרה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034040 - מבוא לבקרה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034041',
-		'course_name':'מעבר חום',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034041 - מעבר חום',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034042',
-		'course_name':'מבוא לשרטוט הנדסי',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034042 - מבוא לשרטוט הנדסי',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034043',
-		'course_name':'שרטוט הנדסי ממוחשב',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034043 - שרטוט הנדסי ממוחשב',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034044',
-		'course_name':'מבוא לשיטות ניסוי',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034044 - מבוא לשיטות ניסוי',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034210',
-		'course_name':'תכן טורבו-מכונות ומנועי סילון 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034210 - תכן טורבו-מכונות ומנועי סילון 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034306',
-		'course_name':'פרויקט תכן מער. הדראוליות פנאומ2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034306 - פרויקט תכן מער. הדראוליות פנאומ2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034312',
-		'course_name':'פרויקט  אדריכלות ימית 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034312 - פרויקט  אדריכלות ימית 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034320',
-		'course_name':'פרויקט מנועי בוכנה 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034320 - פרויקט מנועי בוכנה 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034326',
-		'course_name':'פרויקט מיוחד בהנדסת מכונות 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034326 - פרויקט מיוחד בהנדסת מכונות 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034338',
-		'course_name':'פרויקט תיב\ם 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034338 - פרויקט תיבם 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034339',
-		'course_name':'פרויקט ברובוטיקה 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034339 - פרויקט ברובוטיקה 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034340',
-		'course_name':'פרויקט ברובוטיקה 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034340 - פרויקט ברובוטיקה 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034350',
-		'course_name':'פרויקט במכטרוניקה 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034350 - פרויקט במכטרוניקה 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034353',
-		'course_name':'פרויקט תכן מוצר חדש 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034353 - פרויקט תכן מוצר חדש 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034355',
-		'course_name':'פרויקט מחקרי בהנדסת מכונות 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034355 - פרויקט מחקרי בהנדסת מכונות 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034356',
-		'course_name':'פרויקט מחקרי בהנדסת מכונות 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034356 - פרויקט מחקרי בהנדסת מכונות 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034362',
-		'course_name':'פרויקט בבקרה 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034362 - פרויקט בבקרה 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034364',
-		'course_name':'פרויקט במכניקה 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034364 - פרויקט במכניקה 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034371',
-		'course_name':'פרויקט תכן לייצור',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034371 - פרויקט תכן לייצור',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034376',
-		'course_name':'פרויקט בביומכניקה 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034376 - פרויקט בביומכניקה 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034378',
-		'course_name':'פר.תכן באנרגיה מתחדשת ובת קיימא 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034378 - פר.תכן באנרגיה מתחדשת ובת קיימא 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034379',
-		'course_name':'פרויקט הנדסי 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034379 - פרויקט הנדסי 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034380',
-		'course_name':'פרויקט הנדסי 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034380 - פרויקט הנדסי 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034381',
-		'course_name':'פרויקט מחקרי בהנ. מכונות 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034381 - פרויקט מחקרי בהנ. מכונות 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034401',
-		'course_name':'מעבדה מתקדמת לרובוטים',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034401 - מעבדה מתקדמת לרובוטים',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034404',
-		'course_name':'מעבדה מתקדמת בתיב\ם',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034404 - מעבדה מתקדמת בתיבם',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034406',
-		'course_name':'מעבדה מתקדמת לבקרה ואוטומציה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034406 - מעבדה מתקדמת לבקרה ואוטומציה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034410',
-		'course_name':'מעבדה מתקדמת לאנרגיה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034410 - מעבדה מתקדמת לאנרגיה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034413',
-		'course_name':'מעבדה לתכן וייצור',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034413 - מעבדה לתכן וייצור',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035001',
-		'course_name':'מבוא לרובוטיקה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035001 - מבוא לרובוטיקה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035003',
-		'course_name':'מערכות תיב\מ 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035003 - מערכות תיבמ 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035008',
-		'course_name':'אוטומציה תעשייתית',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035008 - אוטומציה תעשייתית',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035017',
-		'course_name':'מערכת רכב 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035017 - מערכת רכב 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035023',
-		'course_name':'קרור ונהול תרמי של רכיבים אלקטרו.',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035023 - קרור ונהול תרמי של רכיבים אלקטרו.',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035024',
-		'course_name':'טריבולוגיה שימושית',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035024 - טריבולוגיה שימושית',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035026',
-		'course_name':'מבוא יצירתי להנדסת מכונות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035026 - מבוא יצירתי להנדסת מכונות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035035',
-		'course_name':'תורת הזרימה 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035035 - תורת הזרימה 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035036',
-		'course_name':'תכן מערכות בקרה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035036 - תכן מערכות בקרה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035039',
-		'course_name':'עבוד אותות לדיאגנוסטיקה ותנודות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035039 - עבוד אותות לדיאגנוסטיקה ותנודות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035041',
-		'course_name':'מכניקת מיקרומערכות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035041 - מכניקת מיקרומערכות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035043',
-		'course_name':'מבוא לתורת האלסטיות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035043 - מבוא לתורת האלסטיות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035044',
-		'course_name':'הידרוסטטיקה של אוניות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035044 - הידרוסטטיקה של אוניות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035045',
-		'course_name':'קריאוגניקה# מקררים וניזול גזים',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035045 - קריאוגניקה# מקררים וניזול גזים',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035048',
-		'course_name':'תכן משולב באנליזה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035048 - תכן משולב באנליזה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035049',
-		'course_name':'עקרונות מערכות הנעת כלי שייט',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035049 - עקרונות מערכות הנעת כלי שייט',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035050',
-		'course_name':'תכנון מערכות אופטיות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035050 - תכנון מערכות אופטיות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035053',
-		'course_name':'אנרגיה מתחדשת ובת קיימא',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035053 - אנרגיה מתחדשת ובת קיימא',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035123',
-		'course_name':'מבוא למערכות ייצור 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035123 - מבוא למערכות ייצור 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035124',
-		'course_name':'אנליזת תהליכי עבוד',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035124 - אנליזת תהליכי עבוד',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035146',
-		'course_name':'מנועי שריפה פנימית',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035146 - מנועי שריפה פנימית',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035188',
-		'course_name':'תורת הבקרה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035188 - תורת הבקרה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036001',
-		'course_name':'שיטות אנליטיות בהנדסת מכונות 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036001 - שיטות אנליטיות בהנדסת מכונות 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036002',
-		'course_name':'שיטות אנליטיות בהנדסת מכונות 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036002 - שיטות אנליטיות בהנדסת מכונות 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036005',
-		'course_name':'דינמיקה אנליטית 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036005 - דינמיקה אנליטית 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036006',
-		'course_name':'גלי מאמצים במוצקים',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036006 - גלי מאמצים במוצקים',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036008',
-		'course_name':'זרימה דחיסה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036008 - זרימה דחיסה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036015',
-		'course_name':'שיטות אלמנטים סופיים בהנדסה 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036015 - שיטות אלמנטים סופיים בהנדסה 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036020',
-		'course_name':'גאומטריה חישובית ומודלים לתיב\ם 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036020 - גאומטריה חישובית ומודלים לתיבם 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036031',
-		'course_name':'טריבולוגיה עיונית',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036031 - טריבולוגיה עיונית',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036032',
-		'course_name':'מכניקת זורמים אנליטית',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036032 - מכניקת זורמים אנליטית',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036041',
-		'course_name':'תכן הנדסי מתקדם 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036041 - תכן הנדסי מתקדם 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036045',
-		'course_name':'גיאומטריה חישובית ומודלים בתיבם 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036045 - גיאומטריה חישובית ומודלים בתיבם 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036049',
-		'course_name':'רשתות עצביות לבקרה ודיאגנוסטיקה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036049 - רשתות עצביות לבקרה ודיאגנוסטיקה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036053',
-		'course_name':'אמינות ובדיקות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036053 - אמינות ובדיקות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036055',
-		'course_name':'אופטיקה לינארית ויישומים  2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036055 - אופטיקה לינארית ויישומים  2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036057',
-		'course_name':'שטות פער-ידע להערכת סיכון ואמינות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036057 - שטות פער-ידע להערכת סיכון ואמינות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036062',
-		'course_name':'מכניקת מגע',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036062 - מכניקת מגע',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036070',
-		'course_name':'ננואופטיקה ומבני' אופט' מחזוריים',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036070 - ננואופטיקה ומבני אופט מחזוריים',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036071',
-		'course_name':'ביומכניקה של תאים ומולקולות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036071 - ביומכניקה של תאים ומולקולות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036073',
-		'course_name':'נושאים מתקדמים בהנדסת מכונות 8',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036073 - נושאים מתקדמים בהנדסת מכונות 8',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036075',
-		'course_name':'נושאים מתקדמים בהנדסת מכונות 9',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036075 - נושאים מתקדמים בהנדסת מכונות 9',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036080',
-		'course_name':'מערכות הנעת רכב מתקדמות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036080 - מערכות הנעת רכב מתקדמות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036081',
-		'course_name':'עקרונות תכן ויצור מיקרו-מערכות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036081 - עקרונות תכן ויצור מיקרו-מערכות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036093',
-		'course_name':'מכניקה של חומרים מרוכבים 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036093 - מכניקה של חומרים מרוכבים 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'044000',
-		'course_name':'פרויקט מחקרי לסטודנטים מצטיינים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044000 - פרויקט מחקרי לסטודנטים מצטיינים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044098',
-		'course_name':'מבוא להנדסת חשמל לתעופה וחלל',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044098 - מבוא להנדסת חשמל לתעופה וחלל',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044099',
-		'course_name':'מעבדה בהנדסת חשמל',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044099 - מעבדה בהנדסת חשמל',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044101',
-		'course_name':'מבוא למערכות תכנה',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044101 - מבוא למערכות תכנה',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044102',
-		'course_name':'בטיחות במעבדות חשמל',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044102 - בטיחות במעבדות חשמל',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044105',
-		'course_name':'תורת המעגלים החשמליים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044105 - תורת המעגלים החשמליים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044109',
-		'course_name':'מבוא להנדסת חשמל',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044109 - מבוא להנדסת חשמל',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044114',
-		'course_name':'מתמטיקה דיסקרטית ח'',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044114 - מתמטיקה דיסקרטית ח',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044125',
-		'course_name':'יסודות התקני מוליכים למחצה מ'',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044125 - יסודות התקני מוליכים למחצה מ',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044127',
-		'course_name':'יסודות התקני מוליכים למחצה',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044127 - יסודות התקני מוליכים למחצה',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044130',
-		'course_name':'אותות ומערכות',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044130 - אותות ומערכות',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044140',
-		'course_name':'שדות אלקטרומגנטיים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044140 - שדות אלקטרומגנטיים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044142',
-		'course_name':'מעגלים אלקטרוניים לינאריים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044142 - מעגלים אלקטרוניים לינאריים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044145',
-		'course_name':'מערכות ספרתיות',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044145 - מערכות ספרתיות',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044147',
-		'course_name':'מעגלי מיתוג אלקטרוניים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044147 - מעגלי מיתוג אלקטרוניים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044148',
-		'course_name':'גלים ומערכות מפולגות',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044148 - גלים ומערכות מפולגות',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044151',
-		'course_name':'מעבדה להנדסת חשמל 1ח'',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044151 - מעבדה להנדסת חשמל 1ח',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044160',
-		'course_name':'מעבדה בהנדסת חשמל 1',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044160 - מעבדה בהנדסת חשמל 1',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044162',
-		'course_name':'מעבדה בהנדסת חשמל 2',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044162 - מעבדה בהנדסת חשמל 2',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044164',
-		'course_name':'מעבדה בהנדסת חשמל 3',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044164 - מעבדה בהנדסת חשמל 3',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044165',
-		'course_name':'מעבדה בהנדסת חשמל 2',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044165 - מעבדה בהנדסת חשמל 2',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044166',
-		'course_name':'מעבדה בהנדסת חשמל 3',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044166 - מעבדה בהנדסת חשמל 3',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044167',
-		'course_name':'פרוייקט א'',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044167 - פרוייקט א',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044169',
-		'course_name':'פרויקט  ב',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044169 - פרויקט  ב',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044170',
-		'course_name':'פרויקט  מיוחד',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044170 - פרויקט  מיוחד',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044173',
-		'course_name':'פרויקט בתעשיה',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044173 - פרויקט בתעשיה',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044180',
-		'course_name':'נושא אישי למצטיינים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044180 - נושא אישי למצטיינים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044184',
-		'course_name':'נושאים מתקדמים למצטיינים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044184 - נושאים מתקדמים למצטיינים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044185',
-		'course_name':'נושא מיוחד למצטיינים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044185 - נושא מיוחד למצטיינים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044191',
-		'course_name':'מערכות בקרה 1',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044191 - מערכות בקרה 1',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044192',
-		'course_name':'מערכות בקרה 2',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044192 - מערכות בקרה 2',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044193',
-		'course_name':'מעבדה לבקרה לינארית',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044193 - מעבדה לבקרה לינארית',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044198',
-		'course_name':'מבוא לעבוד ספרתי של אותות',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044198 - מבוא לעבוד ספרתי של אותות',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044202',
-		'course_name':'אותות אקראיים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044202 - אותות אקראיים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044214',
-		'course_name':'טכניקות קליטה ושידור',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044214 - טכניקות קליטה ושידור',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044231',
-		'course_name':'התקנים אלקטרוניים 1',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044231 - התקנים אלקטרוניים 1',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044239',
-		'course_name':'תהליכים במיקרואלקטרוניקה',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044239 - תהליכים במיקרואלקטרוניקה',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044262',
-		'course_name':'תכן לוגי ומבוא למחשבים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044262 - תכן לוגי ומבוא למחשבים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044268',
-		'course_name':'מבוא למבני נתונים ואלגוריתמים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044268 - מבוא למבני נתונים ואלגוריתמים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044334',
-		'course_name':'רשתות מחשבים ואינטרנט 1',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044334 - רשתות מחשבים ואינטרנט 1',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044339',
-		'course_name':'אלקטרואופטיקה 1',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044339 - אלקטרואופטיקה 1',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'045001',
-		'course_name':'פרויקט מבוא בהנדסת חשמל',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'045001 - פרויקט מבוא בהנדסת חשמל',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046005',
-		'course_name':'רשתות מחשבים ואינטרנט 2',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046005 - רשתות מחשבים ואינטרנט 2',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046012',
-		'course_name':'מבוא לרכיבים וחומרים אורגניים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046012 - מבוא לרכיבים וחומרים אורגניים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046042',
-		'course_name':'מבוא למערכות הספק ורשת חכמה',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046042 - מבוא למערכות הספק ורשת חכמה',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046052',
-		'course_name':'אופטו-אלקטרוניקה קוואנטית',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046052 - אופטו-אלקטרוניקה קוואנטית',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046129',
-		'course_name':'פיסיקה של מצב מוצק ח'',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046129 - פיסיקה של מצב מוצק ח',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046187',
-		'course_name':'תכן מעגלים אנלוגיים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046187 - תכן מעגלים אנלוגיים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046193',
-		'course_name':'עיבוד וניתוח מידע',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046193 - עיבוד וניתוח מידע',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046195',
-		'course_name':'מערכות לומדות',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046195 - מערכות לומדות',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046200',
-		'course_name':'עבוד ונתוח תמונות',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046200 - עבוד ונתוח תמונות',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046204',
-		'course_name':'תקשורת אנלוגית',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046204 - תקשורת אנלוגית',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046205',
-		'course_name':'מבוא לתורת הקידוד בתקשורת',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046205 - מבוא לתורת הקידוד בתקשורת',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046206',
-		'course_name':'מבוא לתקשורת ספרתית',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046206 - מבוא לתקשורת ספרתית',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046209',
-		'course_name':'מבנה מערכות הפעלה',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046209 - מבנה מערכות הפעלה',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046210',
-		'course_name':'מעבדה במערכות הפעלה',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046210 - מעבדה במערכות הפעלה',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046225',
-		'course_name':'עקרונות פיזיקליים של התקני מל\מ',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046225 - עקרונות פיזיקליים של התקני מלמ',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046237',
-		'course_name':'מעגלים משולבים - מבוא ל-וי.ל.ס.י.',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046237 - מעגלים משולבים - מבוא ל-וי.ל.ס.י.',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046249',
-		'course_name':'מערכות אלקטרו-אופטיות',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046249 - מערכות אלקטרו-אופטיות',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046265',
-		'course_name':'ארכיטקטורות מתקדמות ומעגלים בשילו',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046265 - ארכיטקטורות מתקדמות ומעגלים בשילו',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046266',
-		'course_name':'שיטות הידור (קומפילציה)',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046266 - שיטות הידור (קומפילציה)',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046267',
-		'course_name':'מבנה מחשבים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046267 - מבנה מחשבים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046268',
-		'course_name':'הנדסת מעבדי מחשב',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046268 - הנדסת מעבדי מחשב',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046271',
-		'course_name':'תכנות ותכן מונחה עצמים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046271 - תכנות ותכן מונחה עצמים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046272',
-		'course_name':'מערכות מבוזרות# עקרונות',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046272 - מערכות מבוזרות# עקרונות',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046326',
-		'course_name':'מבוא לאותות ומערכות ביולוגיים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046326 - מבוא לאותות ומערכות ביולוגיים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046332',
-		'course_name':'מערכות ראיה ושמיעה',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046332 - מערכות ראיה ושמיעה',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046342',
-		'course_name':'מבוא לתקשורת בסיבים אופטיים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046342 - מבוא לתקשורת בסיבים אופטיים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046733',
-		'course_name':'תורת האינפורמציה',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046733 - תורת האינפורמציה',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046745',
-		'course_name':'עבוד ספרתי של אותות',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046745 - עבוד ספרתי של אותות',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046773',
-		'course_name':'התקני מל\מ אלקטרואופטיים לגלוי',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046773 - התקני מלמ אלקטרואופטיים לגלוי',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046853',
-		'course_name':'ארכיטקטורות מתקדמות',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046853 - ארכיטקטורות מתקדמות',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046868',
-		'course_name':'יסודות תהליכים אקראיים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046868 - יסודות תהליכים אקראיים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046880',
-		'course_name':'תכן לוגי של מער. וי.אל.אס.אי',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046880 - תכן לוגי של מער. וי.אל.אס.אי',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046903',
-		'course_name':'מעגלים משולבים בתדר רדיו',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046903 - מעגלים משולבים בתדר רדיו',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'047004',
-		'course_name':'נושאים מתקדמים 5',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'047004 - נושאים מתקדמים 5',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'054133',
-		'course_name':'מבט על הנדסה כימית וביוכימית',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054133 - מבט על הנדסה כימית וביוכימית',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054135',
-		'course_name':'מבוא להנדסה כימית וביוכימית',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054135 - מבוא להנדסה כימית וביוכימית',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054136',
-		'course_name':'תהליכי הפרדה 1 בה.כימית וביוכימית',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054136 - תהליכי הפרדה 1 בה.כימית וביוכימית',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054251',
-		'course_name':'עבודה בתעשיה  1',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054251 - עבודה בתעשיה  1',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054306',
-		'course_name':'עקרונות הנדסה כימית 2 מ'',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054306 - עקרונות הנדסה כימית 2 מ',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054314',
-		'course_name':'מבוא לדינמיקה ובקרת תהליכים מ'',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054314 - מבוא לדינמיקה ובקרת תהליכים מ',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054315',
-		'course_name':'תרמודינמיקה ב'',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054315 - תרמודינמיקה ב',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054350',
-		'course_name':'פולימרים 1',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054350 - פולימרים 1',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054351',
-		'course_name':'פולימרים 2',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054351 - פולימרים 2',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054354',
-		'course_name':'תהליכים נבחרים בתעשיה הכימית',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054354 - תהליכים נבחרים בתעשיה הכימית',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054364',
-		'course_name':'עבודה בתעשיה 2',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054364 - עבודה בתעשיה 2',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054367',
-		'course_name':'פרויקט מחקר 1',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054367 - פרויקט מחקר 1',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054368',
-		'course_name':'פרויקט מחקר 2',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054368 - פרויקט מחקר 2',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054400',
-		'course_name':'מעבדה   להנדסה כימית 2',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054400 - מעבדה   להנדסה כימית 2',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054406',
-		'course_name':'מחקר גמר 1',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054406 - מחקר גמר 1',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054408',
-		'course_name':'מב.לתכן ריאקטורים כימיים וביוכימ.',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054408 - מב.לתכן ריאקטורים כימיים וביוכימ.',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054412',
-		'course_name':'הנדסה ביוכימית',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054412 - הנדסה ביוכימית',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054416',
-		'course_name':'תכון אינטגרטיבי של תהליכים כימיים',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054416 - תכון אינטגרטיבי של תהליכים כימיים',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054420',
-		'course_name':'מעבדה להנדסה כימית 2 בכ'',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054420 - מעבדה להנדסה כימית 2 בכ',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054452',
-		'course_name':'בעיות סביבתיות-זיהום אויר',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054452 - בעיות סביבתיות-זיהום אויר',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054476',
-		'course_name':'מידול מולקולרי בהנדסה כימית',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054476 - מידול מולקולרי בהנדסה כימית',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'056142',
-		'course_name':'תהליכי הפרדה וטיהור ע\י ממברנות',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'056142 - תהליכי הפרדה וטיהור עי ממברנות',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'056146',
-		'course_name':'נושאים הנדסיים נבחרים',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'056146 - נושאים הנדסיים נבחרים',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'056394',
-		'course_name':'תבניות ריח# מבוא ויישומים',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'056394 - תבניות ריח# מבוא ויישומים',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'056396',
-		'course_name':'מערכות חלקיקים בנוזל',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'056396 - מערכות חלקיקים בנוזל',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'056397',
-		'course_name':'ממברנות עקרונות וחומרים',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'056397 - ממברנות עקרונות וחומרים',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'056399',
-		'course_name':'הנדסת אנרגיה וסביבה',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'056399 - הנדסת אנרגיה וסביבה',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'056400',
-		'course_name':'בטיחות תהליכית בהנדסה כימית',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'056400 - בטיחות תהליכית בהנדסה כימית',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'064001',
-		'course_name':'עבודת גמר  1',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064001 - עבודת גמר  1',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064002',
-		'course_name':'עבודת גמר 2',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064002 - עבודת גמר 2',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064003',
-		'course_name':'עבודה מעשית בתעשית מזון',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064003 - עבודה מעשית בתעשית מזון',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064005',
-		'course_name':'פרויקט מיוחד',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064005 - פרויקט מיוחד',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064106',
-		'course_name':'תרמודינמיקה בהנ.ביוטכנולוג.ומזון',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064106 - תרמודינמיקה בהנ.ביוטכנולוג.ומזון',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064117',
-		'course_name':'תופעות מעבר חום',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064117 - תופעות מעבר חום',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064210',
-		'course_name':'פרקים נבחרים בטכנולוגיה של מזון א',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064210 - פרקים נבחרים בטכנולוגיה של מזון א',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064212',
-		'course_name':'טכנולוגיה של מזון',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064212 - טכנולוגיה של מזון',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064239',
-		'course_name':'מע.בהנ. תהליכים וחומרים ביולוגיים',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064239 - מע.בהנ. תהליכים וחומרים ביולוגיים',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064324',
-		'course_name':'אנליזה של מזון',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064324 - אנליזה של מזון',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064326',
-		'course_name':'מע.באנליזה#מזון וחומרים ביולוגיים',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064326 - מע.באנליזה#מזון וחומרים ביולוגיים',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064405',
-		'course_name':'מיקרוביולוגיה של מזון',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064405 - מיקרוביולוגיה של מזון',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064507',
-		'course_name':'ביוטכנולוגיה מולקולרית',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064507 - ביוטכנולוגיה מולקולרית',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064509',
-		'course_name':'תהליכי יסוד בביוטכנולוגיה',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064509 - תהליכי יסוד בביוטכנולוגיה',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064522',
-		'course_name':'מבוא להנ. ביוטכנולוגיה ומזון',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064522 - מבוא להנ. ביוטכנולוגיה ומזון',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064523',
-		'course_name':'מבוא לביוטכנולוגיה מולקולרית',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064523 - מבוא לביוטכנולוגיה מולקולרית',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064603',
-		'course_name':'תזונה',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064603 - תזונה',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066217',
-		'course_name':'אריזת מזון תרופות ומוצרים ביולוג',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066217 - אריזת מזון תרופות ומוצרים ביולוג',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066243',
-		'course_name':'אבקות - מדע וטכנולוגיה',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066243 - אבקות - מדע וטכנולוגיה',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066247',
-		'course_name':'חומרים מתקדמים לביוטכ' ומזון',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066247 - חומרים מתקדמים לביוטכ ומזון',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066329',
-		'course_name':'אמולסיות במזון ובביוטכנולוגיה',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066329 - אמולסיות במזון ובביוטכנולוגיה',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066521',
-		'course_name':'הנדסת רקמות',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066521 - הנדסת רקמות',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066525',
-		'course_name':'יזמות בביוטכנולוגיה',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066525 - יזמות בביוטכנולוגיה',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066526',
-		'course_name':'ביולוגיה סינתטית',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066526 - ביולוגיה סינתטית',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066613',
-		'course_name':'מזון פונקציונלי ונוטרסיאוטיקלים',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066613 - מזון פונקציונלי ונוטרסיאוטיקלים',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'084142',
-		'course_name':'הנדסת מערכות אויר-חלל',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084142 - הנדסת מערכות אויר-חלל',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084154',
-		'course_name':'שיטות ניסוי בהנדסה אוירונוטית',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084154 - שיטות ניסוי בהנדסה אוירונוטית',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084156',
-		'course_name':'שיטות ניסוי מתקדמות בה.אויר וחלל',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084156 - שיטות ניסוי מתקדמות בה.אויר וחלל',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084220',
-		'course_name':'מכניקת הטיס 1',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084220 - מכניקת הטיס 1',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084225',
-		'course_name':'דינמיקה',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084225 - דינמיקה',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084311',
-		'course_name':'אוירודינמיקה בלתי דחיסה',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084311 - אוירודינמיקה בלתי דחיסה',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084312',
-		'course_name':'זרימה דחיסה כונסים ונחירים',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084312 - זרימה דחיסה כונסים ונחירים',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084314',
-		'course_name':'זרימה צמיגה ומעבר חום',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084314 - זרימה צמיגה ומעבר חום',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084402',
-		'course_name':'הנעה רקטית',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084402 - הנעה רקטית',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084512',
-		'course_name':'אנליזה ויישומי מחשב במבנים אוירו.',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084512 - אנליזה ויישומי מחשב במבנים אוירו.',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084513',
-		'course_name':'יסודות המבנה האוירונוטי',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084513 - יסודות המבנה האוירונוטי',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084640',
-		'course_name':'תכן הנ. וייצור של מערכות תעופתיות',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084640 - תכן הנ. וייצור של מערכות תעופתיות',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084653',
-		'course_name':'פרויקט תכן 53',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084653 - פרויקט תכן 53',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084654',
-		'course_name':'פרויקט תכן 54',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084654 - פרויקט תכן 54',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084661',
-		'course_name':'פרויקט תכן 61',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084661 - פרויקט תכן 61',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084662',
-		'course_name':'פרויקט תכן 62',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084662 - פרויקט תכן 62',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084663',
-		'course_name':'פרויקט תכן 63',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084663 - פרויקט תכן 63',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084664',
-		'course_name':'פרויקט תכן 64',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084664 - פרויקט תכן 64',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084665',
-		'course_name':'פרויקט תכן 65',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084665 - פרויקט תכן 65',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084666',
-		'course_name':'פרויקט תכן 66',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084666 - פרויקט תכן 66',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084667',
-		'course_name':'פרויקט תכן 67',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084667 - פרויקט תכן 67',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084668',
-		'course_name':'פרויקט תכן 68',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084668 - פרויקט תכן 68',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084669',
-		'course_name':'פרויקט תכן 69',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084669 - פרויקט תכן 69',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084738',
-		'course_name':'תורת הבקרה',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084738 - תורת הבקרה',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085101',
-		'course_name':'תעופה ספורטיבית 1',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085101 - תעופה ספורטיבית 1',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085103',
-		'course_name':'תעופה ספורטיבית 3',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085103 - תעופה ספורטיבית 3',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085104',
-		'course_name':'תעופה ספורטיבית 4',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085104 - תעופה ספורטיבית 4',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085135',
-		'course_name':'אנליזה נומרית להנדסה אוירונוטית מ',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085135 - אנליזה נומרית להנדסה אוירונוטית מ',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085156',
-		'course_name':'פרויקט ניסוי',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085156 - פרויקט ניסוי',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085201',
-		'course_name':'מבוא להנדסת אוירונוטיקה וחלל',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085201 - מבוא להנדסת אוירונוטיקה וחלל',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085220',
-		'course_name':'מעבדה במכניקת הטיס',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085220 - מעבדה במכניקת הטיס',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085305',
-		'course_name':'מעבדה באוירודינמיקה',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085305 - מעבדה באוירודינמיקה',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085405',
-		'course_name':'מעבדה בהנעה ושריפה',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085405 - מעבדה בהנעה ושריפה',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085505',
-		'course_name':'מעבדה במבנים אוירונוטיים',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085505 - מעבדה במבנים אוירונוטיים',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085677',
-		'course_name':'פרויקט בייצור ואחזקת כלי טיס 1',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085677 - פרויקט בייצור ואחזקת כלי טיס 1',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085678',
-		'course_name':'פרויקט בייצור ואחזקת כלי טיס 2',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085678 - פרויקט בייצור ואחזקת כלי טיס 2',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085681',
-		'course_name':'פרויקט תכן מיוחד 1',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085681 - פרויקט תכן מיוחד 1',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085691',
-		'course_name':'מבוא לתכן מכני של לווין',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085691 - מבוא לתכן מכני של לווין',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085695',
-		'course_name':'תכן ראשוני של מטוסים',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085695 - תכן ראשוני של מטוסים',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085705',
-		'course_name':'מעבדה בבקרה',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085705 - מעבדה בבקרה',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085851',
-		'course_name':'פרויקט מחקר 1',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085851 - פרויקט מחקר 1',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086222',
-		'course_name':'ניתוח מערכות משובצות מחשב ותוכנתן',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086222 - ניתוח מערכות משובצות מחשב ותוכנתן',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086287',
-		'course_name':'מכניקת גופים בחלל',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086287 - מכניקת גופים בחלל',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086289',
-		'course_name':'בקרת מערכות רבות קלט ופלט',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086289 - בקרת מערכות רבות קלט ופלט',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086320',
-		'course_name':'מעבר חום בהנדסת אוירונוטיקה וחלל',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086320 - מעבר חום בהנדסת אוירונוטיקה וחלל',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086321',
-		'course_name':'נושאים נבחרים בתורת הזרימה 1',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086321 - נושאים נבחרים בתורת הזרימה 1',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086376',
-		'course_name':'אוירודינמיקה חישובית',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086376 - אוירודינמיקה חישובית',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086380',
-		'course_name':'מבוא לשכבות גבול',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086380 - מבוא לשכבות גבול',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086389',
-		'course_name':'אוירודינמיקה של גופים וכנפיים',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086389 - אוירודינמיקה של גופים וכנפיים',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086401',
-		'course_name':'מער. הנעה לכלי טייס המונעים במדחף',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086401 - מער. הנעה לכלי טייס המונעים במדחף',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086414',
-		'course_name':'מנועי מגח סילון',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086414 - מנועי מגח סילון',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086462',
-		'course_name':'נושאים נבחרים באמצעי הנעה 2',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086462 - נושאים נבחרים באמצעי הנעה 2',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086480',
-		'course_name':'יסוד. אוירו-תרמים של טורבו-מכונות',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086480 - יסוד. אוירו-תרמים של טורבו-מכונות',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086484',
-		'course_name':'שיטות מדידה מתקדמות בזרימה והנעה',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086484 - שיטות מדידה מתקדמות בזרימה והנעה',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086521',
-		'course_name':'נושאים נבחרים במבנים אוירו-חלל 1',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086521 - נושאים נבחרים במבנים אוירו-חלל 1',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086733',
-		'course_name':'תהליכים אקראיים במערכות אויר-חלל',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086733 - תהליכים אקראיים במערכות אויר-חלל',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086755',
-		'course_name':'דינמיקה ובקרה אוטומט של כלי טייס',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086755 - דינמיקה ובקרה אוטומט של כלי טייס',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086761',
-		'course_name':'ניווט נעזר ראיה ממוחשבת',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086761 - ניווט נעזר ראיה ממוחשבת',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086821',
-		'course_name':'נושאים נבחרים בהנדסת אויר-חלל 1',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086821 - נושאים נבחרים בהנדסת אויר-חלל 1',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086901',
-		'course_name':'מבוא למערכות מבנים \נבונים\',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086901 - מבוא למערכות מבנים נבונים',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086920',
-		'course_name':'הנעה חשמלית בחלל',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086920 - הנעה חשמלית בחלל',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086924',
-		'course_name':'יסודות הנדסת פלסמת אוירו-חלל',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086924 - יסודות הנדסת פלסמת אוירו-חלל',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086925',
-		'course_name':'חישה של כדה\א מהחלל',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086925 - חישה של כדהא מהחלל',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'087541',
-		'course_name':'נושאים נבחרים בהנדסת אויר-חלל_1',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'087541 - נושאים נבחרים בהנדסת אויר-חלל_1',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'094101',
-		'course_name':'מבוא להנדסת תעשיה וניהול',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094101 - מבוא להנדסת תעשיה וניהול',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094139',
-		'course_name':'נהול שרשראות אספקה ומע' לוגיסטיות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094139 - נהול שרשראות אספקה ומע לוגיסטיות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094141',
-		'course_name':'תכן המוצר ומערכות ייצור ושירות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094141 - תכן המוצר ומערכות ייצור ושירות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094142',
-		'course_name':'תפעול מער' ייצור ושרות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094142 - תפעול מער ייצור ושרות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094189',
-		'course_name':'קדם פרויקט תכן',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094189 - קדם פרויקט תכן',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094195',
-		'course_name':'פרויקט תכן 1',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094195 - פרויקט תכן 1',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094197',
-		'course_name':'פרויקט מחקר סמסטריאלי',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094197 - פרויקט מחקר סמסטריאלי',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094198',
-		'course_name':'אירועים בהנדסת תעשיה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094198 - אירועים בהנדסת תעשיה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094219',
-		'course_name':'הנדסת תוכנה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094219 - הנדסת תוכנה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094222',
-		'course_name':'אפיון וניתוח מערכות מידע',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094222 - אפיון וניתוח מערכות מידע',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094224',
-		'course_name':'מבני נתונים ואלגוריתמים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094224 - מבני נתונים ואלגוריתמים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094241',
-		'course_name':'ניהול מסדי נתונים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094241 - ניהול מסדי נתונים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094313',
-		'course_name':'מודלים דטרמיניסטים בחקר ביצועים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094313 - מודלים דטרמיניסטים בחקר ביצועים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094314',
-		'course_name':'מודלים סטוכסטיים בחקר בצועים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094314 - מודלים סטוכסטיים בחקר בצועים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094323',
-		'course_name':'מודלים דינמיים בחקר ביצועים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094323 - מודלים דינמיים בחקר ביצועים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094334',
-		'course_name':'סימולציה ספרתית',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094334 - סימולציה ספרתית',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094345',
-		'course_name':'מתמטיקה דיסקרטית ת'',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094345 - מתמטיקה דיסקרטית ת',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094411',
-		'course_name':'הסתברות ת'',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094411 - הסתברות ת',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094412',
-		'course_name':'הסתברות מ',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094412 - הסתברות מ',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094423',
-		'course_name':'מבוא לסטטיסטיקה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094423 - מבוא לסטטיסטיקה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094481',
-		'course_name':'מבוא להסתברות וסטטיסטיקה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094481 - מבוא להסתברות וסטטיסטיקה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094504',
-		'course_name':'מיקרו כלכלה 2',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094504 - מיקרו כלכלה 2',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094506',
-		'course_name':'מבנה שווקים וארגון תעשייתי',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094506 - מבנה שווקים וארגון תעשייתי',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094513',
-		'course_name':'מאקרו כלכלה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094513 - מאקרו כלכלה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094520',
-		'course_name':'סדנא בעסקים קטנים ובינוניים 1',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094520 - סדנא בעסקים קטנים ובינוניים 1',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094564',
-		'course_name':'מבוא לניהול פיננסי',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094564 - מבוא לניהול פיננסי',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094591',
-		'course_name':'מבוא לכלכלה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094591 - מבוא לכלכלה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094594',
-		'course_name':'עקרונות הכלכלה למהנדסים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094594 - עקרונות הכלכלה למהנדסים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094814',
-		'course_name':'היבטים משפטיים ופיננסים ביזמות טכ',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094814 - היבטים משפטיים ופיננסים ביזמות טכ',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094821',
-		'course_name':'חשבונאות פיננסית וניהולית',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094821 - חשבונאות פיננסית וניהולית',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094822',
-		'course_name':'חשבונאות ניהולית מתקדמת',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094822 - חשבונאות ניהולית מתקדמת',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094851',
-		'course_name':'משחק מנהלים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094851 - משחק מנהלים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'095112',
-		'course_name':'מדידת ביצועים ושיפור שיטות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'095112 - מדידת ביצועים ושיפור שיטות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'095113',
-		'course_name':'איכות פריון ותחזוקה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'095113 - איכות פריון ותחזוקה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'095140',
-		'course_name':'תכנון פרויקטים וניהולם',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'095140 - תכנון פרויקטים וניהולם',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'095142',
-		'course_name':'מבוא לניהול פרויקטים ר'',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'095142 - מבוא לניהול פרויקטים ר',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'095605',
-		'course_name':'מבוא לפסיכולוגיה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'095605 - מבוא לפסיכולוגיה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096120',
-		'course_name':'הנדסת איכות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096120 - הנדסת איכות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096124',
-		'course_name':'תיכון לייצוריות ולהרכבה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096124 - תיכון לייצוריות ולהרכבה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096125',
-		'course_name':'אבטחת איכות יישומית',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096125 - אבטחת איכות יישומית',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096210',
-		'course_name':'יסודות בינה מלאכותית וישומיה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096210 - יסודות בינה מלאכותית וישומיה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096211',
-		'course_name':'מודלים למסחר אלקטרוני',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096211 - מודלים למסחר אלקטרוני',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096220',
-		'course_name':'מערכות עיבוד מאורעות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096220 - מערכות עיבוד מאורעות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096226',
-		'course_name':'חישובתורת המשחקים וכלכלה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096226 - חישובתורת המשחקים וכלכלה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096240',
-		'course_name':'תכן מערכות זמן אמת',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096240 - תכן מערכות זמן אמת',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096255',
-		'course_name':'פיתוח מערכות מבוססות מארג',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096255 - פיתוח מערכות מבוססות מארג',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096260',
-		'course_name':'נושאים מתקדמים במערכות מידע',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096260 - נושאים מתקדמים במערכות מידע',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096262',
-		'course_name':'אחזור מידע',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096262 - אחזור מידע',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096266',
-		'course_name':'חווית משתמש במער. אינטראקטיביו',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096266 - חווית משתמש במער. אינטראקטיביו',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096310',
-		'course_name':'תהליכים אקראיים ושימושיהם',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096310 - תהליכים אקראיים ושימושיהם',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096326',
-		'course_name':'אלגוריתמים בתזמון',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096326 - אלגוריתמים בתזמון',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096327',
-		'course_name':'מודלים לא לינאריים בחקר ביצועים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096327 - מודלים לא לינאריים בחקר ביצועים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096350',
-		'course_name':'קירובים באופטימיזציה קומבינטורית',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096350 - קירובים באופטימיזציה קומבינטורית',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096401',
-		'course_name':'נושאים נבחרים בסטטיסטיקה והסתברות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096401 - נושאים נבחרים בסטטיסטיקה והסתברות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096414',
-		'course_name':'סטטיסטיקה תעשייתית',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096414 - סטטיסטיקה תעשייתית',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096501',
-		'course_name':'כלכלה למהנדסי מערכות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096501 - כלכלה למהנדסי מערכות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096502',
-		'course_name':'מימון חברות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096502 - מימון חברות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096531',
-		'course_name':'שיטות מתמטיות בכלכלה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096531 - שיטות מתמטיות בכלכלה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096537',
-		'course_name':'כלכלת מגזר השירות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096537 - כלכלת מגזר השירות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096540',
-		'course_name':'תיאוריה מיקרו-כלכלית 3',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096540 - תיאוריה מיקרו-כלכלית 3',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096553',
-		'course_name':'כלכלת סביבה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096553 - כלכלת סביבה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096556',
-		'course_name':'שוקי אופציות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096556 - שוקי אופציות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096572',
-		'course_name':'נושאים מתקדמים בתורת המשחקים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096572 - נושאים מתקדמים בתורת המשחקים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096573',
-		'course_name':'תורת המכרזים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096573 - תורת המכרזים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096575',
-		'course_name':'משחקים לא-שיתופיים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096575 - משחקים לא-שיתופיים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096580',
-		'course_name':'נושאים נבחרים בהנדסה פיננסית',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096580 - נושאים נבחרים בהנדסה פיננסית',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096581',
-		'course_name':'נושאים נבחרים בכלכלה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096581 - נושאים נבחרים בכלכלה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096582',
-		'course_name':'נושאים מתקדמים בכלכלה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096582 - נושאים מתקדמים בכלכלה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096586',
-		'course_name':'אקונומטריקה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096586 - אקונומטריקה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096600',
-		'course_name':'התנהגות ארגונית',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096600 - התנהגות ארגונית',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096617',
-		'course_name':'חשיבה וקבלת החלטות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096617 - חשיבה וקבלת החלטות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096620',
-		'course_name':'הנדסת גורמי אנוש',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096620 - הנדסת גורמי אנוש',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096807',
-		'course_name':'יזמות חברתית',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096807 - יזמות חברתית',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096809',
-		'course_name':'נושאים מתקדמים בניהול',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096809 - נושאים מתקדמים בניהול',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096815',
-		'course_name':'יזמות וקנין רוחני',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096815 - יזמות וקנין רוחני',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097122',
-		'course_name':'ניהול אמינות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097122 - ניהול אמינות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097135',
-		'course_name':'מחקר רב תחומי במערכות שירות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097135 - מחקר רב תחומי במערכות שירות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097140',
-		'course_name':'שיטות מתקדמות בניהול פרויקטים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097140 - שיטות מתקדמות בניהול פרויקטים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097151',
-		'course_name':'תכן מתקנים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097151 - תכן מתקנים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097200',
-		'course_name':'למידה עמוקה תיאוריה ומעשה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097200 - למידה עמוקה תיאוריה ומעשה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097215',
-		'course_name':'עיבוד שפה טבעית',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097215 - עיבוד שפה טבעית',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097317',
-		'course_name':'תורת המשחקים השיתופיים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097317 - תורת המשחקים השיתופיים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097330',
-		'course_name':'נושאים נבחרים בחקר ביצועים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097330 - נושאים נבחרים בחקר ביצועים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097800',
-		'course_name':'עקרונות השיווק',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097800 - עקרונות השיווק',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'103015',
-		'course_name':'השלמות מתמטיקה',
-		'course_faculty':'מתמטיקה'
+		'course_name':'103015 - השלמות מתמטיקה',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104001',
-		'course_name':'שיטות בחשבון אינטגרלי',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104001 - שיטות בחשבון אינטגרלי',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104003',
-		'course_name':'חשבון דיפרנציאלי ואינטגרלי 1',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104003 - חשבון דיפרנציאלי ואינטגרלי 1',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104004',
-		'course_name':'חשבון דיפרנציאלי ואינטגרלי 2',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104004 - חשבון דיפרנציאלי ואינטגרלי 2',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104013',
-		'course_name':'חשבון דיפרנציאלי ואינטגרלי 2ת'',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104013 - חשבון דיפרנציאלי ואינטגרלי 2ת',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104016',
-		'course_name':'אלגברה 1\/מורחב',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104016 - אלגברה 1/מורחב',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104017',
-		'course_name':'חשבון דיפרנציאלי ואינטגרלי 1נ'',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104017 - חשבון דיפרנציאלי ואינטגרלי 1נ',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104018',
-		'course_name':'חשבון דיפרנציאלי ואינטגרלי 1מ'',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104018 - חשבון דיפרנציאלי ואינטגרלי 1מ',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104019',
-		'course_name':'אלגברה ליניארית מ'',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104019 - אלגברה ליניארית מ',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104020',
-		'course_name':'חשבון דיפרנציאלי ואינטגרלי 2נ'',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104020 - חשבון דיפרנציאלי ואינטגרלי 2נ',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104022',
-		'course_name':'חשבון דיפרנציאלי ואינטגרלי 2מ'',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104022 - חשבון דיפרנציאלי ואינטגרלי 2מ',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104031',
-		'course_name':'חשבון אינפיניטסימלי 1מ'',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104031 - חשבון אינפיניטסימלי 1מ',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104032',
-		'course_name':'חשבון אינפיניטסימלי 2מ'',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104032 - חשבון אינפיניטסימלי 2מ',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104033',
-		'course_name':'אנליזה וקטורית',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104033 - אנליזה וקטורית',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104034',
-		'course_name':'מבוא להסתברות ח'',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104034 - מבוא להסתברות ח',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104035',
-		'course_name':'משוואות דיפ' רגילות ואינפי 2ח'',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104035 - משוואות דיפ רגילות ואינפי 2ח',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104090',
-		'course_name':'מתמטיקה למדעי החיים',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104090 - מתמטיקה למדעי החיים',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104112',
-		'course_name':'גיאומטריה וסימטריה',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104112 - גיאומטריה וסימטריה',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104122',
-		'course_name':'תורת הפונקציות 1',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104122 - תורת הפונקציות 1',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104131',
-		'course_name':'משואות דיפרנציאליות רגילות\/ח',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104131 - משואות דיפרנציאליות רגילות/ח',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104134',
-		'course_name':'אלגברה מודרנית ח',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104134 - אלגברה מודרנית ח',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104135',
-		'course_name':'משוואות דפרנציאליות רגילות ת'',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104135 - משוואות דפרנציאליות רגילות ת',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104142',
-		'course_name':'מבוא למרחבים מטריים וטופולוגיים',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104142 - מבוא למרחבים מטריים וטופולוגיים',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104165',
-		'course_name':'פונקציות ממשיות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104165 - פונקציות ממשיות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104166',
-		'course_name':'אלגברה א'',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104166 - אלגברה א',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104172',
-		'course_name':'מבוא לחבורות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104172 - מבוא לחבורות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104173',
-		'course_name':'אלגברה ליניארית ב'',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104173 - אלגברה ליניארית ב',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104174',
-		'course_name':'אלגברה ליניארית במ'',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104174 - אלגברה ליניארית במ',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104177',
-		'course_name':'גיאומטריה דיפרנציאלית',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104177 - גיאומטריה דיפרנציאלית',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104184',
-		'course_name':'סמינר באלגברה להסמכה 2',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104184 - סמינר באלגברה להסמכה 2',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104185',
-		'course_name':'סמינר לסטודנ.בהסמכה1',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104185 - סמינר לסטודנ.בהסמכה1',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104192',
-		'course_name':'מבוא למתמטיקה שמושית',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104192 - מבוא למתמטיקה שמושית',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104195',
-		'course_name':'חשבון אינפיניטסימלי 1',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104195 - חשבון אינפיניטסימלי 1',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104215',
-		'course_name':'פונקציות מרוכבות א'',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104215 - פונקציות מרוכבות א',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104221',
-		'course_name':'פונקצ' מרוכבות והתמרות אינטגרליות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104221 - פונקצ מרוכבות והתמרות אינטגרליות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104222',
-		'course_name':'תורת ההסתברות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104222 - תורת ההסתברות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104223',
-		'course_name':'מד\ח וטורי פוריה',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104223 - מדח וטורי פוריה',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104228',
-		'course_name':'משוואות דיפרנציאליות חלקיות מ'',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104228 - משוואות דיפרנציאליות חלקיות מ',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104277',
-		'course_name':'נושאים במתמטיקה לתלמידי ארכיטקט.',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104277 - נושאים במתמטיקה לתלמידי ארכיטקט.',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104279',
-		'course_name':'מבוא לחוגים ושדות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104279 - מבוא לחוגים ושדות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104280',
-		'course_name':'מודולים חוגים וחבורות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104280 - מודולים חוגים וחבורות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104281',
-		'course_name':'חשבון אינפי 2',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104281 - חשבון אינפי 2',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104282',
-		'course_name':'חשבון אינפי 3',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104282 - חשבון אינפי 3',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104283',
-		'course_name':'מבוא לאנליזה נומרית',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104283 - מבוא לאנליזה נומרית',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104285',
-		'course_name':'משוואות דיפרנציאליות רגילות א'',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104285 - משוואות דיפרנציאליות רגילות א',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104286',
-		'course_name':'קומבינטוריקה',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104286 - קומבינטוריקה',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104290',
-		'course_name':'תורת הקבוצות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104290 - תורת הקבוצות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104291',
-		'course_name':'אלגוריתמים קומבינטוריים',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104291 - אלגוריתמים קומבינטוריים',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106347',
-		'course_name':'מספרים אלגבריים',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106347 - מספרים אלגבריים',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106349',
-		'course_name':'הסתברות מתקדמת',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106349 - הסתברות מתקדמת',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106372',
-		'course_name':'פרקים נבחרים בקומבינטוריקה 1',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106372 - פרקים נבחרים בקומבינטוריקה 1',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106376',
-		'course_name':'שיטות אנליטיות בקומבינטוריקה',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106376 - שיטות אנליטיות בקומבינטוריקה',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106383',
-		'course_name':'טופולוגיה אלגברית',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106383 - טופולוגיה אלגברית',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106384',
-		'course_name':'סמינר בטופולוגיה 1',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106384 - סמינר בטופולוגיה 1',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106393',
-		'course_name':'תורת המטריצות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106393 - תורת המטריצות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106413',
-		'course_name':'משוואות דיפרנציאליות חלקיות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106413 - משוואות דיפרנציאליות חלקיות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106723',
-		'course_name':'יריעות דיפרנציביאליות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106723 - יריעות דיפרנציביאליות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106800',
-		'course_name':'נושאים בתורה הארגודית',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106800 - נושאים בתורה הארגודית',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106929',
-		'course_name':'נושאים נבחרים באנליזה 2',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106929 - נושאים נבחרים באנליזה 2',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106931',
-		'course_name':'נושאים נבחרים באלגברה 1',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106931 - נושאים נבחרים באלגברה 1',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106942',
-		'course_name':'אנליזה פונקציונלית',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106942 - אנליזה פונקציונלית',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106950',
-		'course_name':'נושאים נבחרים בתורת המשחקים',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106950 - נושאים נבחרים בתורת המשחקים',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106960',
-		'course_name':'מערכות דינמיות 1 דינמיקה המלטונית',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106960 - מערכות דינמיות 1 דינמיקה המלטונית',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'114020',
-		'course_name':'מעבדה לפיסיקה 1מ'',
-		'course_faculty':'פיזיקה'
+		'course_name':'114020 - מעבדה לפיסיקה 1מ',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114021',
-		'course_name':'מעבדה לפיסיקה  2מ',
-		'course_faculty':'פיזיקה'
+		'course_name':'114021 - מעבדה לפיסיקה  2מ',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114027',
-		'course_name':'מעבדה לפיסיקה 5',
-		'course_faculty':'פיזיקה'
+		'course_name':'114027 - מעבדה לפיסיקה 5',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114028',
-		'course_name':'מעבדה לפיסיקה 6',
-		'course_faculty':'פיזיקה'
+		'course_name':'114028 - מעבדה לפיסיקה 6',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114030',
-		'course_name':'מעבדה לפיסיקה 2 מח'',
-		'course_faculty':'פיזיקה'
+		'course_name':'114030 - מעבדה לפיסיקה 2 מח',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114032',
-		'course_name':'מעבדה לפיסיקה 1ח'',
-		'course_faculty':'פיזיקה'
+		'course_name':'114032 - מעבדה לפיסיקה 1ח',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114034',
-		'course_name':'מעבדה לפיסיקה 2מפ'',
-		'course_faculty':'פיזיקה'
+		'course_name':'114034 - מעבדה לפיסיקה 2מפ',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114035',
-		'course_name':'מעבדה לפיסיקה 3 - גלים',
-		'course_faculty':'פיזיקה'
+		'course_name':'114035 - מעבדה לפיסיקה 3 - גלים',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114036',
-		'course_name':'פיסיקה סטטיסטית ותרמית',
-		'course_faculty':'פיזיקה'
+		'course_name':'114036 - פיסיקה סטטיסטית ותרמית',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114037',
-		'course_name':'מעבדה לפיסיקה 4מח'',
-		'course_faculty':'פיזיקה'
+		'course_name':'114037 - מעבדה לפיסיקה 4מח',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114051',
-		'course_name':'פיסיקה 1',
-		'course_faculty':'פיזיקה'
+		'course_name':'114051 - פיסיקה 1',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114052',
-		'course_name':'פיסיקה 2',
-		'course_faculty':'פיזיקה'
+		'course_name':'114052 - פיסיקה 2',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114054',
-		'course_name':'פיסיקה 3',
-		'course_faculty':'פיזיקה'
+		'course_name':'114054 - פיסיקה 3',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114071',
-		'course_name':'פיסיקה 1מ',
-		'course_faculty':'פיזיקה'
+		'course_name':'114071 - פיסיקה 1מ',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114073',
-		'course_name':'פיסיקה 3ח'',
-		'course_faculty':'פיזיקה'
+		'course_name':'114073 - פיסיקה 3ח',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114074',
-		'course_name':'פיסיקה 1פ'',
-		'course_faculty':'פיזיקה'
+		'course_name':'114074 - פיסיקה 1פ',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114075',
-		'course_name':'פיסיקה 2ממ',
-		'course_faculty':'פיזיקה'
+		'course_name':'114075 - פיסיקה 2ממ',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114077',
-		'course_name':'פיסיקה 1ל',
-		'course_faculty':'פיזיקה'
+		'course_name':'114077 - פיסיקה 1ל',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114078',
-		'course_name':'פיסיקה 2ל',
-		'course_faculty':'פיזיקה'
+		'course_name':'114078 - פיסיקה 2ל',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114081',
-		'course_name':'מעבדה לפיסיקה 1',
-		'course_faculty':'פיזיקה'
+		'course_name':'114081 - מעבדה לפיסיקה 1',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114082',
-		'course_name':'מעבדה לפיסיקה 2',
-		'course_faculty':'פיזיקה'
+		'course_name':'114082 - מעבדה לפיסיקה 2',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114086',
-		'course_name':'גלים',
-		'course_faculty':'פיזיקה'
+		'course_name':'114086 - גלים',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114101',
-		'course_name':'מכניקה אנליטית',
-		'course_faculty':'פיזיקה'
+		'course_name':'114101 - מכניקה אנליטית',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114208',
-		'course_name':'מעבדה במדידות אופטיות',
-		'course_faculty':'פיזיקה'
+		'course_name':'114208 - מעבדה במדידות אופטיות',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114210',
-		'course_name':'אופטיקה',
-		'course_faculty':'פיזיקה'
+		'course_name':'114210 - אופטיקה',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114229',
-		'course_name':'פרויקט',
-		'course_faculty':'פיזיקה'
+		'course_name':'114229 - פרויקט',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114245',
-		'course_name':'תורה אלקטרומגנטית',
-		'course_faculty':'פיזיקה'
+		'course_name':'114245 - תורה אלקטרומגנטית',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114246',
-		'course_name':'אלקטרומגנטיות ואלקטרודינמיקה',
-		'course_faculty':'פיזיקה'
+		'course_name':'114246 - אלקטרומגנטיות ואלקטרודינמיקה',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114248',
-		'course_name':'פיסיקה 1 ר',
-		'course_faculty':'פיזיקה'
+		'course_name':'114248 - פיסיקה 1 ר',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114249',
-		'course_name':'פיסיקה 2 ר',
-		'course_faculty':'פיזיקה'
+		'course_name':'114249 - פיסיקה 2 ר',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114250',
-		'course_name':'מעבדה לפיסיקה 5ת',
-		'course_faculty':'פיזיקה'
+		'course_name':'114250 - מעבדה לפיסיקה 5ת',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114251',
-		'course_name':'מעבדה לפיסיקה 6ת',
-		'course_faculty':'פיזיקה'
+		'course_name':'114251 - מעבדה לפיסיקה 6ת',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114252',
-		'course_name':'פרויקט ת',
-		'course_faculty':'פיזיקה'
+		'course_name':'114252 - פרויקט ת',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'115203',
-		'course_name':'פיסיקה קוונטית 1',
-		'course_faculty':'פיזיקה'
+		'course_name':'115203 - פיסיקה קוונטית 1',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'115204',
-		'course_name':'פיסיקה קוונטית 2',
-		'course_faculty':'פיזיקה'
+		'course_name':'115204 - פיסיקה קוונטית 2',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'115248',
-		'course_name':'פיסיקה 1רל',
-		'course_faculty':'פיזיקה'
+		'course_name':'115248 - פיסיקה 1רל',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'116003',
-		'course_name':'פיסיקה של לייזרים',
-		'course_faculty':'פיזיקה'
+		'course_name':'116003 - פיסיקה של לייזרים',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'116004',
-		'course_name':'פיס. של גרעינים וחלקיקים יסודיים',
-		'course_faculty':'פיזיקה'
+		'course_name':'116004 - פיס. של גרעינים וחלקיקים יסודיים',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'116029',
-		'course_name':'מבוא לביופיסיקה',
-		'course_faculty':'פיזיקה'
+		'course_name':'116029 - מבוא לביופיסיקה',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'116031',
-		'course_name':'תורת האינפורמציה הקוונטית',
-		'course_faculty':'פיזיקה'
+		'course_name':'116031 - תורת האינפורמציה הקוונטית',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'116217',
-		'course_name':'פיסיקה של מצב מוצק',
-		'course_faculty':'פיזיקה'
+		'course_name':'116217 - פיסיקה של מצב מוצק',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'116354',
-		'course_name':'אסטרופיסיקה וקוסמולוגיה',
-		'course_faculty':'פיזיקה'
+		'course_name':'116354 - אסטרופיסיקה וקוסמולוגיה',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'117016',
-		'course_name':'פיסיקת הפלסמה',
-		'course_faculty':'פיזיקה'
+		'course_name':'117016 - פיסיקת הפלסמה',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'117021',
-		'course_name':'על-מוליכות ועל-נוזליות',
-		'course_faculty':'פיזיקה'
+		'course_name':'117021 - על-מוליכות ועל-נוזליות',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'117098',
-		'course_name':'כאוס המילטוניאני# קלסי וקוונטי',
-		'course_faculty':'פיזיקה'
+		'course_name':'117098 - כאוס המילטוניאני# קלסי וקוונטי',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'123015',
-		'course_name':'השלמות כימיה',
-		'course_faculty':'כימיה'
+		'course_name':'123015 - השלמות כימיה',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124107',
-		'course_name':'כימיה לפיזיקאים מ'',
-		'course_faculty':'כימיה'
+		'course_name':'124107 - כימיה לפיזיקאים מ',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124108',
-		'course_name':'כימיה לפיסיקאים',
-		'course_faculty':'כימיה'
+		'course_name':'124108 - כימיה לפיסיקאים',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124117',
-		'course_name':'יסודות הכימיה א'',
-		'course_faculty':'כימיה'
+		'course_name':'124117 - יסודות הכימיה א',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124120',
-		'course_name':'יסודות הכימיה',
-		'course_faculty':'כימיה'
+		'course_name':'124120 - יסודות הכימיה',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124210',
-		'course_name':'כימיה ביו-אי אורגנית',
-		'course_faculty':'כימיה'
+		'course_name':'124210 - כימיה ביו-אי אורגנית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124212',
-		'course_name':'מעבדה בכימיה אנליטית 1 מורחב',
-		'course_faculty':'כימיה'
+		'course_name':'124212 - מעבדה בכימיה אנליטית 1 מורחב',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124213',
-		'course_name':'כימיה אנליטית 2 (מורחב)',
-		'course_faculty':'כימיה'
+		'course_name':'124213 - כימיה אנליטית 2 (מורחב)',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124214',
-		'course_name':'מעבדה בכימיה אנליטית 2 מורחב',
-		'course_faculty':'כימיה'
+		'course_name':'124214 - מעבדה בכימיה אנליטית 2 מורחב',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124305',
-		'course_name':'כימיה אי-אורגנית',
-		'course_faculty':'כימיה'
+		'course_name':'124305 - כימיה אי-אורגנית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124353',
-		'course_name':'פרויקט מחקר בכימיה',
-		'course_faculty':'כימיה'
+		'course_name':'124353 - פרויקט מחקר בכימיה',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124355',
-		'course_name':'פרוייקט מחקר מיוחד בכימיה',
-		'course_faculty':'כימיה'
+		'course_name':'124355 - פרוייקט מחקר מיוחד בכימיה',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124356',
-		'course_name':'מבוא למחקר בכימיה',
-		'course_faculty':'כימיה'
+		'course_name':'124356 - מבוא למחקר בכימיה',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124357',
-		'course_name':'סמינר מתקדם בכימיה',
-		'course_faculty':'כימיה'
+		'course_name':'124357 - סמינר מתקדם בכימיה',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124400',
-		'course_name':'כימיה קוונטית 1',
-		'course_faculty':'כימיה'
+		'course_name':'124400 - כימיה קוונטית 1',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124408',
-		'course_name':'תורת הקוונטים ויישומיה בכימיה',
-		'course_faculty':'כימיה'
+		'course_name':'124408 - תורת הקוונטים ויישומיה בכימיה',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124415',
-		'course_name':'כימיה פיסיקלית-תרמודינמיקה כימית',
-		'course_faculty':'כימיה'
+		'course_name':'124415 - כימיה פיסיקלית-תרמודינמיקה כימית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124416',
-		'course_name':'אלקטרומגנטיות וחומר',
-		'course_faculty':'כימיה'
+		'course_name':'124416 - אלקטרומגנטיות וחומר',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124503',
-		'course_name':'כימיה פיסיקלית 1ב'',
-		'course_faculty':'כימיה'
+		'course_name':'124503 - כימיה פיסיקלית 1ב',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124510',
-		'course_name':'כימיה פיסיקלית',
-		'course_faculty':'כימיה'
+		'course_name':'124510 - כימיה פיסיקלית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124601',
-		'course_name':'מעבדה בכימיה פיסיקלית 1',
-		'course_faculty':'כימיה'
+		'course_name':'124601 - מעבדה בכימיה פיסיקלית 1',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124605',
-		'course_name':'מע. בכימיה פיסיקלית 2 לכימאים',
-		'course_faculty':'כימיה'
+		'course_name':'124605 - מע. בכימיה פיסיקלית 2 לכימאים',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124608',
-		'course_name':'מע. בכימיה פיסיקלית להנ. חומרים',
-		'course_faculty':'כימיה'
+		'course_name':'124608 - מע. בכימיה פיסיקלית להנ. חומרים',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124611',
-		'course_name':'מעבדת מבוא לפיסיקה כימית',
-		'course_faculty':'כימיה'
+		'course_name':'124611 - מעבדת מבוא לפיסיקה כימית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124703',
-		'course_name':'מבנה ופעילות בכימיה אורגנית',
-		'course_faculty':'כימיה'
+		'course_name':'124703 - מבנה ופעילות בכימיה אורגנית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124708',
-		'course_name':'כימיה אורגנית מורחב 1',
-		'course_faculty':'כימיה'
+		'course_name':'124708 - כימיה אורגנית מורחב 1',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124711',
-		'course_name':'כימיה אורגנית 2מ'',
-		'course_faculty':'כימיה'
+		'course_name':'124711 - כימיה אורגנית 2מ',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124911',
-		'course_name':'מעבדה כימיה אורגנית 1',
-		'course_faculty':'כימיה'
+		'course_name':'124911 - מעבדה כימיה אורגנית 1',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124912',
-		'course_name':'מעבדה בכימיה אורגנית 2מ',
-		'course_faculty':'כימיה'
+		'course_name':'124912 - מעבדה בכימיה אורגנית 2מ',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'125001',
-		'course_name':'כימיה כללית',
-		'course_faculty':'כימיה'
+		'course_name':'125001 - כימיה כללית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'125013',
-		'course_name':'מעבדה בכימיה כללית',
-		'course_faculty':'כימיה'
+		'course_name':'125013 - מעבדה בכימיה כללית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'125102',
-		'course_name':'מעבדה כימיה אנליטית 1 למהנדסים',
-		'course_faculty':'כימיה'
+		'course_name':'125102 - מעבדה כימיה אנליטית 1 למהנדסים',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'125105',
-		'course_name':'מע.בכימיה אנליטית 1 להנ.ביוכימית',
-		'course_faculty':'כימיה'
+		'course_name':'125105 - מע.בכימיה אנליטית 1 להנ.ביוכימית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'125801',
-		'course_name':'כימיה אורגנית',
-		'course_faculty':'כימיה'
+		'course_name':'125801 - כימיה אורגנית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'126302',
-		'course_name':'מעב' אנליטית מתקדמת בניטור סביבתי',
-		'course_faculty':'כימיה'
+		'course_name':'126302 - מעב אנליטית מתקדמת בניטור סביבתי',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'126303',
-		'course_name':'מע. בכימיה אי-אורגנית ואורגנומתכת',
-		'course_faculty':'כימיה'
+		'course_name':'126303 - מע. בכימיה אי-אורגנית ואורגנומתכת',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'126600',
-		'course_name':'מעבדה מתקדמת בכימיה פיסיקלית',
-		'course_faculty':'כימיה'
+		'course_name':'126600 - מעבדה מתקדמת בכימיה פיסיקלית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'126602',
-		'course_name':'כימיה פיסיקלית ניסיונית מתקדמת',
-		'course_faculty':'כימיה'
+		'course_name':'126602 - כימיה פיסיקלית ניסיונית מתקדמת',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'126901',
-		'course_name':'מעבדה מתקדמת בכימיה אורגנית',
-		'course_faculty':'כימיה'
+		'course_name':'126901 - מעבדה מתקדמת בכימיה אורגנית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'126902',
-		'course_name':'מעבדה בכימיה אורגנית ופיסיקלית',
-		'course_faculty':'כימיה'
+		'course_name':'126902 - מעבדה בכימיה אורגנית ופיסיקלית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127424',
-		'course_name':'שיטות וישומים מתקדמים בתמג',
-		'course_faculty':'כימיה'
+		'course_name':'127424 - שיטות וישומים מתקדמים בתמג',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127427',
-		'course_name':'מצב מוצק לכימאים (מורחב)',
-		'course_faculty':'כימיה'
+		'course_name':'127427 - מצב מוצק לכימאים (מורחב)',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127727',
-		'course_name':'תרכובות אורגנומתכתיות בסינתזה אור',
-		'course_faculty':'כימיה'
+		'course_name':'127727 - תרכובות אורגנומתכתיות בסינתזה אור',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127730',
-		'course_name':'קביעת מבנה בשיטות פיסיקליות',
-		'course_faculty':'כימיה'
+		'course_name':'127730 - קביעת מבנה בשיטות פיסיקליות',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127735',
-		'course_name':'נושאים נבחרים בקטליזה הומוגנית',
-		'course_faculty':'כימיה'
+		'course_name':'127735 - נושאים נבחרים בקטליזה הומוגנית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127738',
-		'course_name':'כימיה אורגנית 3 מורחב',
-		'course_faculty':'כימיה'
+		'course_name':'127738 - כימיה אורגנית 3 מורחב',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127741',
-		'course_name':'כימיה של פפטידים וחלבונים',
-		'course_faculty':'כימיה'
+		'course_name':'127741 - כימיה של פפטידים וחלבונים',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'134014',
-		'course_name':'הכרת החי והצומח א'',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134014 - הכרת החי והצומח א',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134019',
-		'course_name':'מבוא לביוכימיה ואנזימולוגיה',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134019 - מבוא לביוכימיה ואנזימולוגיה',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134020',
-		'course_name':'גנטיקה כללית',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134020 - גנטיקה כללית',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134049',
-		'course_name':'פרויקט מחקר בביולוגיה',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134049 - פרויקט מחקר בביולוגיה',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134055',
-		'course_name':'אנדוקרינולוגיה',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134055 - אנדוקרינולוגיה',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134058',
-		'course_name':'ביולוגיה 1',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134058 - ביולוגיה 1',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134069',
-		'course_name':'ביולוגיה התפתחותית',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134069 - ביולוגיה התפתחותית',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134076',
-		'course_name':'הכרת המערכת הימית של מפרץ אילת',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134076 - הכרת המערכת הימית של מפרץ אילת',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134082',
-		'course_name':'ביולוגיה מולקולרית',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134082 - ביולוגיה מולקולרית',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134111',
-		'course_name':'זואולוגיה',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134111 - זואולוגיה',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134113',
-		'course_name':'מסלולים מטבולים',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134113 - מסלולים מטבולים',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134123',
-		'course_name':'סמינר בביולוגיה 1',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134123 - סמינר בביולוגיה 1',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134124',
-		'course_name':'סמינר ביולוגיה 2',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134124 - סמינר ביולוגיה 2',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134126',
-		'course_name':'סמינר בביולוגיה 4',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134126 - סמינר בביולוגיה 4',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134127',
-		'course_name':'נושאים בביולוגיה',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134127 - נושאים בביולוגיה',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134129',
-		'course_name':'הביולוגיה של מחלת הסרטן',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134129 - הביולוגיה של מחלת הסרטן',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134133',
-		'course_name':'אבולוציה',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134133 - אבולוציה',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134134',
-		'course_name':'מעבדה בעולם החי',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134134 - מעבדה בעולם החי',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134136',
-		'course_name':'ביופיסיקה מולקולרית',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134136 - ביופיסיקה מולקולרית',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134142',
-		'course_name':'מעבדה בגנטיקה מולקולרית',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134142 - מעבדה בגנטיקה מולקולרית',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134144',
-		'course_name':'מעבדה בפיזיולוגיה של הצמח',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134144 - מעבדה בפיזיולוגיה של הצמח',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134145',
-		'course_name':'מדעי התרופה',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134145 - מדעי התרופה',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134147',
-		'course_name':'מטבוליזם ומחלות באדם',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134147 - מטבוליזם ומחלות באדם',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134152',
-		'course_name':'מבוא לנוירוביולוגיה',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134152 - מבוא לנוירוביולוגיה',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'136022',
-		'course_name':'מסלולי חישה במיקרואורגניזמים',
-		'course_faculty':'ביולוגיה'
+		'course_name':'136022 - מסלולי חישה במיקרואורגניזמים',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'136042',
-		'course_name':'מודלים בביולוגיה',
-		'course_faculty':'ביולוגיה'
+		'course_name':'136042 - מודלים בביולוגיה',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'136088',
-		'course_name':'גנטיקה מולקולרית של האדם',
-		'course_faculty':'ביולוגיה'
+		'course_name':'136088 - גנטיקה מולקולרית של האדם',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'136093',
-		'course_name':'מבנה ותכנון של ביומקרומולקולות',
-		'course_faculty':'ביולוגיה'
+		'course_name':'136093 - מבנה ותכנון של ביומקרומולקולות',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'136105',
-		'course_name':'ביולוגיה של ההתפתחות',
-		'course_faculty':'ביולוגיה'
+		'course_name':'136105 - ביולוגיה של ההתפתחות',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'136204',
-		'course_name':'ביולוגיה של אלמוגים',
-		'course_faculty':'ביולוגיה'
+		'course_name':'136204 - ביולוגיה של אלמוגים',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'196006',
-		'course_name':'זרימות אטיות',
-		'course_faculty':'מתמטיקה שימושית'
+		'course_name':'196006 - זרימות אטיות',
+		'faculty_name':'מתמטיקה שימושית'
 	},
 	{
-		'course_number':'197011',
-		'course_name':'נושאים נבחרים במתמטיקה שימושית 4',
-		'course_faculty':'מתמטיקה שימושית'
+		'course_name':'197011 - נושאים נבחרים במתמטיקה שימושית 4',
+		'faculty_name':'מתמטיקה שימושית'
 	},
 	{
-		'course_number':'204000',
-		'course_name':'מבוא לאדריכלות נוף',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204000 - מבוא לאדריכלות נוף',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204003',
-		'course_name':'נושאים נבחרים באדריכלות נוף 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204003 - נושאים נבחרים באדריכלות נוף 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204005',
-		'course_name':'מבנה ופרטי גן 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204005 - מבנה ופרטי גן 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204090',
-		'course_name':'תולדות אדריכלות נוף 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204090 - תולדות אדריכלות נוף 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204202',
-		'course_name':'צמחיה בנוף 2#יסודות תכנון בצמחיה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204202 - צמחיה בנוף 2#יסודות תכנון בצמחיה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204403',
-		'course_name':'מבנה ופרטי גנים 3-פרויקט מסכם',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204403 - מבנה ופרטי גנים 3-פרויקט מסכם',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204621',
-		'course_name':'תכנון נוף 20',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204621 - תכנון נוף 20',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204623',
-		'course_name':'תכנון נוף 40',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204623 - תכנון נוף 40',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204625',
-		'course_name':'תכנון נוף 60',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204625 - תכנון נוף 60',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204626',
-		'course_name':'אדריכלות נוף חוקרת',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204626 - אדריכלות נוף חוקרת',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204714',
-		'course_name':'פרויקט\/נושא מיוחד באדר.נוף-55 א'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204714 - פרויקט/נושא מיוחד באדר.נוף-55 א',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204716',
-		'course_name':'פרויקט\/נושא מיוחד באדר.נוף-44א'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204716 - פרויקט/נושא מיוחד באדר.נוף-44א',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204720',
-		'course_name':'נושא נבחר\/פר.מיוחד באדר'נוף55ב'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204720 - נושא נבחר/פר.מיוחד באדרנוף55ב',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204724',
-		'course_name':'סיור לימודי באדריכלות נוף 3',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204724 - סיור לימודי באדריכלות נוף 3',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205012',
-		'course_name':'מבוא לחברה ורוח בארכיטקטורה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205012 - מבוא לחברה ורוח בארכיטקטורה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205013',
-		'course_name':'מבוא למקצועות המרחב',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205013 - מבוא למקצועות המרחב',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205017',
-		'course_name':'תולדות האדריכלות בעידן המודרני',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205017 - תולדות האדריכלות בעידן המודרני',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205071',
-		'course_name':'מורפולוגיה 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205071 - מורפולוגיה 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205096',
-		'course_name':'תולדות האומנות כאם האדריכלות',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205096 - תולדות האומנות כאם האדריכלות',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205097',
-		'course_name':'מבוא לשימור בניינים ואתרים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205097 - מבוא לשימור בניינים ואתרים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205104',
-		'course_name':'הסט' ותיאוריה של אדר' מלח\ע-כיום',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205104 - הסט ותיאוריה של אדר מלחע-כיום',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205152',
-		'course_name':'סוגיות בסוציולוגיה אורבנית',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205152 - סוגיות בסוציולוגיה אורבנית',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205154',
-		'course_name':'סוגיות בפסיכולוגיה לאדריכלים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205154 - סוגיות בפסיכולוגיה לאדריכלים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205162',
-		'course_name':'אוריינות# מרחב וטקסט',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205162 - אוריינות# מרחב וטקסט',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205254',
-		'course_name':'היבטים נבחרים בתכנון תחבורה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205254 - היבטים נבחרים בתכנון תחבורה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205257',
-		'course_name':'מבוא לעיצוב עירוני',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205257 - מבוא לעיצוב עירוני',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205304',
-		'course_name':'מיני סטודיו עיצוב א'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205304 - מיני סטודיו עיצוב א',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205410',
-		'course_name':'חומרים 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205410 - חומרים 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205423',
-		'course_name':'מבנה ופרטי בניין 3',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205423 - מבנה ופרטי בניין 3',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205458',
-		'course_name':'תכן מבנים 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205458 - תכן מבנים 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205459',
-		'course_name':'תכן מבנים 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205459 - תכן מבנים 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205492',
-		'course_name':'אקלים ואנרגיה בארכיטקטורה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205492 - אקלים ואנרגיה בארכיטקטורה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205501',
-		'course_name':'אור ותאורה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205501 - אור ותאורה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205505',
-		'course_name':'מערכות תברואה - מבוא',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205505 - מערכות תברואה - מבוא',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205508',
-		'course_name':'בטיחות בבניינים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205508 - בטיחות בבניינים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205625',
-		'course_name':'פרויקט מיוחד 4ג'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205625 - פרויקט מיוחד 4ג',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205635',
-		'course_name':'תכנון בנינים סולרים ביואקלימים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205635 - תכנון בנינים סולרים ביואקלימים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205638',
-		'course_name':'פרויקט מיוחד 3ד'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205638 - פרויקט מיוחד 3ד',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205656',
-		'course_name':'תכנון כולל 4',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205656 - תכנון כולל 4',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205659',
-		'course_name':'תכנון כולל 7',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205659 - תכנון כולל 7',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205665',
-		'course_name':'סטודיו 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205665 - סטודיו 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205667',
-		'course_name':'סטודיו 3',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205667 - סטודיו 3',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205692',
-		'course_name':'נושאים מיוחדים בארכי' 1ג'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205692 - נושאים מיוחדים בארכי 1ג',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205701',
-		'course_name':'נושאים בתכנון כולל',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205701 - נושאים בתכנון כולל',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205703',
-		'course_name':'נושאים בתכנון כולל',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205703 - נושאים בתכנון כולל',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205705',
-		'course_name':'נושאים בתכנון כולל',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205705 - נושאים בתכנון כולל',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205716',
-		'course_name':'נושאים בטכנולוגיית בנייה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205716 - נושאים בטכנולוגיית בנייה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205723',
-		'course_name':'נושאים מיוחדים בארכיטקטורה 3ה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205723 - נושאים מיוחדים בארכיטקטורה 3ה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205724',
-		'course_name':'נושאים מיוחדים בארכיטקטורה 3ו'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205724 - נושאים מיוחדים בארכיטקטורה 3ו',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205813',
-		'course_name':'הבעה גרפית',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205813 - הבעה גרפית',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205824',
-		'course_name':'סדנאות מדיה 2 א'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205824 - סדנאות מדיה 2 א',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205825',
-		'course_name':'סדנאות מדיה 2 ב'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205825 - סדנאות מדיה 2 ב',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205827',
-		'course_name':'סדנאות מדיה 2ד'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205827 - סדנאות מדיה 2ד',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205828',
-		'course_name':'סדנאות מדיה 2ה'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205828 - סדנאות מדיה 2ה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205873',
-		'course_name':'עיצוב בסיסי 4',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205873 - עיצוב בסיסי 4',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205874',
-		'course_name':'אומנות ניסויית 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205874 - אומנות ניסויית 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205875',
-		'course_name':'אומנות ניסויית 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205875 - אומנות ניסויית 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205878',
-		'course_name':'עיצוב בסיסי 1 א'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205878 - עיצוב בסיסי 1 א',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205885',
-		'course_name':'עיצוב בסיסי 3',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205885 - עיצוב בסיסי 3',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205922',
-		'course_name':'התבוננות דיגום ויצוג 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205922 - התבוננות דיגום ויצוג 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206003',
-		'course_name':'נושאים נבחרים בארכיטקטורה-שימור 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206003 - נושאים נבחרים בארכיטקטורה-שימור 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206007',
-		'course_name':'נוש. בארכיטקטורה-אדריכלות ירוקה 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206007 - נוש. בארכיטקטורה-אדריכלות ירוקה 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206009',
-		'course_name':'נושאים בארכ.-היסטוריה ותיאוריה 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206009 - נושאים בארכ.-היסטוריה ותיאוריה 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206010',
-		'course_name':'נושא. בארכ. - היסטוריה ותיאוריה1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206010 - נושא. בארכ. - היסטוריה ותיאוריה1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206011',
-		'course_name':'נושאים נבח. בארכ.-עיצוב עירוני 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206011 - נושאים נבח. בארכ.-עיצוב עירוני 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206012',
-		'course_name':'נוש. נב. בארכ. - עיצוב עירוני 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206012 - נוש. נב. בארכ. - עיצוב עירוני 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206060',
-		'course_name':'מדיה אינטראקטיבית בתכנון',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206060 - מדיה אינטראקטיבית בתכנון',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206075',
-		'course_name':'קיימות בראיה כוללת',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206075 - קיימות בראיה כוללת',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206080',
-		'course_name':'קריאה תרבותית של המרחב העירוני',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206080 - קריאה תרבותית של המרחב העירוני',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206150',
-		'course_name':'גישות לחינוך והוראת התכן בארכיטקט',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206150 - גישות לחינוך והוראת התכן בארכיטקט',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206171',
-		'course_name':'סטודיו נושאי אינטגרטיבי',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206171 - סטודיו נושאי אינטגרטיבי',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206172',
-		'course_name':'סטודיו נושאי אדריכלות בר-קימא',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206172 - סטודיו נושאי אדריכלות בר-קימא',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206173',
-		'course_name':'סטודיו נושאי שימור',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206173 - סטודיו נושאי שימור',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206174',
-		'course_name':'סטודיו נושאי עיצוב עירוני',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206174 - סטודיו נושאי עיצוב עירוני',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206175',
-		'course_name':'סטו' נוש' הסטוריה תיאוריה וביקור',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206175 - סטו נוש הסטוריה תיאוריה וביקור',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206176',
-		'course_name':'סטודיו נושאי אדר' דיגיטלית',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206176 - סטודיו נושאי אדר דיגיטלית',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206563',
-		'course_name':'סמינר בתכנון מבנים סולריים פאסיבי',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206563 - סמינר בתכנון מבנים סולריים פאסיבי',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206566',
-		'course_name':'מיקרו אקלים בעיר בעזרת צמחייה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206566 - מיקרו אקלים בעיר בעזרת צמחייה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206571',
-		'course_name':'מודלים ממוחשבים לתכנון ארכיטקטוני',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206571 - מודלים ממוחשבים לתכנון ארכיטקטוני',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206808',
-		'course_name':'תיאוריות של אדריכלות דיגיטלית',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206808 - תיאוריות של אדריכלות דיגיטלית',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206820',
-		'course_name':'היסטורית העיצוב התעשייתי 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206820 - היסטורית העיצוב התעשייתי 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206821',
-		'course_name':'נושאים נבחרים בעיצוב תעשייתי 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206821 - נושאים נבחרים בעיצוב תעשייתי 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206828',
-		'course_name':'עיצוב טכנולוגיה וחדשנות 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206828 - עיצוב טכנולוגיה וחדשנות 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206831',
-		'course_name':'נושאים נבחרים בעיצוב תעשייתי 5',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206831 - נושאים נבחרים בעיצוב תעשייתי 5',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206832',
-		'course_name':'נושאים נבחרים בעיצוב תעשייתי 6',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206832 - נושאים נבחרים בעיצוב תעשייתי 6',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206833',
-		'course_name':'נושאים נבחרים בעיצוב תעשייתי 7',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206833 - נושאים נבחרים בעיצוב תעשייתי 7',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206911',
-		'course_name':'תכנון בעזרת מחשב 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206911 - תכנון בעזרת מחשב 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206940',
-		'course_name':'סוגיות פילוסופיות בהקשר ארכיטקטו'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206940 - סוגיות פילוסופיות בהקשר ארכיטקטו',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206963',
-		'course_name':'כלים של מדיניות משפט ומנהל בתכנון',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206963 - כלים של מדיניות משפט ומנהל בתכנון',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207001',
-		'course_name':'תיאוריות התכנון',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207001 - תיאוריות התכנון',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207005',
-		'course_name':'מבוא לתכנון ערים ואזורים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207005 - מבוא לתכנון ערים ואזורים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207020',
-		'course_name':'מבוא לממ\ג למתכננים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207020 - מבוא לממג למתכננים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207021',
-		'course_name':'שימושי הממ\ג לשמירת טבע',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207021 - שימושי הממג לשמירת טבע',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207041',
-		'course_name':'עקרונ.אקולוגיים בתכנון עיר ואזור',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207041 - עקרונ.אקולוגיים בתכנון עיר ואזור',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207044',
-		'course_name':'סמינר בשתוף הצבור בתכנון',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207044 - סמינר בשתוף הצבור בתכנון',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207050',
-		'course_name':'מימון נדל\ן',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207050 - מימון נדלן',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207070',
-		'course_name':'תכנון שימושי קרקע# עקרונות וכימות',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207070 - תכנון שימושי קרקע# עקרונות וכימות',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207090',
-		'course_name':'מבוא לתכנון סביבתי',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207090 - מבוא לתכנון סביבתי',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207342',
-		'course_name':'גיאוגרפיה עירונית ואזורית',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207342 - גיאוגרפיה עירונית ואזורית',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207408',
-		'course_name':'תסקירי השפעה על הסביבה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207408 - תסקירי השפעה על הסביבה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207440',
-		'course_name':'תכנון עם הקהילה מושגים כלים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207440 - תכנון עם הקהילה מושגים כלים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207450',
-		'course_name':'המרחב הישראלי# קריאה ביקורתית',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207450 - המרחב הישראלי# קריאה ביקורתית',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207455',
-		'course_name':'סוגיות אקולוגיות בנוף הישראלי',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207455 - סוגיות אקולוגיות בנוף הישראלי',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207460',
-		'course_name':'תאוריות באדריכלות הנוף העכשווית',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207460 - תאוריות באדריכלות הנוף העכשווית',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207468',
-		'course_name':'התמקדות בתהליך היצירה בסטודיו',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207468 - התמקדות בתהליך היצירה בסטודיו',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207469',
-		'course_name':'עיצוב אינטראקטיבי',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207469 - עיצוב אינטראקטיבי',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207601',
-		'course_name':'סמינר בתכנון התשתית העירונית',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207601 - סמינר בתכנון התשתית העירונית',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207700',
-		'course_name':'אולפן 1# עירוני',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207700 - אולפן 1# עירוני',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207800',
-		'course_name':'חשיבה כמותית וסטטיסטיקה בתכנון',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207800 - חשיבה כמותית וסטטיסטיקה בתכנון',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207806',
-		'course_name':'היבטים משפטייים ומינהליים בתכנון',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207806 - היבטים משפטייים ומינהליים בתכנון',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207807',
-		'course_name':'תכנון ופיתוח בישובים ערביים בישרא',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207807 - תכנון ופיתוח בישובים ערביים בישרא',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207830',
-		'course_name':'תשתיות ירוקות',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207830 - תשתיות ירוקות',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207912',
-		'course_name':'נושאים נבחרים בתכנון ערים ואזור 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207912 - נושאים נבחרים בתכנון ערים ואזור 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207914',
-		'course_name':'תכנון עבור ילדים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207914 - תכנון עבור ילדים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207920',
-		'course_name':'שיטות מחקר איכותניות למתכננים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207920 - שיטות מחקר איכותניות למתכננים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'214094',
-		'course_name':'קליניקה חינוכית - מדעית 1',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214094 - קליניקה חינוכית - מדעית 1',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214103',
-		'course_name':'מיומנויות ושיטות הוראה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214103 - מיומנויות ושיטות הוראה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214115',
-		'course_name':'למידה בהי-טק אקדמיה ומגזר ציבורי',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214115 - למידה בהי-טק אקדמיה ומגזר ציבורי',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214116',
-		'course_name':'חשיפה למחקר בחינוך מדעי טכנולוגי',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214116 - חשיפה למחקר בחינוך מדעי טכנולוגי',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214117',
-		'course_name':'מבוא לחינוך למדע וטכנולוגיה 1',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214117 - מבוא לחינוך למדע וטכנולוגיה 1',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214209',
-		'course_name':'דרכי הוראת המתימטיקה בחטה\ע א'',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214209 - דרכי הוראת המתימטיקה בחטהע א',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214231',
-		'course_name':'התנסות בהוראת מתמטיקה בחט\ב ז-ט',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214231 - התנסות בהוראת מתמטיקה בחטב ז-ט',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214232',
-		'course_name':'התנסות בהוראת מתמטיקה בחט\ע י-י\ב',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214232 - התנסות בהוראת מתמטיקה בחטע י-יב',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214300',
-		'course_name':'התנסות בהוראת פיזיקה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214300 - התנסות בהוראת פיזיקה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214410',
-		'course_name':'התנסות בהוראת הכימיה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214410 - התנסות בהוראת הכימיה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214444',
-		'course_name':'הוראת חקר במעבדות בכימיה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214444 - הוראת חקר במעבדות בכימיה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214501',
-		'course_name':'דרכי הוראת ביולוגיה 1',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214501 - דרכי הוראת ביולוגיה 1',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214510',
-		'course_name':'התנסות בהוראת ביולוגיה וסביבה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214510 - התנסות בהוראת ביולוגיה וסביבה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214607',
-		'course_name':'דרכי הוראת מדע-טכנולו. בחט\ב(ז-ט)',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214607 - דרכי הוראת מדע-טכנולו. בחטב(ז-ט)',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214608',
-		'course_name':'הוראת טכנולוגיה בחטה\ע (י-יב)',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214608 - הוראת טכנולוגיה בחטהע (י-יב)',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214610',
-		'course_name':'התנסות בהוראת האלקטרוניקה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214610 - התנסות בהוראת האלקטרוניקה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214709',
-		'course_name':'התנסות בהוראת טכנולוגיה-מכונות',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214709 - התנסות בהוראת טכנולוגיה-מכונות',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214905',
-		'course_name':'התנסות בהוראת מדעי המחשב',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214905 - התנסות בהוראת מדעי המחשב',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214907',
-		'course_name':'עולמות זוטא-למידה בסביבה ממוחשבת',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214907 - עולמות זוטא-למידה בסביבה ממוחשבת',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216003',
-		'course_name':'ליקויי למידה והתנהגות בילדים',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216003 - ליקויי למידה והתנהגות בילדים',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216005',
-		'course_name':'סוגיות מתקדמות בהוראת הפיזיקה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216005 - סוגיות מתקדמות בהוראת הפיזיקה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216006',
-		'course_name':'סוגיות מתק. ב\מוטל\ בתיכון',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216006 - סוגיות מתק. במוטל בתיכון',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216101',
-		'course_name':'הרשת כסביבה לימודית',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216101 - הרשת כסביבה לימודית',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216110',
-		'course_name':'הוראת מדעים זיקה להוראת טכנולוגיה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216110 - הוראת מדעים זיקה להוראת טכנולוגיה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216113',
-		'course_name':'תהליכים בפתרון בעיות מחקר ויישום',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216113 - תהליכים בפתרון בעיות מחקר ויישום',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216117',
-		'course_name':'תקשורת המדע',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216117 - תקשורת המדע',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216125',
-		'course_name':'גישות מתקדמות להערכה בחינוך מתמטי',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216125 - גישות מתקדמות להערכה בחינוך מתמטי',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216126',
-		'course_name':'סדנת התנסות במדע בלווי מחקר פעולה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216126 - סדנת התנסות במדע בלווי מחקר פעולה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216150',
-		'course_name':'פרויקט אישי במחקר חינוכי',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216150 - פרויקט אישי במחקר חינוכי',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216300',
-		'course_name':'סוגיות מתקדמות בהוראת מדעי המחשב',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216300 - סוגיות מתקדמות בהוראת מדעי המחשב',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216319',
-		'course_name':'שילוב מודלים בהוראת מדעים',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216319 - שילוב מודלים בהוראת מדעים',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'234111',
-		'course_name':'מבוא למדעי המחשב',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234111 - מבוא למדעי המחשב',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234112',
-		'course_name':'מבוא למחשב - שפת סי',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234112 - מבוא למחשב - שפת סי',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234114',
-		'course_name':'מבוא למדעי המחשב מ'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234114 - מבוא למדעי המחשב מ',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234117',
-		'course_name':'מבוא למדעי המחשב ח'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234117 - מבוא למדעי המחשב ח',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234118',
-		'course_name':'ארגון ותכנות המחשב',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234118 - ארגון ותכנות המחשב',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234122',
-		'course_name':'מבוא לתכנות מערכות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234122 - מבוא לתכנות מערכות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234123',
-		'course_name':'מערכות הפעלה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234123 - מערכות הפעלה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234125',
-		'course_name':'אלגוריתמים נומריים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234125 - אלגוריתמים נומריים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234126',
-		'course_name':'מבוא למחשב - שפת סי אנגלית',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234126 - מבוא למחשב - שפת סי אנגלית',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234127',
-		'course_name':'מבוא למחשב בשפת מטלאב',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234127 - מבוא למחשב בשפת מטלאב',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234141',
-		'course_name':'קומבינטוריקה למדעי המחשב',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234141 - קומבינטוריקה למדעי המחשב',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234145',
-		'course_name':'מערכות ספרתיות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234145 - מערכות ספרתיות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234218',
-		'course_name':'מבני נתונים 1',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234218 - מבני נתונים 1',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234230',
-		'course_name':'השתלמות עצמית 1',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234230 - השתלמות עצמית 1',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234247',
-		'course_name':'אלגוריתמים 1',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234247 - אלגוריתמים 1',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234262',
-		'course_name':'תכן לוגי',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234262 - תכן לוגי',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234267',
-		'course_name':'מבנה מחשבים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234267 - מבנה מחשבים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234290',
-		'course_name':'פרויקט 1 במדעי המחשב',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234290 - פרויקט 1 במדעי המחשב',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234291',
-		'course_name':'פרויקט 2 במדעי המחשב',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234291 - פרויקט 2 במדעי המחשב',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234293',
-		'course_name':'לוגיקה ותורת הקבוצות למדעי המחשב',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234293 - לוגיקה ותורת הקבוצות למדעי המחשב',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234311',
-		'course_name':'פרויקט שנתי בהנדסת תוכנה-שלב א'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234311 - פרויקט שנתי בהנדסת תוכנה-שלב א',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234313',
-		'course_name':'פרויקט תעשייתי',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234313 - פרויקט תעשייתי',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234319',
-		'course_name':'שפות תכנות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234319 - שפות תכנות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234322',
-		'course_name':'מערכות אחסון מידע',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234322 - מערכות אחסון מידע',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234325',
-		'course_name':'גרפיקה ממוחשבת 1',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234325 - גרפיקה ממוחשבת 1',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234326',
-		'course_name':'פרויקט בגרפיקה ממוחשבת ה'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234326 - פרויקט בגרפיקה ממוחשבת ה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234329',
-		'course_name':'פרויקט בעיבוד וניתוח תמונות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234329 - פרויקט בעיבוד וניתוח תמונות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236200',
-		'course_name':'עיבוד מידע סטטיסטי',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236200 - עיבוד מידע סטטיסטי',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236268',
-		'course_name':'ארכיטקטורת מעבדים בגישה בונה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236268 - ארכיטקטורת מעבדים בגישה בונה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236304',
-		'course_name':'לוגיקה למדעי המחשב 2',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236304 - לוגיקה למדעי המחשב 2',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236309',
-		'course_name':'מבוא לתורת הצפינה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236309 - מבוא לתורת הצפינה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236313',
-		'course_name':'תורת הסיבוכיות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236313 - תורת הסיבוכיות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236315',
-		'course_name':'שיטות אלגבריות במדעי המחשב',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236315 - שיטות אלגבריות במדעי המחשב',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236321',
-		'course_name':'שיטות בהנדסת תוכנה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236321 - שיטות בהנדסת תוכנה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236323',
-		'course_name':'פרויקט בעיבוד נתונים מ'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236323 - פרויקט בעיבוד נתונים מ',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236328',
-		'course_name':'פרוייקט בגרפיקה ממוחשבת מ'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236328 - פרוייקט בגרפיקה ממוחשבת מ',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236332',
-		'course_name':'האינטרנט של הדברים - טכנולוגיות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236332 - האינטרנט של הדברים - טכנולוגיות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236333',
-		'course_name':'פרויקט באינטרנט של הדברים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236333 - פרויקט באינטרנט של הדברים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236334',
-		'course_name':'מבוא לרשתות מחשבים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236334 - מבוא לרשתות מחשבים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236336',
-		'course_name':'פתרון נומרי של משוואות דיפ.חלקיות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236336 - פתרון נומרי של משוואות דיפ.חלקיות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236340',
-		'course_name':'פרויקט בתקשורת מחשבים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236340 - פרויקט בתקשורת מחשבים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236341',
-		'course_name':'תקשורת באינטרנט',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236341 - תקשורת באינטרנט',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236342',
-		'course_name':'מבוא לאימות תוכנה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236342 - מבוא לאימות תוכנה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236343',
-		'course_name':'תורת החישוביות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236343 - תורת החישוביות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236349',
-		'course_name':'פרויקט באבטחת מידע',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236349 - פרויקט באבטחת מידע',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236350',
-		'course_name':'הגנה במערכות מתוכנתות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236350 - הגנה במערכות מתוכנתות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236351',
-		'course_name':'מערכות מבוזרות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236351 - מערכות מבוזרות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236353',
-		'course_name':'אוטומטים ושפות פורמליות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236353 - אוטומטים ושפות פורמליות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236360',
-		'course_name':'תורת הקומפילציה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236360 - תורת הקומפילציה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236363',
-		'course_name':'מערכות מסד נתונים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236363 - מערכות מסד נתונים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236370',
-		'course_name':'תכנות מקבילי ומבוזר',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236370 - תכנות מקבילי ומבוזר',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236371',
-		'course_name':'פרויקט בתכנות מקבילי ומבוזר',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236371 - פרויקט בתכנות מקבילי ומבוזר',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236381',
-		'course_name':'פרויקט ב- וי.אל.אס.אי. ב'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236381 - פרויקט ב- וי.אל.אס.אי. ב',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236499',
-		'course_name':'פרויקט בחומות אש',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236499 - פרויקט בחומות אש',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236501',
-		'course_name':'מבוא לבינה מלאכותית',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236501 - מבוא לבינה מלאכותית',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236502',
-		'course_name':'פרויקט בבינה מלאכותית',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236502 - פרויקט בבינה מלאכותית',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236503',
-		'course_name':'פרויקט תכנות מתקדם במדעי המחשב 1',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236503 - פרויקט תכנות מתקדם במדעי המחשב 1',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236504',
-		'course_name':'פרויקט המשך בתוכנה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236504 - פרויקט המשך בתוכנה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236508',
-		'course_name':'קריפטוגרפיה וסיבוכיות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236508 - קריפטוגרפיה וסיבוכיות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236521',
-		'course_name':'אלגוריתמי קירוב',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236521 - אלגוריתמי קירוב',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236523',
-		'course_name':'מבוא לביואינפורמטיקה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236523 - מבוא לביואינפורמטיקה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236524',
-		'course_name':'פרוייקט בביואינפורמטיקה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236524 - פרוייקט בביואינפורמטיקה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236601',
-		'course_name':'נושאים מתקדמים במדעי המחשב 1',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236601 - נושאים מתקדמים במדעי המחשב 1',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236602',
-		'course_name':'נושאים מתקדמים במדעי המחשב 2',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236602 - נושאים מתקדמים במדעי המחשב 2',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236603',
-		'course_name':'נושאים מתקדמים במדעי המחשב 3',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236603 - נושאים מתקדמים במדעי המחשב 3',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236604',
-		'course_name':'נושאים מתקדמים במדעי המחשב 4',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236604 - נושאים מתקדמים במדעי המחשב 4',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236605',
-		'course_name':'נושאים מתקדמים במדעי המחשב 5',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236605 - נושאים מתקדמים במדעי המחשב 5',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236607',
-		'course_name':'נושאים מתקדמים במדעי המחשב 7',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236607 - נושאים מתקדמים במדעי המחשב 7',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236646',
-		'course_name':'נושאים בתאוריה של מדעי המחשב',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236646 - נושאים בתאוריה של מדעי המחשב',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236650',
-		'course_name':'נושאים מתקדמים בהנדסת תוכנה ה'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236650 - נושאים מתקדמים בהנדסת תוכנה ה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236703',
-		'course_name':'תכנות מונחה עצמים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236703 - תכנות מונחה עצמים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236716',
-		'course_name':'מודלים גאומטריים במערכות תיב\מ',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236716 - מודלים גאומטריים במערכות תיבמ',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236719',
-		'course_name':'גאומטריה חישובית',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236719 - גאומטריה חישובית',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236754',
-		'course_name':'פרויקט במערכות נבונות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236754 - פרויקט במערכות נבונות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236757',
-		'course_name':'פרויקט במערכות לומדות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236757 - פרויקט במערכות לומדות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236801',
-		'course_name':'סמינר במדעי המחשב 1',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236801 - סמינר במדעי המחשב 1',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236802',
-		'course_name':'סמינר במדעי המחשב 2',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236802 - סמינר במדעי המחשב 2',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236803',
-		'course_name':'סמינר במדעי המחשב 3',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236803 - סמינר במדעי המחשב 3',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236804',
-		'course_name':'סמינר במדעי המחשב 4',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236804 - סמינר במדעי המחשב 4',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236805',
-		'course_name':'סמינר במדעי המחשב 5',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236805 - סמינר במדעי המחשב 5',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236818',
-		'course_name':'סמינר בביואינפורמטיקה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236818 - סמינר בביואינפורמטיקה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236826',
-		'course_name':'סמינר במסדי נתונים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236826 - סמינר במסדי נתונים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236828',
-		'course_name':'פרויקט במערכות מחשבים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236828 - פרויקט במערכות מחשבים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236832',
-		'course_name':'סמינר בתכנות מקבילי',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236832 - סמינר בתכנות מקבילי',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236860',
-		'course_name':'עיבוד תמונות דיגיטלי',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236860 - עיבוד תמונות דיגיטלי',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236861',
-		'course_name':'ראיה חישובית גאומטרית',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236861 - ראיה חישובית גאומטרית',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236862',
-		'course_name':'ייצוגים דלילים ויתירים ויישומיהם',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236862 - ייצוגים דלילים ויתירים ויישומיהם',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236873',
-		'course_name':'ראיה ממוחשבת',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236873 - ראיה ממוחשבת',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236874',
-		'course_name':'פרויקט בראיה ממוחשבת',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236874 - פרויקט בראיה ממוחשבת',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236927',
-		'course_name':'מבוא לרובוטיקה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236927 - מבוא לרובוטיקה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'274001',
-		'course_name':'מבוא לאנטומ מיקרוסקופית ומקרוסקופ',
-		'course_faculty':'רפואה'
+		'course_name':'274001 - מבוא לאנטומ מיקרוסקופית ומקרוסקופ',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274018',
-		'course_name':'היסטולוגיה ומבוא לאנטומיה לרפ\ע',
-		'course_faculty':'רפואה'
+		'course_name':'274018 - היסטולוגיה ומבוא לאנטומיה לרפע',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274024',
-		'course_name':'נוירולוגיה ונוירופתולוגיה לרפ\ע',
-		'course_faculty':'רפואה'
+		'course_name':'274024 - נוירולוגיה ונוירופתולוגיה לרפע',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274030',
-		'course_name':'קינזיולוגיה לרפ\ע',
-		'course_faculty':'רפואה'
+		'course_name':'274030 - קינזיולוגיה לרפע',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274032',
-		'course_name':'מבוא למדעים-ביולוגיה\/כימיה לרפ\ע',
-		'course_faculty':'רפואה'
+		'course_name':'274032 - מבוא למדעים-ביולוגיה/כימיה לרפע',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274070',
-		'course_name':'מבוא לרפואה מעבדתית',
-		'course_faculty':'רפואה'
+		'course_name':'274070 - מבוא לרפואה מעבדתית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274073',
-		'course_name':'פתולוגיה כללית - רפואה מעבדתית',
-		'course_faculty':'רפואה'
+		'course_name':'274073 - פתולוגיה כללית - רפואה מעבדתית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274075',
-		'course_name':'מיומנויות מדעי המעבדה הקלינית',
-		'course_faculty':'רפואה'
+		'course_name':'274075 - מיומנויות מדעי המעבדה הקלינית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274109',
-		'course_name':'מבוא לרפואה דחופה',
-		'course_faculty':'רפואה'
+		'course_name':'274109 - מבוא לרפואה דחופה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274124',
-		'course_name':'ביופיסיקה ומדעי העצב ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274124 - ביופיסיקה ומדעי העצב תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274126',
-		'course_name':'ביוכימיה כללית וקלינית 1 ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274126 - ביוכימיה כללית וקלינית 1 תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274136',
-		'course_name':'מדעי התנהגות ומקצועיות רפואית ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274136 - מדעי התנהגות ומקצועיות רפואית תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274138',
-		'course_name':'מדעי הרפואה#ניתוח אותות ומערכות א',
-		'course_faculty':'רפואה'
+		'course_name':'274138 - מדעי הרפואה#ניתוח אותות ומערכות א',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274140',
-		'course_name':'להיות רופא-חשיפה למקצוע הרפואה 1',
-		'course_faculty':'רפואה'
+		'course_name':'274140 - להיות רופא-חשיפה למקצוע הרפואה 1',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274144',
-		'course_name':'מבוא לרפואה דחופה-החייאה בסיסית',
-		'course_faculty':'רפואה'
+		'course_name':'274144 - מבוא לרפואה דחופה-החייאה בסיסית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274170',
-		'course_name':'אנטומיה ואמבריולוגיה  1 ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274170 - אנטומיה ואמבריולוגיה  1 תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274171',
-		'course_name':'התא מבנה ותפקוד ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274171 - התא מבנה ותפקוד תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274173',
-		'course_name':'מבוא לרפואה קלינית ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274173 - מבוא לרפואה קלינית תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274174',
-		'course_name':'אימונולוג.בסיס.אימונוביולוגיה ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274174 - אימונולוג.בסיס.אימונוביולוגיה תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274175',
-		'course_name':'פרמקולוגיה ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274175 - פרמקולוגיה תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274176',
-		'course_name':'פתולוגיה ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274176 - פתולוגיה תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274178',
-		'course_name':'נוירולוגיה ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274178 - נוירולוגיה תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274179',
-		'course_name':'סבב קריירה ייחודי ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274179 - סבב קריירה ייחודי תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274180',
-		'course_name':'בחירה קלינית מתקדמת ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274180 - בחירה קלינית מתקדמת תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274216',
-		'course_name':'היסטולוגיה ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274216 - היסטולוגיה תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274219',
-		'course_name':'ביוסטטיסטיקה',
-		'course_faculty':'רפואה'
+		'course_name':'274219 - ביוסטטיסטיקה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274234',
-		'course_name':'להיות רופא-חשיפה למקצוע הרפואה 3',
-		'course_faculty':'רפואה'
+		'course_name':'274234 - להיות רופא-חשיפה למקצוע הרפואה 3',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274237',
-		'course_name':'מעבדה בביוכימיה קלינית',
-		'course_faculty':'רפואה'
+		'course_name':'274237 - מעבדה בביוכימיה קלינית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274239',
-		'course_name':'מיקרוביולוגיה ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274239 - מיקרוביולוגיה תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274240',
-		'course_name':'הקורס המשולב למורפולוגיה של האדם',
-		'course_faculty':'רפואה'
+		'course_name':'274240 - הקורס המשולב למורפולוגיה של האדם',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274241',
-		'course_name':'ביוכימיה כללית',
-		'course_faculty':'רפואה'
+		'course_name':'274241 - ביוכימיה כללית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274242',
-		'course_name':'גנטיקה של האדם',
-		'course_faculty':'רפואה'
+		'course_name':'274242 - גנטיקה של האדם',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274243',
-		'course_name':'ביולוגיה מולקולרית ומנגנוני בקרה',
-		'course_faculty':'רפואה'
+		'course_name':'274243 - ביולוגיה מולקולרית ומנגנוני בקרה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274244',
-		'course_name':'ביולוגיה של התא',
-		'course_faculty':'רפואה'
+		'course_name':'274244 - ביולוגיה של התא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274306',
-		'course_name':'פתולוגיה כללית ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274306 - פתולוגיה כללית תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274314',
-		'course_name':'פרזיטולוגיה ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274314 - פרזיטולוגיה תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274318',
-		'course_name':'אפידמיולוגיה',
-		'course_faculty':'רפואה'
+		'course_name':'274318 - אפידמיולוגיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274320',
-		'course_name':'אתיקה ומשפט רפואי',
-		'course_faculty':'רפואה'
+		'course_name':'274320 - אתיקה ומשפט רפואי',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274323',
-		'course_name':'פיסיולוגיה 1 - נשימה לב ודם',
-		'course_faculty':'רפואה'
+		'course_name':'274323 - פיסיולוגיה 1 - נשימה לב ודם',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274326',
-		'course_name':'להיות רופא-סוגיות תרבותיות אתיות5',
-		'course_faculty':'רפואה'
+		'course_name':'274326 - להיות רופא-סוגיות תרבותיות אתיות5',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274327',
-		'course_name':'להיות רופא-סוגיות תרבותיות אתיות6',
-		'course_faculty':'רפואה'
+		'course_name':'274327 - להיות רופא-סוגיות תרבותיות אתיות6',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274328',
-		'course_name':'אנדוקרינולוגיה פיזיולוגיה ופתופיז',
-		'course_faculty':'רפואה'
+		'course_name':'274328 - אנדוקרינולוגיה פיזיולוגיה ופתופיז',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274331',
-		'course_name':'בקטריולוגיה',
-		'course_faculty':'רפואה'
+		'course_name':'274331 - בקטריולוגיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274332',
-		'course_name':'וירולוגיה לרפואנים',
-		'course_faculty':'רפואה'
+		'course_name':'274332 - וירולוגיה לרפואנים',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274335',
-		'course_name':'להיות רופא-סוגיות תרבותיות אתיות5',
-		'course_faculty':'רפואה'
+		'course_name':'274335 - להיות רופא-סוגיות תרבותיות אתיות5',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274336',
-		'course_name':'נוירופזיולוגיה מערכתית',
-		'course_faculty':'רפואה'
+		'course_name':'274336 - נוירופזיולוגיה מערכתית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274338',
-		'course_name':'נוירואנטומיה',
-		'course_faculty':'רפואה'
+		'course_name':'274338 - נוירואנטומיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274339',
-		'course_name':'בקטריולוגיה רפואית',
-		'course_faculty':'רפואה'
+		'course_name':'274339 - בקטריולוגיה רפואית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274344',
-		'course_name':'אפידימיולוגיה ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274344 - אפידימיולוגיה תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274345',
-		'course_name':'שיטות מחקר וביוסטטיסטיקה ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274345 - שיטות מחקר וביוסטטיסטיקה תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274348',
-		'course_name':'פיסיולוגיה 2 - מערכות ויסות',
-		'course_faculty':'רפואה'
+		'course_name':'274348 - פיסיולוגיה 2 - מערכות ויסות',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274350',
-		'course_name':'מיקולוגיה',
-		'course_faculty':'רפואה'
+		'course_name':'274350 - מיקולוגיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274351',
-		'course_name':'פרמקולוגיה בסיסית',
-		'course_faculty':'רפואה'
+		'course_name':'274351 - פרמקולוגיה בסיסית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274353',
-		'course_name':'שיטות מתקדמות בביוסטטיסטיקה',
-		'course_faculty':'רפואה'
+		'course_name':'274353 - שיטות מתקדמות בביוסטטיסטיקה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274354',
-		'course_name':'המטולוגיה פיזיולוגיה ופתופיזיולו.',
-		'course_faculty':'רפואה'
+		'course_name':'274354 - המטולוגיה פיזיולוגיה ופתופיזיולו.',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274355',
-		'course_name':'פרמקולוגיה בסיסית ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274355 - פרמקולוגיה בסיסית תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274356',
-		'course_name':'מבוא לפיזיולוגיה מערכתית',
-		'course_faculty':'רפואה'
+		'course_name':'274356 - מבוא לפיזיולוגיה מערכתית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274357',
-		'course_name':'סמינר גמר במדעי הרפואה',
-		'course_faculty':'רפואה'
+		'course_name':'274357 - סמינר גמר במדעי הרפואה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274358',
-		'course_name':'ביואינפורמטיקה וגנומיקה ברפואה',
-		'course_faculty':'רפואה'
+		'course_name':'274358 - ביואינפורמטיקה וגנומיקה ברפואה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274359',
-		'course_name':'שימושים טכנולוגיים במחקר ביורפואי',
-		'course_faculty':'רפואה'
+		'course_name':'274359 - שימושים טכנולוגיים במחקר ביורפואי',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274360',
-		'course_name':'מסלולי בקרה לקביעת גורל תאית',
-		'course_faculty':'רפואה'
+		'course_name':'274360 - מסלולי בקרה לקביעת גורל תאית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274362',
-		'course_name':'אימונולוגיה קלינית',
-		'course_faculty':'רפואה'
+		'course_name':'274362 - אימונולוגיה קלינית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274363',
-		'course_name':'אנדוקרינולוגיה פיזיולוגיה פתופיז'',
-		'course_faculty':'רפואה'
+		'course_name':'274363 - אנדוקרינולוגיה פיזיולוגיה פתופיז',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274425',
-		'course_name':'שילוב מערכות פרה-קליניקה -קליניקה',
-		'course_faculty':'רפואה'
+		'course_name':'274425 - שילוב מערכות פרה-קליניקה -קליניקה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274509',
-		'course_name':'רפואת נשים ומילדות ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274509 - רפואת נשים ומילדות תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274523',
-		'course_name':'רפואת כירורגיה כללית ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274523 - רפואת כירורגיה כללית תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274526',
-		'course_name':'כירורגיה 1ח'',
-		'course_faculty':'רפואה'
+		'course_name':'274526 - כירורגיה 1ח',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274530',
-		'course_name':'נוירולוגיה',
-		'course_faculty':'רפואה'
+		'course_name':'274530 - נוירולוגיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274531',
-		'course_name':'פסיכיאטריה',
-		'course_faculty':'רפואה'
+		'course_name':'274531 - פסיכיאטריה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274532',
-		'course_name':'רפואת נשים ומילדות',
-		'course_faculty':'רפואה'
+		'course_name':'274532 - רפואת נשים ומילדות',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274533',
-		'course_name':'רפואת ילדים 1ח'',
-		'course_faculty':'רפואה'
+		'course_name':'274533 - רפואת ילדים 1ח',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274534',
-		'course_name':'רפואה פנימית ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274534 - רפואה פנימית תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274536',
-		'course_name':'רפואת ילדים ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274536 - רפואת ילדים תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274602',
-		'course_name':'פסיכיאטריה ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274602 - פסיכיאטריה תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274604',
-		'course_name':'רפואת המשפחה והקהילה',
-		'course_faculty':'רפואה'
+		'course_name':'274604 - רפואת המשפחה והקהילה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274632',
-		'course_name':'רפואת ילדים 2',
-		'course_faculty':'רפואה'
+		'course_name':'274632 - רפואת ילדים 2',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274633',
-		'course_name':'רפואה פנימית 2ת'',
-		'course_faculty':'רפואה'
+		'course_name':'274633 - רפואה פנימית 2ת',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274724',
-		'course_name':'עבודת גמר מחקרית ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274724 - עבודת גמר מחקרית תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275101',
-		'course_name':'פרקים בהיסטוריה של הרפואה',
-		'course_faculty':'רפואה'
+		'course_name':'275101 - פרקים בהיסטוריה של הרפואה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275200',
-		'course_name':'תולדות הרפואה',
-		'course_faculty':'רפואה'
+		'course_name':'275200 - תולדות הרפואה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275208',
-		'course_name':'מבוא לרפואה דחופה ב'',
-		'course_faculty':'רפואה'
+		'course_name':'275208 - מבוא לרפואה דחופה ב',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275317',
-		'course_name':'ספרות ורפואה',
-		'course_faculty':'רפואה'
+		'course_name':'275317 - ספרות ורפואה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275500',
-		'course_name':'הדמיה רפואית',
-		'course_faculty':'רפואה'
+		'course_name':'275500 - הדמיה רפואית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275524',
-		'course_name':'בחירה חופשית קלינית 1',
-		'course_faculty':'רפואה'
+		'course_name':'275524 - בחירה חופשית קלינית 1',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275525',
-		'course_name':'בחירה חופשית קלינית 2',
-		'course_faculty':'רפואה'
+		'course_name':'275525 - בחירה חופשית קלינית 2',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275528',
-		'course_name':'בחירה חופשית קלינית 4',
-		'course_faculty':'רפואה'
+		'course_name':'275528 - בחירה חופשית קלינית 4',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'276001',
-		'course_name':'רפואת שינה-מפיזיולוגיה ועד מחלות',
-		'course_faculty':'רפואה'
+		'course_name':'276001 - רפואת שינה-מפיזיולוגיה ועד מחלות',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'276011',
-		'course_name':'פיזיולוגית מערכות הגוף למהנדסים',
-		'course_faculty':'רפואה'
+		'course_name':'276011 - פיזיולוגית מערכות הגוף למהנדסים',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'276203',
-		'course_name':'מבנה המח ותפקודו',
-		'course_faculty':'רפואה'
+		'course_name':'276203 - מבנה המח ותפקודו',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'276310',
-		'course_name':'ביוכימיה קלינית',
-		'course_faculty':'רפואה'
+		'course_name':'276310 - ביוכימיה קלינית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'276413',
-		'course_name':'אימונולוגיה בסיסית',
-		'course_faculty':'רפואה'
+		'course_name':'276413 - אימונולוגיה בסיסית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'276450',
-		'course_name':'אנדוקרינולוגיה',
-		'course_faculty':'רפואה'
+		'course_name':'276450 - אנדוקרינולוגיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'277311',
-		'course_name':'אלקטרופיזיולוגיה של שריר הלב',
-		'course_faculty':'רפואה'
+		'course_name':'277311 - אלקטרופיזיולוגיה של שריר הלב',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'314003',
-		'course_name':'מבוא למכניקת המוצקים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'314003 - מבוא למכניקת המוצקים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'314006',
-		'course_name':'אפיון מבנה והרכב חומרים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'314006 - אפיון מבנה והרכב חומרים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'314009',
-		'course_name':'מעבדה בחומרים הנדסיים ח'',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'314009 - מעבדה בחומרים הנדסיים ח',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'314014',
-		'course_name':'חומרים ביו-רפואיים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'314014 - חומרים ביו-רפואיים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'314100',
-		'course_name':'עקרונות ודרכי למידה בהנ. חומרים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'314100 - עקרונות ודרכי למידה בהנ. חומרים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'314124',
-		'course_name':'נושאים מתקדמים בהנדסת חומרים 1',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'314124 - נושאים מתקדמים בהנדסת חומרים 1',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'314532',
-		'course_name':'אלקטרוכימיה קורוזיה ושיטות הגנה',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'314532 - אלקטרוכימיה קורוזיה ושיטות הגנה',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'314533',
-		'course_name':'מבוא להנדסת חומרים מ'1',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'314533 - מבוא להנדסת חומרים מ1',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'314535',
-		'course_name':'מבוא להנדסת חומרים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'314535 - מבוא להנדסת חומרים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315001',
-		'course_name':'מעבדת חומרים מתקדמת 1ח'',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315001 - מעבדת חומרים מתקדמת 1ח',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315012',
-		'course_name':'בחירת חומרים מתקדמת',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315012 - בחירת חומרים מתקדמת',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315014',
-		'course_name':'פרויקט מתקדם בחומרים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315014 - פרויקט מתקדם בחומרים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315025',
-		'course_name':'פרויקט מתקדם בחומרים 2',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315025 - פרויקט מתקדם בחומרים 2',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315037',
-		'course_name':'תכונות ושימושים של חומרים מתכתיים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315037 - תכונות ושימושים של חומרים מתכתיים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315044',
-		'course_name':'חומרים אופטיים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315044 - חומרים אופטיים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315045',
-		'course_name':'תהליכי יצור במיקרואלקטרוניקה',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315045 - תהליכי יצור במיקרואלקטרוניקה',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315046',
-		'course_name':'מבוא לאריזות לרכיבי ולסי מתקדמות',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315046 - מבוא לאריזות לרכיבי ולסי מתקדמות',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315049',
-		'course_name':'ביומינרליזציה וחומרים ביולוגיים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315049 - ביומינרליזציה וחומרים ביולוגיים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315052',
-		'course_name':'קינטיקת טרנספורמציות בחומרים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315052 - קינטיקת טרנספורמציות בחומרים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315056',
-		'course_name':'גידול גבישים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315056 - גידול גבישים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315242',
-		'course_name':'הנדסת חומרים מרוכבים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315242 - הנדסת חומרים מרוכבים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315721',
-		'course_name':'מבנה והתנהגות של פולימרים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315721 - מבנה והתנהגות של פולימרים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'320097',
-		'course_name':'יסודות מדע אינטגרטיבי-אקראיותזמן',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'320097 - יסודות מדע אינטגרטיבי-אקראיותזמן',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'320101',
-		'course_name':'פעילות חברתית 1',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'320101 - פעילות חברתית 1',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'320102',
-		'course_name':'פעילות חברתית 2',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'320102 - פעילות חברתית 2',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'320200',
-		'course_name':'מעבדת מחקר כללית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'320200 - מעבדת מחקר כללית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324032',
-		'course_name':'אנגלית למתקדמים א'',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324032 - אנגלית למתקדמים א',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324033',
-		'course_name':'אנגלית טכנית-מתקדמים ב'',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324033 - אנגלית טכנית-מתקדמים ב',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324052',
-		'course_name':'עברית 2',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324052 - עברית 2',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324053',
-		'course_name':'עברית 3',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324053 - עברית 3',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324062',
-		'course_name':'עברית לרפואה - מתחילים 2',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324062 - עברית לרפואה - מתחילים 2',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324063',
-		'course_name':'עברית לרפואה - רמה בינונית 3',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324063 - עברית לרפואה - רמה בינונית 3',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324064',
-		'course_name':'עברית לרפואה מתקדמים 4',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324064 - עברית לרפואה מתקדמים 4',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324065',
-		'course_name':'עברית לביה\ס הבינלאומי 2',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324065 - עברית לביהס הבינלאומי 2',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324067',
-		'course_name':'עברית לביה\ס הבינלאומי 4',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324067 - עברית לביהס הבינלאומי 4',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324069',
-		'course_name':'עברית לביה\ס הבינלאומי 33',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324069 - עברית לביהס הבינלאומי 33',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324218',
-		'course_name':'חברה ואמנות בישראל לרפואנים בלבד',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324218 - חברה ואמנות בישראל לרפואנים בלבד',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324227',
-		'course_name':'אלתור ג'אז למתחילים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324227 - אלתור גאז למתחילים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324228',
-		'course_name':'נגינה ואלתור בהרכב ג'אז-למתקדמים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324228 - נגינה ואלתור בהרכב גאז-למתקדמים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324235',
-		'course_name':'תקשורת בין-אישית באמצעי תיאטרון',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324235 - תקשורת בין-אישית באמצעי תיאטרון',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324290',
-		'course_name':'היסטוריה של רפואה וחומרי מרפא',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324290 - היסטוריה של רפואה וחומרי מרפא',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324291',
-		'course_name':'חיי היהודים באגן ים התיכון בימה\ב',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324291 - חיי היהודים באגן ים התיכון בימהב',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324292',
-		'course_name':'משפט שוויון וצדק חברתי',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324292 - משפט שוויון וצדק חברתי',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324293',
-		'course_name':'תובנות יסוד בפילוסופיה של הרמב\ם',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324293 - תובנות יסוד בפילוסופיה של הרמבם',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324295',
-		'course_name':'הגות יהודית בימי הביניים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324295 - הגות יהודית בימי הביניים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324296',
-		'course_name':'יסודות באמנות ותרבות סין',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324296 - יסודות באמנות ותרבות סין',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324297',
-		'course_name':'אישים בתנ\ך לאור זמננו',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324297 - אישים בתנך לאור זמננו',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324298',
-		'course_name':'מן התנ\ך ועד למשפט הישראלי החדשני',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324298 - מן התנך ועד למשפט הישראלי החדשני',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324385',
-		'course_name':'תקשורת בעל-פה ובכתב באנגלית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324385 - תקשורת בעל-פה ובכתב באנגלית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324390',
-		'course_name':'נגינה בהרכב קאמרי',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324390 - נגינה בהרכב קאמרי',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324397',
-		'course_name':'סוגיות בפילוסופיה של מדעי החיים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324397 - סוגיות בפילוסופיה של מדעי החיים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324426',
-		'course_name':'מחורבן ליצירה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324426 - מחורבן ליצירה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324432',
-		'course_name':'פסיכולוגיה של המוזיקה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324432 - פסיכולוגיה של המוזיקה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324434',
-		'course_name':'מבוא היסטורי למוסיקה 1',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324434 - מבוא היסטורי למוסיקה 1',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324435',
-		'course_name':'מבוא לפילוסופיה הסינית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324435 - מבוא לפילוסופיה הסינית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324440',
-		'course_name':'יסודות המוסיקה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324440 - יסודות המוסיקה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324442',
-		'course_name':'משפט העבודה בישראל',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324442 - משפט העבודה בישראל',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324444',
-		'course_name':'לוחמה פסיכול'-מתעמולה ללוחמת מידע',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324444 - לוחמה פסיכול-מתעמולה ללוחמת מידע',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324445',
-		'course_name':'הסתגלות למצבי לחץ',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324445 - הסתגלות למצבי לחץ',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324452',
-		'course_name':'מעקב#טכנולוגיה תיאוריה ואתיקה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324452 - מעקב#טכנולוגיה תיאוריה ואתיקה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324456',
-		'course_name':'חשיבה# ביקורת ויצירה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324456 - חשיבה# ביקורת ויצירה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324461',
-		'course_name':'מודרניזם בתיאטרון',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324461 - מודרניזם בתיאטרון',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324462',
-		'course_name':'ברלין בקולנוע-מהנאציזם ועד ימינו',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324462 - ברלין בקולנוע-מהנאציזם ועד ימינו',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324463',
-		'course_name':'היסטוריה של המזרח התיכון',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324463 - היסטוריה של המזרח התיכון',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324482',
-		'course_name':'רישום ביד חופשית למתקדמים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324482 - רישום ביד חופשית למתקדמים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324483',
-		'course_name':'ציור למתחילים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324483 - ציור למתחילים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324567',
-		'course_name':'סדנת צילום# שפה וכלים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324567 - סדנת צילום# שפה וכלים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324580',
-		'course_name':'יפנית 2',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324580 - יפנית 2',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324600',
-		'course_name':'גרמנית 1',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324600 - גרמנית 1',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324602',
-		'course_name':'יפנית למתחילים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324602 - יפנית למתחילים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324603',
-		'course_name':'גרמנית 2',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324603 - גרמנית 2',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324607',
-		'course_name':'גרמנית 6',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324607 - גרמנית 6',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324608',
-		'course_name':'צרפתית 1',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324608 - צרפתית 1',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324621',
-		'course_name':'רוסית למתחילים 1',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324621 - רוסית למתחילים 1',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324626',
-		'course_name':'ערבית (כשפה זרה) 1',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324626 - ערבית (כשפה זרה) 1',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324630',
-		'course_name':'איטלקית למתחילים 1',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324630 - איטלקית למתחילים 1',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324675',
-		'course_name':'ספרדית למתחילים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324675 - ספרדית למתחילים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324679',
-		'course_name':'ספרדית ברמה בינונית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324679 - ספרדית ברמה בינונית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324692',
-		'course_name':'סינית למתחילים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324692 - סינית למתחילים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324864',
-		'course_name':'יזמות 1',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324864 - יזמות 1',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324879',
-		'course_name':'סוגיות נבחרות בחברה הישראלית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324879 - סוגיות נבחרות בחברה הישראלית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324881',
-		'course_name':'פרקים נבחרים בתולדות ישראל',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324881 - פרקים נבחרים בתולדות ישראל',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324904',
-		'course_name':'מזרח תיכון עת חדשה#תמורותשינויים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324904 - מזרח תיכון עת חדשה#תמורותשינויים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324907',
-		'course_name':'ספורי בריאה ומיתוסים במצרים עתיקה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324907 - ספורי בריאה ומיתוסים במצרים עתיקה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324917',
-		'course_name':'ארץ הקודש בראי האמנות',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324917 - ארץ הקודש בראי האמנות',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324929',
-		'course_name':'צליינות צילומית#הארץ בעין המצלמה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324929 - צליינות צילומית#הארץ בעין המצלמה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324936',
-		'course_name':'לשונות המזרח התיכון',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324936 - לשונות המזרח התיכון',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324939',
-		'course_name':'\האביב הערבי\ - מבט היסטורי חברתי',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324939 - האביב הערבי - מבט היסטורי חברתי',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324943',
-		'course_name':'מרחב גבולות וקדושה בארץ ישראל',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324943 - מרחב גבולות וקדושה בארץ ישראל',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324945',
-		'course_name':'הסכסוך הסוני - שיעי באסלאם',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324945 - הסכסוך הסוני - שיעי באסלאם',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324946',
-		'course_name':'הרנסנס באיטליה#מסע אמנותי ותרבותי',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324946 - הרנסנס באיטליה#מסע אמנותי ותרבותי',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324948',
-		'course_name':'\משחקי גבורה\ - מלחמה בקולנוע',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324948 - משחקי גבורה - מלחמה בקולנוע',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324952',
-		'course_name':'גוף בריאות וחולי במדעי החברה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324952 - גוף בריאות וחולי במדעי החברה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324954',
-		'course_name':'דת ומדינה בישראל',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324954 - דת ומדינה בישראל',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324955',
-		'course_name':'תולדות המחשבה המדינית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324955 - תולדות המחשבה המדינית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324961',
-		'course_name':'מדע ונצרות# קונפליקט או דו-קיום',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324961 - מדע ונצרות# קונפליקט או דו-קיום',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324965',
-		'course_name':'הקריירה האנושיתתולדות אדם הקדמון',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324965 - הקריירה האנושיתתולדות אדם הקדמון',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324970',
-		'course_name':'סוגיות יסוד בחברה הישראלית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324970 - סוגיות יסוד בחברה הישראלית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324973',
-		'course_name':'שפת המוזיקה התחביר של הצליל',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324973 - שפת המוזיקה התחביר של הצליל',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324983',
-		'course_name':'הקומוניזם אידיאולוגיה ופרקטיקות',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324983 - הקומוניזם אידיאולוגיה ופרקטיקות',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324984',
-		'course_name':'תרבותחברהמדינה בקוריאה בת זמננו',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324984 - תרבותחברהמדינה בקוריאה בת זמננו',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324987',
-		'course_name':'הסטוריה של פיסיקה מודרנית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324987 - הסטוריה של פיסיקה מודרנית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'334010',
-		'course_name':'תכן ביומכני בסיסי',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'334010 - תכן ביומכני בסיסי',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'334014',
-		'course_name':'פרויקט בהנדסה ביו-רפואית 1',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'334014 - פרויקט בהנדסה ביו-רפואית 1',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'334019',
-		'course_name':'מעבדה מתקדמת בהנדסה ביו-רפואית 1',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'334019 - מעבדה מתקדמת בהנדסה ביו-רפואית 1',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'334021',
-		'course_name':'מגמות בהנדסה ביו-רפואית',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'334021 - מגמות בהנדסה ביו-רפואית',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'334022',
-		'course_name':'יסודות תכן ביו-חשמלי',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'334022 - יסודות תכן ביו-חשמלי',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'335001',
-		'course_name':'מעבדה בהנדסה ביו-רפואית 1',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'335001 - מעבדה בהנדסה ביו-רפואית 1',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'335002',
-		'course_name':'מעבדה בהנדסה ביו-רפואית 2',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'335002 - מעבדה בהנדסה ביו-רפואית 2',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'335003',
-		'course_name':'מעבדה בהנדסה ביו-רפואית 3',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'335003 - מעבדה בהנדסה ביו-רפואית 3',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'335004',
-		'course_name':'מעבדה בהנדסה ביו-רפואית 4',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'335004 - מעבדה בהנדסה ביו-רפואית 4',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336017',
-		'course_name':'נושאים מתקדמים בה. ביו רפואית3',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336017 - נושאים מתקדמים בה. ביו רפואית3',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336018',
-		'course_name':'נושאים מתקדמים בהנדסה ביורפואית 4',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336018 - נושאים מתקדמים בהנדסה ביורפואית 4',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336020',
-		'course_name':'תופעות ביו-חשמליות',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336020 - תופעות ביו-חשמליות',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336021',
-		'course_name':'ננו-חלקיקים בביולוגיה מכניקה ורי',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336021 - ננו-חלקיקים בביולוגיה מכניקה ורי',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336022',
-		'course_name':'מתא לרקמה',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336022 - מתא לרקמה',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336023',
-		'course_name':'יישומי אופטיקה בביורפואה',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336023 - יישומי אופטיקה בביורפואה',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336214',
-		'course_name':'נתוח תהליכים במערכת הראיה',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336214 - נתוח תהליכים במערכת הראיה',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336502',
-		'course_name':'עקרונות הדמיה ברפואה',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336502 - עקרונות הדמיה ברפואה',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336518',
-		'course_name':'מעבר חום במערכות ביולוגיות',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336518 - מעבר חום במערכות ביולוגיות',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336520',
-		'course_name':'שתלים אורתופדיים ותחליפי רקמה',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336520 - שתלים אורתופדיים ותחליפי רקמה',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336521',
-		'course_name':'עקרונות הנדסיים של המערכת',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336521 - עקרונות הנדסיים של המערכת',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336522',
-		'course_name':'מבוא לבקרה במערכות ביו רפואיות',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336522 - מבוא לבקרה במערכות ביו רפואיות',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336523',
-		'course_name':'מכשור רפואי סטנדרטים ובטיחות',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336523 - מכשור רפואי סטנדרטים ובטיחות',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336528',
-		'course_name':'שחרור מבוקר של תרופות',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336528 - שחרור מבוקר של תרופות',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336533',
-		'course_name':'אופטיקה ופוטוניקה ביורפואית',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336533 - אופטיקה ופוטוניקה ביורפואית',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336538',
-		'course_name':'עקרונות ביוהנדסיים לחישת מולקולות',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336538 - עקרונות ביוהנדסיים לחישת מולקולות',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336540',
-		'course_name':'תכן מיכשור רפואי ממוחשב(וירטואלי)',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336540 - תכן מיכשור רפואי ממוחשב(וירטואלי)',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336543',
-		'course_name':'יזמות בהנדסה ביורפואית',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336543 - יזמות בהנדסה ביורפואית',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'337403',
-		'course_name':'תופעות מעבר במערכות פיסיולוגיות',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'337403 - תופעות מעבר במערכות פיסיולוגיות',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'394580',
-		'course_name':'פיתוח קול',
-		'course_faculty':'ספורט'
+		'course_name':'394580 - פיתוח קול',
+		'faculty_name':'ספורט'
 	},
 	{
-		'course_number':'394582',
-		'course_name':'תזמורת',
-		'course_faculty':'ספורט'
+		'course_name':'394582 - תזמורת',
+		'faculty_name':'ספורט'
 	},
 	{
-		'course_number':'394587',
-		'course_name':'מקהלה 3',
-		'course_faculty':'ספורט'
+		'course_name':'394587 - מקהלה 3',
+		'faculty_name':'ספורט'
 	},
 	{
-		'course_number':'394591',
-		'course_name':'פיתוח קול 2',
-		'course_faculty':'ספורט'
+		'course_name':'394591 - פיתוח קול 2',
+		'faculty_name':'ספורט'
 	},
 	{
-		'course_number':'394800',
-		'course_name':'חינוך גופני-כושר בנים',
-		'course_faculty':'ספורט'
+		'course_name':'394800 - חינוך גופני-כושר בנים',
+		'faculty_name':'ספורט'
 	},
 	{
-		'course_number':'394801',
-		'course_name':'חינוך גופני - התעמלות כללית בנות',
-		'course_faculty':'ספורט'
+		'course_name':'394801 - חינוך גופני - התעמלות כללית בנות',
+		'faculty_name':'ספורט'
 	},
 	{
-		'course_number':'394802',
-		'course_name':'חינוך גופני - שחיה',
-		'course_faculty':'ספורט'
+		'course_name':'394802 - חינוך גופני - שחיה',
+		'faculty_name':'ספורט'
 	},
 	{
-		'course_number':'394803',
-		'course_name':'חינוך גופני - משחקי כדור',
-		'course_faculty':'ספורט'
+		'course_name':'394803 - חינוך גופני - משחקי כדור',
+		'faculty_name':'ספורט'
 	},
 	{
-		'course_number':'394804',
-		'course_name':'חינוך גופני - משחקי מחבט',
-		'course_faculty':'ספורט'
+		'course_name':'394804 - חינוך גופני - משחקי מחבט',
+		'faculty_name':'ספורט'
 	},
 	{
-		'course_number':'394805',
-		'course_name':'חינוך גופני - אתלטיקה קלה',
-		'course_faculty':'ספורט'
+		'course_name':'394805 - חינוך גופני - אתלטיקה קלה',
+		'faculty_name':'ספורט'
 	},
 	{
-		'course_number':'394806',
-		'course_name':'חינוך גופני - הגנה עצמית',
-		'course_faculty':'ספורט'
+		'course_name':'394806 - חינוך גופני - הגנה עצמית',
+		'faculty_name':'ספורט'
 	},
 	{
-		'course_number':'394808',
-		'course_name':'חינוך גופני-מיועד לסטודנטים חדשים',
-		'course_faculty':'ספורט'
+		'course_name':'394808 - חינוך גופני-מיועד לסטודנטים חדשים',
+		'faculty_name':'ספורט'
 	},
 	{
-		'course_number':'394820',
-		'course_name':'חינוך גופני - תנועה ומחול',
-		'course_faculty':'ספורט'
+		'course_name':'394820 - חינוך גופני - תנועה ומחול',
+		'faculty_name':'ספורט'
 	},
 	{
-		'course_number':'394902',
-		'course_name':'נבחרות ספורט',
-		'course_faculty':'ספורט'
+		'course_name':'394902 - נבחרות ספורט',
+		'faculty_name':'ספורט'
 	},
 	{
-		'course_number':'516101',
-		'course_name':'מבוא לגיאולוגיה למהנדסי נפט',
-		'course_faculty':''
+		'course_name':'516101 - מבוא לגיאולוגיה למהנדסי נפט',
+		'faculty_name':''
 	},
 	{
-		'course_number':'516102',
-		'course_name':'מבוא לגיאופיסיקה שימושית',
-		'course_faculty':''
+		'course_name':'516102 - מבוא לגיאופיסיקה שימושית',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617003',
-		'course_name':'בניית התקנים חכמים',
-		'course_faculty':''
+		'course_name':'617003 - בניית התקנים חכמים',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617006',
-		'course_name':'היבטים של מדיה מקושרת',
-		'course_faculty':''
+		'course_name':'617006 - היבטים של מדיה מקושרת',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617007',
-		'course_name':'רשתות',
-		'course_faculty':''
+		'course_name':'617007 - רשתות',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617008',
-		'course_name':'תכנות מערכות גדולות',
-		'course_faculty':''
+		'course_name':'617008 - תכנות מערכות גדולות',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617009',
-		'course_name':'תכנון יצור אב-טיפוס והערכת ממשק',
-		'course_faculty':''
+		'course_name':'617009 - תכנון יצור אב-טיפוס והערכת ממשק',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617014',
-		'course_name':'טכנולוגיות של שפה אנושית',
-		'course_faculty':''
+		'course_name':'617014 - טכנולוגיות של שפה אנושית',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617016',
-		'course_name':'מושגי פרטיות ובטיחות בעולם הגדול',
-		'course_faculty':''
+		'course_name':'617016 - מושגי פרטיות ובטיחות בעולם הגדול',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617017',
-		'course_name':'מבוא למערכות מסדי נתונים',
-		'course_faculty':''
+		'course_name':'617017 - מבוא למערכות מסדי נתונים',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617019',
-		'course_name':'מבוא לגרפיקה ממוחשבת',
-		'course_faculty':''
+		'course_name':'617019 - מבוא לגרפיקה ממוחשבת',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617023',
-		'course_name':'טכנולוגיות של בריאות מידע ומערכו',
-		'course_faculty':''
+		'course_name':'617023 - טכנולוגיות של בריאות מידע ומערכו',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617024',
-		'course_name':'אוריינות רפואית',
-		'course_faculty':''
+		'course_name':'617024 - אוריינות רפואית',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617027',
-		'course_name':'מערכות הזנק - תכנון והנדסה',
-		'course_faculty':''
+		'course_name':'617027 - מערכות הזנק - תכנון והנדסה',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617028',
-		'course_name':'מערכות לומדות',
-		'course_faculty':''
+		'course_name':'617028 - מערכות לומדות',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617029',
-		'course_name':'מבוא לראיה ממוחשבת',
-		'course_faculty':''
+		'course_name':'617029 - מבוא לראיה ממוחשבת',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617030',
-		'course_name':'מערכות ניידות שימושיות',
-		'course_faculty':''
+		'course_name':'617030 - מערכות ניידות שימושיות',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617031',
-		'course_name':'עיבוד אותות',
-		'course_faculty':''
+		'course_name':'617031 - עיבוד אותות',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617032',
-		'course_name':'מיחשוב חברתי',
-		'course_faculty':''
+		'course_name':'617032 - מיחשוב חברתי',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617038',
-		'course_name':'בריאות גלובלית',
-		'course_faculty':''
+		'course_name':'617038 - בריאות גלובלית',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617044',
-		'course_name':'ניצול מסדי נתונים בעולם הגדול',
-		'course_faculty':''
+		'course_name':'617044 - ניצול מסדי נתונים בעולם הגדול',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617045',
-		'course_name':'מבוא למדיה מקושרת',
-		'course_faculty':''
+		'course_name':'617045 - מבוא למדיה מקושרת',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617046',
-		'course_name':'פרטיות בעידן הדיגיטלי',
-		'course_faculty':''
+		'course_name':'617046 - פרטיות בעידן הדיגיטלי',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617047',
-		'course_name':'ברוכים הבאים לסטודיו',
-		'course_faculty':''
+		'course_name':'617047 - ברוכים הבאים לסטודיו',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617049',
-		'course_name':'ניהול מוצר',
-		'course_faculty':''
+		'course_name':'617049 - ניהול מוצר',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617050',
-		'course_name':'מחקר עצמאי - א',
-		'course_faculty':''
+		'course_name':'617050 - מחקר עצמאי - א',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617053',
-		'course_name':'פרוייקט - אתגרי חברות',
-		'course_faculty':''
+		'course_name':'617053 - פרוייקט - אתגרי חברות',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617054',
-		'course_name':'פרוייקט - סטודיו סטארט אפ',
-		'course_faculty':''
+		'course_name':'617054 - פרוייקט - סטודיו סטארט אפ',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617057',
-		'course_name':'מבוא לפיתוח אייפון ושעון אפל',
-		'course_faculty':''
+		'course_name':'617057 - מבוא לפיתוח אייפון ושעון אפל',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617058',
-		'course_name':'פיתוח ביינים של האייפון',
-		'course_faculty':''
+		'course_name':'617058 - פיתוח ביינים של האייפון',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617059',
-		'course_name':'רעיונות לחברות הזנק',
-		'course_faculty':''
+		'course_name':'617059 - רעיונות לחברות הזנק',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617061',
-		'course_name':'עובוד שפות טבעיות',
-		'course_faculty':''
+		'course_name':'617061 - עובוד שפות טבעיות',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617062',
-		'course_name':'שימושיות וחקר חוית המשתמש',
-		'course_faculty':''
+		'course_name':'617062 - שימושיות וחקר חוית המשתמש',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617063',
-		'course_name':'מערכות בריאות ושירותים',
-		'course_faculty':''
+		'course_name':'617063 - מערכות בריאות ושירותים',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617064',
-		'course_name':'טכניקות אינטראקציה לעתיד',
-		'course_faculty':''
+		'course_name':'617064 - טכניקות אינטראקציה לעתיד',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617065',
-		'course_name':'קריפטוגרפיה',
-		'course_faculty':''
+		'course_name':'617065 - קריפטוגרפיה',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617066',
-		'course_name':'מדיניות לגבי מידע',
-		'course_faculty':''
+		'course_name':'617066 - מדיניות לגבי מידע',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617068',
-		'course_name':'מבוא לעולם העסקים',
-		'course_faculty':''
+		'course_name':'617068 - מבוא לעולם העסקים',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617069',
-		'course_name':'שיטות אופטימיזציה',
-		'course_faculty':''
+		'course_name':'617069 - שיטות אופטימיזציה',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617070',
-		'course_name':'חשיבה עיצובית',
-		'course_faculty':''
+		'course_name':'617070 - חשיבה עיצובית',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617071',
-		'course_name':'טכנולוגיות משבשות',
-		'course_faculty':''
+		'course_name':'617071 - טכנולוגיות משבשות',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617072',
-		'course_name':'שיטות ניסיוניות לטכנולוגיות חדשות',
-		'course_faculty':''
+		'course_name':'617072 - שיטות ניסיוניות לטכנולוגיות חדשות',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617073',
-		'course_name':'נושאים נבחרים במדיה מתוקשרת',
-		'course_faculty':''
+		'course_name':'617073 - נושאים נבחרים במדיה מתוקשרת',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617074',
-		'course_name':'נושאים נבחרים במדיה מתוקשרת',
-		'course_faculty':''
+		'course_name':'617074 - נושאים נבחרים במדיה מתוקשרת',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617076',
-		'course_name':'נושאים נבחרים במדיה מתוקשרת',
-		'course_faculty':''
+		'course_name':'617076 - נושאים נבחרים במדיה מתוקשרת',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617077',
-		'course_name':'נושאים נבחרים במדיה מתוקשרת',
-		'course_faculty':''
+		'course_name':'617077 - נושאים נבחרים במדיה מתוקשרת',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617078',
-		'course_name':'נושאים נבחרים במדיה מתוקשרת',
-		'course_faculty':''
+		'course_name':'617078 - נושאים נבחרים במדיה מתוקשרת',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617079',
-		'course_name':'נושאים נבחרים במערכות מידע',
-		'course_faculty':''
+		'course_name':'617079 - נושאים נבחרים במערכות מידע',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617080',
-		'course_name':'נושאים נבחרים במערכות מידע',
-		'course_faculty':''
+		'course_name':'617080 - נושאים נבחרים במערכות מידע',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617081',
-		'course_name':'נושאים נבחרים במערכות מידע',
-		'course_faculty':''
+		'course_name':'617081 - נושאים נבחרים במערכות מידע',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617082',
-		'course_name':'נושאים נבחרים במערכות מידע',
-		'course_faculty':''
+		'course_name':'617082 - נושאים נבחרים במערכות מידע',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617083',
-		'course_name':'נושאים נבחרים במערכות מידע',
-		'course_faculty':''
+		'course_name':'617083 - נושאים נבחרים במערכות מידע',
+		'faculty_name':''
 	},
 	{
-		'course_number':'617084',
-		'course_name':'תושאים נבחרים במערכות מידע',
-		'course_faculty':''
+		'course_name':'617084 - תושאים נבחרים במערכות מידע',
+		'faculty_name':''
 	},
 	{
-		'course_number':'014009',
-		'course_name':'מב. להנ. אזרחית-הכרת המקצוע',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014009 - מב. להנ. אזרחית-הכרת המקצוע',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014146',
-		'course_name':'מבוא לדינמיקת מבנים ורעידות אדמה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014146 - מבוא לדינמיקת מבנים ורעידות אדמה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014148',
-		'course_name':'עקרי תכן מבנים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014148 - עקרי תכן מבנים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014150',
-		'course_name':'מבני פלדה 1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014150 - מבני פלדה 1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014202',
-		'course_name':'פרויקט בהנדסת מים 2',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014202 - פרויקט בהנדסת מים 2',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014213',
-		'course_name':'מבוא להידרוליקה והידרולוגיה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014213 - מבוא להידרוליקה והידרולוגיה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014309',
-		'course_name':'טכנולוגיות מים ושפכים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014309 - טכנולוגיות מים ושפכים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014316',
-		'course_name':'מבוא להנדסת הסביבה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014316 - מבוא להנדסת הסביבה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014325',
-		'course_name':'תכן מערכות אספקת מים ואיסוף שפכים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014325 - תכן מערכות אספקת מים ואיסוף שפכים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014326',
-		'course_name':'טכנולוגיות טיפול בפסולת מוצקת',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014326 - טכנולוגיות טיפול בפסולת מוצקת',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014327',
-		'course_name':'כימיה של המים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014327 - כימיה של המים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014405',
-		'course_name':'גיאולוגיה הנדסית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014405 - גיאולוגיה הנדסית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014411',
-		'course_name':'הנדסת קרקע',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014411 - הנדסת קרקע',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014508',
-		'course_name':'תפקוד פיסי של בנינים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014508 - תפקוד פיסי של בנינים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014518',
-		'course_name':'חומרים 1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014518 - חומרים 1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014605',
-		'course_name':'בניה מתועשת',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014605 - בניה מתועשת',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014610',
-		'course_name':'שיטות ביצוע בבנייה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014610 - שיטות ביצוע בבנייה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014616',
-		'course_name':'ביצוע פרויקטים ניהול ומנהיגות',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014616 - ביצוע פרויקטים ניהול ומנהיגות',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014632',
-		'course_name':'פרויקטי תשתית# שיטות וניהול',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014632 - פרויקטי תשתית# שיטות וניהול',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014708',
-		'course_name':'תכן ותפעול דרכים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014708 - תכן ותפעול דרכים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014713',
-		'course_name':'מעבדה בתכנון תחבורה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014713 - מעבדה בתכנון תחבורה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014714',
-		'course_name':'תכן מתקני תעבורה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014714 - תכן מתקני תעבורה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014720',
-		'course_name':'פרויקט מורחב בתחבורה - חלק ב'',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014720 - פרויקט מורחב בתחבורה - חלק ב',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014724',
-		'course_name':'פרויקט במבנה דרכים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014724 - פרויקט במבנה דרכים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014725',
-		'course_name':'מבוא לתחבורה מסילתית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014725 - מבוא לתחבורה מסילתית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014728',
-		'course_name':'תכנון תשתיות תחבורה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014728 - תכנון תשתיות תחבורה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014731',
-		'course_name':'מבוא לתכן מסעות',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014731 - מבוא לתכן מסעות',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014845',
-		'course_name':'מבוא למיפוי ממוחשב',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014845 - מבוא למיפוי ממוחשב',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014849',
-		'course_name':'גיאודזיה מתמטית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014849 - גיאודזיה מתמטית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014856',
-		'course_name':'מודלים ספרתיים של פני השטח',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014856 - מודלים ספרתיים של פני השטח',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014857',
-		'course_name':'מערכות מידע גיאוגרפי 1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014857 - מערכות מידע גיאוגרפי 1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014859',
-		'course_name':'מיפוי ימי',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014859 - מיפוי ימי',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014868',
-		'course_name':'פרויקט מתקדם במיפוי וגיאו-אינפו'',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014868 - פרויקט מתקדם במיפוי וגיאו-אינפו',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014873',
-		'course_name':'מפות ומיפוי',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014873 - מפות ומיפוי',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014877',
-		'course_name':'כרטוגרפיה ומבוא לממ\ג',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014877 - כרטוגרפיה ומבוא לממג',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014878',
-		'course_name':'מיפוי ממוחשב',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014878 - מיפוי ממוחשב',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014879',
-		'course_name':'מיפוי נושאי',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014879 - מיפוי נושאי',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014880',
-		'course_name':'סדנה בתיעוד אתרי מורשת',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014880 - סדנה בתיעוד אתרי מורשת',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014881',
-		'course_name':'יסודות המיפוי והמדידה 1ג'',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014881 - יסודות המיפוי והמדידה 1ג',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014888',
-		'course_name':'קדסטר 1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014888 - קדסטר 1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014926',
-		'course_name':'מבוא לבקרה1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014926 - מבוא לבקרה1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014935',
-		'course_name':'שיטות מדידה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014935 - שיטות מדידה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014941',
-		'course_name':'הנדסת ניקוז עילי ותת קרקעי',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014941 - הנדסת ניקוז עילי ותת קרקעי',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014954',
-		'course_name':'מבוא לפיסיקה של אטמוספירה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014954 - מבוא לפיסיקה של אטמוספירה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014956',
-		'course_name':'מבוא לכימיה של הקרקע',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014956 - מבוא לכימיה של הקרקע',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014966',
-		'course_name':'פרויקט בהנדסה סביבתית 2',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014966 - פרויקט בהנדסה סביבתית 2',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014972',
-		'course_name':'משאבות ומערכות שאיבה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014972 - משאבות ומערכות שאיבה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'015001',
-		'course_name':'סביבה וצמחים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'015001 - סביבה וצמחים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'015007',
-		'course_name':'מכניקה יישומית 1',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'015007 - מכניקה יישומית 1',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016124',
-		'course_name':'מבנים מרחביים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016124 - מבנים מרחביים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016204',
-		'course_name':'תהליכי הסעת מזהמים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016204 - תהליכי הסעת מזהמים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016205',
-		'course_name':'הידרולוגיה מתקדמת של מי תהום',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016205 - הידרולוגיה מתקדמת של מי תהום',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016208',
-		'course_name':'הנדסה ימית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016208 - הנדסה ימית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016209',
-		'course_name':'הנדסת נמלים וחופים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016209 - הנדסת נמלים וחופים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016211',
-		'course_name':'הידרולוגיה של נגר על קרקעי',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016211 - הידרולוגיה של נגר על קרקעי',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016214',
-		'course_name':'מכניקת זורמים חישובית סביבתית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016214 - מכניקת זורמים חישובית סביבתית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016303',
-		'course_name':'מעבדה לאיכות האויר',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016303 - מעבדה לאיכות האויר',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016503',
-		'course_name':'קיים של חומרי בנייה ומבנים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016503 - קיים של חומרי בנייה ומבנים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016514',
-		'course_name':'מיחזור בבניה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016514 - מיחזור בבניה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016620',
-		'course_name':'מערכות מכניות וחשמליות בבניינים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016620 - מערכות מכניות וחשמליות בבניינים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016712',
-		'course_name':'מיסעות קשיחות',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016712 - מיסעות קשיחות',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016713',
-		'course_name':'בקרה אופטימלית- תיאוריה ויישומים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016713 - בקרה אופטימלית- תיאוריה ויישומים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016830',
-		'course_name':'מיפוי גרפי תלת מימדי',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016830 - מיפוי גרפי תלת מימדי',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016831',
-		'course_name':'גיאו-אינפורמטיקה חישובית וכמותית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016831 - גיאו-אינפורמטיקה חישובית וכמותית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016833',
-		'course_name':'שירותים מבוססי מיקום',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016833 - שירותים מבוססי מיקום',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'017001',
-		'course_name':'מערכות אקולוגיות',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'017001 - מערכות אקולוגיות',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'017005',
-		'course_name':'חישת מיקרוגלים במערכות טבעיות',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'017005 - חישת מיקרוגלים במערכות טבעיות',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'017012',
-		'course_name':'פיזיקה של סביבה נקבובית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'017012 - פיזיקה של סביבה נקבובית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'017034',
-		'course_name':'הנדסת רכב מערכות וביצועים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'017034 - הנדסת רכב מערכות וביצועים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'017036',
-		'course_name':'מבוא לחקלאות מדייקת',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'017036 - מבוא לחקלאות מדייקת',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'034045',
-		'course_name':'מבוא להחלטות כלכליות למהנדסים',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034045 - מבוא להחלטות כלכליות למהנדסים',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034205',
-		'course_name':'תכן מערכות הדראוליות ופנאומטיות 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034205 - תכן מערכות הדראוליות ופנאומטיות 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034354',
-		'course_name':'פרויקט תכן מוצר חדש 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034354 - פרויקט תכן מוצר חדש 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034411',
-		'course_name':'מעבדה מתקדמת למנועים והנדסת שריפה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034411 - מעבדה מתקדמת למנועים והנדסת שריפה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'034422',
-		'course_name':'מעבדה באופטיקה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034422 - מעבדה באופטיקה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035013',
-		'course_name':'שיטות מספריות בהנדסת מכונות 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035013 - שיטות מספריות בהנדסת מכונות 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035016',
-		'course_name':'מערכת רכב 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035016 - מערכת רכב 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035018',
-		'course_name':'מבוא לאמינות של מערכות מכניות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035018 - מבוא לאמינות של מערכות מכניות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035022',
-		'course_name':'אלמנטים סופיים לאנליזה הנדסית',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035022 - אלמנטים סופיים לאנליזה הנדסית',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035028',
-		'course_name':'זרימה ותרמודינמיקה של טורבומכונות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035028 - זרימה ותרמודינמיקה של טורבומכונות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035032',
-		'course_name':'תכן מוצרים מבוססי מיקרו מעבד מ'',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035032 - תכן מוצרים מבוססי מיקרו מעבד מ',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035033',
-		'course_name':'מבוא למערכות משולבות חיישנים',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035033 - מבוא למערכות משולבות חיישנים',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035034',
-		'course_name':'כשל חמרים',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035034 - כשל חמרים',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035046',
-		'course_name':'ניהול פרויקטים',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035046 - ניהול פרויקטים',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035051',
-		'course_name':'תכן אופטומכני',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035051 - תכן אופטומכני',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035052',
-		'course_name':'אופטיקה לינארית ויישומים 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035052 - אופטיקה לינארית ויישומים 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035061',
-		'course_name':'הידרודינמיקה של אוניות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035061 - הידרודינמיקה של אוניות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035063',
-		'course_name':'אדריכלות ימית 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035063 - אדריכלות ימית 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035091',
-		'course_name':'תרמודינמיקה  2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035091 - תרמודינמיקה  2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036003',
-		'course_name':'מבוא למכניקת הרצף',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036003 - מבוא למכניקת הרצף',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036004',
-		'course_name':'מכניקת השבירה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036004 - מכניקת השבירה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036009',
-		'course_name':'מעבר חום ומסה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036009 - מעבר חום ומסה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036010',
-		'course_name':'תורת הסיכה ההידרודינמית',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036010 - תורת הסיכה ההידרודינמית',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036027',
-		'course_name':'דינמיקה של מבנים ימיים',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036027 - דינמיקה של מבנים ימיים',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036035',
-		'course_name':'מבוא להנדסת שריפה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036035 - מבוא להנדסת שריפה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036039',
-		'course_name':'בקרת מבנים ומערכות מיכניות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036039 - בקרת מבנים ומערכות מיכניות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036042',
-		'course_name':'דינמיקה של מערכות מסתובבות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036042 - דינמיקה של מערכות מסתובבות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036063',
-		'course_name':'מידול זיהוי וניסוי במערכות תונדות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036063 - מידול זיהוי וניסוי במערכות תונדות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036065',
-		'course_name':'אלקטרו ומגנטו מכניקה לשפעול וחישה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036065 - אלקטרו ומגנטו מכניקה לשפעול וחישה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036079',
-		'course_name':'בקרת פליטות מזהמים מכלי רכב',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036079 - בקרת פליטות מזהמים מכלי רכב',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036082',
-		'course_name':'עקרונות מנועי שריפה פנימית',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036082 - עקרונות מנועי שריפה פנימית',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036086',
-		'course_name':'זרימה ותופעות מעבר בהתקנים מיקרונ',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036086 - זרימה ותופעות מעבר בהתקנים מיקרונ',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036088',
-		'course_name':'ננומכניקה חישובית של מוצקים',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036088 - ננומכניקה חישובית של מוצקים',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036090',
-		'course_name':'חישה מכנית ע\י תאים ביולוגיים',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036090 - חישה מכנית עי תאים ביולוגיים',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'044124',
-		'course_name':'אלקטרוניקה פיסיקלית',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044124 - אלקטרוניקה פיסיקלית',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044139',
-		'course_name':'ממירי מתח ממותגים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044139 - ממירי מתח ממותגים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044196',
-		'course_name':'המרת אנרגיהמקורות אנרגיה מתחדשים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044196 - המרת אנרגיהמקורות אנרגיה מתחדשים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044252',
-		'course_name':'מערכות ספרתיות ומבנה המחשב',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044252 - מערכות ספרתיות ומבנה המחשב',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046002',
-		'course_name':'תכן וניתוח אלגוריתמים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046002 - תכן וניתוח אלגוריתמים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046004',
-		'course_name':'נושאים מתקדמים 2',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046004 - נושאים מתקדמים 2',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046006',
-		'course_name':'נושאים מתקדמים 3',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046006 - נושאים מתקדמים 3',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046043',
-		'course_name':'עיבוד הספק',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046043 - עיבוד הספק',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046188',
-		'course_name':'מעגלים אלקטרוניים לאותות מעורבים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046188 - מעגלים אלקטרוניים לאותות מעורבים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046189',
-		'course_name':'תכן מסננים אקטיביים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046189 - תכן מסננים אקטיביים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046194',
-		'course_name':'למידה ותכנון במערכות דינאמיות',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046194 - למידה ותכנון במערכות דינאמיות',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046197',
-		'course_name':'שיטות חישוביות באופטימיזציה',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046197 - שיטות חישוביות באופטימיזציה',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046201',
-		'course_name':'מבוא לעיבוד אותות אקראיים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046201 - מבוא לעיבוד אותות אקראיים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046216',
-		'course_name':'מיקרוגלים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046216 - מיקרוגלים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046232',
-		'course_name':'פרקים בננו-אלקטרוניקה',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046232 - פרקים בננו-אלקטרוניקה',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046235',
-		'course_name':'התקני הספק משולבים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046235 - התקני הספק משולבים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046239',
-		'course_name':'מעבדה בננו-אלקטרוניקה',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046239 - מעבדה בננו-אלקטרוניקה',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046244',
-		'course_name':'תופעות גלים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046244 - תופעות גלים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046250',
-		'course_name':'אלקטרואופטיקה 2',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046250 - אלקטרואופטיקה 2',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046256',
-		'course_name':'אנטנות וקרינה',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046256 - אנטנות וקרינה',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046273',
-		'course_name':'תכנות פונקציונאלי מבוזר',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046273 - תכנות פונקציונאלי מבוזר',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046275',
-		'course_name':'תרגום ואופטמיזציה דינמיים של קוד',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046275 - תרגום ואופטמיזציה דינמיים של קוד',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046278',
-		'course_name':'מאיצים חישוביים ומערכות מואצות',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046278 - מאיצים חישוביים ומערכות מואצות',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046746',
-		'course_name':'אלג' ויישומים בראייה ממוחשבת',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046746 - אלג ויישומים בראייה ממוחשבת',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046831',
-		'course_name':'מבוא לדימות רפואי',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046831 - מבוא לדימות רפואי',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046851',
-		'course_name':'לייזרים של מוליכים למחצה',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046851 - לייזרים של מוליכים למחצה',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046864',
-		'course_name':'תכן מערכות ספרתיות מהירות',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046864 - תכן מערכות ספרתיות מהירות',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046918',
-		'course_name':'תכן פיסי של וי.אל.אס.אי',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046918 - תכן פיסי של וי.אל.אס.אי',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046968',
-		'course_name':'מיקרו-עיבוד ומיקרו-מערכות אלקטרומ',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046968 - מיקרו-עיבוד ומיקרו-מערכות אלקטרומ',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'047006',
-		'course_name':'נושאים מתקדמים 6',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'047006 - נושאים מתקדמים 6',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'054132',
-		'course_name':'מיני-פרויקט בהנדסה כימית',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054132 - מיני-פרויקט בהנדסה כימית',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054203',
-		'course_name':'עקרונות הנדסה כימית 1 מ'',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054203 - עקרונות הנדסה כימית 1 מ',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054215',
-		'course_name':'תרמודינמיקה א'',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054215 - תרמודינמיקה א',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054305',
-		'course_name':'תהליכי הפרדה 2',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054305 - תהליכי הפרדה 2',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054310',
-		'course_name':'מעבדה להנדסה כימית 1',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054310 - מעבדה להנדסה כימית 1',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054330',
-		'course_name':'מעבדה לסימולציה בהנדסת תהליכים',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054330 - מעבדה לסימולציה בהנדסת תהליכים',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054371',
-		'course_name':'סיכון סביבתי ובטיחות בתעש. כימית',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054371 - סיכון סביבתי ובטיחות בתעש. כימית',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054374',
-		'course_name':'אנליזת תהליכים בשיטות נומריות מ'',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054374 - אנליזת תהליכים בשיטות נומריות מ',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054376',
-		'course_name':'הנדסה אקולוגית בחיי היומיום',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054376 - הנדסה אקולוגית בחיי היומיום',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054407',
-		'course_name':'מחקר גמר 2',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054407 - מחקר גמר 2',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054409',
-		'course_name':'עקרונות תכן ריאקטורים',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054409 - עקרונות תכן ריאקטורים',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054410',
-		'course_name':'תיכון מפעלים מ'',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054410 - תיכון מפעלים מ',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054411',
-		'course_name':'פרויקט בהנדסה כימית# אנרגיה',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054411 - פרויקט בהנדסה כימית# אנרגיה',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054413',
-		'course_name':'פולימרים ויישומיהם בביוטכנולוגיה',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054413 - פולימרים ויישומיהם בביוטכנולוגיה',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054415',
-		'course_name':'הנדסת תהליכים בתעשיה הפטרוכימית',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054415 - הנדסת תהליכים בתעשיה הפטרוכימית',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054451',
-		'course_name':'מודלים מתימטיים בהנדסה כימית',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054451 - מודלים מתימטיים בהנדסה כימית',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'056166',
-		'course_name':'תופעות שטח',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'056166 - תופעות שטח',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'056178',
-		'course_name':'שיטות מקורבות בהנדסה',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'056178 - שיטות מקורבות בהנדסה',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'056391',
-		'course_name':'חיישנים מבוססי ננו-(ביו) חומרים',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'056391 - חיישנים מבוססי ננו-(ביו) חומרים',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'056395',
-		'course_name':'תכן למערכות בקרת תהליכים',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'056395 - תכן למערכות בקרת תהליכים',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'056398',
-		'course_name':'קטליזה על משטחים',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'056398 - קטליזה על משטחים',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'064115',
-		'course_name':'מכניקה של זורמים',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064115 - מכניקה של זורמים',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064118',
-		'course_name':'תופעות מעבר חומר',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064118 - תופעות מעבר חומר',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064119',
-		'course_name':'תכן מפעלי מזון',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064119 - תכן מפעלי מזון',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064209',
-		'course_name':'טכנולוגיות מתקדמות בהנ.מזון וביוט',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064209 - טכנולוגיות מתקדמות בהנ.מזון וביוט',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064211',
-		'course_name':'פרקים נבחרים בטכנולוגיה של מזון ב',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064211 - פרקים נבחרים בטכנולוגיה של מזון ב',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064238',
-		'course_name':'מבנה ותכונות מזון וחומרים ביולוג.',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064238 - מבנה ותכונות מזון וחומרים ביולוג.',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064322',
-		'course_name':'כימיה של מזון',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064322 - כימיה של מזון',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064325',
-		'course_name':'מעבדה בביוכימיה וכימיה של מזון',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064325 - מעבדה בביוכימיה וכימיה של מזון',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064330',
-		'course_name':'בקרת ואבטחת איכות במזון ותרופות',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064330 - בקרת ואבטחת איכות במזון ותרופות',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064413',
-		'course_name':'מעבדה במיקרוביולוגיה',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064413 - מעבדה במיקרוביולוגיה',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064419',
-		'course_name':'מיקרוביולוגיה כללית',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064419 - מיקרוביולוגיה כללית',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064508',
-		'course_name':'מעבדה בביוטכנולוגיה',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064508 - מעבדה בביוטכנולוגיה',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066012',
-		'course_name':'פרויקט מתקדם בביוטכ'ומזון 1',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066012 - פרויקט מתקדם בביוטכומזון 1',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066013',
-		'course_name':'פרויקט מתקדם בביוטכ' ומזון 2',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066013 - פרויקט מתקדם בביוטכ ומזון 2',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066230',
-		'course_name':'הערכת מזון באמצעות החושים',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066230 - הערכת מזון באמצעות החושים',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066237',
-		'course_name':'הערכת חיי מדף של מזון ותרופות',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066237 - הערכת חיי מדף של מזון ותרופות',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066246',
-		'course_name':'איכות הסביבה ותעשיית המזון',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066246 - איכות הסביבה ותעשיית המזון',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066248',
-		'course_name':'ריאולוגיה-עקרונות ויישומים',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066248 - ריאולוגיה-עקרונות ויישומים',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066505',
-		'course_name':'תהליכי הפרדה והשבה בביוטכנולוגיה',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066505 - תהליכי הפרדה והשבה בביוטכנולוגיה',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066513',
-		'course_name':'ביוטכנולוגיה של תאים אנימליים',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066513 - ביוטכנולוגיה של תאים אנימליים',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066516',
-		'course_name':'מעבדה בביוטכנולוגיה מולקולרית',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066516 - מעבדה בביוטכנולוגיה מולקולרית',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066517',
-		'course_name':'טכנולוגיות גנטיות מתקדמות',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066517 - טכנולוגיות גנטיות מתקדמות',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066524',
-		'course_name':'ביוטכנולוגיה של פפטידים',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066524 - ביוטכנולוגיה של פפטידים',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066605',
-		'course_name':'תזונה מונעת היבטים בריאותיים',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066605 - תזונה מונעת היבטים בריאותיים',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'084143',
-		'course_name':'הנדסת מערכות אויר-חלל',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084143 - הנדסת מערכות אויר-חלל',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084155',
-		'course_name':'שרטוט הנדסי ממוחשב',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084155 - שרטוט הנדסי ממוחשב',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084213',
-		'course_name':'תרמודינמיקה',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084213 - תרמודינמיקה',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084221',
-		'course_name':'מכניקת הטיס 2',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084221 - מכניקת הטיס 2',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084401',
-		'course_name':'אמצעי הנעה - מנועי סילון',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084401 - אמצעי הנעה - מנועי סילון',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084404',
-		'course_name':'הנעה רקטית',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084404 - הנעה רקטית',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084505',
-		'course_name':'מכניקת המוצקים',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084505 - מכניקת המוצקים',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084506',
-		'course_name':'מכניקת מוצקים',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084506 - מכניקת מוצקים',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084636',
-		'course_name':'פרויקט בתכן מכני של רכיבים',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084636 - פרויקט בתכן מכני של רכיבים',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084670',
-		'course_name':'פרויקט תכן 70',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084670 - פרויקט תכן 70',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084737',
-		'course_name':'מערכות דינמיות',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084737 - מערכות דינמיות',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084913',
-		'course_name':'יסודות הנדסת חלל',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084913 - יסודות הנדסת חלל',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085102',
-		'course_name':'תעופה ספורטיבית 2',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085102 - תעופה ספורטיבית 2',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085682',
-		'course_name':'פרויקט תכן מיוחד 2',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085682 - פרויקט תכן מיוחד 2',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085821',
-		'course_name':'נושאים נבחרים בהנדסת אויר-חלל 1',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085821 - נושאים נבחרים בהנדסת אויר-חלל 1',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086172',
-		'course_name':'שיטות נומריות בהנדסה אוירונוטית',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086172 - שיטות נומריות בהנדסה אוירונוטית',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086241',
-		'course_name':'אוירואלסטיות 1',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086241 - אוירואלסטיות 1',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086288',
-		'course_name':'לוייני תקשורת',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086288 - לוייני תקשורת',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086290',
-		'course_name':'בקרת מסלולי לוויינים',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086290 - בקרת מסלולי לוויינים',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086312',
-		'course_name':'בקרה לא לינארית',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086312 - בקרה לא לינארית',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086385',
-		'course_name':'מבוא לזרימות גזים קלושים',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086385 - מבוא לזרימות גזים קלושים',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086390',
-		'course_name':'מבוא לאוירואקוסטיקה',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086390 - מבוא לאוירואקוסטיקה',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086403',
-		'course_name':'הנעה רקטית בהודף מוצק',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086403 - הנעה רקטית בהודף מוצק',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086534',
-		'course_name':'מבוא לניטור בריאות מבנים',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086534 - מבוא לניטור בריאות מבנים',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086535',
-		'course_name':'מכניקת השבר במבנים תעופתיים',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086535 - מכניקת השבר במבנים תעופתיים',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086574',
-		'course_name':'אלמנטים סופיים בהנדסה אוירונוטית',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086574 - אלמנטים סופיים בהנדסה אוירונוטית',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086651',
-		'course_name':'תכן מערכות מכ\ם',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086651 - תכן מערכות מכם',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086730',
-		'course_name':'מערכות דינמיות מרושתות',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086730 - מערכות דינמיות מרושתות',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086759',
-		'course_name':'מערכות ניווט',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086759 - מערכות ניווט',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086777',
-		'course_name':'יסודות בתורת השערוך',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086777 - יסודות בתורת השערוך',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086800',
-		'course_name':'יסודות הזרימה השגיא-קולית',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086800 - יסודות הזרימה השגיא-קולית',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'087542',
-		'course_name':'נושאים נבחרים בהנדסת אויר-חלל 2',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'087542 - נושאים נבחרים בהנדסת אויר-חלל 2',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'094180',
-		'course_name':'מיני פרויקט בהנדסת מערכת',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094180 - מיני פרויקט בהנדסת מערכת',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094196',
-		'course_name':'פרויקט תכן 2',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094196 - פרויקט תכן 2',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094199',
-		'course_name':'פרויקט סמסטריאלי 2',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094199 - פרויקט סמסטריאלי 2',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094201',
-		'course_name':'מבוא להנדסת נתונים ומידע',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094201 - מבוא להנדסת נתונים ומידע',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094204',
-		'course_name':'מידע מבוזר וסוכנים רציונליים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094204 - מידע מבוזר וסוכנים רציונליים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094210',
-		'course_name':'ארגון המחשב ומערכות הפעלה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094210 - ארגון המחשב ומערכות הפעלה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094244',
-		'course_name':'סמינר ביישומי מערכות מידע',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094244 - סמינר ביישומי מערכות מידע',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094250',
-		'course_name':'מבוא לחישוביות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094250 - מבוא לחישוביות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094290',
-		'course_name':'מעבדה באיסוף וניהול נתונים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094290 - מעבדה באיסוף וניהול נתונים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094344',
-		'course_name':'מתמטיקה דיסקרטית ת'',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094344 - מתמטיקה דיסקרטית ת',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094480',
-		'course_name':'מבוא להסתברות וסטטיסטיקה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094480 - מבוא להסתברות וסטטיסטיקה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094503',
-		'course_name':'מיקרו כלכלה1',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094503 - מיקרו כלכלה1',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094515',
-		'course_name':'כלכלת ישראל',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094515 - כלכלת ישראל',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094569',
-		'course_name':'שוק ההון וההשקעות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094569 - שוק ההון וההשקעות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094578',
-		'course_name':'נושאים נבחרים בכלכלה 2',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094578 - נושאים נבחרים בכלכלה 2',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094815',
-		'course_name':'הכנת תכנית עסקית מלאה למסחור',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094815 - הכנת תכנית עסקית מלאה למסחור',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094816',
-		'course_name':'שיווק למיזמים טכנולוגיים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094816 - שיווק למיזמים טכנולוגיים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094825',
-		'course_name':'בקרת עלויות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094825 - בקרת עלויות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'095111',
-		'course_name':'תכן מערכות ייצור',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'095111 - תכן מערכות ייצור',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096121',
-		'course_name':'הנדסת אמינות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096121 - הנדסת אמינות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096215',
-		'course_name':'סמינר במערכות מידע',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096215 - סמינר במערכות מידע',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096224',
-		'course_name':'ניהול מידע מבוזר',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096224 - ניהול מידע מבוזר',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096232',
-		'course_name':'אתיקה של נתונים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096232 - אתיקה של נתונים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096250',
-		'course_name':'מערכות מידע מבוזרות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096250 - מערכות מידע מבוזרות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096261',
-		'course_name':'נושאים נבחרים במערכות מידע',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096261 - נושאים נבחרים במערכות מידע',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096290',
-		'course_name':'נושאים נבחרים בהנדסת נתונים ומידע',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096290 - נושאים נבחרים בהנדסת נתונים ומידע',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096324',
-		'course_name':'הנדסת מערכות שירות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096324 - הנדסת מערכות שירות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096411',
-		'course_name':'למידה סטטיסטית מבוססת נתונים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096411 - למידה סטטיסטית מבוססת נתונים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096475',
-		'course_name':'תכנון ניסויים וניתוחם',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096475 - תכנון ניסויים וניתוחם',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096530',
-		'course_name':'תאוריה מיקרו כלכלית 2',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096530 - תאוריה מיקרו כלכלית 2',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096555',
-		'course_name':'כלכלת סקטור ציבורי',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096555 - כלכלת סקטור ציבורי',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096570',
-		'course_name':'תורת המשחקים והתנהגות כלכלית',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096570 - תורת המשחקים והתנהגות כלכלית',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096589',
-		'course_name':'אקונומטריקה למתקדמים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096589 - אקונומטריקה למתקדמים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096625',
-		'course_name':'הצגת מידע חזותי וקוגניציה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096625 - הצגת מידע חזותי וקוגניציה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096631',
-		'course_name':'שיטות אימון והדרכה לכישורים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096631 - שיטות אימון והדרכה לכישורים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096690',
-		'course_name':'כלכלה התנהגותית# למידה וארגונים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096690 - כלכלה התנהגותית# למידה וארגונים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096700',
-		'course_name':'התנסות מעשית בארגון',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096700 - התנסות מעשית בארגון',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096808',
-		'course_name':'נושאים נבחרים בניהול',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096808 - נושאים נבחרים בניהול',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096817',
-		'course_name':'ניהול וייזום חדשנות בארגונים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096817 - ניהול וייזום חדשנות בארגונים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096820',
-		'course_name':'מערכות ניהול קשרי לקוחות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096820 - מערכות ניהול קשרי לקוחות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096912',
-		'course_name':'מבוא לניהול סיכונים תפעוליים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096912 - מבוא לניהול סיכונים תפעוליים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097120',
-		'course_name':'נושאים נבחרים בהנדסת תעשיה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097120 - נושאים נבחרים בהנדסת תעשיה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097136',
-		'course_name':'בדיקות שמישות במערכות אינטראקטיבי',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097136 - בדיקות שמישות במערכות אינטראקטיבי',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097139',
-		'course_name':'ניהול שרשראות אספקה מתקדם',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097139 - ניהול שרשראות אספקה מתקדם',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097209',
-		'course_name':'למידה חישובית ואופטימזציה מקוונת',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097209 - למידה חישובית ואופטימזציה מקוונת',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097211',
-		'course_name':'פרוטוקולי רשת עמידים בתקלות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097211 - פרוטוקולי רשת עמידים בתקלות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097225',
-		'course_name':'שיטות פרטובציה בלמידה ממוכנת',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097225 - שיטות פרטובציה בלמידה ממוכנת',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097240',
-		'course_name':'ניתוח אירועים בהנדסת מערכות מידע',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097240 - ניתוח אירועים בהנדסת מערכות מידע',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097280',
-		'course_name':'אלגוריתמים בתרחישי אי-וודאות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097280 - אלגוריתמים בתרחישי אי-וודאות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097324',
-		'course_name':'שיטות אופטימיזציה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097324 - שיטות אופטימיזציה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097334',
-		'course_name':'שיטות אלגבריות לתכנות בשלמים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097334 - שיטות אלגבריות לתכנות בשלמים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097449',
-		'course_name':'סטטיסטיקה אי פרמטרית',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097449 - סטטיסטיקה אי פרמטרית',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097510',
-		'course_name':'מודלים של זמן רציף במימון',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097510 - מודלים של זמן רציף במימון',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097657',
-		'course_name':'אירגונים ויזמות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097657 - אירגונים ויזמות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'104030',
-		'course_name':'מבוא למשוואות דיפרנציאליות חלקיות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104030 - מבוא למשוואות דיפרנציאליות חלקיות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104114',
-		'course_name':'יסודות הגאומטריה',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104114 - יסודות הגאומטריה',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104144',
-		'course_name':'טופולוגיה',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104144 - טופולוגיה',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104182',
-		'course_name':'סמינר באנליזה להסמכה 2',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104182 - סמינר באנליזה להסמכה 2',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104183',
-		'course_name':'סמינר באלגברה להסמכה 1',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104183 - סמינר באלגברה להסמכה 1',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104191',
-		'course_name':'מכניקת הרצף',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104191 - מכניקת הרצף',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104193',
-		'course_name':'תורת האופטימיזציה',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104193 - תורת האופטימיזציה',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104274',
-		'course_name':'תורת השדות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104274 - תורת השדות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104276',
-		'course_name':'מבוא לאנליזה פונקציונלית',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104276 - מבוא לאנליזה פונקציונלית',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106156',
-		'course_name':'לוגיקה מתמטית',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106156 - לוגיקה מתמטית',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106378',
-		'course_name':'תורת המידה',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106378 - תורת המידה',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106380',
-		'course_name':'אלגברה מודרנית 1',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106380 - אלגברה מודרנית 1',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106416',
-		'course_name':'שיטות נומריות במד\ח',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106416 - שיטות נומריות במדח',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106429',
-		'course_name':'תהליכים סטוכסטיים',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106429 - תהליכים סטוכסטיים',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106433',
-		'course_name':'נושאים באנליזה פונקציונלית',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106433 - נושאים באנליזה פונקציונלית',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106702',
-		'course_name':'פרקים נבחרים באלגברה',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106702 - פרקים נבחרים באלגברה',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106803',
-		'course_name':'נושאים בגאומטריה',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106803 - נושאים בגאומטריה',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106925',
-		'course_name':'נושאים נבחרים בחבורות אלגבריות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106925 - נושאים נבחרים בחבורות אלגבריות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106928',
-		'course_name':'נושאים נבחרים בקומבינטוריקה 2',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106928 - נושאים נבחרים בקומבינטוריקה 2',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106933',
-		'course_name':'נושאים נבחרים בטופולוגיה 2',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106933 - נושאים נבחרים בטופולוגיה 2',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106935',
-		'course_name':'נושאים נבחרים בהסתברות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106935 - נושאים נבחרים בהסתברות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106937',
-		'course_name':'נושאים נבחרים באנליזה מתמטית 4',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106937 - נושאים נבחרים באנליזה מתמטית 4',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'114010',
-		'course_name':'תגליות מדעיות 1',
-		'course_faculty':'פיזיקה'
+		'course_name':'114010 - תגליות מדעיות 1',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114011',
-		'course_name':'תגליות מדעיות 2',
-		'course_faculty':'פיזיקה'
+		'course_name':'114011 - תגליות מדעיות 2',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114014',
-		'course_name':'מכניקה וגלים',
-		'course_faculty':'פיזיקה'
+		'course_name':'114014 - מכניקה וגלים',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114038',
-		'course_name':'מעבדה לפיזיקה - גלים - 3מפ'',
-		'course_faculty':'פיזיקה'
+		'course_name':'114038 - מעבדה לפיזיקה - גלים - 3מפ',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114076',
-		'course_name':'פיסיקה 2פ'',
-		'course_faculty':'פיזיקה'
+		'course_name':'114076 - פיסיקה 2פ',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114102',
-		'course_name':'מרחבי זמן וחורים שחורים',
-		'course_faculty':'פיזיקה'
+		'course_name':'114102 - מרחבי זמן וחורים שחורים',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114226',
-		'course_name':'דו\ח סגל מחקר סתיו',
-		'course_faculty':'פיזיקה'
+		'course_name':'114226 - דוח סגל מחקר סתיו',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'114227',
-		'course_name':'דו\ח סגל מחקר אביב',
-		'course_faculty':'פיזיקה'
+		'course_name':'114227 - דוח סגל מחקר אביב',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'115249',
-		'course_name':'פיסיקה 2רל',
-		'course_faculty':'פיזיקה'
+		'course_name':'115249 - פיסיקה 2רל',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'116027',
-		'course_name':'פיסיקה של זורמים',
-		'course_faculty':'פיזיקה'
+		'course_name':'116027 - פיסיקה של זורמים',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'116030',
-		'course_name':'סמינר בפרקים נבחרים בפיסיקה-אביב',
-		'course_faculty':'פיזיקה'
+		'course_name':'116030 - סמינר בפרקים נבחרים בפיסיקה-אביב',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'116321',
-		'course_name':'ביו-פיסיקה של התא',
-		'course_faculty':'פיזיקה'
+		'course_name':'116321 - ביו-פיסיקה של התא',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'117015',
-		'course_name':'פיסיקה של אטומים ומולקולות',
-		'course_faculty':'פיזיקה'
+		'course_name':'117015 - פיסיקה של אטומים ומולקולות',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'117018',
-		'course_name':'פיסיקה של מוליכים למחצה',
-		'course_faculty':'פיזיקה'
+		'course_name':'117018 - פיסיקה של מוליכים למחצה',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'117140',
-		'course_name':'תורת החבורות בפיסיקה',
-		'course_faculty':'פיזיקה'
+		'course_name':'117140 - תורת החבורות בפיסיקה',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'124118',
-		'course_name':'יסודות הכימיה ב'',
-		'course_faculty':'כימיה'
+		'course_name':'124118 - יסודות הכימיה ב',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124122',
-		'course_name':'מעבדה ביסודות הכימיה',
-		'course_faculty':'כימיה'
+		'course_name':'124122 - מעבדה ביסודות הכימיה',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124220',
-		'course_name':'כימיה אנליטית 1 (מורחב)',
-		'course_faculty':'כימיה'
+		'course_name':'124220 - כימיה אנליטית 1 (מורחב)',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124413',
-		'course_name':'תרמודינמיקה סטטיסטית',
-		'course_faculty':'כימיה'
+		'course_name':'124413 - תרמודינמיקה סטטיסטית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124414',
-		'course_name':'כימיה פיסיקלית-קינטיקה כימית',
-		'course_faculty':'כימיה'
+		'course_name':'124414 - כימיה פיסיקלית-קינטיקה כימית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124417',
-		'course_name':'כימיה פיס-ספקטרוסקופיה מולקולרית',
-		'course_faculty':'כימיה'
+		'course_name':'124417 - כימיה פיס-ספקטרוסקופיה מולקולרית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124610',
-		'course_name':'מעבדה כימיה פיסיקלית 1',
-		'course_faculty':'כימיה'
+		'course_name':'124610 - מעבדה כימיה פיסיקלית 1',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'124801',
-		'course_name':'כימיה אורגנית 1ב',
-		'course_faculty':'כימיה'
+		'course_name':'124801 - כימיה אורגנית 1ב',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'125101',
-		'course_name':'כימיה אנליטית 1 למהנדסים',
-		'course_faculty':'כימיה'
+		'course_name':'125101 - כימיה אנליטית 1 למהנדסים',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'125802',
-		'course_name':'כימיה אורגנית רב\מ',
-		'course_faculty':'כימיה'
+		'course_name':'125802 - כימיה אורגנית רבמ',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'126200',
-		'course_name':'כימיה אי אורגנית מתקדמת 2',
-		'course_faculty':'כימיה'
+		'course_name':'126200 - כימיה אי אורגנית מתקדמת 2',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'126601',
-		'course_name':'כימיה פיסיקלית עיונית מתקדמת',
-		'course_faculty':'כימיה'
+		'course_name':'126601 - כימיה פיסיקלית עיונית מתקדמת',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'126603',
-		'course_name':'כימיה חישובית יישומית',
-		'course_faculty':'כימיה'
+		'course_name':'126603 - כימיה חישובית יישומית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'126700',
-		'course_name':'כימיה אורגנית מתקדמת',
-		'course_faculty':'כימיה'
+		'course_name':'126700 - כימיה אורגנית מתקדמת',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127100',
-		'course_name':'קניין רוחני ובפרט פטנטים בכימיה',
-		'course_faculty':'כימיה'
+		'course_name':'127100 - קניין רוחני ובפרט פטנטים בכימיה',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127403',
-		'course_name':'כימיה פיסיקלית של השטח',
-		'course_faculty':'כימיה'
+		'course_name':'127403 - כימיה פיסיקלית של השטח',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127438',
-		'course_name':'סימטריה ושימושיה בכימיה',
-		'course_faculty':'כימיה'
+		'course_name':'127438 - סימטריה ושימושיה בכימיה',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127441',
-		'course_name':'פוטוכימיה ביולוגית',
-		'course_faculty':'כימיה'
+		'course_name':'127441 - פוטוכימיה ביולוגית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127442',
-		'course_name':'כימיה ופיסיקה במערכות קטנות',
-		'course_faculty':'כימיה'
+		'course_name':'127442 - כימיה ופיסיקה במערכות קטנות',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127443',
-		'course_name':'אלקטרוניקה מולקולרית',
-		'course_faculty':'כימיה'
+		'course_name':'127443 - אלקטרוניקה מולקולרית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127444',
-		'course_name':'חומרים ביולוגיים וביואלקטרוניקה',
-		'course_faculty':'כימיה'
+		'course_name':'127444 - חומרים ביולוגיים וביואלקטרוניקה',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127445',
-		'course_name':'אלקטרוכימיה בסיסית ויישומיה',
-		'course_faculty':'כימיה'
+		'course_name':'127445 - אלקטרוכימיה בסיסית ויישומיה',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127710',
-		'course_name':'אורביטלים מולק.בכימיה אורגנית',
-		'course_faculty':'כימיה'
+		'course_name':'127710 - אורביטלים מולק.בכימיה אורגנית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127742',
-		'course_name':'כימיה מדיצינלית של אנטיביוטיקות',
-		'course_faculty':'כימיה'
+		'course_name':'127742 - כימיה מדיצינלית של אנטיביוטיקות',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'134015',
-		'course_name':'הכרת החי והצומח ב'',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134015 - הכרת החי והצומח ב',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134037',
-		'course_name':'ביולוגיה של חרקים',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134037 - ביולוגיה של חרקים',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134039',
-		'course_name':'וירולוגיה מולקולרית',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134039 - וירולוגיה מולקולרית',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134040',
-		'course_name':'פיזיולוגיה מוליקולרית של הצמח',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134040 - פיזיולוגיה מוליקולרית של הצמח',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134114',
-		'course_name':'מעבדה בביוכימיה ומטבוליזם',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134114 - מעבדה בביוכימיה ומטבוליזם',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134117',
-		'course_name':'פיזיולוגיה',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134117 - פיזיולוגיה',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134119',
-		'course_name':'בקרת הביטוי הגנטי',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134119 - בקרת הביטוי הגנטי',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134121',
-		'course_name':'מיקרוביולוגיה ווירולוגיה',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134121 - מיקרוביולוגיה ווירולוגיה',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134122',
-		'course_name':'מעבדה בהנדסה גנטית',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134122 - מעבדה בהנדסה גנטית',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134128',
-		'course_name':'ביולוגיה של התא',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134128 - ביולוגיה של התא',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134140',
-		'course_name':'יוביקוויטין ומחזור חלבונים',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134140 - יוביקוויטין ומחזור חלבונים',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134143',
-		'course_name':'מעבדה בביוכימיה ומטבוליזם',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134143 - מעבדה בביוכימיה ומטבוליזם',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134151',
-		'course_name':'העולם המודרני של הרנ\א',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134151 - העולם המודרני של הרנא',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134153',
-		'course_name':'אקולוגיה',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134153 - אקולוגיה',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'136014',
-		'course_name':'פיתוח תרופות ביולוגיות חדשניות',
-		'course_faculty':'ביולוגיה'
+		'course_name':'136014 - פיתוח תרופות ביולוגיות חדשניות',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'136090',
-		'course_name':'התקשרויות חלבון - דנ\א ותפקוד פ53',
-		'course_faculty':'ביולוגיה'
+		'course_name':'136090 - התקשרויות חלבון - דנא ותפקוד פ53',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'136205',
-		'course_name':'מיקרוביולוגיה ימית',
-		'course_faculty':'ביולוגיה'
+		'course_name':'136205 - מיקרוביולוגיה ימית',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'196001',
-		'course_name':'סמינר במתמטיקה שימושית 2',
-		'course_faculty':'מתמטיקה שימושית'
+		'course_name':'196001 - סמינר במתמטיקה שימושית 2',
+		'faculty_name':'מתמטיקה שימושית'
 	},
 	{
-		'course_number':'204002',
-		'course_name':'נוף וסביבה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204002 - נוף וסביבה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204004',
-		'course_name':'מבוא למבנה ופרטי גן',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204004 - מבוא למבנה ופרטי גן',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204091',
-		'course_name':'תולדות אדריכלות נוף 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204091 - תולדות אדריכלות נוף 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204150',
-		'course_name':'מבוא לאקולוגיה של הנוף',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204150 - מבוא לאקולוגיה של הנוף',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204203',
-		'course_name':'צמחיה בנוף 1#צמחיה כשפת תכנון',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204203 - צמחיה בנוף 1#צמחיה כשפת תכנון',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204401',
-		'course_name':'מבנה ופרטי גנים 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204401 - מבנה ופרטי גנים 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204609',
-		'course_name':'צמחיה בנוף 3#תכ.צמח.במרקמ.בנויים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204609 - צמחיה בנוף 3#תכ.צמח.במרקמ.בנויים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204611',
-		'course_name':'צמחיה בנוף 4# תכנון צ' במרחב פתוח',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204611 - צמחיה בנוף 4# תכנון צ במרחב פתוח',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204620',
-		'course_name':'תכנון נוף 10',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204620 - תכנון נוף 10',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204622',
-		'course_name':'תכנון נוף 30',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204622 - תכנון נוף 30',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204624',
-		'course_name':'תכנון נוף 50',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204624 - תכנון נוף 50',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204627',
-		'course_name':'תכנון נוף 70',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204627 - תכנון נוף 70',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204721',
-		'course_name':'נושא\/נבחר פר.מיוחד באדר' נוף 33ג'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204721 - נושא/נבחר פר.מיוחד באדר נוף 33ג',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205010',
-		'course_name':'עריכה אדריכלית',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205010 - עריכה אדריכלית',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205011',
-		'course_name':'שיטות וכלים להערכה ועיצוב המרחב',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205011 - שיטות וכלים להערכה ועיצוב המרחב',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205015',
-		'course_name':'עריכה אדריכלית',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205015 - עריכה אדריכלית',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205028',
-		'course_name':'שיטות בעיצוב תיאוריה וכלים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205028 - שיטות בעיצוב תיאוריה וכלים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205034',
-		'course_name':'מבוא לשיטות תכנון באדריכלות',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205034 - מבוא לשיטות תכנון באדריכלות',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205102',
-		'course_name':'תולדות אדר' מהעת העתיקה לעת החדשה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205102 - תולדות אדר מהעת העתיקה לעת החדשה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205105',
-		'course_name':'אדריכלות בישראל#המאה העשרים ואחת',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205105 - אדריכלות בישראל#המאה העשרים ואחת',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205252',
-		'course_name':'מבוא לבינוי ערים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205252 - מבוא לבינוי ערים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205301',
-		'course_name':'תחיקת התכנון',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205301 - תחיקת התכנון',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205404',
-		'course_name':'מבנה ופרטי בנין 4',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205404 - מבנה ופרטי בנין 4',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205426',
-		'course_name':'טכנולוגיות בנייה 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205426 - טכנולוגיות בנייה 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205430',
-		'course_name':'סדנה טכנולוגית הנדסית 1א'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205430 - סדנה טכנולוגית הנדסית 1א',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205460',
-		'course_name':'תכן מבנים 3',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205460 - תכן מבנים 3',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205485',
-		'course_name':'בקרת הסביב מאור-תכנון',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205485 - בקרת הסביב מאור-תכנון',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205506',
-		'course_name':'מיזוג אוויר - מבוא',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205506 - מיזוג אוויר - מבוא',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205507',
-		'course_name':'אקוסטיקה - מבוא',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205507 - אקוסטיקה - מבוא',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205571',
-		'course_name':'כלכלת המרחב והבנייה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205571 - כלכלת המרחב והבנייה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205618',
-		'course_name':'פרויקט מיוחד 2א'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205618 - פרויקט מיוחד 2א',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205624',
-		'course_name':'פרויקט מיוחד 4ב'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205624 - פרויקט מיוחד 4ב',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205658',
-		'course_name':'תכנון כולל 6',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205658 - תכנון כולל 6',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205660',
-		'course_name':'תכנון כולל 8',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205660 - תכנון כולל 8',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205666',
-		'course_name':'סטודיו 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205666 - סטודיו 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205668',
-		'course_name':'סטודיו 4-עיצוב עירוני',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205668 - סטודיו 4-עיצוב עירוני',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205690',
-		'course_name':'נושאים מיוחדים בארכי' 1א'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205690 - נושאים מיוחדים בארכי 1א',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205702',
-		'course_name':'נושאים בתכנון כולל',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205702 - נושאים בתכנון כולל',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205704',
-		'course_name':'נושאים בתכנון כולל',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205704 - נושאים בתכנון כולל',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205708',
-		'course_name':'נושאים בהיסטוריה ותיאוריה בארכ'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205708 - נושאים בהיסטוריה ותיאוריה בארכ',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205720',
-		'course_name':'נושאים מיוחדים בארכיטקטורה 3ג'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205720 - נושאים מיוחדים בארכיטקטורה 3ג',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205721',
-		'course_name':'נושאים מיוחדים בארכיטקטורה 3ד'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205721 - נושאים מיוחדים בארכיטקטורה 3ד',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205725',
-		'course_name':'נושאים מיוחדים בארכיטקטורה 3ז'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205725 - נושאים מיוחדים בארכיטקטורה 3ז',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205817',
-		'course_name':'סדנאות מדיה 1א'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205817 - סדנאות מדיה 1א',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205818',
-		'course_name':'סדנאות מדיה 1ב'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205818 - סדנאות מדיה 1ב',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205819',
-		'course_name':'סדנאות מדיה 1ג'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205819 - סדנאות מדיה 1ג',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205820',
-		'course_name':'סדנאות מדיה 1ד'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205820 - סדנאות מדיה 1ד',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205822',
-		'course_name':'סדנאות מדיה 1 ו'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205822 - סדנאות מדיה 1 ו',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205877',
-		'course_name':'עיצוב בסיסי 5',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205877 - עיצוב בסיסי 5',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205884',
-		'course_name':'עיצוב בסיסי 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205884 - עיצוב בסיסי 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205886',
-		'course_name':'עיצוב בסיסי 2 א'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205886 - עיצוב בסיסי 2 א',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205923',
-		'course_name':'התבוננות דיגום ויצוג 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205923 - התבוננות דיגום ויצוג 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206008',
-		'course_name':'נושא. נבח. בארכ.-אדריכלות ירוקה 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206008 - נושא. נבח. בארכ.-אדריכלות ירוקה 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206041',
-		'course_name':'סמינר בהערכת סביבות',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206041 - סמינר בהערכת סביבות',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206071',
-		'course_name':'נושאים נבחרים בארכיטקטורה 5',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206071 - נושאים נבחרים בארכיטקטורה 5',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206101',
-		'course_name':'אדריכלות חוקרת',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206101 - אדריכלות חוקרת',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206815',
-		'course_name':'עיצוב תעשייתי ברפואה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206815 - עיצוב תעשייתי ברפואה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206825',
-		'course_name':'היסטוריה ותאוריה בעיצוב תעשייתי 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206825 - היסטוריה ותאוריה בעיצוב תעשייתי 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206827',
-		'course_name':'עיצוב טכנולוגיה וחדשנות 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206827 - עיצוב טכנולוגיה וחדשנות 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206830',
-		'course_name':'תכנון ועיצוב המרחב הוירטואלי',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206830 - תכנון ועיצוב המרחב הוירטואלי',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206834',
-		'course_name':'עולם חומרי# מחקר יצירתי בחומר',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206834 - עולם חומרי# מחקר יצירתי בחומר',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206836',
-		'course_name':'עיצוב תעשייתי בעידן המהפכה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206836 - עיצוב תעשייתי בעידן המהפכה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206837',
-		'course_name':'עיצוב',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206837 - עיצוב',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206838',
-		'course_name':'עיצוב במפגשי אדם חיה מכונה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206838 - עיצוב במפגשי אדם חיה מכונה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206840',
-		'course_name':'שיטות יצור מבוססות מחשב באדריכלות',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206840 - שיטות יצור מבוססות מחשב באדריכלות',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206842',
-		'course_name':'סטודיו 4 מחקר פיתוח ועיצוב',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206842 - סטודיו 4 מחקר פיתוח ועיצוב',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206844',
-		'course_name':'עיונים בעיצוב עכשווי',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206844 - עיונים בעיצוב עכשווי',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206913',
-		'course_name':'נושאים נבחרים בארכיטקטורה 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206913 - נושאים נבחרים בארכיטקטורה 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206914',
-		'course_name':'נושאים נבחרים בארכיטקטורה 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206914 - נושאים נבחרים בארכיטקטורה 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206916',
-		'course_name':'נושאים נבחרים בארכיטקטורה 4',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206916 - נושאים נבחרים בארכיטקטורה 4',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206952',
-		'course_name':'ההיסטוריה של המגורים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206952 - ההיסטוריה של המגורים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206955',
-		'course_name':'שימור המורשת הבנויה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206955 - שימור המורשת הבנויה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206995',
-		'course_name':'סיור לימודי בחו\ל',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206995 - סיור לימודי בחול',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207002',
-		'course_name':'תכנון חברתי',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207002 - תכנון חברתי',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207030',
-		'course_name':'הנוף כמשאב חזותי',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207030 - הנוף כמשאב חזותי',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207045',
-		'course_name':'הכנה לתהליך מחקר',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207045 - הכנה לתהליך מחקר',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207406',
-		'course_name':'מדיניות קרקעית',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207406 - מדיניות קרקעית',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207407',
-		'course_name':'מדיניות סביבתית',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207407 - מדיניות סביבתית',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207420',
-		'course_name':'מגורים# תכנון ועיצוב',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207420 - מגורים# תכנון ועיצוב',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207456',
-		'course_name':'אקולוגיה עירונית',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207456 - אקולוגיה עירונית',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207457',
-		'course_name':'היבטים תמטיים וכרונו' באדר' נוף',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207457 - היבטים תמטיים וכרונו באדר נוף',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207463',
-		'course_name':'נושאים נבחרים באדריכלות נוף 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207463 - נושאים נבחרים באדריכלות נוף 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207465',
-		'course_name':'נושאים נבחרים באדריכלות נוף 4',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207465 - נושאים נבחרים באדריכלות נוף 4',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207569',
-		'course_name':'נופי תרבות#תיאוריה פרשנות עיצוב',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207569 - נופי תרבות#תיאוריה פרשנות עיצוב',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207574',
-		'course_name':'תכנון אתר 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207574 - תכנון אתר 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207600',
-		'course_name':'תכנון תחבורה למתכננים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207600 - תכנון תחבורה למתכננים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207701',
-		'course_name':'אולפן 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207701 - אולפן 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207804',
-		'course_name':'חשיבה כלכלית למתכננים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207804 - חשיבה כלכלית למתכננים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207820',
-		'course_name':'מבוא לסוגיות בארכיטקטורה המודרנית',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207820 - מבוא לסוגיות בארכיטקטורה המודרנית',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207825',
-		'course_name':'יציבות מבנים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207825 - יציבות מבנים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207900',
-		'course_name':'נושאים מתקדמים בתכנון ערים  1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207900 - נושאים מתקדמים בתכנון ערים  1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207901',
-		'course_name':'נושאים מתקדמים בתכנון ערים 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207901 - נושאים מתקדמים בתכנון ערים 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207902',
-		'course_name':'נוש מתקדמים בתכנון ערים ואזורים 3',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207902 - נוש מתקדמים בתכנון ערים ואזורים 3',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207910',
-		'course_name':'שיטות מחשב בתכנון ערים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207910 - שיטות מחשב בתכנון ערים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207916',
-		'course_name':'נושאים בתכנון ערים ואזורים 4',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207916 - נושאים בתכנון ערים ואזורים 4',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207945',
-		'course_name':'תכנון וקיימות',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207945 - תכנון וקיימות',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207955',
-		'course_name':'מדעי הסביבה למתכננים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207955 - מדעי הסביבה למתכננים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'214095',
-		'course_name':'קליניקה חינוכית-מדעית 2',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214095 - קליניקה חינוכית-מדעית 2',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214114',
-		'course_name':'חוק וערכים בחינוך',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214114 - חוק וערכים בחינוך',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214118',
-		'course_name':'מבוא לחינוך למדע וטכנולוגיה 2',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214118 - מבוא לחינוך למדע וטכנולוגיה 2',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214207',
-		'course_name':'הוראת הגיאומטריה בחטה\ב (ז-ט)',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214207 - הוראת הגיאומטריה בחטהב (ז-ט)',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214302',
-		'course_name':'דרכי הוראת הפיזיקה 2',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214302 - דרכי הוראת הפיזיקה 2',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214400',
-		'course_name':'מבוא לחינוך סביבתי',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214400 - מבוא לחינוך סביבתי',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214401',
-		'course_name':'דרכי הוראת כימיה 1',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214401 - דרכי הוראת כימיה 1',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214502',
-		'course_name':'דרכי הוראת ביולוגיה 2',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214502 - דרכי הוראת ביולוגיה 2',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214609',
-		'course_name':'הבטים טכנולוגיים בהוראת מו\ט',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214609 - הבטים טכנולוגיים בהוראת מוט',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214704',
-		'course_name':'בעיות נבחרות במכניקה הנדסית',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214704 - בעיות נבחרות במכניקה הנדסית',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214708',
-		'course_name':'בעיות נבחרות בהנדסת חשמל',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214708 - בעיות נבחרות בהנדסת חשמל',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214909',
-		'course_name':'בעיות במדעי המחשב 2-כישורים רכים',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214909 - בעיות במדעי המחשב 2-כישורים רכים',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216002',
-		'course_name':'התנסות בתקשורת המדע',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216002 - התנסות בתקשורת המדע',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216007',
-		'course_name':'פרויקט מעבדה בחקר המוח',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216007 - פרויקט מעבדה בחקר המוח',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216128',
-		'course_name':'שיטות הערכה בהוראת המדע',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216128 - שיטות הערכה בהוראת המדע',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216143',
-		'course_name':'סוגיות באתנומתמטיקה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216143 - סוגיות באתנומתמטיקה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'234107',
-		'course_name':'אנליזה נומרית 1',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234107 - אנליזה נומרית 1',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234306',
-		'course_name':'פרויקט ב- וי.אל.אס.אי. א'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234306 - פרויקט ב- וי.אל.אס.אי. א',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234312',
-		'course_name':'פרויקט שנתי בהנדסת תוכנה-שלב ב'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234312 - פרויקט שנתי בהנדסת תוכנה-שלב ב',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234900',
-		'course_name':'סדנה בתכנות תחרותי',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234900 - סדנה בתכנות תחרותי',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236026',
-		'course_name':'ידע ומשחקים במערכות מבוזרות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236026 - ידע ומשחקים במערכות מבוזרות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236270',
-		'course_name':'ניהול פרויקטי תוכנה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236270 - ניהול פרויקטי תוכנה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236278',
-		'course_name':'מאיצים חישוביים ומערכות מואצות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236278 - מאיצים חישוביים ומערכות מואצות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236299',
-		'course_name':'מבוא לעיבוד שפות טבעיות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236299 - מבוא לעיבוד שפות טבעיות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236327',
-		'course_name':'עיבוד תמונות ואותות במחשב',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236327 - עיבוד תמונות ואותות במחשב',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236329',
-		'course_name':'עיבוד ספרתי של גאומטריה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236329 - עיבוד ספרתי של גאומטריה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236330',
-		'course_name':'מבוא לאופטימיזציה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236330 - מבוא לאופטימיזציה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236348',
-		'course_name':'מבוא לממשקי אדם-מחשב',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236348 - מבוא לממשקי אדם-מחשב',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236358',
-		'course_name':'נושאים מתקדמים באלגוריתמים מבוזרי',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236358 - נושאים מתקדמים באלגוריתמים מבוזרי',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236366',
-		'course_name':'פרויקט במערכות הפעלה מ'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236366 - פרויקט במערכות הפעלה מ',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236374',
-		'course_name':'שיטות הסתברותיות ואלגוריתמים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236374 - שיטות הסתברותיות ואלגוריתמים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236378',
-		'course_name':'עקרונות ניהול מידע חסר ודאות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236378 - עקרונות ניהול מידע חסר ודאות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236506',
-		'course_name':'קריפטולוגיה מודרנית',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236506 - קריפטולוגיה מודרנית',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236510',
-		'course_name':'ממוש מערכות מסדי נתונים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236510 - ממוש מערכות מסדי נתונים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236520',
-		'course_name':'קידוד במערכות אחסון-מידע',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236520 - קידוד במערכות אחסון-מידע',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236522',
-		'course_name':'אלגוריתמים בביולוגיה חישובית',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236522 - אלגוריתמים בביולוגיה חישובית',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236525',
-		'course_name':'מבוא לקידוד רשת חסמים ובניות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236525 - מבוא לקידוד רשת חסמים ובניות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236526',
-		'course_name':'פרויקט תכנות מתקדם במדעי המחשב 2',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236526 - פרויקט תכנות מתקדם במדעי המחשב 2',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236606',
-		'course_name':'נושאים מתקדמים במדעי המחשב 6',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236606 - נושאים מתקדמים במדעי המחשב 6',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236608',
-		'course_name':'נושאים מתקדמים במדעי המחשב 8',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236608 - נושאים מתקדמים במדעי המחשב 8',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236610',
-		'course_name':'נושאים מתקדמים במדעי המחשב 10',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236610 - נושאים מתקדמים במדעי המחשב 10',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236611',
-		'course_name':'נושאים מתקדמים במדעי המחשב 11',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236611 - נושאים מתקדמים במדעי המחשב 11',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236613',
-		'course_name':'נושאים מתקדמים בקריפטולוגיה ה'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236613 - נושאים מתקדמים בקריפטולוגיה ה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236620',
-		'course_name':'נושאים מתקדמים באלגוריתמים ה'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236620 - נושאים מתקדמים באלגוריתמים ה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236638',
-		'course_name':'נושאים מתק. בתכנון וניתוח רשתות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236638 - נושאים מתק. בתכנון וניתוח רשתות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236640',
-		'course_name':'נושאים מתקדמים באינפורמציה קוונטי',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236640 - נושאים מתקדמים באינפורמציה קוונטי',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236653',
-		'course_name':'נושאים מתקדמים באבטחת מידע ה'+ת'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236653 - נושאים מתקדמים באבטחת מידע ה+ת',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236698',
-		'course_name':'הבטחת איכות תוכנה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236698 - הבטחת איכות תוכנה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236700',
-		'course_name':'תיכון תוכנה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236700 - תיכון תוכנה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236714',
-		'course_name':'נושאים בהוכחה אוטומטית של משפטים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236714 - נושאים בהוכחה אוטומטית של משפטים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236756',
-		'course_name':'מבוא למערכות לומדות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236756 - מבוא למערכות לומדות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236800',
-		'course_name':'סמינר בהנדסת תוכנה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236800 - סמינר בהנדסת תוכנה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236814',
-		'course_name':'סמינר בשיטות אימות פורמליות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236814 - סמינר בשיטות אימות פורמליות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'274010',
-		'course_name':'מבוא לגנטיקה לרפ\ע',
-		'course_faculty':'רפואה'
+		'course_name':'274010 - מבוא לגנטיקה לרפע',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274071',
-		'course_name':'היסטולוגיה (רפואה מעבדתית)',
-		'course_faculty':'רפואה'
+		'course_name':'274071 - היסטולוגיה (רפואה מעבדתית)',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274072',
-		'course_name':'רפואה מעבדתית',
-		'course_faculty':'רפואה'
+		'course_name':'274072 - רפואה מעבדתית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274074',
-		'course_name':'מעבדה אימונולוגית לרפ.מעבדתית',
-		'course_faculty':'רפואה'
+		'course_name':'274074 - מעבדה אימונולוגית לרפ.מעבדתית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274114',
-		'course_name':'אנטומיה - 2',
-		'course_faculty':'רפואה'
+		'course_name':'274114 - אנטומיה - 2',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274119',
-		'course_name':'החייאה בסיסית ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274119 - החייאה בסיסית תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274139',
-		'course_name':'מדעי הרפואה#ניתוח אותות ומערכות ב',
-		'course_faculty':'רפואה'
+		'course_name':'274139 - מדעי הרפואה#ניתוח אותות ומערכות ב',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274141',
-		'course_name':'להיות רופא-חשיפה למקצוע הרפואה 2',
-		'course_faculty':'רפואה'
+		'course_name':'274141 - להיות רופא-חשיפה למקצוע הרפואה 2',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274165',
-		'course_name':'גנטיקה כללית לרפואנים',
-		'course_faculty':'רפואה'
+		'course_name':'274165 - גנטיקה כללית לרפואנים',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274166',
-		'course_name':'מדעי הרפואה#ניתוח אותות ומערכות ב',
-		'course_faculty':'רפואה'
+		'course_name':'274166 - מדעי הרפואה#ניתוח אותות ומערכות ב',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274167',
-		'course_name':'ביולוגיה של התא',
-		'course_faculty':'רפואה'
+		'course_name':'274167 - ביולוגיה של התא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274172',
-		'course_name':'אנטומיה ואמבריולוגיה 2 ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274172 - אנטומיה ואמבריולוגיה 2 תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274177',
-		'course_name':'מבוא לקליניקה ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274177 - מבוא לקליניקה תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274214',
-		'course_name':'פיס.של מע' נשימהלבומחזור דם ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274214 - פיס.של מע נשימהלבומחזור דם תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274228',
-		'course_name':'פיסיולוגיה של מע' שתן ועיכול ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274228 - פיסיולוגיה של מע שתן ועיכול תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274229',
-		'course_name':'אנדוקרינולוגיה ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274229 - אנדוקרינולוגיה תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274232',
-		'course_name':'פסיכולוגיה וסוציולוגיה 1 לרפואנים',
-		'course_faculty':'רפואה'
+		'course_name':'274232 - פסיכולוגיה וסוציולוגיה 1 לרפואנים',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274235',
-		'course_name':'להיות רופא-חשיפה למקצוע הרפואה 4',
-		'course_faculty':'רפואה'
+		'course_name':'274235 - להיות רופא-חשיפה למקצוע הרפואה 4',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274245',
-		'course_name':'בקטריולוגיה כללית',
-		'course_faculty':'רפואה'
+		'course_name':'274245 - בקטריולוגיה כללית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274246',
-		'course_name':'הבסיס המולקולרי של מחלת הסרטן',
-		'course_faculty':'רפואה'
+		'course_name':'274246 - הבסיס המולקולרי של מחלת הסרטן',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274247',
-		'course_name':'וירולוגיה',
-		'course_faculty':'רפואה'
+		'course_name':'274247 - וירולוגיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274248',
-		'course_name':'פיזיולוגיה תאית',
-		'course_faculty':'רפואה'
+		'course_name':'274248 - פיזיולוגיה תאית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274249',
-		'course_name':'אימונולוגיה בסיסית',
-		'course_faculty':'רפואה'
+		'course_name':'274249 - אימונולוגיה בסיסית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274250',
-		'course_name':'ביולוגיה התפתחותית',
-		'course_faculty':'רפואה'
+		'course_name':'274250 - ביולוגיה התפתחותית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274251',
-		'course_name':'אבולוציה',
-		'course_faculty':'רפואה'
+		'course_name':'274251 - אבולוציה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274252',
-		'course_name':'פתוגנים אאוקריוטים',
-		'course_faculty':'רפואה'
+		'course_name':'274252 - פתוגנים אאוקריוטים',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274300',
-		'course_name':'תורשת האדם ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274300 - תורשת האדם תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274303',
-		'course_name':'ביוכימיה כללית וקלינית 2 ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274303 - ביוכימיה כללית וקלינית 2 תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274349',
-		'course_name':'פתולוגיה כללית',
-		'course_faculty':'רפואה'
+		'course_name':'274349 - פתולוגיה כללית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274352',
-		'course_name':'מבוא לתזונה קלינית',
-		'course_faculty':'רפואה'
+		'course_name':'274352 - מבוא לתזונה קלינית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274364',
-		'course_name':'פיזיולוגיה של מערכות גוף לרפואנים',
-		'course_faculty':'רפואה'
+		'course_name':'274364 - פיזיולוגיה של מערכות גוף לרפואנים',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274365',
-		'course_name':'המטולוגיה פיסיולוגיה ופתופיסיולו.',
-		'course_faculty':'רפואה'
+		'course_name':'274365 - המטולוגיה פיסיולוגיה ופתופיסיולו.',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274366',
-		'course_name':'להיות רופא-סוגיות תרבותיות אתיות6',
-		'course_faculty':'רפואה'
+		'course_name':'274366 - להיות רופא-סוגיות תרבותיות אתיות6',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274367',
-		'course_name':'פרמקולוגיה בסיסית',
-		'course_faculty':'רפואה'
+		'course_name':'274367 - פרמקולוגיה בסיסית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274503',
-		'course_name':'רפואה פנימית 1ת',
-		'course_faculty':'רפואה'
+		'course_name':'274503 - רפואה פנימית 1ת',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274514',
-		'course_name':'קרדיולוגיה קלינית',
-		'course_faculty':'רפואה'
+		'course_name':'274514 - קרדיולוגיה קלינית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274606',
-		'course_name':'עקרונות החייאה מתקדמת במבוגרבילד',
-		'course_faculty':'רפואה'
+		'course_name':'274606 - עקרונות החייאה מתקדמת במבוגרבילד',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274617',
-		'course_name':'טראומה',
-		'course_faculty':'רפואה'
+		'course_name':'274617 - טראומה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274621',
-		'course_name':'רפואת פנימית 2 ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274621 - רפואת פנימית 2 תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274622',
-		'course_name':'רפואת ילדים 2 (ת\א)',
-		'course_faculty':'רפואה'
+		'course_name':'274622 - רפואת ילדים 2 (תא)',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274623',
-		'course_name':'כירורגיה 2 (ת\א)',
-		'course_faculty':'רפואה'
+		'course_name':'274623 - כירורגיה 2 (תא)',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274631',
-		'course_name':'יסודות במינהל רפואי',
-		'course_faculty':'רפואה'
+		'course_name':'274631 - יסודות במינהל רפואי',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274634',
-		'course_name':'גריאטריה',
-		'course_faculty':'רפואה'
+		'course_name':'274634 - גריאטריה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274640',
-		'course_name':'קורס מיני-סטאז'נשים 2 ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274640 - קורס מיני-סטאזנשים 2 תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274644',
-		'course_name':'על כירורגיה בחירה 1 ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274644 - על כירורגיה בחירה 1 תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274645',
-		'course_name':'על כירורגיה 2 ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274645 - על כירורגיה 2 תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274646',
-		'course_name':'על פנימית בחירה 1 ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274646 - על פנימית בחירה 1 תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274647',
-		'course_name':'על פנימית בחירה 2 ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274647 - על פנימית בחירה 2 תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274704',
-		'course_name':'בחינת גמר ברפואה פנימית-בעל פה',
-		'course_faculty':'רפואה'
+		'course_name':'274704 - בחינת גמר ברפואה פנימית-בעל פה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274715',
-		'course_name':'נוירולוגיה נוירוכירורגיה-מבחן גמר',
-		'course_faculty':'רפואה'
+		'course_name':'274715 - נוירולוגיה נוירוכירורגיה-מבחן גמר',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274725',
-		'course_name':'פסיכיאטריה-מבחן גמר',
-		'course_faculty':'רפואה'
+		'course_name':'274725 - פסיכיאטריה-מבחן גמר',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274726',
-		'course_name':'בחינת גמר בכירוגיה-בכתב',
-		'course_faculty':'רפואה'
+		'course_name':'274726 - בחינת גמר בכירוגיה-בכתב',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274727',
-		'course_name':'בחינת גמר בעל-פה בכירורגיה',
-		'course_faculty':'רפואה'
+		'course_name':'274727 - בחינת גמר בעל-פה בכירורגיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274728',
-		'course_name':'רפואת נשים ומילדות-מבחן גמר',
-		'course_faculty':'רפואה'
+		'course_name':'274728 - רפואת נשים ומילדות-מבחן גמר',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274729',
-		'course_name':'בחינת גמר ברפואת ילדים-בכתב',
-		'course_faculty':'רפואה'
+		'course_name':'274729 - בחינת גמר ברפואת ילדים-בכתב',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274730',
-		'course_name':'בחינת גמר בעל-פה ברפואת ילדים',
-		'course_faculty':'רפואה'
+		'course_name':'274730 - בחינת גמר בעל-פה ברפואת ילדים',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274731',
-		'course_name':'בחינת גמר ברפואה פנימית-בכתב',
-		'course_faculty':'רפואה'
+		'course_name':'274731 - בחינת גמר ברפואה פנימית-בכתב',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275209',
-		'course_name':'מבוא לרפואה דחופה ג'-החייאה בסיסי',
-		'course_faculty':'רפואה'
+		'course_name':'275209 - מבוא לרפואה דחופה ג-החייאה בסיסי',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275304',
-		'course_name':'טלמדיסין-רפואה בעידן הדיגיטלי',
-		'course_faculty':'רפואה'
+		'course_name':'275304 - טלמדיסין-רפואה בעידן הדיגיטלי',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275310',
-		'course_name':'אודיולוגיה 1',
-		'course_faculty':'רפואה'
+		'course_name':'275310 - אודיולוגיה 1',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275316',
-		'course_name':'שואה ורפואה-לימוד השואה ולקחיה',
-		'course_faculty':'רפואה'
+		'course_name':'275316 - שואה ורפואה-לימוד השואה ולקחיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275320',
-		'course_name':'מבוא למחקר מדעי ברפואה',
-		'course_faculty':'רפואה'
+		'course_name':'275320 - מבוא למחקר מדעי ברפואה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275321',
-		'course_name':'מיינדפולנס-מודעות וקשיבות ברפואה',
-		'course_faculty':'רפואה'
+		'course_name':'275321 - מיינדפולנס-מודעות וקשיבות ברפואה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275501',
-		'course_name':'אונקולוגיה',
-		'course_faculty':'רפואה'
+		'course_name':'275501 - אונקולוגיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275502',
-		'course_name':'אימונולוגיה קלינית ואלרגיה',
-		'course_faculty':'רפואה'
+		'course_name':'275502 - אימונולוגיה קלינית ואלרגיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275503',
-		'course_name':'ראומטולוגיה',
-		'course_faculty':'רפואה'
+		'course_name':'275503 - ראומטולוגיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275504',
-		'course_name':'מחלות זיהומיות',
-		'course_faculty':'רפואה'
+		'course_name':'275504 - מחלות זיהומיות',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275505',
-		'course_name':'מחלות ריאה',
-		'course_faculty':'רפואה'
+		'course_name':'275505 - מחלות ריאה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275506',
-		'course_name':'גסטרואנטרולוגיה',
-		'course_faculty':'רפואה'
+		'course_name':'275506 - גסטרואנטרולוגיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275507',
-		'course_name':'המטולוגיה קלינית',
-		'course_faculty':'רפואה'
+		'course_name':'275507 - המטולוגיה קלינית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275508',
-		'course_name':'נפרולוגיה',
-		'course_faculty':'רפואה'
+		'course_name':'275508 - נפרולוגיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275509',
-		'course_name':'אנדוקרינולוגיה',
-		'course_faculty':'רפואה'
+		'course_name':'275509 - אנדוקרינולוגיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275510',
-		'course_name':'מחלות עור ומין',
-		'course_faculty':'רפואה'
+		'course_name':'275510 - מחלות עור ומין',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275514',
-		'course_name':'גסטרואנטרולוגיה-עיכול ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'275514 - גסטרואנטרולוגיה-עיכול תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275522',
-		'course_name':'ניהול הטיפול בכאב כרוני',
-		'course_faculty':'רפואה'
+		'course_name':'275522 - ניהול הטיפול בכאב כרוני',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275523',
-		'course_name':'רפואה דחופה',
-		'course_faculty':'רפואה'
+		'course_name':'275523 - רפואה דחופה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275526',
-		'course_name':'בחירה חופשית קלינית 3',
-		'course_faculty':'רפואה'
+		'course_name':'275526 - בחירה חופשית קלינית 3',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275527',
-		'course_name':'פתולוגיה כירורגית',
-		'course_faculty':'רפואה'
+		'course_name':'275527 - פתולוגיה כירורגית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275529',
-		'course_name':'רפואה תומכת ופליאטיבית',
-		'course_faculty':'רפואה'
+		'course_name':'275529 - רפואה תומכת ופליאטיבית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275603',
-		'course_name':'רפואת עיניים',
-		'course_faculty':'רפואה'
+		'course_name':'275603 - רפואת עיניים',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275604',
-		'course_name':'אורטופדיה וטראומטולוגיה',
-		'course_faculty':'רפואה'
+		'course_name':'275604 - אורטופדיה וטראומטולוגיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275605',
-		'course_name':'כירורגית חזה ולב',
-		'course_faculty':'רפואה'
+		'course_name':'275605 - כירורגית חזה ולב',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275606',
-		'course_name':'אורולוגיה',
-		'course_faculty':'רפואה'
+		'course_name':'275606 - אורולוגיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275607',
-		'course_name':'כירורגיה פלסטית',
-		'course_faculty':'רפואה'
+		'course_name':'275607 - כירורגיה פלסטית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275609',
-		'course_name':'כירורגית ילדים',
-		'course_faculty':'רפואה'
+		'course_name':'275609 - כירורגית ילדים',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275610',
-		'course_name':'כירורגיה כללית',
-		'course_faculty':'רפואה'
+		'course_name':'275610 - כירורגיה כללית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275611',
-		'course_name':'כירורגית כלי דם',
-		'course_faculty':'רפואה'
+		'course_name':'275611 - כירורגית כלי דם',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275620',
-		'course_name':'נוירוכירורגיה',
-		'course_faculty':'רפואה'
+		'course_name':'275620 - נוירוכירורגיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275621',
-		'course_name':'מחלות א.א.ג צואר פה ולסתות',
-		'course_faculty':'רפואה'
+		'course_name':'275621 - מחלות א.א.ג צואר פה ולסתות',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275622',
-		'course_name':'הרדמה כאב וטפול נמרץ',
-		'course_faculty':'רפואה'
+		'course_name':'275622 - הרדמה כאב וטפול נמרץ',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'276004',
-		'course_name':'יזמות ופיתוח טכנולוגיות רפואיות',
-		'course_faculty':'רפואה'
+		'course_name':'276004 - יזמות ופיתוח טכנולוגיות רפואיות',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'276419',
-		'course_name':'מנגנונים  מולקולרים של דלקת',
-		'course_faculty':'רפואה'
+		'course_name':'276419 - מנגנונים  מולקולרים של דלקת',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'276451',
-		'course_name':'פסיכולוגיה וסוציולוגיה 1',
-		'course_faculty':'רפואה'
+		'course_name':'276451 - פסיכולוגיה וסוציולוגיה 1',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'277210',
-		'course_name':'בריאות הציבור ומערכת הרפואה בארץ',
-		'course_faculty':'רפואה'
+		'course_name':'277210 - בריאות הציבור ומערכת הרפואה בארץ',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'277301',
-		'course_name':'מנגנוני עיבד כאב כמודל למחקר',
-		'course_faculty':'רפואה'
+		'course_name':'277301 - מנגנוני עיבד כאב כמודל למחקר',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'314011',
-		'course_name':'מבנה ותכונות של חומרים הנדסיים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'314011 - מבנה ותכונות של חומרים הנדסיים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'314126',
-		'course_name':'נושאים מתקדמים בהנדסת חומרים 2',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'314126 - נושאים מתקדמים בהנדסת חומרים 2',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'314200',
-		'course_name':'מבוא להנ.חומרים לתעופה וחלל',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'314200 - מבוא להנ.חומרים לתעופה וחלל',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'314311',
-		'course_name':'חומרים קרמיים ורפרקטורים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'314311 - חומרים קרמיים ורפרקטורים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'314312',
-		'course_name':'מבוא לחומרים פולימריים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'314312 - מבוא לחומרים פולימריים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315002',
-		'course_name':'מעבדת חומרים מתקדמת 2ח'',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315002 - מעבדת חומרים מתקדמת 2ח',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315003',
-		'course_name':'תרמודינמיקה של חומרים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315003 - תרמודינמיקה של חומרים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315008',
-		'course_name':'התנהגות מכנית של חומרים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315008 - התנהגות מכנית של חומרים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315016',
-		'course_name':'התקני מוליכים למחצה להנדסת חומרים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315016 - התקני מוליכים למחצה להנדסת חומרים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315027',
-		'course_name':'אמינות התקני מיקרואלקטרוניקה',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315027 - אמינות התקני מיקרואלקטרוניקה',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315030',
-		'course_name':'תכונות חומרים אלקטרונים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315030 - תכונות חומרים אלקטרונים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315031',
-		'course_name':'חומרים אלקטרוניים קרמיים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315031 - חומרים אלקטרוניים קרמיים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315035',
-		'course_name':'פרויקט בחירה בהנדסת חומרים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315035 - פרויקט בחירה בהנדסת חומרים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315039',
-		'course_name':'מעבר תנע חום ומסה להנדסת חומרים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315039 - מעבר תנע חום ומסה להנדסת חומרים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315041',
-		'course_name':'תופעות אופטיות בחומרים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315041 - תופעות אופטיות בחומרים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315050',
-		'course_name':'מדע הנ.של דבקים ומחברים פולימריים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315050 - מדע הנ.של דבקים ומחברים פולימריים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315051',
-		'course_name':'דיפוזיה במוצקים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315051 - דיפוזיה במוצקים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315053',
-		'course_name':'הנדסה של פולימרים ביו-רפואיים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315053 - הנדסה של פולימרים ביו-רפואיים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315057',
-		'course_name':'מבוא למדע חישובי של חומרים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315057 - מבוא למדע חישובי של חומרים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'320098',
-		'course_name':'יסוד. מדע אינטגרטיבי-מרחבסימטריה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'320098 - יסוד. מדע אינטגרטיבי-מרחבסימטריה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324066',
-		'course_name':'עברית לביה\ס הבינלאומי 3',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324066 - עברית לביהס הבינלאומי 3',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324070',
-		'course_name':'עברית לביה\ס הבינלאומי 44',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324070 - עברית לביהס הבינלאומי 44',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324242',
-		'course_name':'השואה בראי הקולנוע',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324242 - השואה בראי הקולנוע',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324245',
-		'course_name':'המורשת האדריכלית של קריית הטכניון',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324245 - המורשת האדריכלית של קריית הטכניון',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324246',
-		'course_name':'חשיפה למחקר בטכניון',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324246 - חשיפה למחקר בטכניון',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324294',
-		'course_name':'יסודות ההגות היהודית בעת החדשה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324294 - יסודות ההגות היהודית בעת החדשה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324424',
-		'course_name':'הספרות היהודית בשלהי העת העתיקה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324424 - הספרות היהודית בשלהי העת העתיקה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324428',
-		'course_name':'מנהיגות וזהות',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324428 - מנהיגות וזהות',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324430',
-		'course_name':'נשים יהודיות בימ\ב-מעמדהלכהחברה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324430 - נשים יהודיות בימב-מעמדהלכהחברה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324437',
-		'course_name':'מבוא היסטורי למוסיקה 2',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324437 - מבוא היסטורי למוסיקה 2',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324438',
-		'course_name':'היסטוריה ותרבות סין',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324438 - היסטוריה ותרבות סין',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324441',
-		'course_name':'פרקים נבחרים בתולדות האמנות',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324441 - פרקים נבחרים בתולדות האמנות',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324443',
-		'course_name':'תולדות האסלאם',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324443 - תולדות האסלאם',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324446',
-		'course_name':'מבוא להיסטוריה של מוזיקת הג'ז',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324446 - מבוא להיסטוריה של מוזיקת הגז',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324451',
-		'course_name':'מחלוקת ופולמוס בספרות חז\ל',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324451 - מחלוקת ופולמוס בספרות חזל',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324453',
-		'course_name':'אהבה וחוק בעידן הטכנולוגי',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324453 - אהבה וחוק בעידן הטכנולוגי',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324457',
-		'course_name':'מוזיאולוגיה וטכנולוגיה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324457 - מוזיאולוגיה וטכנולוגיה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324458',
-		'course_name':'קריאה ירוקה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324458 - קריאה ירוקה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324459',
-		'course_name':'קומיקס כסוכן זכרון השואה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324459 - קומיקס כסוכן זכרון השואה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324465',
-		'course_name':'תרבות וחברה בסין ובישראל',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324465 - תרבות וחברה בסין ובישראל',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324604',
-		'course_name':'גרמנית 3',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324604 - גרמנית 3',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324694',
-		'course_name':'סינית למתקדמים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324694 - סינית למתקדמים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324880',
-		'course_name':'ארץ ישראל בראי הארכיאולוגיה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324880 - ארץ ישראל בראי הארכיאולוגיה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324906',
-		'course_name':'היסטוריה פוליטיקה-קוריאה המודרנית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324906 - היסטוריה פוליטיקה-קוריאה המודרנית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324914',
-		'course_name':'המדע#הכרהישויותהגיון וערכים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324914 - המדע#הכרהישויותהגיון וערכים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324919',
-		'course_name':'הולדת תרבות המערב-מהמבול עד מוחמד',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324919 - הולדת תרבות המערב-מהמבול עד מוחמד',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324932',
-		'course_name':'הבית הים תיכוני במבט היסטורי',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324932 - הבית הים תיכוני במבט היסטורי',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324938',
-		'course_name':'תרבות ואוכל',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324938 - תרבות ואוכל',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324944',
-		'course_name':'התקשורת בעידן המידע',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324944 - התקשורת בעידן המידע',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324949',
-		'course_name':'הקולנוע האירופאי של המאה העשרים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324949 - הקולנוע האירופאי של המאה העשרים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324958',
-		'course_name':'סוציולוגיה פוליטית#תהליכי התפתחות',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324958 - סוציולוגיה פוליטית#תהליכי התפתחות',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324959',
-		'course_name':'פרט ומשפחה בראי חברתי',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324959 - פרט ומשפחה בראי חברתי',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324966',
-		'course_name':'התבוננות בחוויה המוסיקלית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324966 - התבוננות בחוויה המוסיקלית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324969',
-		'course_name':'נשים במזה\ת#תהליכי שינוי',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324969 - נשים במזהת#תהליכי שינוי',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324986',
-		'course_name':'מודיעין וביטחון לאומי',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324986 - מודיעין וביטחון לאומי',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324988',
-		'course_name':'ארכיאולוגיה של התקופה הצלבנית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324988 - ארכיאולוגיה של התקופה הצלבנית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324989',
-		'course_name':'ארה\ב במאה ה-20',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324989 - ארהב במאה ה-20',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'334020',
-		'course_name':'מעבדה מתקדמת בהנ. ביו-רפואית 2',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'334020 - מעבדה מתקדמת בהנ. ביו-רפואית 2',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'334221',
-		'course_name':'יסודות של חומרים רפואיים',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'334221 - יסודות של חומרים רפואיים',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'334222',
-		'course_name':'יסודות הביומכניקה',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'334222 - יסודות הביומכניקה',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'334331',
-		'course_name':'מפגשים עם התעשיה הביו-רפואית',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'334331 - מפגשים עם התעשיה הביו-רפואית',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'335009',
-		'course_name':'מכניקת זורמים ביולוגיים',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'335009 - מכניקת זורמים ביולוגיים',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'335010',
-		'course_name':'תכן ביומכני בסיסי',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'335010 - תכן ביומכני בסיסי',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'335015',
-		'course_name':'פרויקט בהנדסה ביו-רפואית 2',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'335015 - פרויקט בהנדסה ביו-רפואית 2',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'335016',
-		'course_name':'פרויקט קליני-הנדסי',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'335016 - פרויקט קליני-הנדסי',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336004',
-		'course_name':'תהליכים ביולוגיים',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336004 - תהליכים ביולוגיים',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336208',
-		'course_name':'שיטות באנליזה של אותות ביולוגיים',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336208 - שיטות באנליזה של אותות ביולוגיים',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336325',
-		'course_name':'אולטרסאונד ברפואה-עקרונות וישומם',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336325 - אולטרסאונד ברפואה-עקרונות וישומם',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336405',
-		'course_name':'יסודות הנדסיים בביולוגיה וביוטכנו',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336405 - יסודות הנדסיים בביולוגיה וביוטכנו',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336504',
-		'course_name':'עקרונות תהודה מגנטית בהדמיה רפואי',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336504 - עקרונות תהודה מגנטית בהדמיה רפואי',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336517',
-		'course_name':'ביו הנדסה של התא',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336517 - ביו הנדסה של התא',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336529',
-		'course_name':'הנדסת רקמות ותחליפים ביולוגיים',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336529 - הנדסת רקמות ותחליפים ביולוגיים',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336535',
-		'course_name':'אולטראסאונד טיפולי',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336535 - אולטראסאונד טיפולי',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336537',
-		'course_name':'ביופיסיקה ונוירופיסיולוגיה',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336537 - ביופיסיקה ונוירופיסיולוגיה',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336541',
-		'course_name':'זרימה במערכת הקרדיווסקולרית',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336541 - זרימה במערכת הקרדיווסקולרית',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336544',
-		'course_name':'תכן ומימוש של מעגלים גנטיים',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336544 - תכן ומימוש של מעגלים גנטיים',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336545',
-		'course_name':'רפואה גרעינית ורדיותרפיה',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336545 - רפואה גרעינית ורדיותרפיה',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'014831',
-		'course_name':'מחנה גיאודזיה בקדסטר',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014831 - מחנה גיאודזיה בקדסטר',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'085801',
-		'course_name':'סמינריון בנושא זרימה',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085801 - סמינריון בנושא זרימה',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'103016',
-		'course_name':'קורס הכנה במתמטיקה באנגלית',
-		'course_faculty':'מתמטיקה'
+		'course_name':'103016 - קורס הכנה במתמטיקה באנגלית',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106932',
-		'course_name':'נושאים נבחרים באלגברה 2',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106932 - נושאים נבחרים באלגברה 2',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'205616',
-		'course_name':'פרויקט מיוחד 1א'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205616 - פרויקט מיוחד 1א',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205814',
-		'course_name':'רישום אדריכלי',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205814 - רישום אדריכלי',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205821',
-		'course_name':'סדנאות מדיה 1ה'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205821 - סדנאות מדיה 1ה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205826',
-		'course_name':'סדנאות מדיה 2 ג'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205826 - סדנאות מדיה 2 ג',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205829',
-		'course_name':'סדנאות מדיה 2ו'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205829 - סדנאות מדיה 2ו',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206814',
-		'course_name':'נושאים נבחרים בעיצוב רפואי וחברתי',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206814 - נושאים נבחרים בעיצוב רפואי וחברתי',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206817',
-		'course_name':'יחסי גומלין בין ננוטכנולוגיה לעיצ',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206817 - יחסי גומלין בין ננוטכנולוגיה לעיצ',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'324275',
-		'course_name':'פיתוח מיומנויות תקשורת באנגלית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324275 - פיתוח מיומנויות תקשורת באנגלית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324433',
-		'course_name':'השואה בראי הקולנוע',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324433 - השואה בראי הקולנוע',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324439',
-		'course_name':'יסודות באמנות יפן',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324439 - יסודות באמנות יפן',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324571',
-		'course_name':'סדנת יצירה בצילום 2',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324571 - סדנת יצירה בצילום 2',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'394900',
-		'course_name':'חוגי-ספורט',
-		'course_faculty':'ספורט'
+		'course_name':'394900 - חוגי-ספורט',
+		'faculty_name':'ספורט'
 	},
 	{
-		'course_number':'014318',
-		'course_name':'הסביבה בעידן הטכנולוגי',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014318 - הסביבה בעידן הטכנולוגי',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014504',
-		'course_name':'פרויקט מעבדתי בחומרי בניה (2)',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014504 - פרויקט מעבדתי בחומרי בניה (2)',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014630',
-		'course_name':'מבוא להיבטים משפטיים בבנייה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014630 - מבוא להיבטים משפטיים בבנייה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'035010',
-		'course_name':'קינמטיקה של מכניזמים',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035010 - קינמטיקה של מכניזמים',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035062',
-		'course_name':'אנליזה של מבנים',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035062 - אנליזה של מבנים',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036012',
-		'course_name':'מערכות בקרה לינאריות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036012 - מערכות בקרה לינאריות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036050',
-		'course_name':'מערכות בקרה לא-לינאריות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036050 - מערכות בקרה לא-לינאריות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036061',
-		'course_name':'מערכות זורם-חלקיקים',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036061 - מערכות זורם-חלקיקים',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036083',
-		'course_name':'החלטות#  אתגרים והשלכות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036083 - החלטות#  אתגרים והשלכות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036089',
-		'course_name':'נושאים מתקדמים בהנדסת מכונות 10',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036089 - נושאים מתקדמים בהנדסת מכונות 10',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036096',
-		'course_name':'מערכות זרימה אלקטרוכימיות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036096 - מערכות זרימה אלקטרוכימיות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'044131',
-		'course_name':'אותות ומערכות',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044131 - אותות ומערכות',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044157',
-		'course_name':'מעבדה בהנדסת חשמל 1א',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044157 - מעבדה בהנדסת חשמל 1א',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046003',
-		'course_name':'נושאים מתקדמים 1',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046003 - נושאים מתקדמים 1',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046241',
-		'course_name':'מכניקה קוונטית',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046241 - מכניקה קוונטית',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046242',
-		'course_name':'פיסיקה סטטיסטית להנדסת חשמל',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046242 - פיסיקה סטטיסטית להנדסת חשמל',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046925',
-		'course_name':'כלים  לניתוח מערכות מחשבים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046925 - כלים  לניתוח מערכות מחשבים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'047003',
-		'course_name':'נושאים מתקדמים 4',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'047003 - נושאים מתקדמים 4',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'054369',
-		'course_name':'מעבדה להנדסת פולימרים',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054369 - מעבדה להנדסת פולימרים',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054373',
-		'course_name':'מבוא לכימיה של מצב מוצק למהנדסים',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054373 - מבוא לכימיה של מצב מוצק למהנדסים',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054419',
-		'course_name':'מב.לתכן ריאקטורים כימים וביוכימים',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054419 - מב.לתכן ריאקטורים כימים וביוכימים',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'056120',
-		'course_name':'מיקרוסקופית אלקטרונים של חומר רך',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'056120 - מיקרוסקופית אלקטרונים של חומר רך',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'056386',
-		'course_name':'נושאים הנדסיים נבחרים 2',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'056386 - נושאים הנדסיים נבחרים 2',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'064331',
-		'course_name':'מערכי תקינה',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064331 - מערכי תקינה',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066226',
-		'course_name':'טכנולוגיה לייצור יין',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066226 - טכנולוגיה לייצור יין',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066418',
-		'course_name':'מקרוביולוגיה של פתוגנים',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066418 - מקרוביולוגיה של פתוגנים',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'084651',
-		'course_name':'פרויקט תכן 51',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084651 - פרויקט תכן 51',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084655',
-		'course_name':'פרויקט תכן 55',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084655 - פרויקט תכן 55',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084657',
-		'course_name':'פרויקט תכן 57',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084657 - פרויקט תכן 57',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084659',
-		'course_name':'פרויקט תכן 59',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084659 - פרויקט תכן 59',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085326',
-		'course_name':'סדנא לאוירודינמיקה חישובית',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085326 - סדנא לאוירודינמיקה חישובית',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085640',
-		'course_name':'תמיכה כוללת במוצר למע. אויר חלל',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085640 - תמיכה כוללת במוצר למע. אויר חלל',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085803',
-		'course_name':'סמינריון בנושא הנעה',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085803 - סמינריון בנושא הנעה',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085804',
-		'course_name':'סמינריון בנושא בקרה',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085804 - סמינריון בנושא בקרה',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086311',
-		'course_name':'בעיות מתקדמות באוירודינמיקה',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086311 - בעיות מתקדמות באוירודינמיקה',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086366',
-		'course_name':'מבוא לזרימה טורבולנטית',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086366 - מבוא לזרימה טורבולנטית',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086470',
-		'course_name':'מבוא לשריפה על קולית',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086470 - מבוא לשריפה על קולית',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086577',
-		'course_name':'דינמיקת מבנים',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086577 - דינמיקת מבנים',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086650',
-		'course_name':'תכן מערכות סרוו',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086650 - תכן מערכות סרוו',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086760',
-		'course_name':'עקרונות הנחיה וביות',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086760 - עקרונות הנחיה וביות',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'094333',
-		'course_name':'מודלים דינמיים בחקר ביצועים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094333 - מודלים דינמיים בחקר ביצועים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094346',
-		'course_name':'מתמטיקה דיסקרטית',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094346 - מתמטיקה דיסקרטית',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094820',
-		'course_name':'מבוא לחשבונאות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094820 - מבוא לחשבונאות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'095295',
-		'course_name':'שיטות אלגבריות בהנדסת נתונים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'095295 - שיטות אלגבריות בהנדסת נתונים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'095420',
-		'course_name':'מערכי תקינה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'095420 - מערכי תקינה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096202',
-		'course_name':'מבוא לניתוח נתונים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096202 - מבוא לניתוח נתונים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096275',
-		'course_name':'הגורם האנושי באיסוף נתונים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096275 - הגורם האנושי באיסוף נתונים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096351',
-		'course_name':'שיטות פוליהדרליות לתכנות בשלמים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096351 - שיטות פוליהדרליות לתכנות בשלמים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096400',
-		'course_name':'נושאים נבחרים בסטטיסטיקה והסתברות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096400 - נושאים נבחרים בסטטיסטיקה והסתברות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096425',
-		'course_name':'סדרות עתיות וחיזוי',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096425 - סדרות עתיות וחיזוי',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096576',
-		'course_name':'למידה וסיבוכיות בתורת המשחקים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096576 - למידה וסיבוכיות בתורת המשחקים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096602',
-		'course_name':'נושאים נבחרים במדעי ההתנהגות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096602 - נושאים נבחרים במדעי ההתנהגות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097260',
-		'course_name':'נושאים נבחרים בטכנולוגיות מידע',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097260 - נושאים נבחרים בטכנולוגיות מידע',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'104157',
-		'course_name':'מבוא לתורת המספרים',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104157 - מבוא לתורת המספרים',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106101',
-		'course_name':'מבוא למכניקת זורמים',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106101 - מבוא למכניקת זורמים',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106173',
-		'course_name':'תורת המשחקים',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106173 - תורת המשחקים',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106306',
-		'course_name':'אלגבראות לי',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106306 - אלגבראות לי',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106344',
-		'course_name':'נושאים נבחרים בחבורות טופולוגיות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106344 - נושאים נבחרים בחבורות טופולוגיות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106394',
-		'course_name':'חשבון וריאציות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106394 - חשבון וריאציות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106404',
-		'course_name':'סמינר באלגברה 1',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106404 - סמינר באלגברה 1',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106435',
-		'course_name':'נושאים בתורת האופרטורים',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106435 - נושאים בתורת האופרטורים',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106970',
-		'course_name':'מערכות דינמיות 2 תורה היפרבולית',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106970 - מערכות דינמיות 2 תורה היפרבולית',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'116033',
-		'course_name':'תהליכים גרעיניים באסטרופיסיקה',
-		'course_faculty':'פיזיקה'
+		'course_name':'116033 - תהליכים גרעיניים באסטרופיסיקה',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'116094',
-		'course_name':'פיזיקה חישובית',
-		'course_faculty':'פיזיקה'
+		'course_name':'116094 - פיזיקה חישובית',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'116105',
-		'course_name':'שיטות סטטיסטיות ונומריות בפיסיקה',
-		'course_faculty':'פיזיקה'
+		'course_name':'116105 - שיטות סטטיסטיות ונומריות בפיסיקה',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'117002',
-		'course_name':'אי לינאריות וכאוס',
-		'course_faculty':'פיזיקה'
+		'course_name':'117002 - אי לינאריות וכאוס',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'127433',
-		'course_name':'שיטות נסיוניות במדעי השטח',
-		'course_faculty':'כימיה'
+		'course_name':'127433 - שיטות נסיוניות במדעי השטח',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127436',
-		'course_name':'תרמודינמיקה של מערכות קטנות',
-		'course_faculty':'כימיה'
+		'course_name':'127436 - תרמודינמיקה של מערכות קטנות',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127731',
-		'course_name':'כימיה וביוכימיה של פחמימות',
-		'course_faculty':'כימיה'
+		'course_name':'127731 - כימיה וביוכימיה של פחמימות',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'134150',
-		'course_name':'פרויקט מחקר למסלול מצטיינים',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134150 - פרויקט מחקר למסלול מצטיינים',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134155',
-		'course_name':'אנדוקרינולוגיה',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134155 - אנדוקרינולוגיה',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134156',
-		'course_name':'ביופיסיקה מולקולרית',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134156 - ביופיסיקה מולקולרית',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'197008',
-		'course_name':'נושאים נבחרים במתמטיקה שימושית',
-		'course_faculty':'מתמטיקה שימושית'
+		'course_name':'197008 - נושאים נבחרים במתמטיקה שימושית',
+		'faculty_name':'מתמטיקה שימושית'
 	},
 	{
-		'course_number':'204204',
-		'course_name':'מבוא למערכות מידע גיאוגרפי',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204204 - מבוא למערכות מידע גיאוגרפי',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204406',
-		'course_name':'תורת המבנה לאדריכלי נוף',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204406 - תורת המבנה לאדריכלי נוף',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204723',
-		'course_name':'סיור לימודי באדריכלות נוף 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204723 - סיור לימודי באדריכלות נוף 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205000',
-		'course_name':'מבוא לשימור',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205000 - מבוא לשימור',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205014',
-		'course_name':'פרויקט מיוחד 5א'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205014 - פרויקט מיוחד 5א',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205427',
-		'course_name':'טכנולוגיות בנייה 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205427 - טכנולוגיות בנייה 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205435',
-		'course_name':'סדנה הנדסית 2א'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205435 - סדנה הנדסית 2א',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205510',
-		'course_name':'בטיחות ונגישות במבנים וסביבתם',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205510 - בטיחות ונגישות במבנים וסביבתם',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205621',
-		'course_name':'פרויקט מיוחד 3ב'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205621 - פרויקט מיוחד 3ב',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205622',
-		'course_name':'פרויקט מיוחד 3ג'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205622 - פרויקט מיוחד 3ג',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205623',
-		'course_name':'פרויקט מיוחד 4א'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205623 - פרויקט מיוחד 4א',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205627',
-		'course_name':'עיצוב פנים וריהוט 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205627 - עיצוב פנים וריהוט 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205696',
-		'course_name':'נושאים מיוחדים בארכי' 3א',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205696 - נושאים מיוחדים בארכי 3א',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205718',
-		'course_name':'נושאים במיחשוב ארכיטקטוני',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205718 - נושאים במיחשוב ארכיטקטוני',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205726',
-		'course_name':'נושאים מיוחדים בארכיטקטורה 3ח'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205726 - נושאים מיוחדים בארכיטקטורה 3ח',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205930',
-		'course_name':'ניהול פרוייקטי הבנייה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205930 - ניהול פרוייקטי הבנייה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205980',
-		'course_name':'נושאים נבחרים  בארכיטקטורה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205980 - נושאים נבחרים  בארכיטקטורה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206100',
-		'course_name':'היבטים ביקורתיים במודרניזם האדרי',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206100 - היבטים ביקורתיים במודרניזם האדרי',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206564',
-		'course_name':'אספקטים אקלימיים בתכנון הבניה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206564 - אספקטים אקלימיים בתכנון הבניה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206570',
-		'course_name':'סמינר בהערכת תכנון ארכי. בר-קיימא',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206570 - סמינר בהערכת תכנון ארכי. בר-קיימא',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206573',
-		'course_name':'פרויקט בארכיטקטורה ירוקה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206573 - פרויקט בארכיטקטורה ירוקה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206574',
-		'course_name':'שימוש מחדש במבנים קיימים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206574 - שימוש מחדש במבנים קיימים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206823',
-		'course_name':'נושאים נבחרים בעיצוב תעשייתי 4',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206823 - נושאים נבחרים בעיצוב תעשייתי 4',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206841',
-		'course_name':'תכן פרמטרי באדריכלות',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206841 - תכן פרמטרי באדריכלות',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206946',
-		'course_name':'טכנולוגיה של שימור מתכות ועץ',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206946 - טכנולוגיה של שימור מתכות ועץ',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206991',
-		'course_name':'נושאים נבחרים בשימור 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206991 - נושאים נבחרים בשימור 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207080',
-		'course_name':'תכנון אזורי ומטרופוליני',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207080 - תכנון אזורי ומטרופוליני',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207343',
-		'course_name':'יסודות העיצוב העירוני',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207343 - יסודות העיצוב העירוני',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207464',
-		'course_name':'נושאים נבחרים באדריכלות נוף 3',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207464 - נושאים נבחרים באדריכלות נוף 3',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207952',
-		'course_name':'תכנון וחברה אזרחית',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207952 - תכנון וחברה אזרחית',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'214206',
-		'course_name':'הוראת האלגברה בחטה\ב (ז-ט)',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214206 - הוראת האלגברה בחטהב (ז-ט)',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214216',
-		'course_name':'דרכי הוראת מדעי סביבה 1',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214216 - דרכי הוראת מדעי סביבה 1',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214235',
-		'course_name':'התנסות בהוראת מתמטיקה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214235 - התנסות בהוראת מתמטיקה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214411',
-		'course_name':'התנסות בהור'מדע וטכ' בחט\ב ובחט\ע',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214411 - התנסות בהורמדע וטכ בחטב ובחטע',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214701',
-		'course_name':'דרכי הור' טכנולוגיה-מכניקה הנדסית',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214701 - דרכי הור טכנולוגיה-מכניקה הנדסית',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214901',
-		'course_name':'דרכי הוראת מדעי המחשב 1',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214901 - דרכי הוראת מדעי המחשב 1',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216004',
-		'course_name':'התפתחויות בהוראת הפיסיקה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216004 - התפתחויות בהוראת הפיסיקה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216008',
-		'course_name':'חשיבה יצירתית אפקטיבית',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216008 - חשיבה יצירתית אפקטיבית',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216009',
-		'course_name':'שיטות מחקר כמותיות ועיבוד נתונים',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216009 - שיטות מחקר כמותיות ועיבוד נתונים',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216102',
-		'course_name':'סמינר מחקר בחינוך במדע 1',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216102 - סמינר מחקר בחינוך במדע 1',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216112',
-		'course_name':'סדנה מתקדמת בהוראת המתמטיקה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216112 - סדנה מתקדמת בהוראת המתמטיקה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216129',
-		'course_name':'התנסות בהנחית פרויקטים בטכנולוגיה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216129 - התנסות בהנחית פרויקטים בטכנולוגיה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216144',
-		'course_name':'סוגיות מתקדמות בהוראת תכן וייצור',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216144 - סוגיות מתקדמות בהוראת תכן וייצור',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216400',
-		'course_name':'סוגיות מתקדמות בהוראת הכימיה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216400 - סוגיות מתקדמות בהוראת הכימיה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216500',
-		'course_name':'סוגיות מתקדמות בהוראת הביולוגיה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216500 - סוגיות מתקדמות בהוראת הביולוגיה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'234124',
-		'course_name':'מבוא לתכנות מערכות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234124 - מבוא לתכנות מערכות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234129',
-		'course_name':'מב.לתורת הקבוצות ואוטומטים למדמ\ח',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234129 - מב.לתורת הקבוצות ואוטומטים למדמח',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234221',
-		'course_name':'מבוא למדעי המחשב נ'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234221 - מבוא למדעי המחשב נ',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236001',
-		'course_name':'מבוא למחקר פקולטי במדעי המחשב',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236001 - מבוא למחקר פקולטי במדעי המחשב',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236267',
-		'course_name':'מבנה מחשבים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236267 - מבנה מחשבים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236310',
-		'course_name':'תורת השפות הפורמליות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236310 - תורת השפות הפורמליות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236319',
-		'course_name':'שפות תכנות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236319 - שפות תכנות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236322',
-		'course_name':'מערכות אחסון מידע',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236322 - מערכות אחסון מידע',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236331',
-		'course_name':'גדירות וחישוביות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236331 - גדירות וחישוביות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236356',
-		'course_name':'תאוריה של מערכות מסד נתונים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236356 - תאוריה של מערכות מסד נתונים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236361',
-		'course_name':'פרויקט בקומפילציה מ'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236361 - פרויקט בקומפילציה מ',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236500',
-		'course_name':'קריפטאנליזה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236500 - קריפטאנליזה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236628',
-		'course_name':'נושאים מתקדמים בגרפיקה ממוחשבת',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236628 - נושאים מתקדמים בגרפיקה ממוחשבת',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236634',
-		'course_name':'נושאים מתקדמים ברשתות תקשורת ה'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236634 - נושאים מתקדמים ברשתות תקשורת ה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236652',
-		'course_name':'נושאים מתקדמים באבטחת מידע ה'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236652 - נושאים מתקדמים באבטחת מידע ה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236780',
-		'course_name':'אלגוריתמים לניהול זיכרון דינמי',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236780 - אלגוריתמים לניהול זיכרון דינמי',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236790',
-		'course_name':'שיטות רב-סריג',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236790 - שיטות רב-סריג',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236813',
-		'course_name':'סמינר באלגוריתמים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236813 - סמינר באלגוריתמים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236990',
-		'course_name':'מבוא לעיבוד אינפורמציה קוונטית',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236990 - מבוא לעיבוד אינפורמציה קוונטית',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'274142',
-		'course_name':'שלישי קליני - להיות רופא 1',
-		'course_faculty':'רפואה'
+		'course_name':'274142 - שלישי קליני - להיות רופא 1',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274168',
-		'course_name':'ביופיסיקה ומדעי העצב ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274168 - ביופיסיקה ומדעי העצב תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274169',
-		'course_name':'אנטומיה ואמבריולוגיה  1 ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274169 - אנטומיה ואמבריולוגיה  1 תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274181',
-		'course_name':'אפידימיולוגיה ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274181 - אפידימיולוגיה תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274538',
-		'course_name':'רפואת משפחה וקהילה ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'274538 - רפואת משפחה וקהילה תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275102',
-		'course_name':'הזקן המאושפז',
-		'course_faculty':'רפואה'
+		'course_name':'275102 - הזקן המאושפז',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275103',
-		'course_name':'מעורבות קהילה אקדמיה-קידום בריאות',
-		'course_faculty':'רפואה'
+		'course_name':'275103 - מעורבות קהילה אקדמיה-קידום בריאות',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275315',
-		'course_name':'התמודדות הרופאים עם אלימות במשפחה',
-		'course_faculty':'רפואה'
+		'course_name':'275315 - התמודדות הרופאים עם אלימות במשפחה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'314309',
-		'course_name':'תהליכי ייצור ועיבוד חומרים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'314309 - תהליכי ייצור ועיבוד חומרים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315058',
-		'course_name':'שיטות לניתוח חומרים באמצעות מחשב',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315058 - שיטות לניתוח חומרים באמצעות מחשב',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315059',
-		'course_name':'חומרים פונקציונלים-תכונות והתקנים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315059 - חומרים פונקציונלים-תכונות והתקנים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'316240',
-		'course_name':'יסודות הקריסטלוגרפיה',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'316240 - יסודות הקריסטלוגרפיה',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'321000',
-		'course_name':'קורס בסין 1',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'321000 - קורס בסין 1',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'321001',
-		'course_name':'קורס בסין 2',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'321001 - קורס בסין 2',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324247',
-		'course_name':'מבוא ליזמות וחשיבה עיצובית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324247 - מבוא ליזמות וחשיבה עיצובית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324276',
-		'course_name':'פיתוח מיומנויות תקשורת בעברית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324276 - פיתוח מיומנויות תקשורת בעברית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324282',
-		'course_name':'פוליטיקה של זהויות בישראל',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324282 - פוליטיקה של זהויות בישראל',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324284',
-		'course_name':'חינוך בסין ובישראל',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324284 - חינוך בסין ובישראל',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324285',
-		'course_name':'הגירה עיור ושינוי חברתי בסין',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324285 - הגירה עיור ושינוי חברתי בסין',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324450',
-		'course_name':'סוגיות יסוד בספרות חז\ל',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324450 - סוגיות יסוד בספרות חזל',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324469',
-		'course_name':'החברה הסינית בקולנוע הסיני עכשווי',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324469 - החברה הסינית בקולנוע הסיני עכשווי',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324495',
-		'course_name':'רישום ציור וצבע',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324495 - רישום ציור וצבע',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324605',
-		'course_name':'גרמנית 4',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324605 - גרמנית 4',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324628',
-		'course_name':'ערבית מדוברת',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324628 - ערבית מדוברת',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324963',
-		'course_name':'ארכיטקטורה של ביתני תערוכה נודעים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324963 - ארכיטקטורה של ביתני תערוכה נודעים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324990',
-		'course_name':'תורת הצבע - תיאוריה ויישום',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324990 - תורת הצבע - תיאוריה ויישום',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324992',
-		'course_name':'סוגיות אתיות במרחב האישי והציבורי',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324992 - סוגיות אתיות במרחב האישי והציבורי',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324993',
-		'course_name':'יחסי חוץ וביטחון לאומי במזרח אסיה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324993 - יחסי חוץ וביטחון לאומי במזרח אסיה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'336547',
-		'course_name':'דימות אופטי חישובי בה. ביו-רפואית',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336547 - דימות אופטי חישובי בה. ביו-רפואית',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'014512',
-		'course_name':'אקוסטיקה בהנדסה אזרחית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014512 - אקוסטיקה בהנדסה אזרחית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016817',
-		'course_name':'עיבוד תמונה מתקדם למיפוי',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016817 - עיבוד תמונה מתקדם למיפוי',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'017006',
-		'course_name':'עקרונות חישה במערכות טבעיות',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'017006 - עקרונות חישה במערכות טבעיות',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'017010',
-		'course_name':'נושאים נבחרים בדינמיקה של רכב',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'017010 - נושאים נבחרים בדינמיקה של רכב',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'035141',
-		'course_name':'מתקני כח וחם',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035141 - מתקני כח וחם',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035189',
-		'course_name':'שימוש המחשב בתורת הזרימה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035189 - שימוש המחשב בתורת הזרימה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036014',
-		'course_name':'עבודים פלסטיים של מתכות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036014 - עבודים פלסטיים של מתכות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036026',
-		'course_name':'קינמטיקה דינמיקה ובקרה של רובוטים',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036026 - קינמטיקה דינמיקה ובקרה של רובוטים',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036044',
-		'course_name':'תכן תנו' רובו' וניווט ע\י חיישנים',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036044 - תכן תנו רובו וניווט עי חיישנים',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036047',
-		'course_name':'שערוך ובקרה של תהליכים אקראיים',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036047 - שערוך ובקרה של תהליכים אקראיים',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036058',
-		'course_name':'מיקרומכניקה של מוצקים 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036058 - מיקרומכניקה של מוצקים 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036076',
-		'course_name':'אלקטרוקינטיקה בננו-ומיקרו-זרימה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036076 - אלקטרוקינטיקה בננו-ומיקרו-זרימה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036087',
-		'course_name':'דינמיקה היברידית במערכות מכניות',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036087 - דינמיקה היברידית במערכות מכניות',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036091',
-		'course_name':'מיקרו אופטומכאניקה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036091 - מיקרו אופטומכאניקה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036094',
-		'course_name':'בקרת רכב',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036094 - בקרת רכב',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'044003',
-		'course_name':'נושאים מיוחדים 1',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044003 - נושאים מיוחדים 1',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044137',
-		'course_name':'מעגלים אלקטרוניים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044137 - מעגלים אלקטרוניים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'045005',
-		'course_name':'קורס בנושא מיוחד 6',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'045005 - קורס בנושא מיוחד 6',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046041',
-		'course_name':'רשתות עצביות ביולוגיות-חישוביות',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046041 - רשתות עצביות ביולוגיות-חישוביות',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046196',
-		'course_name':'בקרה לא לינארית',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046196 - בקרה לא לינארית',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046230',
-		'course_name':'התקנים אלקטרוניים מתקדמים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046230 - התקנים אלקטרוניים מתקדמים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046743',
-		'course_name':'עיבוד אותות מרחבי',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046743 - עיבוד אותות מרחבי',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'054316',
-		'course_name':'תרמודינמיקה א' מתקדם',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054316 - תרמודינמיקה א מתקדם',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054375',
-		'course_name':'יצור התקני מל\מ למהנדסים כימיים',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054375 - יצור התקני מלמ למהנדסים כימיים',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'056379',
-		'course_name':'מעבדה לתהליכי ממברנות',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'056379 - מעבדה לתהליכי ממברנות',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'064120',
-		'course_name':'שיטות נומריות בהנ. ביוטכ' ומזון',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064120 - שיטות נומריות בהנ. ביוטכ ומזון',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066011',
-		'course_name':'פרויקט איג'ם',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066011 - פרויקט איגם',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066215',
-		'course_name':'טכנולוגיה של מוצרי חלב',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066215 - טכנולוגיה של מוצרי חלב',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066241',
-		'course_name':'פרקים מתקדמים באריזת מוצרים',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066241 - פרקים מתקדמים באריזת מוצרים',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066332',
-		'course_name':'ביו-ננו היברידים וביוסנסורים',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066332 - ביו-ננו היברידים וביוסנסורים',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066518',
-		'course_name':'ביוקטליזה שימושית',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066518 - ביוקטליזה שימושית',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066527',
-		'course_name':'מהמעבדה ועד לשוק - תעשיית הביוטק',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066527 - מהמעבדה ועד לשוק - תעשיית הביוטק',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'084135',
-		'course_name':'אנליזה נומרית להנדסת אויר' וחלל',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084135 - אנליזה נומרית להנדסת אויר וחלל',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084515',
-		'course_name':'מבוא לתורת האלסטיות',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084515 - מבוא לתורת האלסטיות',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084630',
-		'course_name':'שרטוט הנדסי ממוחשב',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084630 - שרטוט הנדסי ממוחשב',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084652',
-		'course_name':'פרויקט תכן 52',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084652 - פרויקט תכן 52',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084656',
-		'course_name':'פרויקט תכן 56',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084656 - פרויקט תכן 56',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084658',
-		'course_name':'פרויקט תכן 58',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084658 - פרויקט תכן 58',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'084660',
-		'course_name':'פרויקט תכן 60',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084660 - פרויקט תכן 60',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085802',
-		'course_name':'סמינריון בנושא מבנים',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085802 - סמינריון בנושא מבנים',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085805',
-		'course_name':'סמינריון בנושא חלל',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085805 - סמינריון בנושא חלל',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085806',
-		'course_name':'סמינריון בנושא תכן',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085806 - סמינריון בנושא תכן',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086395',
-		'course_name':'אוירואקוסטיקה של כלי טיס',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086395 - אוירואקוסטיקה של כלי טיס',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086478',
-		'course_name':'תהליכי שריפה',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086478 - תהליכי שריפה',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086802',
-		'course_name':'שיטות בדמיות והערכה',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086802 - שיטות בדמיות והערכה',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'094295',
-		'course_name':'מעבדה בניתוח והצגת נתונים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094295 - מעבדה בניתוח והצגת נתונים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094522',
-		'course_name':'סדנא בעסקים קטנים ובינוניים 2',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094522 - סדנא בעסקים קטנים ובינוניים 2',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'095120',
-		'course_name':'סמינר במע. ייצור ושרות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'095120 - סמינר במע. ייצור ושרות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'095190',
-		'course_name':'פרויקט תכן בהנדסת חוויית המשתמש',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'095190 - פרויקט תכן בהנדסת חוויית המשתמש',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096264',
-		'course_name':'תיכון ועיצוב מנשקי משתמש-מחשב',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096264 - תיכון ועיצוב מנשקי משתמש-מחשב',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096328',
-		'course_name':'ניתוח החלטות כמותי',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096328 - ניתוח החלטות כמותי',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096450',
-		'course_name':'השוואות מרובות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096450 - השוואות מרובות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097121',
-		'course_name':'נושאים מתקדמים בהנדסת תעשיה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097121 - נושאים מתקדמים בהנדסת תעשיה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097328',
-		'course_name':'נושאים מתקדמים בחקר ביצועים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097328 - נושאים מתקדמים בחקר ביצועים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097414',
-		'course_name':'תאוריה סטטיסטית לניתוח נתונים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097414 - תאוריה סטטיסטית לניתוח נתונים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'104012',
-		'course_name':'חשבון דיפרנציאלי ואינטגרלי 1ת'',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104012 - חשבון דיפרנציאלי ואינטגרלי 1ת',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104181',
-		'course_name':'סמינר באנליזה להסמכה 1',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104181 - סמינר באנליזה להסמכה 1',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104210',
-		'course_name':'מכניקת הרצף',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104210 - מכניקת הרצף',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106000',
-		'course_name':'מבוא לאנליזה הרמונית',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106000 - מבוא לאנליזה הרמונית',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106170',
-		'course_name':'אלגברה הומולוגית',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106170 - אלגברה הומולוגית',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106309',
-		'course_name':'חבורות לי',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106309 - חבורות לי',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106350',
-		'course_name':'גיאומטריה רימנית',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106350 - גיאומטריה רימנית',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106374',
-		'course_name':'שיטות טופולוגיות בקומבינטוריקה',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106374 - שיטות טופולוגיות בקומבינטוריקה',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106402',
-		'course_name':'נושאים נבחרים בתורת הקירובים',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106402 - נושאים נבחרים בתורת הקירובים',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106742',
-		'course_name':'פרקים נבחרים בתורת ההסתברות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106742 - פרקים נבחרים בתורת ההסתברות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106926',
-		'course_name':'נושאים נבחרים בתורת המספרים 1',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106926 - נושאים נבחרים בתורת המספרים 1',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106936',
-		'course_name':'נושאים נבחרים באנליזה מתמטית 3',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106936 - נושאים נבחרים באנליזה מתמטית 3',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106941',
-		'course_name':'סמינר באנליזה',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106941 - סמינר באנליזה',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'117004',
-		'course_name':'שיטות נסיוניות באלקטרונים מתואמים',
-		'course_faculty':'פיזיקה'
+		'course_name':'117004 - שיטות נסיוניות באלקטרונים מתואמים',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'117090',
-		'course_name':'אסטרופיסיקה תצפיתית',
-		'course_faculty':'פיזיקה'
+		'course_name':'117090 - אסטרופיסיקה תצפיתית',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'124609',
-		'course_name':'מעבדה כימית פיסיקלית ב\מ',
-		'course_faculty':'כימיה'
+		'course_name':'124609 - מעבדה כימית פיסיקלית במ',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'126304',
-		'course_name':'ביולוגיה מבנית',
-		'course_faculty':'כימיה'
+		'course_name':'126304 - ביולוגיה מבנית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127437',
-		'course_name':'פוטוקטליזה',
-		'course_faculty':'כימיה'
+		'course_name':'127437 - פוטוקטליזה',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127740',
-		'course_name':'פולימרים# מסינתזה לארכיטקטורות',
-		'course_faculty':'כימיה'
+		'course_name':'127740 - פולימרים# מסינתזה לארכיטקטורות',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'134125',
-		'course_name':'סמינר בביולוגיה 3',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134125 - סמינר בביולוגיה 3',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'136203',
-		'course_name':'פוטוסינטזה ימית',
-		'course_faculty':'ביולוגיה'
+		'course_name':'136203 - פוטוסינטזה ימית',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'204152',
-		'course_name':'הכרת נופים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204152 - הכרת נופים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205429',
-		'course_name':'סיור בתעש' בנייה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205429 - סיור בתעש בנייה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205498',
-		'course_name':'תכנון אתר',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205498 - תכנון אתר',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205654',
-		'course_name':'תכנון כולל 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205654 - תכנון כולל 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205691',
-		'course_name':'נושאים מיוחדים בארכי' 1ב'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205691 - נושאים מיוחדים בארכי 1ב',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205727',
-		'course_name':'נושאים מיוחדים בארכיטקטורה 3ט'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205727 - נושאים מיוחדים בארכיטקטורה 3ט',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205823',
-		'course_name':'סדנאות מדיה 1ז'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205823 - סדנאות מדיה 1ז',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206005',
-		'course_name':'נושאים בארכ.- אדריכלות דיגיטלית 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206005 - נושאים בארכ.- אדריכלות דיגיטלית 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206006',
-		'course_name':'נושאים בארכ.-אדריכלות דיגיטלית 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206006 - נושאים בארכ.-אדריכלות דיגיטלית 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206072',
-		'course_name':'נושאים נבחרים בארכיטקטורה 6',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206072 - נושאים נבחרים בארכיטקטורה 6',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206561',
-		'course_name':'תאורה בארכיטקטורה',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206561 - תאורה בארכיטקטורה',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206730',
-		'course_name':'המאבק על המרחב# אדריכלות תכנון',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206730 - המאבק על המרחב# אדריכלות תכנון',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206843',
-		'course_name':'סוגיות בעיצוב וטכנולוגיה במאה ה21',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206843 - סוגיות בעיצוב וטכנולוגיה במאה ה21',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206951',
-		'course_name':'היסטוריה של האדריכלות בישראל',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206951 - היסטוריה של האדריכלות בישראל',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206960',
-		'course_name':'תיעוד היסטורי ושיטות מדידה ואבחון',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206960 - תיעוד היסטורי ושיטות מדידה ואבחון',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206964',
-		'course_name':'הליכי רישוי הבניה וכללי המקצוע',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206964 - הליכי רישוי הבניה וכללי המקצוע',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'214208',
-		'course_name':'דרכי הוראת המתימטיקה בחטה\ע ב'',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214208 - דרכי הוראת המתימטיקה בחטהע ב',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214213',
-		'course_name':'מבוא לתורת המספרים למורים',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214213 - מבוא לתורת המספרים למורים',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214301',
-		'course_name':'דרכי הוראת הפיזיקה 1',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214301 - דרכי הוראת הפיזיקה 1',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214402',
-		'course_name':'דרכי הוראת כימיה 2',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214402 - דרכי הוראת כימיה 2',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214408',
-		'course_name':'דרכי הוראת מדע-טכנולוגיה בחט\ע',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214408 - דרכי הוראת מדע-טכנולוגיה בחטע',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214600',
-		'course_name':'הוראת פרויקט חקר בביולוגיה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214600 - הוראת פרויקט חקר בביולוגיה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214601',
-		'course_name':'דרכי הוראת טכנולוגיה-חשמל ואלק'1',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214601 - דרכי הוראת טכנולוגיה-חשמל ואלק1',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214605',
-		'course_name':'בעיות נבחרות בהנדסת אלקטרוניקה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214605 - בעיות נבחרות בהנדסת אלקטרוניקה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214702',
-		'course_name':'דרכי הוראת הטכנולוגיה-תכן ויצור',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214702 - דרכי הוראת הטכנולוגיה-תכן ויצור',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214706',
-		'course_name':'פרויקט אינדיבידואלי',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214706 - פרויקט אינדיבידואלי',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214902',
-		'course_name':'דרכי הוראת מדעי המחשב 2',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214902 - דרכי הוראת מדעי המחשב 2',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216116',
-		'course_name':'התפתחויות בהוראת הביולוגיה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216116 - התפתחויות בהוראת הביולוגיה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216127',
-		'course_name':'שיטות הוראה במוזיאוני מדע',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216127 - שיטות הוראה במוזיאוני מדע',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216135',
-		'course_name':'סוגיות מתקדמות בהוראת המתמטיקה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216135 - סוגיות מתקדמות בהוראת המתמטיקה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216136',
-		'course_name':'למידה באמצעות חקר מדעי',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216136 - למידה באמצעות חקר מדעי',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216320',
-		'course_name':'התפתחויות בהוראת הכימיה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216320 - התפתחויות בהוראת הכימיה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'234292',
-		'course_name':'לוגיקה למדעי המחשב',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234292 - לוגיקה למדעי המחשב',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234901',
-		'course_name':'סדנה בתכנות תחרותי',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234901 - סדנה בתכנות תחרותי',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236307',
-		'course_name':'גרפים מרחיבים ושימושיהם',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236307 - גרפים מרחיבים ושימושיהם',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236345',
-		'course_name':'אימות אוטומטי של מער' תכנה וחומרה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236345 - אימות אוטומטי של מער תכנה וחומרה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236359',
-		'course_name':'אלגוריתמים 2',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236359 - אלגוריתמים 2',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236377',
-		'course_name':'אלגוריתמים מבוזרים בגרפים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236377 - אלגוריתמים מבוזרים בגרפים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236518',
-		'course_name':'סיבוכיות תקשורת',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236518 - סיבוכיות תקשורת',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236621',
-		'course_name':'נושאים מתקדמים באלגוריתמים ה'+ת'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236621 - נושאים מתקדמים באלגוריתמים ה+ת',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236622',
-		'course_name':'נושאים מתקדמים מס' 2 באלגוריתמים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236622 - נושאים מתקדמים מס 2 באלגוריתמים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236624',
-		'course_name':'נושאים מתקדמים בשיטות אימות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236624 - נושאים מתקדמים בשיטות אימות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236648',
-		'course_name':'נושאים מתקדמים בסיבוכיות ה'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236648 - נושאים מתקדמים בסיבוכיות ה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236779',
-		'course_name':'יסודות אלגוריתמיים למידע מאסיבי',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236779 - יסודות אלגוריתמיים למידע מאסיבי',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236823',
-		'course_name':'סמינר בעיבוד אינפורמציה קוונטית',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236823 - סמינר בעיבוד אינפורמציה קוונטית',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236834',
-		'course_name':'סמינר במערכות אחסון מידע',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236834 - סמינר במערכות אחסון מידע',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'274143',
-		'course_name':'שלישי קליני - להיות רופא 2',
-		'course_faculty':'רפואה'
+		'course_name':'274143 - שלישי קליני - להיות רופא 2',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274253',
-		'course_name':'פיזיולוגיה תאית',
-		'course_faculty':'רפואה'
+		'course_name':'274253 - פיזיולוגיה תאית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274254',
-		'course_name':'אנטומיה ראש צוואר וגפיים',
-		'course_faculty':'רפואה'
+		'course_name':'274254 - אנטומיה ראש צוואר וגפיים',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274520',
-		'course_name':'רדיולוגיה אבחנתית',
-		'course_faculty':'רפואה'
+		'course_name':'274520 - רדיולוגיה אבחנתית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275104',
-		'course_name':'מעורבות קהילה אקדמיה ב'',
-		'course_faculty':'רפואה'
+		'course_name':'275104 - מעורבות קהילה אקדמיה ב',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275322',
-		'course_name':'מבוא למקצועות הכירורגיים',
-		'course_faculty':'רפואה'
+		'course_name':'275322 - מבוא למקצועות הכירורגיים',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275323',
-		'course_name':'נוירואנטומ' פונק'ואספקטים קליניים',
-		'course_faculty':'רפואה'
+		'course_name':'275323 - נוירואנטומ פונקואספקטים קליניים',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'315018',
-		'course_name':'חומרים בהנדסה ביורפואית',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315018 - חומרים בהנדסה ביורפואית',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315038',
-		'course_name':'חומרים למערכות מיקרו-אלקטרומכניות',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315038 - חומרים למערכות מיקרו-אלקטרומכניות',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'315060',
-		'course_name':'יסודות האפיטקסיה# מבנה פני השטח',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315060 - יסודות האפיטקסיה# מבנה פני השטח',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'324395',
-		'course_name':'מדע טכנולוגיה ומוסר',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324395 - מדע טכנולוגיה ומוסר',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324436',
-		'course_name':'עולמות מוסיקליים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324436 - עולמות מוסיקליים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324454',
-		'course_name':'מבוא לפילוסופיה של המדע',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324454 - מבוא לפילוסופיה של המדע',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324460',
-		'course_name':'מחשבה מדינית יהודית עד העת החדשה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324460 - מחשבה מדינית יהודית עד העת החדשה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324466',
-		'course_name':'שינויי אקלים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324466 - שינויי אקלים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324470',
-		'course_name':'מבוא להיסטוריה סינית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324470 - מבוא להיסטוריה סינית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324471',
-		'course_name':'מבוא לספרות הסינית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324471 - מבוא לספרות הסינית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324513',
-		'course_name':'מחזה-הצגה-מופע',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324513 - מחזה-הצגה-מופע',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324524',
-		'course_name':'התיאטרון הקלאסי# מיתוס מקבל גוף',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324524 - התיאטרון הקלאסי# מיתוס מקבל גוף',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324606',
-		'course_name':'גרמנית 5',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324606 - גרמנית 5',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324697',
-		'course_name':'עקרונות מעשיים לעיבוד תמונה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324697 - עקרונות מעשיים לעיבוד תמונה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324912',
-		'course_name':'מקורותיה של תרבות המערב',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324912 - מקורותיה של תרבות המערב',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324915',
-		'course_name':'האדם וחיות הבית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324915 - האדם וחיות הבית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324974',
-		'course_name':'מגה-חיים בעידן הסינגולרי',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324974 - מגה-חיים בעידן הסינגולרי',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324994',
-		'course_name':'פוליטיקה וחברה במזרח אסיה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324994 - פוליטיקה וחברה במזרח אסיה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324995',
-		'course_name':'מחוות הבעות ושפת גוף',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324995 - מחוות הבעות ושפת גוף',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324996',
-		'course_name':'מלחמה ומדע בדיוני בסוף המאה ה-19',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324996 - מלחמה ומדע בדיוני בסוף המאה ה-19',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324997',
-		'course_name':'יוון הקלאסית# ערש תרבות המערב',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324997 - יוון הקלאסית# ערש תרבות המערב',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'336539',
-		'course_name':'זרימה במערכת הנשימה ומתן תרופות',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336539 - זרימה במערכת הנשימה ומתן תרופות',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'014010',
-		'course_name':'הנדסה לקהילות מתפתחות',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014010 - הנדסה לקהילות מתפתחות',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'973001',
-		'course_name':'גמר מתמטיקה-קדם מכינה',
-		'course_faculty':''
+		'course_name':'973001 - גמר מתמטיקה-קדם מכינה',
+		'faculty_name':''
 	},
 	{
-		'course_number':'973002',
-		'course_name':'גמר פיזיקה-קדם מכינה',
-		'course_faculty':''
+		'course_name':'973002 - גמר פיזיקה-קדם מכינה',
+		'faculty_name':''
 	},
 	{
-		'course_number':'973003',
-		'course_name':'גמר מתמטיקה-מנהיגי העתיד',
-		'course_faculty':''
+		'course_name':'973003 - גמר מתמטיקה-מנהיגי העתיד',
+		'faculty_name':''
 	},
 	{
-		'course_number':'973004',
-		'course_name':'גמר פיזיקה-מנהיגי העתיד',
-		'course_faculty':''
+		'course_name':'973004 - גמר פיזיקה-מנהיגי העתיד',
+		'faculty_name':''
 	},
 	{
-		'course_number':'014618',
-		'course_name':'מבוא לניהול ובטיחות בבנייה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014618 - מבוא לניהול ובטיחות בבנייה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014890',
-		'course_name':'מבוא לספקטרוסקופיה וחישה מרחוק',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014890 - מבוא לספקטרוסקופיה וחישה מרחוק',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014946',
-		'course_name':'פרויקט בחישה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014946 - פרויקט בחישה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016339',
-		'course_name':'גורל מזהמים אנתרופוגנים בסביבה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016339 - גורל מזהמים אנתרופוגנים בסביבה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'017031',
-		'course_name':'חישה מרחוק באקולוגיה וסביבה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'017031 - חישה מרחוק באקולוגיה וסביבה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'034206',
-		'course_name':'תכן מערכות הדראוליות ופנאומטיות 2',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034206 - תכן מערכות הדראוליות ופנאומטיות 2',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036007',
-		'course_name':'תנודות במבנים',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036007 - תנודות במבנים',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036038',
-		'course_name':'תהליכי מעבר בפן ביני',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036038 - תהליכי מעבר בפן ביני',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036048',
-		'course_name':'אנליזה של רטט לא לינארי',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036048 - אנליזה של רטט לא לינארי',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036064',
-		'course_name':'נושאים מתקדמים בהנדסת מכונות 4',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036064 - נושאים מתקדמים בהנדסת מכונות 4',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036097',
-		'course_name':'דינמיקה של מרוכבים ומטא-חומרים',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036097 - דינמיקה של מרוכבים ומטא-חומרים',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'044158',
-		'course_name':'מעבדה בהנדסת חשמל 1ב',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044158 - מעבדה בהנדסת חשמל 1ב',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044174',
-		'course_name':'מעבדה בהנדסת חשמל 4',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044174 - מעבדה בהנדסת חשמל 4',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'044175',
-		'course_name':'פרסום מאמר מדעי',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044175 - פרסום מאמר מדעי',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046055',
-		'course_name':'ננו-פוטוניקה ומטא-חומרים אופטיים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046055 - ננו-פוטוניקה ומטא-חומרים אופטיים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046202',
-		'course_name':'עיבוד וניתוח מידע',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046202 - עיבוד וניתוח מידע',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046208',
-		'course_name':'טכניקות תקשורת מודרניות',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046208 - טכניקות תקשורת מודרניות',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046243',
-		'course_name':'טכנולוגיות קוונטיות',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046243 - טכנולוגיות קוונטיות',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'054317',
-		'course_name':'תרמודינמיקה ב' מתקדם',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054317 - תרמודינמיקה ב מתקדם',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054377',
-		'course_name':'מבוא לטכנולוגית אבקות',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054377 - מבוא לטכנולוגית אבקות',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'064249',
-		'course_name':'טכנולוגיות עיבוד תוצרת טרייה',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064249 - טכנולוגיות עיבוד תוצרת טרייה',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064420',
-		'course_name':'מיקרוביולוגיה של מזון',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064420 - מיקרוביולוגיה של מזון',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064615',
-		'course_name':'תזונה',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064615 - תזונה',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066015',
-		'course_name':'נושאים נבחרים בהנד. ביוט' ומזון 2',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066015 - נושאים נבחרים בהנד. ביוט ומזון 2',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'084641',
-		'course_name':'תכן הנ. וייצור של מערכות תעופתיות',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'084641 - תכן הנ. וייצור של מערכות תעופתיות',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085679',
-		'course_name':'פרויקט תכן מתקדם',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085679 - פרויקט תכן מתקדם',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086219',
-		'course_name':'דינמיקה ואוירודינמיקה  של מסוקים',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086219 - דינמיקה ואוירודינמיקה  של מסוקים',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'094120',
-		'course_name':'מעבדה בטכנולוגיות מידע',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094120 - מעבדה בטכנולוגיות מידע',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094170',
-		'course_name':'שיטות בהנדסת תעשיה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094170 - שיטות בהנדסת תעשיה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094347',
-		'course_name':'מתמטיקה דיסקרטית',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094347 - מתמטיקה דיסקרטית',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'095290',
-		'course_name':'פרויקט נתוני עתק והתנהגות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'095290 - פרויקט נתוני עתק והתנהגות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096265',
-		'course_name':'אלגוריתמים בלוגיקה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096265 - אלגוריתמים בלוגיקה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096578',
-		'course_name':'בחירה חברתית והחלטות משותפות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096578 - בחירה חברתית והחלטות משותפות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097272',
-		'course_name':'סמינר בשילוב נתונים באי ודאות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097272 - סמינר בשילוב נתונים באי ודאות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097400',
-		'course_name':'מבוא להסקה סיבתית',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097400 - מבוא להסקה סיבתית',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'104002',
-		'course_name':'מושגי יסוד במתמטיקה',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104002 - מושגי יסוד במתמטיקה',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104186',
-		'course_name':'חידות ומתמטיקה 1',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104186 - חידות ומתמטיקה 1',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104295',
-		'course_name':'חשבון אינפיניטסימלי 3',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104295 - חשבון אינפיניטסימלי 3',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106381',
-		'course_name':'אלגברה מודרנית 2',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106381 - אלגברה מודרנית 2',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106395',
-		'course_name':'תורת הפונקציות 2',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106395 - תורת הפונקציות 2',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106922',
-		'course_name':'פונקציות מרוכבות של מספר משתנים 2',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106922 - פונקציות מרוכבות של מספר משתנים 2',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'114033',
-		'course_name':'מעבדה לפיסיקה 2ח'',
-		'course_faculty':'פיזיקה'
+		'course_name':'114033 - מעבדה לפיסיקה 2ח',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'116028',
-		'course_name':'סמינר בפרקים נבחרים בפיסיקה חורף',
-		'course_faculty':'פיזיקה'
+		'course_name':'116028 - סמינר בפרקים נבחרים בפיסיקה חורף',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'116034',
-		'course_name':'מערכות קוונטיות מקרוסקופיות',
-		'course_faculty':'פיזיקה'
+		'course_name':'116034 - מערכות קוונטיות מקרוסקופיות',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'116035',
-		'course_name':'תורת הקוונטים של החומר 1',
-		'course_faculty':'פיזיקה'
+		'course_name':'116035 - תורת הקוונטים של החומר 1',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'116040',
-		'course_name':'אינפורמציה קוונטית מתקדמת',
-		'course_faculty':'פיזיקה'
+		'course_name':'116040 - אינפורמציה קוונטית מתקדמת',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'116041',
-		'course_name':'פיז. של לייזרים ואופטיקה קוונטית',
-		'course_faculty':'פיזיקה'
+		'course_name':'116041 - פיז. של לייזרים ואופטיקה קוונטית',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'116083',
-		'course_name':'טכנולוגיות קוונטיות',
-		'course_faculty':'פיזיקה'
+		'course_name':'116083 - טכנולוגיות קוונטיות',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'125800',
-		'course_name':'כימיה אורגנית מ'',
-		'course_faculty':'כימיה'
+		'course_name':'125800 - כימיה אורגנית מ',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127206',
-		'course_name':'כימיה אנליטית באמצעות לייזרים',
-		'course_faculty':'כימיה'
+		'course_name':'127206 - כימיה אנליטית באמצעות לייזרים',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127446',
-		'course_name':'מבוא לטכנולוגיה קוונטית מולקולרית',
-		'course_faculty':'כימיה'
+		'course_name':'127446 - מבוא לטכנולוגיה קוונטית מולקולרית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'134141',
-		'course_name':'ביולוגיה חישובית',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134141 - ביולוגיה חישובית',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'134154',
-		'course_name':'ביוסטטיסטיקה  לביולוגים',
-		'course_faculty':'ביולוגיה'
+		'course_name':'134154 - ביוסטטיסטיקה  לביולוגים',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'136206',
-		'course_name':'הכרת הפלנקטון',
-		'course_faculty':'ביולוגיה'
+		'course_name':'136206 - הכרת הפלנקטון',
+		'faculty_name':'ביולוגיה'
 	},
 	{
-		'course_number':'204655',
-		'course_name':'נושאים נבחרים באדריכלות נוף 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204655 - נושאים נבחרים באדריכלות נוף 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204722',
-		'course_name':'סיור לימודי באדריכלות נוף 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204722 - סיור לימודי באדריכלות נוף 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205406',
-		'course_name':'עיצוב תעשייתי 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205406 - עיצוב תעשייתי 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205924',
-		'course_name':'שרטוט דיגום ותצוגה מתקדם',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205924 - שרטוט דיגום ותצוגה מתקדם',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205928',
-		'course_name':'שיטות מיפוי וניתוח המרחב',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205928 - שיטות מיפוי וניתוח המרחב',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206001',
-		'course_name':'סמינר בשיטות תכנון יצירתיות',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206001 - סמינר בשיטות תכנון יצירתיות',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206046',
-		'course_name':'תכן רעיוני של מבנים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206046 - תכן רעיוני של מבנים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206061',
-		'course_name':'סטודיו נושאי מיוחד 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206061 - סטודיו נושאי מיוחד 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206095',
-		'course_name':'פוליטיקה של האדריכלות הישראלית',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206095 - פוליטיקה של האדריכלות הישראלית',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206111',
-		'course_name':'סטודיו 9 -פרויקט גמר',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206111 - סטודיו 9 -פרויקט גמר',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206567',
-		'course_name':'בקרת הסביבה ומערכות בניין',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206567 - בקרת הסביבה ומערכות בניין',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206915',
-		'course_name':'נושאים נבחרים בארכיטקטורה 3',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206915 - נושאים נבחרים בארכיטקטורה 3',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206987',
-		'course_name':'נושאים נבחרים בשימור 3',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206987 - נושאים נבחרים בשימור 3',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207462',
-		'course_name':'נושאים נבחרים באדריכלות נוף 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207462 - נושאים נבחרים באדריכלות נוף 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207953',
-		'course_name':'תכנון וניהול הסביבה החופית והימית',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207953 - תכנון וניהול הסביבה החופית והימית',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'214120',
-		'course_name':'יסודות למידה והוראה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214120 - יסודות למידה והוראה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214236',
-		'course_name':'התנסות בהוראת מתמטיקה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214236 - התנסות בהוראת מתמטיקה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216011',
-		'course_name':'חינוך מדעי טכנולוגי בעידן דיגיטלי',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216011 - חינוך מדעי טכנולוגי בעידן דיגיטלי',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216014',
-		'course_name':'קשיי למידה במתמטיקה ומדעים',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216014 - קשיי למידה במתמטיקה ומדעים',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216015',
-		'course_name':'חינוך מדעי וטכנולוגי בעידן המהפכה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216015 - חינוך מדעי וטכנולוגי בעידן המהפכה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216016',
-		'course_name':'למידה אינטיליגנציה והמוח',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216016 - למידה אינטיליגנציה והמוח',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216019',
-		'course_name':'מח וחינוך התפתחות קוגנטיבית ילדים',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216019 - מח וחינוך התפתחות קוגנטיבית ילדים',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'234128',
-		'course_name':'מבוא למחשב שפת פייתון',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234128 - מבוא למחשב שפת פייתון',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234231',
-		'course_name':'השתלמות עצמית 2',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234231 - השתלמות עצמית 2',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'234304',
-		'course_name':'פרויקט בבינה מלאכותית ה'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'234304 - פרויקט בבינה מלאכותית ה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236306',
-		'course_name':'גרפים מקריים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236306 - גרפים מקריים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236369',
-		'course_name':'ניהול מידע ברשת האינטרנט',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236369 - ניהול מידע ברשת האינטרנט',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236388',
-		'course_name':'פרויקט במערכות אחסון',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236388 - פרויקט במערכות אחסון',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236490',
-		'course_name':'אבטחת מחשבים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236490 - אבטחת מחשבים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236496',
-		'course_name':'הנדסה לאחור',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236496 - הנדסה לאחור',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236513',
-		'course_name':'פרויקט מתקדם במערכות פיתוח תוכנה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236513 - פרויקט מתקדם במערכות פיתוח תוכנה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236729',
-		'course_name':'פרוייקט בגאומטריה חישובית',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236729 - פרוייקט בגאומטריה חישובית',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236755',
-		'course_name':'אלגוריתמים מבוזרים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236755 - אלגוריתמים מבוזרים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236781',
-		'course_name':'למידה עמוקה על מאיצים חישוביים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236781 - למידה עמוקה על מאיצים חישוביים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236824',
-		'course_name':'סמינר ברובוטיקה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236824 - סמינר ברובוטיקה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236831',
-		'course_name':'סמינר בגאומטריה דיסקרטית',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236831 - סמינר בגאומטריה דיסקרטית',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'274255',
-		'course_name':'שלישי קליני - להיות רופא 3',
-		'course_faculty':'רפואה'
+		'course_name':'274255 - שלישי קליני - להיות רופא 3',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274258',
-		'course_name':'מבוא לפסיכולוגיה רפואית',
-		'course_faculty':'רפואה'
+		'course_name':'274258 - מבוא לפסיכולוגיה רפואית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274259',
-		'course_name':'אנטומיה א'',
-		'course_faculty':'רפואה'
+		'course_name':'274259 - אנטומיה א',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274260',
-		'course_name':'היסטולוגיה',
-		'course_faculty':'רפואה'
+		'course_name':'274260 - היסטולוגיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274361',
-		'course_name':'נוירואנטומיה',
-		'course_faculty':'רפואה'
+		'course_name':'274361 - נוירואנטומיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274400',
-		'course_name':'שילוב מערכות פרה קליניקה-קליניקה',
-		'course_faculty':'רפואה'
+		'course_name':'274400 - שילוב מערכות פרה קליניקה-קליניקה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274402',
-		'course_name':'מבוא לרפואה קלינית (מר\ק)',
-		'course_faculty':'רפואה'
+		'course_name':'274402 - מבוא לרפואה קלינית (מרק)',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274539',
-		'course_name':'כירורגיה אורתופדית',
-		'course_faculty':'רפואה'
+		'course_name':'274539 - כירורגיה אורתופדית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274540',
-		'course_name':'גריאטריה',
-		'course_faculty':'רפואה'
+		'course_name':'274540 - גריאטריה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274541',
-		'course_name':'הרדמה וטיפול נמרץ',
-		'course_faculty':'רפואה'
+		'course_name':'274541 - הרדמה וטיפול נמרץ',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274542',
-		'course_name':'נוירולוגיה קלינית',
-		'course_faculty':'רפואה'
+		'course_name':'274542 - נוירולוגיה קלינית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'276307',
-		'course_name':'פיסיולוגיה של על-לחץ וצלילה',
-		'course_faculty':'רפואה'
+		'course_name':'276307 - פיסיולוגיה של על-לחץ וצלילה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'315034',
-		'course_name':'תהל.עבוד וייצור של חומרים קרמיים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315034 - תהל.עבוד וייצור של חומרים קרמיים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'316241',
-		'course_name':'יסודות הקריסטלוגרפיה ת',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'316241 - יסודות הקריסטלוגרפיה ת',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'321002',
-		'course_name':'קורס בסין 3',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'321002 - קורס בסין 3',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'321003',
-		'course_name':'קורס בסין 4',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'321003 - קורס בסין 4',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'321004',
-		'course_name':'קורס בסין 5',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'321004 - קורס בסין 5',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324254',
-		'course_name':'אדריכלות ותכנון צלבניים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324254 - אדריכלות ותכנון צלבניים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324472',
-		'course_name':'סין מאז 1800',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324472 - סין מאז 1800',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324609',
-		'course_name':'צרפתית 11',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324609 - צרפתית 11',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324685',
-		'course_name':'שיחה באנגלית למתקדמים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324685 - שיחה באנגלית למתקדמים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324957',
-		'course_name':'מערכת פוליטית ישראלית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324957 - מערכת פוליטית ישראלית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324978',
-		'course_name':'תפישת הביטחון הלאומית בישראל',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324978 - תפישת הביטחון הלאומית בישראל',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'336326',
-		'course_name':'נתוח נתונים ושערוך פרמטרים בהנדסה',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336326 - נתוח נתונים ושערוך פרמטרים בהנדסה',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336546',
-		'course_name':'מערכות לומדות בתחום הבריאות',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336546 - מערכות לומדות בתחום הבריאות',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336548',
-		'course_name':'מעבדה לתכן מעגלים גנטיים',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336548 - מעבדה לתכן מעגלים גנטיים',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'014520',
-		'course_name':'תפקוד פיזי ואקלימי של בניינים',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014520 - תפקוד פיזי ואקלימי של בניינים',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014619',
-		'course_name':'שיטות ביצוע בבנייה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014619 - שיטות ביצוע בבנייה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014889',
-		'course_name':'פוטוגרמטריה 2',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014889 - פוטוגרמטריה 2',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'015019',
-		'course_name':'מבוא לבקרה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'015019 - מבוא לבקרה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016223',
-		'course_name':'הידרולוגיה של מי תהום# זרימה הסע',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016223 - הידרולוגיה של מי תהום# זרימה הסע',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016630',
-		'course_name':'מבוא לניתוח השקעות בשוק הנדל\ן',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016630 - מבוא לניתוח השקעות בשוק הנדלן',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'016820',
-		'course_name':'חישה מרחוק למיפוי סביבתי',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'016820 - חישה מרחוק למיפוי סביבתי',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'034047',
-		'course_name':'מעבדה מתקדמת בזרימה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'034047 - מעבדה מתקדמת בזרימה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'035199',
-		'course_name':'שימוש המחשב בתורת הזרימה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035199 - שימוש המחשב בתורת הזרימה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036013',
-		'course_name':'אופטימיזציה של תהליכים',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036013 - אופטימיזציה של תהליכים',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'036709',
-		'course_name':'בקרת תהליכי דגימה',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'036709 - בקרת תהליכי דגימה',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'044159',
-		'course_name':'מעבדה בהנדסת חשמל 2',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'044159 - מעבדה בהנדסת חשמל 2',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046203',
-		'course_name':'תכנון ולמידה מחיזוקים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046203 - תכנון ולמידה מחיזוקים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046212',
-		'course_name':'מבוא לרובוטיקה ח'',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046212 - מבוא לרובוטיקה ח',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046280',
-		'course_name':'עקרונות וכלים באבטחת מחשבים',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046280 - עקרונות וכלים באבטחת מחשבים',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'054318',
-		'course_name':'מעבדה להנדסה כימית 1 בכ'',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054318 - מעבדה להנדסה כימית 1 בכ',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'054378',
-		'course_name':'מבנה ותכונות של פולימרים',
-		'course_faculty':'הנדסה כימית'
+		'course_name':'054378 - מבנה ותכונות של פולימרים',
+		'faculty_name':'הנדסה כימית'
 	},
 	{
-		'course_number':'064014',
-		'course_name':'נושאים נבחרים בהנ. ביוטכ' ומזון 1',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064014 - נושאים נבחרים בהנ. ביוטכ ומזון 1',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064250',
-		'course_name':'מדע וטכנולוגיה של ביו-חומרים',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064250 - מדע וטכנולוגיה של ביו-חומרים',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'064251',
-		'course_name':'המדע מאחורי חלופות לבשר',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'064251 - המדע מאחורי חלופות לבשר',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066528',
-		'course_name':'שיטות מחקר במדעי המוח',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066528 - שיטות מחקר במדעי המוח',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'066614',
-		'course_name':'תזונה אישית',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066614 - תזונה אישית',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'085406',
-		'course_name':'הנעה רקטית',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085406 - הנעה רקטית',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085407',
-		'course_name':'אמצעי הנעה - מנועי סילון',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085407 - אמצעי הנעה - מנועי סילון',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085634',
-		'course_name':'פרויקט בתכן מכני של רכיבים',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085634 - פרויקט בתכן מכני של רכיבים',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085915',
-		'course_name':'מכניקת גופים בחלל',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085915 - מכניקת גופים בחלל',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'085920',
-		'course_name':'הנעה חשמלית לחלל',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'085920 - הנעה חשמלית לחלל',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086150',
-		'course_name':'תקשורת נתונים ומחשבים למהנדסי מע'',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086150 - תקשורת נתונים ומחשבים למהנדסי מע',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086201',
-		'course_name':'בליסטיקה חיצונית ודינמיקת קליעים.',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086201 - בליסטיקה חיצונית ודינמיקת קליעים.',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'086762',
-		'course_name':'ניווט וחישת עולם אוטונומיים',
-		'course_faculty':'הנדסת אוירונוטיקה וחלל'
+		'course_name':'086762 - ניווט וחישת עולם אוטונומיים',
+		'faculty_name':'הנדסת אוירונוטיקה וחלל'
 	},
 	{
-		'course_number':'094202',
-		'course_name':'מבוא לניתוח נתונים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094202 - מבוא לניתוח נתונים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096235',
-		'course_name':'מערכות נבונות אינטראקטיביות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096235 - מערכות נבונות אינטראקטיביות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096291',
-		'course_name':'מסחר אלגוריתמי בתדירות גבוהה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096291 - מסחר אלגוריתמי בתדירות גבוהה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096293',
-		'course_name':'למידה חישובית בבחירת תיק השקעות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096293 - למידה חישובית בבחירת תיק השקעות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096335',
-		'course_name':'אופטימיזציה בתנאי אי ודאות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096335 - אופטימיזציה בתנאי אי ודאות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096336',
-		'course_name':'שיטות אופטימיזציה בלמידת מכונה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096336 - שיטות אופטימיזציה בלמידת מכונה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096415',
-		'course_name':'נושאים ברגרסיה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096415 - נושאים ברגרסיה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096692',
-		'course_name':'נתוני עתק בחקר מדעי ההתנהגות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096692 - נתוני עתק בחקר מדעי ההתנהגות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096694',
-		'course_name':'מטה קוגניציה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096694 - מטה קוגניציה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097244',
-		'course_name':'רובוטים קוגניטיביים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097244 - רובוטים קוגניטיביים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097245',
-		'course_name':'תכנון מנגנונים למדעי הנתונים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097245 - תכנון מנגנונים למדעי הנתונים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097247',
-		'course_name':'אינטרנט של הדברים# טכנולוגיות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097247 - אינטרנט של הדברים# טכנולוגיות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097248',
-		'course_name':'למידת מכונה ברפואה',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097248 - למידת מכונה ברפואה',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097447',
-		'course_name':'מבוא לחישוביות וסיבוכיות',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097447 - מבוא לחישוביות וסיבוכיות',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097470',
-		'course_name':'מודלים סמי-פרמטרים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097470 - מודלים סמי-פרמטרים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'104168',
-		'course_name':'אלגברה  ב',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104168 - אלגברה  ב',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104187',
-		'course_name':'חידות ומתמטיקה 2',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104187 - חידות ומתמטיקה 2',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106397',
-		'course_name':'תורת המספרים',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106397 - תורת המספרים',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106405',
-		'course_name':'סמינר באלגברה 2',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106405 - סמינר באלגברה 2',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106500',
-		'course_name':'מערכות דינמיות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106500 - מערכות דינמיות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106802',
-		'course_name':'נושאים בתורת ההצגות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106802 - נושאים בתורת ההצגות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'116037',
-		'course_name':'מחשוב קוונטי רועש',
-		'course_faculty':'פיזיקה'
+		'course_name':'116037 - מחשוב קוונטי רועש',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'117001',
-		'course_name':'תורת המיתרים למתחילים',
-		'course_faculty':'פיזיקה'
+		'course_name':'117001 - תורת המיתרים למתחילים',
+		'faculty_name':'פיזיקה'
 	},
 	{
-		'course_number':'127009',
-		'course_name':'נושאים נבחרים בכימיה ביומימטית',
-		'course_faculty':'כימיה'
+		'course_name':'127009 - נושאים נבחרים בכימיה ביומימטית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127207',
-		'course_name':'כימיה אנליטית יישומית מתקדמת',
-		'course_faculty':'כימיה'
+		'course_name':'127207 - כימיה אנליטית יישומית מתקדמת',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127415',
-		'course_name':'שיטות חישוב בכימיה קוונטית וישומן',
-		'course_faculty':'כימיה'
+		'course_name':'127415 - שיטות חישוב בכימיה קוונטית וישומן',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127447',
-		'course_name':'יישומי טכנולוגיה קוונטית מולקו',
-		'course_faculty':'כימיה'
+		'course_name':'127447 - יישומי טכנולוגיה קוונטית מולקו',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127452',
-		'course_name':'שליטה ומדידה קוונטית בכימיה פיס.',
-		'course_faculty':'כימיה'
+		'course_name':'127452 - שליטה ומדידה קוונטית בכימיה פיס.',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'196012',
-		'course_name':'שיטות אנליטיות במיש. דיפ.',
-		'course_faculty':'מתמטיקה שימושית'
+		'course_name':'196012 - שיטות אנליטיות במיש. דיפ.',
+		'faculty_name':'מתמטיקה שימושית'
 	},
 	{
-		'course_number':'197010',
-		'course_name':'נושאים נבחרים במתמטיקה שימושית 3',
-		'course_faculty':'מתמטיקה שימושית'
+		'course_name':'197010 - נושאים נבחרים במתמטיקה שימושית 3',
+		'faculty_name':'מתמטיקה שימושית'
 	},
 	{
-		'course_number':'204718',
-		'course_name':'פ\/נ מיוחד באדריכלות נוף 66 א'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204718 - פ/נ מיוחד באדריכלות נוף 66 א',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205837',
-		'course_name':'סוגיות עכשוויות באוצרות',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205837 - סוגיות עכשוויות באוצרות',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205838',
-		'course_name':'אוצרות כפרקטיקה אדריכלית',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205838 - אוצרות כפרקטיקה אדריכלית',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206013',
-		'course_name':'סדנה טכנולוגית הנדסית 2',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206013 - סדנה טכנולוגית הנדסית 2',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206073',
-		'course_name':'נושאים נבחרים בארכיטקטורה 7',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206073 - נושאים נבחרים בארכיטקטורה 7',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206112',
-		'course_name':'סטודיו 10-פרויקט גמר',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206112 - סטודיו 10-פרויקט גמר',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206113',
-		'course_name':'סטודיו תימטי-כללי',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206113 - סטודיו תימטי-כללי',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206180',
-		'course_name':'תורת הצבע',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206180 - תורת הצבע',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206577',
-		'course_name':'תכן מבנים כולל',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206577 - תכן מבנים כולל',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206745',
-		'course_name':'מבנים פריסים - היבטים אדריכליים',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206745 - מבנים פריסים - היבטים אדריכליים',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206835',
-		'course_name':'פרפורמליזם-ביצועים באדר' דיגיטאלי',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206835 - פרפורמליזם-ביצועים באדר דיגיטאלי',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206912',
-		'course_name':'חקרי ארוע בבנוי ערים בן זמננו',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206912 - חקרי ארוע בבנוי ערים בן זמננו',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206954',
-		'course_name':'ההיסטוריה של העיר',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206954 - ההיסטוריה של העיר',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206968',
-		'course_name':'טכנולוגיות בניה 3',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206968 - טכנולוגיות בניה 3',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207466',
-		'course_name':'נושאים נבחרים באדריכלות נוף 5',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207466 - נושאים נבחרים באדריכלות נוף 5',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207467',
-		'course_name':'נושאים נבחרים באדריכלות נוף 6',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207467 - נושאים נבחרים באדריכלות נוף 6',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'214908',
-		'course_name':'בעיות נבחרות במדעי המחשב 1',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214908 - בעיות נבחרות במדעי המחשב 1',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216017',
-		'course_name':'תוכניות הוראה לפיתוח החשיבה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216017 - תוכניות הוראה לפיתוח החשיבה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216018',
-		'course_name':'מדע בחיי יומיום מבט בינלאומי',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216018 - מדע בחיי יומיום מבט בינלאומי',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216020',
-		'course_name':'דימות מוח - תיאוריה ופרקטיקה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216020 - דימות מוח - תיאוריה ופרקטיקה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216030',
-		'course_name':'כריית נתונים בלמידה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216030 - כריית נתונים בלמידה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'236346',
-		'course_name':'פרויקט באימות תכניות בעזרת מחשב',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236346 - פרויקט באימות תכניות בעזרת מחשב',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236347',
-		'course_name':'ניתוח וסינתזה של תוכנה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236347 - ניתוח וסינתזה של תוכנה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236376',
-		'course_name':'הנדסת מערכות הפעלה',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236376 - הנדסת מערכות הפעלה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236644',
-		'course_name':'נושאים מתקדמים בחישוב מדעי ה'',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236644 - נושאים מתקדמים בחישוב מדעי ה',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236819',
-		'course_name':'סמינר ברשתות תקשורת מחשבים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236819 - סמינר ברשתות תקשורת מחשבים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236829',
-		'course_name':'סמינר באלגוריתמי קירוב',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236829 - סמינר באלגוריתמי קירוב',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236991',
-		'course_name':'פרויקט בחישוב קוונטי',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236991 - פרויקט בחישוב קוונטי',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'274182',
-		'course_name':'ביוסטטיסטיקה',
-		'course_faculty':'רפואה'
+		'course_name':'274182 - ביוסטטיסטיקה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274256',
-		'course_name':'שלישי קליני - להיות רופא 4',
-		'course_faculty':'רפואה'
+		'course_name':'274256 - שלישי קליני - להיות רופא 4',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274261',
-		'course_name':'אימונולוגיה בסיסית וקלינית',
-		'course_faculty':'רפואה'
+		'course_name':'274261 - אימונולוגיה בסיסית וקלינית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274262',
-		'course_name':'אמבריולוגיה בסיסית ורפואית',
-		'course_faculty':'רפואה'
+		'course_name':'274262 - אמבריולוגיה בסיסית ורפואית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274263',
-		'course_name':'אנטומיה ב'',
-		'course_faculty':'רפואה'
+		'course_name':'274263 - אנטומיה ב',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274368',
-		'course_name':'פתולוגיה כללית',
-		'course_faculty':'רפואה'
+		'course_name':'274368 - פתולוגיה כללית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274369',
-		'course_name':'המטולוגיהממדע בסיסי למיטת החולה',
-		'course_faculty':'רפואה'
+		'course_name':'274369 - המטולוגיהממדע בסיסי למיטת החולה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274443',
-		'course_name':'חזוק הזהות המקצועית לרופאים לעתיד',
-		'course_faculty':'רפואה'
+		'course_name':'274443 - חזוק הזהות המקצועית לרופאים לעתיד',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274543',
-		'course_name':'חזוק הזהות המקצועית לרופאים לעתיד',
-		'course_faculty':'רפואה'
+		'course_name':'274543 - חזוק הזהות המקצועית לרופאים לעתיד',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274642',
-		'course_name':'טראומה(רפואה דחופה)',
-		'course_faculty':'רפואה'
+		'course_name':'274642 - טראומה(רפואה דחופה)',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274643',
-		'course_name':'חזוק הזהות המקצועית לרופאים לעתיד',
-		'course_faculty':'רפואה'
+		'course_name':'274643 - חזוק הזהות המקצועית לרופאים לעתיד',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275623',
-		'course_name':'נוירוכירורגיה ת\א',
-		'course_faculty':'רפואה'
+		'course_name':'275623 - נוירוכירורגיה תא',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275625',
-		'course_name':'בחירה פקולטית 1',
-		'course_faculty':'רפואה'
+		'course_name':'275625 - בחירה פקולטית 1',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275626',
-		'course_name':'בחירה פקולטית 2',
-		'course_faculty':'רפואה'
+		'course_name':'275626 - בחירה פקולטית 2',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275627',
-		'course_name':'בחירה פקולטית 3',
-		'course_faculty':'רפואה'
+		'course_name':'275627 - בחירה פקולטית 3',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275628',
-		'course_name':'בחירה פקולטית 4',
-		'course_faculty':'רפואה'
+		'course_name':'275628 - בחירה פקולטית 4',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275629',
-		'course_name':'בחירה פקולטית 5',
-		'course_faculty':'רפואה'
+		'course_name':'275629 - בחירה פקולטית 5',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275630',
-		'course_name':'בחירה פקולטית 6',
-		'course_faculty':'רפואה'
+		'course_name':'275630 - בחירה פקולטית 6',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275631',
-		'course_name':'בחירה פקולטית 7',
-		'course_faculty':'רפואה'
+		'course_name':'275631 - בחירה פקולטית 7',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275632',
-		'course_name':'בחירה פקולטית 8',
-		'course_faculty':'רפואה'
+		'course_name':'275632 - בחירה פקולטית 8',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275633',
-		'course_name':'בחירה פקולטית 9',
-		'course_faculty':'רפואה'
+		'course_name':'275633 - בחירה פקולטית 9',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'275634',
-		'course_name':'בחירה פקולטית 10',
-		'course_faculty':'רפואה'
+		'course_name':'275634 - בחירה פקולטית 10',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'315017',
-		'course_name':'תהליכי גימור וציפויים',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'315017 - תהליכי גימור וציפויים',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'316541',
-		'course_name':'מיקרוסקופית כח אטומי מוליכה',
-		'course_faculty':'מדע והנדסה של חומרים'
+		'course_name':'316541 - מיקרוסקופית כח אטומי מוליכה',
+		'faculty_name':'מדע והנדסה של חומרים'
 	},
 	{
-		'course_number':'324229',
-		'course_name':'מבוא להיסטוריה של מוזיקת הג'אז',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324229 - מבוא להיסטוריה של מוזיקת הגאז',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324253',
-		'course_name':'סוגיות אתיות וחברתיות במדע נתונים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324253 - סוגיות אתיות וחברתיות במדע נתונים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324256',
-		'course_name':'רוח האדם - היבטים רגשיים חברתיים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324256 - רוח האדם - היבטים רגשיים חברתיים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324257',
-		'course_name':'משבר האקלים#סיבותמשמעויות ופתרון',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324257 - משבר האקלים#סיבותמשמעויות ופתרון',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324259',
-		'course_name':'אנימציה יפנית# מיאזקי היאו',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324259 - אנימציה יפנית# מיאזקי היאו',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324260',
-		'course_name':'הנרטיב הנוצרי באמנות#טקסט ודימוי',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324260 - הנרטיב הנוצרי באמנות#טקסט ודימוי',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324261',
-		'course_name':'אחריות מקצועית#דילמות חוק ואתיקה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324261 - אחריות מקצועית#דילמות חוק ואתיקה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324263',
-		'course_name':'תולדות כדור הארץ',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324263 - תולדות כדור הארץ',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324264',
-		'course_name':'סמוראים#היסטוריה ומיתולוגיה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324264 - סמוראים#היסטוריה ומיתולוגיה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324299',
-		'course_name':'טרור ג'יהד ותגובה מדינית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324299 - טרור גיהד ותגובה מדינית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324473',
-		'course_name':'מבנה חדשנות מדעית ושינוי פרדיגמה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324473 - מבנה חדשנות מדעית ושינוי פרדיגמה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324481',
-		'course_name':'רישום למתחילים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324481 - רישום למתחילים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324520',
-		'course_name':'יזמות עסקית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324520 - יזמות עסקית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324527',
-		'course_name':'יסודות היזמות',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324527 - יסודות היזמות',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324528',
-		'course_name':'מנהיגות יזמית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324528 - מנהיגות יזמית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324964',
-		'course_name':'חברה ותרבות במזה\ת המודרני',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324964 - חברה ותרבות במזהת המודרני',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324991',
-		'course_name':'המדע שמאחורי הצלילים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324991 - המדע שמאחורי הצלילים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'334015',
-		'course_name':'פרויקט בהנדסה ביו-רפואית 2',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'334015 - פרויקט בהנדסה ביו-רפואית 2',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336014',
-		'course_name':'נושאים מתקדמים בהנדסה ביורפואית 1',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336014 - נושאים מתקדמים בהנדסה ביורפואית 1',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336016',
-		'course_name':'נושאים מתקדמים בהנדסה ביורפואית 2',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336016 - נושאים מתקדמים בהנדסה ביורפואית 2',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336506',
-		'course_name':'ביומכניקה שיקומית',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336506 - ביומכניקה שיקומית',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336549',
-		'course_name':'טכניקות ריצוף ד.נ.א',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336549 - טכניקות ריצוף ד.נ.א',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'324478',
-		'course_name':'תכנון וניהול קריירה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324478 - תכנון וניהול קריירה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324479',
-		'course_name':'תקשורת בין תרבותית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324479 - תקשורת בין תרבותית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'394901',
-		'course_name':'חינוך גופני',
-		'course_faculty':'ספורט'
+		'course_name':'394901 - חינוך גופני',
+		'faculty_name':'ספורט'
 	},
 	{
-		'course_number':'014734',
-		'course_name':'תחבורה ציבורית',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014734 - תחבורה ציבורית',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014876',
-		'course_name':'פרויקט בתעשיה במיפוי ספרתי',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014876 - פרויקט בתעשיה במיפוי ספרתי',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'014943',
-		'course_name':'מעבדה לבקרה',
-		'course_faculty':'הנדסה אזרחית וסביבתית'
+		'course_name':'014943 - מעבדה לבקרה',
+		'faculty_name':'הנדסה אזרחית וסביבתית'
 	},
 	{
-		'course_number':'035147',
-		'course_name':'סמינר מיוחד בהנדסת מכונות 1',
-		'course_faculty':'הנדסת מכונות'
+		'course_name':'035147 - סמינר מיוחד בהנדסת מכונות 1',
+		'faculty_name':'הנדסת מכונות'
 	},
 	{
-		'course_number':'045002',
-		'course_name':'מבט-על להנדסת חשמל',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'045002 - מבט-על להנדסת חשמל',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'046277',
-		'course_name':'הבטחת נכונות של תוכנה',
-		'course_faculty':'הנדסת חשמל'
+		'course_name':'046277 - הבטחת נכונות של תוכנה',
+		'faculty_name':'הנדסת חשמל'
 	},
 	{
-		'course_number':'066529',
-		'course_name':'ביואינפורמטיקה של סרטן',
-		'course_faculty':'הנדסת ביוטכנולוגיה ומזון'
+		'course_name':'066529 - ביואינפורמטיקה של סרטן',
+		'faculty_name':'הנדסת ביוטכנולוגיה ומזון'
 	},
 	{
-		'course_number':'094395',
-		'course_name':'קדם פרויקט תכן הנדסת מ\מ',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094395 - קדם פרויקט תכן הנדסת ממ',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094701',
-		'course_name':'פרויקט מחקרי 1',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094701 - פרויקט מחקרי 1',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094702',
-		'course_name':'פרויקט מחקרי 2',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094702 - פרויקט מחקרי 2',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'094704',
-		'course_name':'סדנת תכנות בשפת סי',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'094704 - סדנת תכנות בשפת סי',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'096676',
-		'course_name':'שיטות בחקר ארגונים ובחקר שווקים',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'096676 - שיטות בחקר ארגונים ובחקר שווקים',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097216',
-		'course_name':'עיבוד שפה טבעית מתקדם',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097216 - עיבוד שפה טבעית מתקדם',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'097230',
-		'course_name':'מתודולוגיות לפיתוח מערכות מידע',
-		'course_faculty':'הנדסת תעשייה וניהול'
+		'course_name':'097230 - מתודולוגיות לפיתוח מערכות מידע',
+		'faculty_name':'הנדסת תעשייה וניהול'
 	},
 	{
-		'course_number':'104158',
-		'course_name':'מבוא לחבורות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104158 - מבוא לחבורות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'104293',
-		'course_name':'תורת הקבוצות',
-		'course_faculty':'מתמטיקה'
+		'course_name':'104293 - תורת הקבוצות',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'106330',
-		'course_name':'גאומטריה אלגברית',
-		'course_faculty':'מתמטיקה'
+		'course_name':'106330 - גאומטריה אלגברית',
+		'faculty_name':'מתמטיקה'
 	},
 	{
-		'course_number':'126605',
-		'course_name':'מעבדה בטכנולוגיות קוונטיות ב',
-		'course_faculty':'כימיה'
+		'course_name':'126605 - מעבדה בטכנולוגיות קוונטיות ב',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127712',
-		'course_name':'פוטוכימיה אורגנית',
-		'course_faculty':'כימיה'
+		'course_name':'127712 - פוטוכימיה אורגנית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'127729',
-		'course_name':'סינתזה סטראוסלקטיבית',
-		'course_faculty':'כימיה'
+		'course_name':'127729 - סינתזה סטראוסלקטיבית',
+		'faculty_name':'כימיה'
 	},
 	{
-		'course_number':'204007',
-		'course_name':'צמחיה בנוף 3',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204007 - צמחיה בנוף 3',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204061',
-		'course_name':'תכנון נוף 20',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204061 - תכנון נוף 20',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204063',
-		'course_name':'תכנון נוף 40',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204063 - תכנון נוף 40',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204065',
-		'course_name':'תכנון נוף 60',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204065 - תכנון נוף 60',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'204725',
-		'course_name':'סיור לימודי באדריכלות נוף 4',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'204725 - סיור לימודי באדריכלות נוף 4',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205016',
-		'course_name':'מבוא לתכנון פרמטרי',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205016 - מבוא לתכנון פרמטרי',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205543',
-		'course_name':'מבוא לגיאומטריה תיאורית',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205543 - מבוא לגיאומטריה תיאורית',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205574',
-		'course_name':'פרויקט סטודיו 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205574 - פרויקט סטודיו 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205576',
-		'course_name':'פרויקט סטודיו 3',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205576 - פרויקט סטודיו 3',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205578',
-		'course_name':'סטודיו נושאי#מורשתשימור והתחדשות',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205578 - סטודיו נושאי#מורשתשימור והתחדשות',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205579',
-		'course_name':'סטודיו נושאי#עיצוב ויצור ממוחשב',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205579 - סטודיו נושאי#עיצוב ויצור ממוחשב',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205580',
-		'course_name':'סט' נושאי#היסטוריהתיאוריהביקורת',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205580 - סט נושאי#היסטוריהתיאוריהביקורת',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205581',
-		'course_name':'סטודיו נושאי#אדריכלות בת-קיימא',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205581 - סטודיו נושאי#אדריכלות בת-קיימא',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205582',
-		'course_name':'סטודיו נושאי# כללי',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205582 - סטודיו נושאי# כללי',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205598',
-		'course_name':'תחבורה והעיר#תכנון מכליל שכ'רחוב',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205598 - תחבורה והעיר#תכנון מכליל שכרחוב',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205626',
-		'course_name':'עיצוב פנים וריהוט 1',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205626 - עיצוב פנים וריהוט 1',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'205694',
-		'course_name':'נושאים מיוחדים בארכי' 2ב'',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'205694 - נושאים מיוחדים בארכי 2ב',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206014',
-		'course_name':'נוש.נבח בארכ'-היסטוריה ותיאוריה 3',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206014 - נוש.נבח בארכ-היסטוריה ותיאוריה 3',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206015',
-		'course_name':'נו.נב.בארכ-היסטוריה ותיאוריה 4',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206015 - נו.נב.בארכ-היסטוריה ותיאוריה 4',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206170',
-		'course_name':'דיון ביקורתי בשיכון הצבורי בישראל',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206170 - דיון ביקורתי בשיכון הצבורי בישראל',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206403',
-		'course_name':'תשתיות עירוניות ומטרופוליניות',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206403 - תשתיות עירוניות ומטרופוליניות',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206931',
-		'course_name':'גישות עכשוויות לעיצוב עירוני',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206931 - גישות עכשוויות לעיצוב עירוני',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206948',
-		'course_name':'היסטוריה ופילוסופיה של השימור',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206948 - היסטוריה ופילוסופיה של השימור',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'206985',
-		'course_name':'היבטים ופרקטיקות בשימור ופיתוח',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'206985 - היבטים ופרקטיקות בשימור ופיתוח',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207006',
-		'course_name':'ערים חכמות',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207006 - ערים חכמות',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207007',
-		'course_name':'הערכת שווי נדל\ן',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207007 - הערכת שווי נדלן',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'207580',
-		'course_name':'נושאים נבחרים באדריכלות נוף 10',
-		'course_faculty':'ארכיטקטורה ובינוי ערים'
+		'course_name':'207580 - נושאים נבחרים באדריכלות נוף 10',
+		'faculty_name':'ארכיטקטורה ובינוי ערים'
 	},
 	{
-		'course_number':'214132',
-		'course_name':'דרכי הוראת מתמטיקה בחטיבת הביניים',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214132 - דרכי הוראת מתמטיקה בחטיבת הביניים',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214133',
-		'course_name':'דרכי הוראת המתימטיקה בחטה\ע א'',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214133 - דרכי הוראת המתימטיקה בחטהע א',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'214135',
-		'course_name':'התנסות בהוראת מתמטיקה',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'214135 - התנסות בהוראת מתמטיקה',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216012',
-		'course_name':'טכנולוגיות בשירות החינוך המיוחד',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216012 - טכנולוגיות בשירות החינוך המיוחד',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'216013',
-		'course_name':'צרכים מיוחדים-שילוב והתנסות',
-		'course_faculty':'חינוך למדע וטכנולוגיה'
+		'course_name':'216013 - צרכים מיוחדים-שילוב והתנסות',
+		'faculty_name':'חינוך למדע וטכנולוגיה'
 	},
 	{
-		'course_number':'236271',
-		'course_name':'פיתוח מבוסס אנדרואיד',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236271 - פיתוח מבוסס אנדרואיד',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236272',
-		'course_name':'פרויקט פיתוח מבוסס אנדרואיד',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236272 - פרויקט פיתוח מבוסס אנדרואיד',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236379',
-		'course_name':'קידוד ואלגוריתמים לזכרונות',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236379 - קידוד ואלגוריתמים לזכרונות',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236661',
-		'course_name':'נושאים מתקדמים בלמידה חישובית ה+ת',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236661 - נושאים מתקדמים בלמידה חישובית ה+ת',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236816',
-		'course_name':'סמינר בגרפיקה ממוחשבת',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236816 - סמינר בגרפיקה ממוחשבת',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'236825',
-		'course_name':'סמינר באלגוריתמים מבוזרים',
-		'course_faculty':'מדעי המחשב'
+		'course_name':'236825 - סמינר באלגוריתמים מבוזרים',
+		'faculty_name':'מדעי המחשב'
 	},
 	{
-		'course_number':'274370',
-		'course_name':'שלישי קליני - להיות רופא 5',
-		'course_faculty':'רפואה'
+		'course_name':'274370 - שלישי קליני - להיות רופא 5',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'274372',
-		'course_name':'בקטריולוגיה',
-		'course_faculty':'רפואה'
+		'course_name':'274372 - בקטריולוגיה',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'277300',
-		'course_name':'נוירואנטומיה פונקציונאלית',
-		'course_faculty':'רפואה'
+		'course_name':'277300 - נוירואנטומיה פונקציונאלית',
+		'faculty_name':'רפואה'
 	},
 	{
-		'course_number':'324061',
-		'course_name':'עברית לרפואה - מתחילים 1',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324061 - עברית לרפואה - מתחילים 1',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324265',
-		'course_name':'אקו-פילוסופיה#חשיבה סביבתית',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324265 - אקו-פילוסופיה#חשיבה סביבתית',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324266',
-		'course_name':'מדע וביקורות המדע',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324266 - מדע וביקורות המדע',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324267',
-		'course_name':'יחסי גוף נפש#מאפלטון ועד מדעי המח',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324267 - יחסי גוף נפש#מאפלטון ועד מדעי המח',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324270',
-		'course_name':'זהות ישראלית-חיים מתוך מחלוקת',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324270 - זהות ישראלית-חיים מתוך מחלוקת',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324272',
-		'course_name':'חישוב קוונטי-מהלכה למעשה',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324272 - חישוב קוונטי-מהלכה למעשה',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324518',
-		'course_name':'חדשנות יצירתיות ואושר',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324518 - חדשנות יצירתיות ואושר',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324526',
-		'course_name':'שיווק ליזמים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324526 - שיווק ליזמים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'324702',
-		'course_name':'יסודות חשיבה חברתית-הבנת שינויים',
-		'course_faculty':'לימודים הומניסטיים ואמנויות'
+		'course_name':'324702 - יסודות חשיבה חברתית-הבנת שינויים',
+		'faculty_name':'לימודים הומניסטיים ואמנויות'
 	},
 	{
-		'course_number':'334011',
-		'course_name':'יסודות תכן ביו-חשמלי',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'334011 - יסודות תכן ביו-חשמלי',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'334305',
-		'course_name':'פרויקט מחקרי לסטודנטים מצטיינים',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'334305 - פרויקט מחקרי לסטודנטים מצטיינים',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336024',
-		'course_name':'חדשנות רפואית במודל ביודזיין 1',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336024 - חדשנות רפואית במודל ביודזיין 1',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'336026',
-		'course_name':'מחקרים עדכניים בהנדסה ביו רפואית',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'336026 - מחקרים עדכניים בהנדסה ביו רפואית',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'337001',
-		'course_name':'ביופיסיקה ונוירופיסיקה למהנדסים',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'337001 - ביופיסיקה ונוירופיסיקה למהנדסים',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'337002',
-		'course_name':'פיזיולוגית מערכות הגוף למהנדסים',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'337002 - פיזיולוגית מערכות הגוף למהנדסים',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 	{
-		'course_number':'337004',
-		'course_name':'אנטומיה למהנדסים',
-		'course_faculty':'הנדסה ביו-רפואית'
+		'course_name':'337004 - אנטומיה למהנדסים',
+		'faculty_name':'הנדסה ביו-רפואית'
 	},
 ]

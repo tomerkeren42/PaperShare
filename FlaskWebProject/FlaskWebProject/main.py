@@ -1,21 +1,38 @@
 from datetime import datetime
 from flask import render_template, request
 from os import environ
+from collections import OrderedDict
 from firebase_db import *
 from login import *
+from Technion_courses_dict import Technion_courses_list
+from TAU_courses_dict import TAU_courses_list
 
 app_DB = firebase_db()
+
+universities_courses = {
+    'Technion':Technion_courses_list,
+    'TAU': TAU_courses_list
+    }
+
+courses_names_list = []
+
+
 
 @app.route('/', methods=['POST'])
 def login_func():
     not_exist, not_uni, email, name, university = login(app_DB)
     if not_exist is False and not_uni is False:
+        courses_list = universities_courses[university]
+        faculties_list = [d['faculty_name'] for d in courses_list if 'faculty_name' in d]
+        unique_ordered_faculties_list = list(OrderedDict.fromkeys(faculties_list))
         return render_template(
                 'menu.html',
                 year                 = datetime.now().year,
                 university           = university,
                 email                = email,
-                username             = name
+                username             = name,
+                faculties_list       = unique_ordered_faculties_list,  ### Tomer Arama: need to add option for other lists once we'll have TAU courses' list
+                courses_names_list   = courses_names_list
                 )
     else:
         return render_template(
@@ -26,6 +43,31 @@ def login_func():
                     email               = email
                 )
 
+@app.route('/menu', methods=['POST'])
+def courses_dropdown():
+    chosen_faculty = request.form['faculty']
+    print(chosen_faculty)
+    #if chosen_faculty=="":
+    #    faculties_list = [d['faculty_name'] for d in Technion_courses_list if 'faculty_name' in d]
+    #    unique_ordered_faculties_list = list(OrderedDict.fromkeys(faculties_list))
+    #    return render_template(
+    #            'menu.html',
+    #            year                 = datetime.now().year,
+    #            university           = university,
+    #            email                = email,
+    #            username             = name,
+    #            faculties_list       = unique_ordered_faculties_list  ### Tomer Arama: need to add option for other lists once we'll have TAU courses' list
+    #            )
+    #else:
+    #    colours = ['Red', 'Blue', 'Black', 'Orange']
+    #    return render_template(
+    #        'menu.html',
+    #        year                 = datetime.now().year,
+    #        university           = university,
+    #        email                = email,
+    #        username             = name,
+    #        courses_list       = unique_ordered_faculties_list  ### Tomer Arama: need to add option for other lists once we'll have TAU courses' list
+    #        )
 
 # page loading
 @app.route('/')
