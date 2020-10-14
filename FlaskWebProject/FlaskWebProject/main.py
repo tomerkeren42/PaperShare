@@ -31,8 +31,8 @@ def login_func():
                 university           = university,
                 email                = email,
                 username             = name,
-                faculties_list       = unique_ordered_faculties_list,  ### Tomer Arama: need to add option for other lists once we'll have TAU courses' list
-                courses_names_list   = courses_names_list
+
+                title                = 'Menu'
                 )
     else:
         return render_template(
@@ -77,7 +77,7 @@ def login_page():
     return render_template(
         'index.html',
         title='Home Page',
-        year=datetime.now().year,
+        year=datetime.now().year
     )
 
 @app.route('/menu')
@@ -85,9 +85,8 @@ def tabs_page():
     """Renders the about page."""
     return render_template(
         'menu.html',
-        title='Ask For Paper',
-        year=datetime.now().year,
-        message='Your application ask for paper page.'
+        title='Menu',
+        year=datetime.now().year
     )
 
 

@@ -1,0 +1,138 @@
+/*
+PaperShare projects CSS unique classes
+*/
+
+
+.imgban {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+}
+
+.imgcar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-ps {
+    overflow: hidden;
+}
+
+.input-ps {
+    float: right;
+    clear: both;
+}
+.alert {
+    padding: 6px;
+    background-color: #f15050;
+    color: white;
+    margin-right: 280px;
+  }
+
+.green-suc {
+    color: #5cb85c;
+}
+.body-ps {
+    padding: 50px;
+}
+
+.img-how-to {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-ps {
+    width: 100px;
+    height: 100px;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    /* transform: rotate(3deg); */
+    /* transform: rotate(0.3rad);/ */
+    /* transform: rotate(3grad); */
+    /* transform: rotate(.03turn);  */
+}
+
+
+.btn-ps:hover,
+.btn-ps:focus,
+.btn-ps:active,
+.btn-ps.active,
+.open .dropdown-toggle.btn-ps {
+    color: #ffffff;
+    background-color: #5cb85c;
+    border-color: #ffffff;
+}
+
+.btn-ps {
+    color: #ffffff;
+    background-color: green;
+    border-color: #ffffff;
+}
+.nav-tabs {
+    color: #5cb85c;
+    border-bottom: 1px solid #dddddd;
+}
+.nav-tabs > li > a {
+    color: green;
+    cursor: default;
+
+}
+
+.imgban {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+}
+.btn-ps:hover,
+.btn-ps:focus,
+.btn-ps:active,
+.btn-ps.active,
+.open .dropdown-toggle.btn-ps {
+    color: #ffffff;
+    background-color: #5cb85c;
+    border-color: #ffffff;
+}
+    .btn-ps {
+    color: #ffffff;
+    background-color: green;
+    border-color: #ffffff;
+}
+.imgcar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+form {
+    overflow: hidden;
+}
+
+input {
+    float: right;
+    clear: both;
+}
+.alert {
+    padding: 6px;
+    background-color: #f15050;
+    color: white;
+    margin-right: 280px;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: left;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
