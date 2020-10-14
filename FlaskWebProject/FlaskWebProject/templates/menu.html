@@ -4,9 +4,10 @@
 {% extends "layout.html" %}
 
 {% block content %}
+<script src="/static/scripts/courses_list.js"></script>
+<script src="/static/scripts/courses_dropdown.js"></script>
+<script src="/static/scripts/generate_search_table.js"></script>
 
-
-<br />
 
 <!--3 tabs for actions-->
 
@@ -27,62 +28,46 @@
                 <h3 class="text-right">חיפוש חומרי לימוד למסירה</h3>
                 <p class="text-right">כדי ליצור קשר עם המוסר, תוכל לפנות אליו במייל</p>
             </div>
-
             <div class="container"
-            <form action="{{ url_for('tabs_page') }}">
-                <br />
-
-
+                <form action="{{ url_for('tabs_page') }}" onload="faculties_dropdown();" id="search_form">
+                    <br />
                     <!--Faculty selection-->
                     <div class="row pull-right">
-                        <select class="selectpicker" data-live-search="true" data-width="auto" title="Select your favorite charecter" name="faculty" action="/" id="search_faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="courses_dropdown(this);" dir="rtl">
-                            <option value="empty"></option>
-                            <option value="Modern Family">Modern Family</option>
-                            <option value="South Park">South Park</option>
-                            <option value="Rick And Morty">Rick And Morty</option>
-
+                        <select class="selectpicker" data-live-search="true" title="Select your favorite tv show" id="search_faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="courses_dropdown(this);" dir="rtl">
+                            <option value="0">Select a faculty</option>
                         </select>
                     </div>
                     <br />
                     <br />
-
                     <!--Course selection-->
                     <div class="row pull-right">
-                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר קורס מהרשימה" name="course" id="search_courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
+                        <select class="selectpicker" data-live-search="true" data-width="auto" title="Select your favorite character" name="course" id="search_courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
                             <option value="0">Select a course</option>
                         </select>
                     </div>
+                    <br /> <br /> <br />
+                    <button type="submit" class="btn btn-ps pull-right" id="search_submit" onclick="load_table()"><span class="glyphicon glyphicon-search"></span> חיפוש</button>
+                </form>
+                   </div>
+        </div>
 
-                <br /> <br />
-                <button type="submit" class="btn btn-ps pull-right" onclick="load_table()"><span class="glyphicon glyphicon-search"></span> חיפוש</button>
-            </form>
-
-            </div>
-            </div>
-
-            <!--Results display-->
-            <div class="container"
+        <!--Results display-->
+        <div class="container"
             <br /> <br />
-            <h4 class="text-right" id="table_caption"> מציג חומרי לימוד למסירה עבור הקורס: "" מהפקולטה : ""</h4>
+            <h4 class="text-right" id="table_caption"></h4>
             <br />
-           
+
             <div class="container">
-                <table class="table table-striped table-hover text-right">
+                <table class="table table-striped table-hover text-right" data-width="auto" id="search_table" style="display:none">
                     <thead>
                         <tr>
-                            <th class="text-right">שלח בקשה לקבלת החומר</th>
+                            <th class="text-right">שלח בקשה</th>
                             <th class="text-right">תיאור</th>
                             <th class="text-right">Email</th>
+                            <th class="text-right">קורס</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <!--TEMP body! should be empty because loading only on click by function-->
-                        <tr>
-                            <td> <button class="editbtn" onclick="new_mail_request()">שליחת בקשה</button> </td>
-                            <td> </td>
-                            <td> </td>
-                        </tr>
-                    </tbody>
+                    <tbody id="search_table_body"></tbody>
                 </table>
             </div>
         </div>
@@ -100,52 +85,38 @@
             </div>
             <br />
             <div class="container"
-            <form action="how_to">
+                <form action="how_to">
 
                     <!--Faculty selection-->
+                    <!--Faculty selection-->
                     <div class="row pull-right">
-                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר פקולטה מהרשימה" name="פקולטות" id="give away faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
-                            <optgroup class="pull-right" label="מכשפים מוסמכים">
-                                <option class="text-right" value="e">כשפות עתידנית</option>
-                                <option class="text-right" value="a">שיקויים ומינונים</option>
-                            </optgroup>
-                            <optgroup class="pull-right" label="הכשפת חשמל">
-                                <option class="text-right" value="b">מכונאות מטאטאים</option>
-                                <option class="text-right" value="c">דיודות ודודאים</option>
-                            </optgroup>
+                        <select class="selectpicker" data-live-search="true" title="Select your favorite tv show" id="search_faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onload="faculties_dropdown();" onchange="courses_dropdown(this);" dir="rtl">
+                            <option value="0">Select a faculty</option>
                         </select>
-                        </div>
-                        <br />
-                        <br />
-
+                    </div>
+                    <br />
+                    <br />
                     <!--Course selection-->
                     <div class="row pull-right">
-                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר קורס מהרשימה" name="קורסים" id="give away courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
-                            <optgroup class="pull-right" label="מכשפים מוסמכים">
-                                <option class="text-right" value="a">כשפות עתידנית</option>
-                                <option class="text-right" value="b">שיקויים ומינונים</option>
-                            </optgroup>
-                            <optgroup class="pull-right" label="הכשפת חשמל">
-                                <option class="text-right" value="c">מכונאות מטאטאים</option>
-                                <option class="text-right" value="d">דיודות ודודאים</option>
-                            </optgroup>
+                        <select class="selectpicker" data-live-search="true" data-width="auto" title="Select your favorite character" name="course" id="search_courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
+                            <option value="0">Select a course</option>
                         </select>
                     </div>
-                <br /><br />
+                    <br /><br />
 
-                <!--Description input-->
-                <div class="row">
-                    <p class="text-right">מה את\ה מוסר\ת? (למשל: קובץ מבחנים מודפס)</p>
-                    <input class="form-control pull-right text-right input-lg col-sx-10" min="5" id="Description" required oninvalid="this.setCustomValidity('אנא תאר את חומר הלימוד אותו אתה מוסר')" oninput="this.setCustomValidity('')">
-                </div>
-                <div class="row">
-                    <div class="checkbox pull-right">
-                        <label><input type="checkbox" id="agree-terms" required oninvalid="this.setCustomValidity('אנא אשר קבלת מייל')" oninput="this.setCustomValidity('')"> אני מסכים\ה שיצרו איתי קשר במייל האוניברסיטאי בנוגע למסירת חומרי הלימוד</label>
+                    <!--Description input-->
+                    <div class="row">
+                        <p class="text-right">מה את\ה מוסר\ת? (למשל: קובץ מבחנים מודפס)</p>
+                        <input class="form-control pull-right text-right input-lg col-sx-10" min="5" id="Description" required oninvalid="this.setCustomValidity('אנא תאר את חומר הלימוד אותו אתה מוסר')" oninput="this.setCustomValidity('')">
                     </div>
-                </div>
-                <br /> <br />
-                <button type="submit" value="1" class="btn btn-ps pull-right"><span class="glyphicon glyphicon-send"></span> שליחה</button>
-            </form>
+                    <div class="row">
+                        <div class="checkbox pull-right">
+                            <label><input type="checkbox" id="agree-terms" required oninvalid="this.setCustomValidity('אנא אשר קבלת מייל')" oninput="this.setCustomValidity('')"> אני מסכים\ה שיצרו איתי קשר במייל האוניברסיטאי בנוגע למסירת חומרי הלימוד</label>
+                        </div>
+                    </div>
+                    <br /> <br />
+                    <button type="submit" value="1" class="btn btn-ps pull-right"><span class="glyphicon glyphicon-send"></span> שליחה</button>
+                </form>
             </div>
             <br />
         </div>
@@ -190,6 +161,31 @@
     </div>
 </div>
 
-
-
+<!-- this function should go to courses_dropdown.js but i couldn't activate it with event 'onload=""', so i left it here. now it works perfectly fine. need o change
+    var Technion_faculties_list to the real list and thats it-->
+<script>
+    // get list
+    var Technion_faculties_list = ["Paper Share Team", "Rick And Morty", "Modern Family", "South Park"];
+    // get faculty select by id
+    var cSelect = document.getElementById("search_faculties");
+    // remove default option
+    while (cSelect.options.length > 0) {
+        cSelect.remove(0);
+    }
+    // start adding all options from list to select
+    for (var i = 0; i < Technion_faculties_list.length; i++) {
+        newOption = document.createElement("option");
+        newOption.value = Technion_faculties_list[i];  // assumes option string and value are the same 
+        newOption.text = Technion_faculties_list[i];
+        // add the new option 
+        try {
+            cSelect.add(newOption);  // this will fail in DOM browsers but is needed for IE 
+        }
+        catch (e) {
+            cSelect.appendChild(newOption);
+        }
+    }
+    // update data in select - needed only in outer js file
+    // $('.selectpicker').selectpicker('refresh');
+</script>
 {% endblock %}
