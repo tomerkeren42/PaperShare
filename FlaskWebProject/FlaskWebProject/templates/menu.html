@@ -5,8 +5,9 @@
 
 {% block content %}
 
-<script type="text/javascript" src="/static/scripts/courses_list.js"></script>
+<script src="/static/scripts/courses_list.js"></script>
 <script src="/static/scripts/courses_dropdown.js"></script>
+<script src="\static\scripts\generate_search_table.js"></script>
 
 <style>
     .btn-ps:hover,
@@ -60,22 +61,15 @@
                 <h3 class="text-right">חיפוש חומרי לימוד למסירה</h3>
                 <p class="text-right">כדי ליצור קשר עם המוסר, תוכל לפנות אליו במייל</p>
             </div>
-            <form name="courses_dropdown" action="{{ url_for('tabs_page') }}" method="POST">
-                <!--<form action="{{ url_for('tabs_page') }}">-->
+            <form id="search_material" method="POST">
                 <br />
                 <div class="row">
                     <div class="row pull-right">
-                        <!-- an example for how i changed default error message, before switching to selectpicker :   <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר פקולטה מהרשימה" name="פקולטות" id="פקולטות" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onclick="this.setCustomValidity('')" dir="rtl">
-                        -->
-                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר פקולטה מהרשימה" name="faculty" action="/" id="search_faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="courses_dropdown(this);" dir="rtl">
-                            <!--{% for faculty in faculties_list %}
-                            <option class="text-right" value="{{faculty}}" SELECTED>{{ faculty }}</option>"
-                            {% endfor %}-->
-                            <option value="empty">Select a Continent</option>
-                            <option value="North America">North America</option>
-                            <option value="South America">South America</option>
-                            <option value="Asia">Asia</option>
-                            <option value="Europe">Europe</option>
+                        <select class="selectpicker" data-live-search="true" data-width="auto" title="Select your favorite charecter" name="faculty" action="/" id="search_faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="courses_dropdown(this);" dir="rtl">
+                            <option value="empty"></option>
+                            <option value="Modern Family">Modern Family</option>
+                            <option value="South Park">South Park</option>
+                            <option value="Rick And Morty">Rick And Morty</option>
                         </select>
                         <br />
                         <br />
@@ -85,39 +79,34 @@
                 <div class="row">
                     <div class="row pull-right">
                         <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר קורס מהרשימה" name="course" id="search_courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
-                            <!--{% for course in courses_names_list %}
-                                <option class="text-right" value="{{course}}" SELECTED>{{ course }}</option>"
-                            {% endfor %}-->
                             <option value="0">Select a course</option>
                         </select>
                     </div>
                 </div>
                 <br /> <br />
-                <button type="submit" class="btn btn-ps pull-right"><span class="glyphicon glyphicon-search"></span> חיפוש</button>
+                <button type="submit" class="btn btn-ps pull-right" onclick="load_table()"><span class="glyphicon glyphicon-search"></span> חיפוש</button>
             </form>
+            
+            
             <br /> <br />
-            <h4 class="text-right"> מציג חומרי לימוד למסירה עבור הקורס: "" מהפקולטה : ""</h4>
+            <h4 class="text-right" id="table_caption"> מציג חומרי לימוד למסירה עבור הקורס: "" מהפקולטה : ""</h4>
             <br />
+           
             <div class="container">
                 <table class="table table-striped table-hover text-right">
                     <thead>
                         <tr>
+                            <th class="text-right">שלח בקשה לקבלת החומר</th>
                             <th class="text-right">תיאור</th>
                             <th class="text-right">Email</th>
                         </tr>
                     </thead>
                     <tbody>
+                        <!--TEMP body! should be empty because loading only on click by function-->
                         <tr>
-                            <td> מבחנים מודפסים</td>
-                            <td>john@example.com</td>
-                        </tr>
-                        <tr>
-                            <td>ספר הקורס</td>
-                            <td>mary@example.com</td>
-                        </tr>
-                        <tr>
-                            <td>סיכום שלי</td>
-                            <td>july@example.com</td>
+                            <td> <button class="editbtn" onclick="new_mail_request()">שליחת בקשה</button> </td>
+                            <td> </td>
+                            <td> </td>
                         </tr>
                     </tbody>
                 </table>

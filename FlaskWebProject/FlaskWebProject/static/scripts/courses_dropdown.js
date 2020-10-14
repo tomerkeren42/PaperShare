@@ -1,9 +1,9 @@
-import { Technion_courses_lists } from './courses_list.js';
 //alert(Technion_courses_lists.back);
 
 /* courses_dropdown() is called from the onchange event of a select element.
 * param selectObj - the select object which fired the on change event. 
 */
+
 function courses_dropdown(selectObj) {
     console.log("inside courses_dropdown()");
     // get the index of the selected option 
@@ -11,7 +11,7 @@ function courses_dropdown(selectObj) {
     // get the value of the selected option 
     var which = selectObj.options[idx].value;
     // use the selected option value to retrieve the list of items from the countryLists array 
-    cList = Technion_courses_lists[which];
+    cList = Technion_courses_list[which];
     // get the country select element via its known id 
     var cSelect = document.getElementById("search_courses");
     // remove the current options from the country select 
