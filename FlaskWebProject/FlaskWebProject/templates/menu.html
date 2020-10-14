@@ -1,11 +1,10 @@
 ﻿<!---
     MENU PAGE
     -->
-
-
 {% extends "layout.html" %}
 
 {% block content %}
+
 
 <br />
 
@@ -28,6 +27,7 @@
                 <h3 class="text-right">חיפוש חומרי לימוד למסירה</h3>
                 <p class="text-right">כדי ליצור קשר עם המוסר, תוכל לפנות אליו במייל</p>
             </div>
+
             <div class="container"
             <form action="{{ url_for('tabs_page') }}">
                 <br />
@@ -35,17 +35,12 @@
 
                     <!--Faculty selection-->
                     <div class="row pull-right">
-                        <!-- an example for how i changed default error message, before switching to selectpicker :   <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר פקולטה מהרשימה" name="פקולטות" id="פקולטות" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onclick="this.setCustomValidity('')" dir="rtl">
-                            -->
-                        <select class="selectpicker" style="visible" data-live-search="true" data-width="auto" title="בחר פקולטה מהרשימה" name="פקולטות" id="search faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
-                            <optgroup class="pull-right" label="מכשפים מוסמכים">
-                                <option class="text-right" value="1">כשפות עתידנית</option>
-                                <option class="text-right" value="2">שיקויים ומינונים</option>
-                            </optgroup>
-                            <optgroup class="pull-right" label="הכשפת חשמל">
-                                <option class="text-right" value="3">מכונאות מטאטאים</option>
-                                <option class="text-right" value="4">דיודות ודודאים</option>
-                            </optgroup>
+                        <select class="selectpicker" data-live-search="true" data-width="auto" title="Select your favorite charecter" name="faculty" action="/" id="search_faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="courses_dropdown(this);" dir="rtl">
+                            <option value="empty"></option>
+                            <option value="Modern Family">Modern Family</option>
+                            <option value="South Park">South Park</option>
+                            <option value="Rick And Morty">Rick And Morty</option>
+
                         </select>
                     </div>
                     <br />
@@ -53,49 +48,39 @@
 
                     <!--Course selection-->
                     <div class="row pull-right">
-                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר קורס מהרשימה" name="קורסים" id="search courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
-                            <optgroup class="pull-right" label="מכשפים מוסמכים" dir="rtl">
-                                <option class="text-right" value="a" dir="rtl">כשפות עתידנית</option>
-                                <option class="text-right" value="b" dir="rtl">שיקויים ומינונים</option>
-                            </optgroup>
-                            <optgroup class="pull-right" label="הכשפת חשמל" dir="rtl">
-                                <option class="text-right" value="c">מכונאות מטאטאים</option>
-                                <option class="text-right" value="d">דיודות ודודאים</option>
-                            </optgroup>
+                        <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר קורס מהרשימה" name="course" id="search_courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
+                            <option value="0">Select a course</option>
                         </select>
                     </div>
 
                 <br /> <br />
-                <button type="submit" class="btn btn-ps pull-right"><span class="glyphicon glyphicon-search"></span> חיפוש</button>
+                <button type="submit" class="btn btn-ps pull-right" onclick="load_table()"><span class="glyphicon glyphicon-search"></span> חיפוש</button>
             </form>
+
             </div>
             </div>
 
             <!--Results display-->
             <div class="container"
             <br /> <br />
-            <h4 class="text-right"> מציג חומרי לימוד למסירה עבור הקורס: "" מהפקולטה : ""</h4>
+            <h4 class="text-right" id="table_caption"> מציג חומרי לימוד למסירה עבור הקורס: "" מהפקולטה : ""</h4>
             <br />
+           
             <div class="container">
                 <table class="table table-striped table-hover text-right">
                     <thead>
                         <tr>
+                            <th class="text-right">שלח בקשה לקבלת החומר</th>
                             <th class="text-right">תיאור</th>
                             <th class="text-right">Email</th>
                         </tr>
                     </thead>
                     <tbody>
+                        <!--TEMP body! should be empty because loading only on click by function-->
                         <tr>
-                            <td> מבחנים מודפסים</td>
-                            <td>john@example.com</td>
-                        </tr>
-                        <tr>
-                            <td>ספר הקורס</td>
-                            <td>mary@example.com</td>
-                        </tr>
-                        <tr>
-                            <td>סיכום שלי</td>
-                            <td>july@example.com</td>
+                            <td> <button class="editbtn" onclick="new_mail_request()">שליחת בקשה</button> </td>
+                            <td> </td>
+                            <td> </td>
                         </tr>
                     </tbody>
                 </table>

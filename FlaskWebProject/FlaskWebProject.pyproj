@@ -33,6 +33,9 @@
     </Compile>
     <Compile Include="FlaskWebProject\login.py" />
     <Compile Include="FlaskWebProject\main.py" />
+    <Compile Include="FlaskWebProject\TAU_courses_dict.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="FlaskWebProject\Technion_courses_dict.py" />
   </ItemGroup>
   <ItemGroup>
@@ -49,6 +52,9 @@
     <Content Include="FlaskWebProject\static\content\bootstrap-select.min.css" />
     <Content Include="FlaskWebProject\static\scripts\bootstrap-select.js" />
     <Content Include="FlaskWebProject\static\scripts\bootstrap-select.min.js" />
+    <Content Include="FlaskWebProject\static\scripts\courses_dropdown.js" />
+    <Content Include="FlaskWebProject\static\scripts\courses_list.js" />
+    <Content Include="FlaskWebProject\static\scripts\generate_search_table.js" />
     <Content Include="FlaskWebProject\templates\how_to.html" />
     <Content Include="FlaskWebProject\templates\index.html" />
     <Content Include="FlaskWebProject\templates\menu.html" />
