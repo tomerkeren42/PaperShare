@@ -10,7 +10,7 @@
 function faculties_dropdown() {
     console.log("in faculties_dropdown()")
     // get list
-    var Technion_faculties_list = ["Paper Share Team", "Rick And Morty", "Modern Family", "South Park"];
+    //var Technion_faculties_list = ["Paper Share Team", "Rick And Morty", "Modern Family", "South Park"];
     // get faculty select by id
     var cSelect = document.getElementById("search_faculties");
     // remove default option
@@ -40,7 +40,7 @@ function courses_dropdown(selectObj) {
     // get the value of the selected option 
     var which = selectObj.options[idx].value;
     // use the selected option value to retrieve the list of items from the countryLists array 
-    cList = Technion_courses_list[which];
+    cList = Technion_courses_lists[which];
     // get the country select element via its known id 
     var cSelect = document.getElementById("search_courses");
     // remove the current options from the country select 
