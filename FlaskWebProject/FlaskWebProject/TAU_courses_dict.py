@@ -279,15 +279,15 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'05109988 - הנחיית תיזה',
-		'faculty_name':'ללא זמ"ק	הנדסה'
+		'faculty_name':'הנדסה'
 	},
 	{
 		'course_name':'05109995 - פרויקט',
-		'faculty_name':'ללא זמ"ק	הנדסה'
+		'faculty_name':'הנדסה'
 	},
 	{
 		'course_name':'05109999 - עבודת גמר',
-		'faculty_name':'ללא זמ"ק	הנדסה'
+		'faculty_name':'הנדסה'
 	},
 	{
 		'course_name':'05121201 - מבוא למערכות ומעגלים חשמליים',
@@ -663,7 +663,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'05423791 - תהליכי עיבוד - מעבדה',
-		'faculty_name':'טווח תאריכים - שבועי	הנדסה'
+		'faculty_name':'הנדסה'
 	},
 	{
 		'course_name':'05423792 - הנדסת ניסויים ומדידות - מעבדה',
@@ -1103,7 +1103,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'05712901 - כתיבה טכנית',
-		'faculty_name':'טווח תאריכים - שבועי	הנדסה'
+		'faculty_name':'הנדסה'
 	},
 	{
 		'course_name':'05713110 - סימולציה',
@@ -1327,7 +1327,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'05811121 - מעבדה בכימיה',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	הנדסה'
+		'faculty_name':'הנדסה'
 	},
 	{
 		'course_name':'05811132 - מבוא למדע והנדסה של חומרים - מעבדה',
@@ -1751,7 +1751,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'08111563 - הפקה בתיאטרון עצמאי',
-		'faculty_name':'אחת לשבועיים	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08111565 - משחק סצינות',
@@ -1951,7 +1951,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'08117023 - מדברים עיצוב',
-		'faculty_name':'אחת לשבועיים	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08117026 - פרויקט עם מעצב אורח',
@@ -1983,11 +1983,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'08211801 - תרגיל קריאה / העת העתיקה',
-		'faculty_name':'אחת לשבועיים	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08211802 - תרגיל קריאה העת החדשה',
-		'faculty_name':'אחת לשבועיים	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08211900 - אמנות על ציר הזמן: העת העתיקה - ממצרים ועד סוף ימי הביניים',
@@ -2043,7 +2043,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'08215555 - קולוקוויום',
-		'faculty_name':'ללא זמ"ק	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08215656 - לצלם את ההיסטוריה הישראלית',
@@ -2231,7 +2231,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'08426000 - בחינת גמר בעל-פה',
-		'faculty_name':'ללא זמ"ק	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08426380 - זמרה',
@@ -2239,7 +2239,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'08431290 - נוכחות בתזמורת',
-		'faculty_name':'ללא זמ"ק	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08431395 - יסודות ניצוח מקהלה',
@@ -2251,7 +2251,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'08432290 - נוכחות בתזמורת',
-		'faculty_name':'ללא זמ"ק	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08432324 - הלחנה נתמכת טכנולוגיה',
@@ -2263,7 +2263,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'08433392 - נוכחות במקהלה הקאמרית',
-		'faculty_name':'ללא זמ"ק	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08433395 - ניצוח מקהלה מתקדמים ג',
@@ -2327,7 +2327,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'08510010 - סדנה לשימוש בציוד',
-		'faculty_name':'מופעים בדידים	אמנויות'
+		'faculty_name':'	אמנויות'
 	},
 	{
 		'course_name':'08510011 - סדנה למקצועות הסט',
@@ -2335,19 +2335,19 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'08510012 - בטיחות כללית וחשמל',
-		'faculty_name':'מופעים בדידים	אמנויות'
+		'faculty_name':'	אמנויות'
 	},
 	{
 		'course_name':'08511511 - יסודות ביצירה לטלוויזיה',
-		'faculty_name':'אחת לשבועיים	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08511518 - סדנת צילום',
-		'faculty_name':'אחת לשבועיים	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08511519 - סדנת עריכה',
-		'faculty_name':'אחת לשבועיים	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08512005 - הרגע הדרמטי 1',
@@ -2579,11 +2579,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'08513809 - סמינר בימוי למתקדמים',
-		'faculty_name':'אחת לשבועיים	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08513811 - עיצוב סאונד למתקדמים',
-		'faculty_name':'אחת לשבועיים	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08513812 - עריכת תסריט לסרט גמר',
@@ -2623,7 +2623,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'08513821 - סדנת אומן',
-		'faculty_name':'אחת לשבועיים	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08513822 - חונכות אישית דוקומנטרי פרויקט גמר',
@@ -2631,7 +2631,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'08513823 - תסריט וראף קאט פרוייקט גמר',
-		'faculty_name':'ללא זמ"ק	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08513824 - שוטינג לבמאי-ות וצלמ-ות',
@@ -2691,7 +2691,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'08516408 - Visiting Artist Workshop',
-		'faculty_name':'ללא זמ"ק	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08516409 - Editing Workshop 1',
@@ -2863,7 +2863,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'08518528 - מעבדה B לפיתוח פרויקט גמר 2 - דיגיטל סטוריטלינג',
-		'faculty_name':'אחת לשבועיים	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08518530 - ליווי פרוייקט גמר',
@@ -3031,7 +3031,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'08611002 - הדרכת בטיחות',
-		'faculty_name':'ללא זמ"ק	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08611106 - תיאטרון ומחול כשפה בימתית',
@@ -3155,7 +3155,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'08618020 - ניהול טכני בהפקה',
-		'faculty_name':'אחת לשבועיים	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08810000 - סטודיו שכבת שנה א',
@@ -3387,15 +3387,15 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'08819988 - הנחיית תזה',
-		'faculty_name':'ללא זמ"ק	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08819998 - בחינת גמר לתואר שני',
-		'faculty_name':'ללא זמ"ק	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'08819999 - עבודת גמר',
-		'faculty_name':'ללא זמ"ק	אמנויות'
+		'faculty_name':'אמנויות'
 	},
 	{
 		'course_name':'10091102 - כלכלה למדעי החברה',
@@ -3515,11 +3515,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'10114567 - מודלים בתיאוריה כלכלית: כלכלה ללא מחירים',
-		'faculty_name':'ללא זמ"ק	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10114568 - שינויים דמוגרפיים וצמיחה כלכלית',
-		'faculty_name':'מופעים בדידים	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10114605 - שיטות מתמטיות בכלכלה',
@@ -3531,7 +3531,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'10114720 - מדידת הפריון - שיטות ויישומים',
-		'faculty_name':'מופעים בדידים	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10115000 - סדנת דוקטורנטים',
@@ -3755,7 +3755,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'10334035 - American Foreign Policy From the End of the Cold War to Trump',
-		'faculty_name':'טווח תאריכים - שבועי	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10354040 - מדיניות החוץ של ישראל',
@@ -3975,7 +3975,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'10449999 - עבודת גמר',
-		'faculty_name':'ללא זמ"ק	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10464002 - Adr - גישות אלטרנטיביות ליישוב סכסוכים',
@@ -4047,15 +4047,15 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'10516415 - חברה, פוליטיקה וכלכלה בישראל א: אחריות תאגידית, ממשליות ועבודה',
-		'faculty_name':'טווח תאריכים - שבועי	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10516416 - תיאוריה ארגונית ב- גיוון תעסוקתי',
-		'faculty_name':'טווח תאריכים - שבועי	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10516418 - נושאים נבחרים בניהול משאבי אנוש ב- עבודה וטכנולוגיה',
-		'faculty_name':'טווח תאריכים - שבועי	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10516420 - שינוי ארגוני',
@@ -4115,35 +4115,35 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'10574000 - מבוא לדיפלומטיה',
-		'faculty_name':'טווח תאריכים - שבועי	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10574001 - מלחמה, אסטרטגיה ודוקטרינות צבאיות',
-		'faculty_name':'טווח תאריכים - שבועי	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10574010 - סוגיות בביטחון ישראל - בין עבר לעתיד',
-		'faculty_name':'טווח תאריכים - שבועי	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10574031 - המערכת הבינלאומית',
-		'faculty_name':'טווח תאריכים - שבועי	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10574033 - סייבר, טכנולוגיה וביטחון',
-		'faculty_name':'טווח תאריכים - שבועי	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10574036 - אסטרטגיות וטקטיקות בניהול משא ומתן בינלאומי',
-		'faculty_name':'טווח תאריכים - שבועי	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10574037 - משברים בינלאומיים',
-		'faculty_name':'טווח תאריכים - שבועי	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10574042 - מדיניות החוץ של ישראל',
-		'faculty_name':'טווח תאריכים - שבועי	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10574043 - לוחמת גרילה',
@@ -4155,27 +4155,27 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'10584001 - שיטות מחקר בתקשורת פוליטית',
-		'faculty_name':'טווח תאריכים - שבועי	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10584018 - ריבונות, תעמולה ותקשורת: הגות ופרקטיקה',
-		'faculty_name':'טווח תאריכים - שבועי	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10584024 - רטוריקה ומנהיגות: מכיכר העיר ועד האינטרנט',
-		'faculty_name':'טווח תאריכים - שבועי	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10584035 - תקשורת, צבא וביטחון לאומי',
-		'faculty_name':'טווח תאריכים - שבועי	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10584046 - פוליטיקה השוואתית',
-		'faculty_name':'טווח תאריכים - שבועי	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10584500 - פוליטיקה ומשטר בישראל',
-		'faculty_name':'טווח תאריכים - שבועי	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10711117 - סטטיסטיקה לפסיכולוגים ב',
@@ -4331,7 +4331,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'10714001 - קריאה מודרכת',
-		'faculty_name':'ללא זמ"ק	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10714102 - פסיכולוגיה חברתית במבט על: אבולוציה תרבות ומה שביניהן**',
@@ -4503,7 +4503,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'10715026 - קריאה מודרכת א',
-		'faculty_name':'ללא זמ"ק	מדעי החברה'
+		'faculty_name':'מדעי החברה'
 	},
 	{
 		'course_name':'10715600 - אבחון והערכה',
@@ -5099,7 +5099,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'04552501 - מבוא לביולוגיה מולקולרית - מעבדה',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	מדעי החיים'
+		'faculty_name':'מדעי החיים'
 	},
 	{
 		'course_name':'04552508 - מעבדה אינטגרטיבית אורגניזמית',
@@ -5107,7 +5107,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'04552522 - מעבדה בכימיה',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	מדעי החיים'
+		'faculty_name':'מדעי החיים'
 	},
 	{
 		'course_name':'04552523 - מעבדה במיקרוביולוגיה כללית',
@@ -5143,7 +5143,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'04552566 - מעבדה בביולוגיה מולקולרית של התא',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	מדעי החיים'
+		'faculty_name':'מדעי החיים'
 	},
 	{
 		'course_name':'04552570 - דע/י את עצמך - נפלאות המוח וצפונותיו',
@@ -5159,11 +5159,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'04552665 - ביוכימיה מעבדה',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	מדעי החיים'
+		'faculty_name':'מדעי החיים'
 	},
 	{
 		'course_name':'04552666 - כימיה אורגנית - מעבדה',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	מדעי החיים'
+		'faculty_name':'מדעי החיים'
 	},
 	{
 		'course_name':'04552688 - אימונולוגיה כללית',
@@ -5231,23 +5231,23 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'04553124 - סמינריון בכתב בזואולוגיה',
-		'faculty_name':'ללא זמ"ק	מדעי החיים'
+		'faculty_name':'מדעי החיים'
 	},
 	{
 		'course_name':'04553125 - סמינריון בכתב בחקר התא ובאימונולוגיה',
-		'faculty_name':'ללא זמ"ק	מדעי החיים'
+		'faculty_name':'מדעי החיים'
 	},
 	{
 		'course_name':'04553126 - סמינריון בכתב בביולוגיה מולקולרית ואקולוגיה של צמחים',
-		'faculty_name':'ללא זמ"ק	מדעי החיים'
+		'faculty_name':'מדעי החיים'
 	},
 	{
 		'course_name':'04553127 - סמינריון בכתב במיקרוביולוגיה מולקולרית ובביוטכנולוגיה',
-		'faculty_name':'ללא זמ"ק	מדעי החיים'
+		'faculty_name':'מדעי החיים'
 	},
 	{
 		'course_name':'04553128 - סמינריון בכתב בנוירוביולוגיה',
-		'faculty_name':'ללא זמ"ק	מדעי החיים'
+		'faculty_name':'מדעי החיים'
 	},
 	{
 		'course_name':'04553348 - אבולוציה מולקולרית',
@@ -5287,11 +5287,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'04553610 - מעבדת פרויקט',
-		'faculty_name':'ללא זמ"ק	מדעי החיים'
+		'faculty_name':'מדעי החיים'
 	},
 	{
 		'course_name':'04553611 - מעבדת פרוייקט למצטיינים',
-		'faculty_name':'ללא זמ"ק	מדעי החיים'
+		'faculty_name':'מדעי החיים'
 	},
 	{
 		'course_name':'04553682 - גנטיקה של מיקרואורגניזמים ובקרת הביטוי הגנטי',
@@ -5307,11 +5307,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'04553810 - מעבדת פרוייקט',
-		'faculty_name':'ללא זמ"ק	מדעי החיים'
+		'faculty_name':'מדעי החיים'
 	},
 	{
 		'course_name':'04553811 - מעבדת פרוייקט למצטיינים',
-		'faculty_name':'ללא זמ"ק	מדעי החיים'
+		'faculty_name':'מדעי החיים'
 	},
 	{
 		'course_name':'04553823 - ביולוגיה ימית - סיור',
@@ -5347,27 +5347,27 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'04556123 - סמינריון בכתב בביוכימיה וביולוגיה מולקולרית',
-		'faculty_name':'ללא זמ"ק	מדעי החיים'
+		'faculty_name':'מדעי החיים'
 	},
 	{
 		'course_name':'04556124 - סמינריון בכתב בזואולוגיה',
-		'faculty_name':'ללא זמ"ק	מדעי החיים'
+		'faculty_name':'מדעי החיים'
 	},
 	{
 		'course_name':'04556125 - סמינריון בכתב בחקר התא ואימונולוגיה',
-		'faculty_name':'ללא זמ"ק	מדעי החיים'
+		'faculty_name':'מדעי החיים'
 	},
 	{
 		'course_name':'04556126 - סמינריון בכתב בביולוגיה מולקולרית ואקולוגיה של צמחים',
-		'faculty_name':'ללא זמ"ק	מדעי החיים'
+		'faculty_name':'מדעי החיים'
 	},
 	{
 		'course_name':'04556127 - סמינריון בכתב במיקרוביולוגיה מולקולרית וביוטכנולוגיה',
-		'faculty_name':'ללא זמ"ק	מדעי החיים'
+		'faculty_name':'מדעי החיים'
 	},
 	{
 		'course_name':'04556128 - סמינריון בכתב בנוירוביולוגיה',
-		'faculty_name':'ללא זמ"ק	מדעי החיים'
+		'faculty_name':'מדעי החיים'
 	},
 	{
 		'course_name':'04913221 - נושאים נבחרים בנוירוביולוגיה',
@@ -5487,7 +5487,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'06079999 - עבודת גמר',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06081003 - תרבות הגוף: מגדר וייצוגי גוף באמנות המודרנית',
@@ -5599,7 +5599,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'06129999 - עבודת גמר',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06141402 - העברית ממעוף הציפור',
@@ -5707,7 +5707,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'06149999 - עבודת גמר',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06161003 - מבוא למחשבת חז"ל - היסטוריה וספרות',
@@ -5791,7 +5791,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'06169999 - עבודת גמר',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06181012 - מבוא ללוגיקה',
@@ -6131,7 +6131,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'06219999 - עבודת גמר',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06221000 - ערבית למתחילים',
@@ -6279,7 +6279,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'06249999 - עבודת גמר',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06261142 - מיומניויות יסוד - כתיבה אקדמית באנגלית',
@@ -6351,7 +6351,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'06264260 - Hollywood and Politics',
-		'faculty_name':'טווח תאריכים - שבועי	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06264411 - Literature and Human Rights',
@@ -6391,7 +6391,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'06269944 - הנחיית תיזה',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06271021 - תרגיל בפונולוגיה מתחילים',
@@ -6511,31 +6511,31 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'06274147 - קולוקוויום מחקרי ב',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06276100 - שעות ניסוי בבלשנות',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06278214 - פסיכוסמנטיקה',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06278215 - תחביר וסמנטיקה של נקודת ראות',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06279985 - פרוייקט מחקר מודרך',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06279998 - בחינת גמר לתלמידי התואר השני - מסלול ללא תיזה',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06279999 - עבודת גמר',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06311010 - יסודות הדקדוק',
@@ -6615,7 +6615,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'06314147 - סמינר מחלקתי',
-		'faculty_name':'אחת לשבועיים	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06314174 - קריאה בביוגרפיות של צלאח א-דין',
@@ -6659,7 +6659,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'06314350 - ספרות פלסטינית',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06314351 - השלום באסלאם',
@@ -6671,11 +6671,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'06412224 - פורום להיסטוריה יהודית א',
-		'faculty_name':'אחת לשבועיים	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06451022 - סמינר דוקטורנטים',
-		'faculty_name':'אחת לשבועיים	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06452001 - סדר, אי-סדר ואנרכיה: חברה, פוליטיקה ואידיאולוגיה בעבר ובהווה',
@@ -6691,7 +6691,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'06456666 - עבודה שוות ערך לתיזה',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06511001 - קריאה מודרכת א',
@@ -7415,11 +7415,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'06776001 - סמינר כתיבה בין אוניברסיטאית בלימודי מזרח אירופה ויהודיה בדגש על היסטוריה חברתית',
-		'faculty_name':'מופעים בדידים	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06779999 - עבודת גמר',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06801001 - צמיחתה של סיפורת עברית מודרנית: קווי יסוד',
@@ -7903,51 +7903,51 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'06936101 - סוגיות מרכזיות בהיסטוריה קדם-קולוניאלית של אפריקה',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06936110 - מבוא לדת האסלאם',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06936219 - מוסיקה אפריקאית - בין האסתטי, הפוליטי והתרבותי',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06936232 - אפריקה בתקופה הקולוניאלית',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06936237 - היסטוריה מודרנית של אריתריאה (1889-1991)',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06936238 - כלכלת פיתוח',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06936239 - מבוא לדיפלומטיה בינלאומית',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06936240 - גישות עכשוויות בפיתוח וכלכלות',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06936241 - המאה העשרים: מבטים על אירועי מפתח בעידן העכשווי, 1914-2001',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06936242 - סוגיות מרכזיות בהיסטוריה קדם קולוניאלית של אפריקה',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06936243 - מיומנויות למידה היסטוריות',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06936312 - פוליטיקה וחברה באפריקה הפוסט-קולוניאלית',
-		'faculty_name':'ללא זמ"ק	רוח'
+		'faculty_name':'רוח'
 	},
 	{
 		'course_name':'06974105 - פאולוס: טקסט, מחקר ודיון פילוסופי עכשווי',
@@ -7995,151 +7995,151 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'16621100 - World Masterpieces of the Western Tradition',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16621102 - Academic Writing',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16621108 - A Political History of the Economy',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16621111 - Modernity and Its Discontent',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16621116 - Advanced Academic Writing',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16621118 - From Pythagoras to Google: Social Histories of Knowledge',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16621119 - Understanding the Climate Crisis: an Interdisciplinary Introduction',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16621130 - Film and Philosophy: Coming Out of the Cave',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16621201 - Social and Cultural History of the Middle East',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16621300 - Introduction to Modern Jewish Thought',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16621306 - Introduction to Classical Jewish Philosophy',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16621309 - Key Psychological Themes Through the Lens of the Camera',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16621500 - Digital Discourse: New Media Language and Dynamics',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16621501 - Techno-Utopia: Introduction to the Social and Cultural History of the Internet',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16621503 - Theories in Communication and Digital Media',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16621508 - Film and Postmodernism',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16621600 - Introduction to Developmental Psychology',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16621604 - Research Methods',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16622064 - Pro-Seminar',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16622217 - Culture and Politics in Modern Egypt',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16622225 - The Shi?a Crescent: History, Culture and Religion',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16622231 - Spoken Arabic',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16622908 - Do Algorithms Have Imagination?',
-		'faculty_name':'ללא זמ"ק	'
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16623206 - Contemporary Moral Problems',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16623207 - Reading the Zohar',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16623505 - Personality Assessment',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16623600 - Psychology and Political Conflict',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16625200 - Introduction to Islam',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16625901 - Biology b',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16625902 - General Chemistry',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16625903 - Marketing for Entrepreneurs',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16625907 - Relocation Theory and Practice',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16734001 - Archaeology and History of the Land of Israel - Late Iron Age I - Iron Age II',
-		'faculty_name':'טווח תאריכים - שבועי	'
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16734002 - The Archaeology and History of the Land of Israel - Iron Age II - Persian Period',
-		'faculty_name':'טווח תאריכים - שבועי	'
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'16734003 - Archaeology & History of the Southern Levant during Persian & Hellenistic Period',
-		'faculty_name':''
+		'faculty_name':'תכנית הלימודים הרב-תחומית'
 	},
 	{
 		'course_name':'03005000 - בטיחות כללית וחשמל',
-		'faculty_name':'ללא זמ"ק	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03005001 - עזרה ראשונה',
-		'faculty_name':'ללא זמ"ק	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03005031 - מבוא לביולוגיה לכימאים',
@@ -8175,7 +8175,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'03211201 - יחסות פרטית',
-		'faculty_name':'ללא זמ"ק	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03211702 - סמינר תלמידים בתכנית המצטיינים שנה א',
@@ -8463,7 +8463,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'03413020 - פרויקט מחקר',
-		'faculty_name':'ללא זמ"ק	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03413021 - אוקיונוגרפיה פיזיקלית',
@@ -8543,7 +8543,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'03491608 - מבוא לגיאואינפורמטיקה ב : מערכות מידע גיאוגרפיות',
-		'faculty_name':'אחת לשבועיים	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03491817 - סטטיסטיקה לגיאוגרפים',
@@ -8611,7 +8611,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'03492444 - עקרונות בבניית פרויקט מחקר',
-		'faculty_name':'ללא זמ"ק	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03492464 - מורפולוגיה עירונית',
@@ -8667,11 +8667,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'03494335 - סמינר מחלקתי',
-		'faculty_name':'אחת לשבועיים	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03494336 - סמינר מחלקתי',
-		'faculty_name':'אחת לשבועיים	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03494362 - טיפול במים ושפכים',
@@ -8727,7 +8727,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'03499996 - בחינת גמר בע"פ ללא תזה',
-		'faculty_name':'ללא זמ"ק	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03511100 - תכנות',
@@ -8775,11 +8775,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'03511826 - קריאה מודרכת',
-		'faculty_name':'ללא זמ"ק	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03512000 - הדרכת בטיחות',
-		'faculty_name':'ללא זמ"ק	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03512202 - תרמודינמיקה',
@@ -8835,11 +8835,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'03512820 - ביוכימיה לכימאים (תש"ף)',
-		'faculty_name':'אחת לשבועיים	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03512826 - קריאה מודרכת',
-		'faculty_name':'ללא זמ"ק	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03513001 - יישומי מחשב למדעים',
@@ -8847,7 +8847,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'03513002 - הדרכת בטיחות',
-		'faculty_name':'ללא זמ"ק	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03513108 - סימטריה',
@@ -8887,15 +8887,15 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'03513312 - סדנה בכימיה מתקדמת (פרויקט מחקר)',
-		'faculty_name':'ללא זמ"ק	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03513322 - סדנה בכימיה מתקדמת 2 (פרויקט מחקר)',
-		'faculty_name':'ללא זמ"ק	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03513332 - סדנה בכימיה מתקדמת 2 (פרויקט מחקר)',
-		'faculty_name':'ללא זמ"ק	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03513402 - שיטות מתקדמות בכימיה אנליטית',
@@ -8915,7 +8915,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'03513826 - קריאה מודרכת',
-		'faculty_name':'ללא זמ"ק	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03514038 - חומרי טבע',
@@ -8971,11 +8971,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'03519998 - בחינת גמר',
-		'faculty_name':'ללא זמ"ק	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03519999 - עבודת גמר',
-		'faculty_name':'ללא זמ"ק	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03651101 - מבוא להסתברות לסטטיסטיקאים',
@@ -9111,7 +9111,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'03654219 - סטטיסטיקה אסמפטוטית',
-		'faculty_name':'ללא זמ"ק	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03654409 - אנליזה קמורה ואופטימיזציה 1',
@@ -9711,7 +9711,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'03684230 - הסקה אוטומטית',
-		'faculty_name':'ללא זמ"ק	מדעים מדויקים'
+		'faculty_name':'מדעים מדויקים'
 	},
 	{
 		'course_name':'03684232 - אופטימליות באופטימיזציה',
@@ -9867,7 +9867,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'14116604 - Derivatives, Risk and Financial Crises',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	משפטים'
+		'faculty_name':'משפטים'
 	},
 	{
 		'course_name':'14116649 - אוניברסיטה בעם',
@@ -9879,7 +9879,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'14116759 - קולוקוויום דוקטורנטים',
-		'faculty_name':'אחת לשבועיים	משפטים'
+		'faculty_name':'משפטים'
 	},
 	{
 		'course_name':'14116833 - הגבלים עסקיים',
@@ -9891,7 +9891,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'14117044 - Criminal Justice in Israel',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	משפטים'
+		'faculty_name':'משפטים'
 	},
 	{
 		'course_name':'14117064 - תובענות יצוגיות',
@@ -9899,7 +9899,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'14117071 - The Israeli-Palestinian Conflict - Two Points of View',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	משפטים'
+		'faculty_name':'משפטים'
 	},
 	{
 		'course_name':'14117087 - חקירת עדים בבית המשפט',
@@ -9935,7 +9935,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'14117298 - Antitrust Policy',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	משפטים'
+		'faculty_name':'משפטים'
 	},
 	{
 		'course_name':'14117332 - המדינה והשוק',
@@ -9971,7 +9971,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'14117399 - תחרות משפט מבוים במשפט בינלאומי ע"ש גסאפ',
-		'faculty_name':'ללא זמ"ק	משפטים'
+		'faculty_name':'משפטים'
 	},
 	{
 		'course_name':'14117400 - Negotiating International Transactions - Tel-Aviv U. and Berkeley Law',
@@ -10099,7 +10099,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'14117540 - Varieties of Constitutionalism: Democratic, Autocratic, Populist',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	משפטים'
+		'faculty_name':'משפטים'
 	},
 	{
 		'course_name':'14117541 - הגבלים עסקיים',
@@ -10239,7 +10239,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'14117777 - הדרכה בספרייה ובמאגרי מידע משפטיים',
-		'faculty_name':'מופעים בדידים	משפטים'
+		'faculty_name':'	משפטים'
 	},
 	{
 		'course_name':'14119101 - דיני חוזים',
@@ -10327,7 +10327,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'14119331 - דיון פלילי',
-		'faculty_name':'אחת לשבועיים	משפטים'
+		'faculty_name':'משפטים'
 	},
 	{
 		'course_name':'14119334 - דיני ראיות',
@@ -10371,7 +10371,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'14917033 - סוגיות מתקדמות בליטיגציה תאגידית',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	משפטים'
+		'faculty_name':'משפטים'
 	},
 	{
 		'course_name':'14917035 - אמפיריקה ומשפט ? היבטים תיאורטיים ומעשיים',
@@ -10379,23 +10379,23 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'14927001 - המשפט ומדינת הרווחה',
-		'faculty_name':'ללא זמ"ק	משפטים'
+		'faculty_name':'משפטים'
 	},
 	{
 		'course_name':'14927032 - American Legal History',
-		'faculty_name':'ללא זמ"ק	משפטים'
+		'faculty_name':'משפטים'
 	},
 	{
 		'course_name':'14927046 - משפט וסוגיות הליבה של הסכסוך הישראלי-פלסטיני',
-		'faculty_name':'ללא זמ"ק	משפטים'
+		'faculty_name':'משפטים'
 	},
 	{
 		'course_name':'14927052 - משפט חברה ושוק- מבט אמפירי',
-		'faculty_name':'ללא זמ"ק	משפטים'
+		'faculty_name':'משפטים'
 	},
 	{
 		'course_name':'14927071 - עריכת דין ממשלתית: מבט מבפנים',
-		'faculty_name':'ללא זמ"ק	משפטים'
+		'faculty_name':'משפטים'
 	},
 	{
 		'course_name':'14931000 - Scholars Workshop: Theoretical Texts',
@@ -10403,7 +10403,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'14931011 - Licensing of Intellectual Property',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	משפטים'
+		'faculty_name':'משפטים'
 	},
 	{
 		'course_name':'14931024 - Seminar: Information Technology Law',
@@ -10491,7 +10491,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12114141 - מסוי היחיד',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12114144 - נושאים מתקדמים בביקורת חשבונות',
@@ -10534,8 +10534,8 @@ TAU_courses_list = [
 		'faculty_name':'ניהול'
 	},
 	{
-		'course_name':'12213203 - השלמה פרונטלית באלגברה לינארית',
-		'faculty_name':'טווח תאריכים - שבועי	ניהול'
+		'course_name':'12213203 - חצי סמסטריאלית',
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12213301 - יסודות המימון -תואר I',
@@ -10543,7 +10543,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12213304 - Fundamentals of Strategy',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12214301 - יסודות השיווק',
@@ -10555,7 +10555,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12214515 - אתיקה ודיני ניירות ערך',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12214516 - מימון וכלכלת סייבר ופרטיות',
@@ -10623,7 +10623,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12217020 - מבוא לאנליטיקה עסקית',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12217031 - חדשנות שווקית בפיתוח מוצרים ומסרים',
@@ -10647,7 +10647,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12217052 - מנהיגות ופיתוח מנהיגות',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12217054 - סמינר ייחודי להקבץ- ניהול חוצה תרבויות - מבט על אסטרגיה עסקית ומשאבי אנוש',
@@ -10663,11 +10663,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12312213 - ניהול אנשים ומערכות - מיקרו',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12312214 - ניהול אנשים ומערכות - מאקרו',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12312321 - דיווח כספי ובקרה בארגונים',
@@ -10675,7 +10675,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12312322 - אסטרטגיה למנהלים',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12312410 - ניהול המימון',
@@ -10683,7 +10683,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12312411 - ניהול טכנולוגיה ומידע',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12312412 - ניהול התפעול',
@@ -10699,15 +10699,15 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12313010 - שיטות אנליטיות לניהול',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313011 - חשיבה אסטרטגית',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313021 - ניהול שרשראות אספקה',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313218 - ניתוח דוחות פיננסיים',
@@ -10719,11 +10719,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12313240 - רגולציה פיננסית ומוצרי ביטוח',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313241 - פיתוח מוצר ביטוח טכנולוגי',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313312 - מימון וכלכלת נדל"ן',
@@ -10755,39 +10755,39 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12313362 - ניתוח והשקעות נדל"ן',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313364 - שוקי הון ונדל"ן',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313368 - היבטים משפטיים בתכנון, קניין ועסקאות נדל"ן',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313371 - ייזום ופיתוח נדל"ן',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313372 - מיסוי נדל"ן',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313375 - מימון התנהגותי',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313376 - מאג"ח להמרה ל-Convertible Arbitrage',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313387 - נושאים עדכניים במימון',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313395 - מימון חברות הזנק',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313402 - תובנות צרכניות ושיווק אסטרטגי',
@@ -10795,7 +10795,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12313412 - אסטרטגיית המחרה',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313421 - Marketing Analytics',
@@ -10803,7 +10803,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12313435 - שיווק ופרסום דיגיטלי',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313441 - ניהול קשרי לקוחות (CRM)',
@@ -10811,95 +10811,95 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12313443 - ניהול מותגים',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313451 - נוירו-כלכלה ונוירו שיווק',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313455 - קמעונאות בעידן הדיגיטלי',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313458 - שיווק, מכירות ופיתוח עסקי בסטארט-אפים',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313600 - סמינר מחקר לתלמידי דוקטורט באסטרטגיה',
-		'faculty_name':'אחת לשבועיים	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313619 - אסטרטגיה לתאגידים',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313620 - אסטרטגיה תחרותית',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313622 - ניתוח ענפים',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313637 - יזמות וחברות הזנק',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313638 - אסטרטגית ניהול בינלאומית',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313641 - Strategic Aspects in Mergers and Acquisition',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313648 - ניהול משברים ארגוניים',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313650 - התחרות והרגולציה בענף התקשורת בישראל',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313651 - בין מנהלי עסקים לרגולטורים כלכליים',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313654 - ניתוח אסטרטגי באמצעות אנליזות של חברות',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313655 - הון סיכון וחדשנות פתוחה',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313658 - תורת המשחקים למנהלים',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313660 - עקרונות בניהול ובמדיניות חדשנות',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313661 - עסקים,ממשל, חברה',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313664 - אסטרטגיית חדשנות בארגונים',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313667 - השקעות עם אימפקט? איך עושים את זה?',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313668 - יזמות 101',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313720 - עקרונות הייעוץ העסקי',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313850 - יישומים טכנולוגיים בעולם המימון',
@@ -10911,27 +10911,27 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12313855 - מבוא לפינטק',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313857 - רגולציה בפינטק',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313859 - יסודות הבלוקציין',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313925 - אחריות תאגידית',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313930 - אסטרטגיה שיווקית גלובלית',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313942 - משפט העבודה בעידן הדיגיטלי',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12313943 - Digital Opportunities: Insights From the Startup Nation',
@@ -10939,7 +10939,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12313948 - חדשנות בלוקציין ויעדי הקיימות של האו"ם',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12317301 - פרויקט: הערכת שווי חברות',
@@ -10971,7 +10971,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12332110 - מבוא למערכות בריאות',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12332111 - כלכלת בריאות',
@@ -10979,7 +10979,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12332207 - השבחת ערך של מערכות בריאות מורכבות',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12332209 - דיני בריאות',
@@ -10987,7 +10987,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12332210 - ארגון שרותי הבריאות בעולם',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12333001 - ניהול האיכות בשירותי הבריאות',
@@ -10995,7 +10995,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12333013 - תכנון והקמת בתי חולים ושירותי רפואה',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12422201 - פיתוח ושילוב מערכות ויישומים',
@@ -11007,43 +11007,43 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12423213 - ניהול פרויקטים טכנולוגיים',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12423244 - ניהול ידע',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12423248 - גילוי ידע ורשתות נוירונים',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12423253 - נושאים מתקדמים במדעי הנתונים למנהל עסקים',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12423255 - יזמות הייטק',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12423257 - אבטחה ולוחמת מידע בעולם אינטרנטי',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12423260 - פלטפורמות טכנולוגיות בעסקים',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12423264 - ניהול תוכנה בגישות רזות ואגיליות',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12423265 - מבוא ליישומי דאטה במנהל עסקים',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12423266 - רשתות, המונים והשוק',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12423267 - יזמות טכנולוגית - מרעיון לביצוע',
@@ -11051,23 +11051,23 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12423270 - מבוא לטכנולוגיות נתוני עתק',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12423271 - טיפול יישומי בנתוני אנליטיקה עסקית',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12423272 - היבטים עסקיים של ניסויים דיגיטליים',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12423273 - מחקר ופיתוח בעידן הסייבר והדאטה',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12423274 - ויזואליזציה של נתונים',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12423275 - כריית נתונים למנהל עסקים עם יישומים ב-r',
@@ -11075,15 +11075,15 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12423277 - כריית טקסט',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12423278 - היערכות ארגונית לאיום הסייבר',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12423281 - אפיון חוויית משתמש',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12424444 - סדנת מחקר לדוקטורנטים: נושאים מתקדמים ושיטות אמפיריות בניהול טכנולוגיה ושווקים',
@@ -11111,19 +11111,19 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12433014 - ניהול גלובלי',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12433015 - ניהול צוותים בארגונים',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12433016 - מנהיגות',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12433107 - תהליכי גיוס ומיון מועמדים לעבודה',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12433114 - יחסי העסקה וארגוני עובדים',
@@ -11131,11 +11131,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12433125 - ניהול משא ומתן',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12433223 - תהליכי שינוי ארגוני',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12433424 - פרויקט: ניהול משאבי אנוש ויחסי עבודה',
@@ -11143,35 +11143,35 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12433542 - עיצוב ארגוני',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12433551 - כח והירארכיה בארגונים',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12433554 - עסקים משפחתיים- היבטים בניהול והתנהגות ארגונית',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12433555 - פרויקט: פרקטיקום בייעוץ ארגוני וניהול משאבי אנוש',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12433557 - רגשות בארגונים',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12433559 - קהילות עשיה ולמידה',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12433561 - פיתוח מיומנויות ניהול',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12433652 - אתיקה ואחריות בניהול',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12434444 - סמינר מחקר בהתנהגות ארגונית לדוקטורנטים',
@@ -11187,15 +11187,15 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12612213 - ניהול אנשים ומערכות - מיקרו',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12612214 - ניהול אנשים ומערכות - מאקרו',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12612411 - ניהול טכנולוגיה ומידע',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12612413 - ניהול השיווק',
@@ -11203,11 +11203,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12612415 - אתיקה בעסקים',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12613213 - ניהול פרוייקטים',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12613243 - אקטואריה',
@@ -11243,27 +11243,27 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'12642210 - כלכלת עסקים',
-		'faculty_name':'טווח תאריכים - שבועי	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12642211 - מודלים סטטיסטיים ואנליטיים במנהל עסקים',
-		'faculty_name':'טווח תאריכים - שבועי	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12642212 - ניהול אנשים ומערכות- מאקרו',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12642321 - דיווח כספי ובקרה בארגונים',
-		'faculty_name':'טווח תאריכים - שבועי	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12643017 - ניהול סיכונים והזדמנויות בכלי חדשנות יישומית',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12643221 - שיווק דיגיטלי',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	ניהול'
+		'faculty_name':'ניהול'
 	},
 	{
 		'course_name':'12644001 - פרוייקטים - אתגרי אסטרטגיה ושיווק',
@@ -11287,11 +11287,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01021420 - חינוך רפואי ותקשורת - א',
-		'faculty_name':'אחת לשבועיים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01021424 - אתיקה',
-		'faculty_name':'טווח תאריכים - שבועי	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01021425 - היבטים הומניים א - 4',
@@ -11311,51 +11311,51 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01023200 - מערכת העצבים',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01023201 - מערכת נוירו-אנטומיה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01023202 - חינוך רפואי ותקשורת - ב - 4',
-		'faculty_name':'אחת לשבועיים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01023212 - היבטים הומניים ב',
-		'faculty_name':'אחת לשבועיים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01023555 - מקצוענות ברפואה שנה ג',
-		'faculty_name':'מופעים בדידים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01024000 - רפואה דחופה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01024105 - קלרקשיפ פנימית',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01024106 - גריאטריה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01024107 - דרמטולוגיה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01024109 - דימות',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01024160 - אורולוגיה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01024231 - פדיאטריה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01025000 - עבודת גמר',
@@ -11363,99 +11363,99 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01025100 - גניקולוגיה - בחינה ארצית',
-		'faculty_name':'מופעים בדידים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01025102 - נוירולוגיה - בחינת גמר',
-		'faculty_name':'מופעים בדידים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01025150 - פסיכיאטריה - בחינה ארצית',
-		'faculty_name':'מופעים בדידים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01025151 - כירורגיה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01025152 - פסיכיאטריה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01025154 - אורתופדיה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01025155 - נוירולוגיה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01025161 - גינקולוגיה ומיילדות',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01025163 - הרדמה וטיפול נמרץ',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01025164 - כירורגית חזה לב',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01025168 - רפואת אף אוזן וגרון',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01025169 - רפואת עיניים',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01026000 - פנימית - בחינה ארצית',
-		'faculty_name':'מופעים בדידים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01026011 - כירורגית כלי דם',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01026103 - בשורה מרה',
-		'faculty_name':'מופעים בדידים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01026147 - אונקולוגיה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01026148 - קרדיולוגיה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01026150 - פדיאטריה - בחינה ארצית',
-		'faculty_name':'מופעים בדידים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01026151 - סאב ילדים',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01026160 - כירורגיה - בחינה ארצית',
-		'faculty_name':'מופעים בדידים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01026162 - שיקום',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01026164 - סאב פנימית',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01026167 - בריאות וחולי בקהילה (רפואת המשפחה)',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01026974 - אלקטיב',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01030004 - שימוש אתי בחיות מעבדה',
@@ -11511,19 +11511,19 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01036000 - אתיקה של מחקר',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01036002 - אתיקה רפואית ביה"ס לבריאות הציבור',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01037000 - כתיבה מדעית',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01037001 - מיומנויות תקשורת מדעית',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01038000 - נתיבים לאוניברסיטה',
@@ -11531,7 +11531,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01041407 - מבוא לפיזיולוגיה של התא',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01041411 - אנטומיה ב',
@@ -11567,7 +11567,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01111200 - חינוך רפואי ותקשורת (שנה א)',
-		'faculty_name':'אחת לשבועיים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01111204 - רפואה והלכה',
@@ -11583,7 +11583,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01111220 - מבוא למדעי העצב',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01111305 - ביולוגיה של התא',
@@ -11591,11 +11591,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01111319 - היבטים הומניים ברפואה א',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01111320 - מבוא לאתיקה רפואית',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01111405 - ערבית מדוברת',
@@ -11619,7 +11619,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01112200 - חינוך רפואי ותקשורת (שנה ב)',
-		'faculty_name':'אחת לשבועיים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01112207 - רפואה בתקופת השואה',
@@ -11627,7 +11627,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01112214 - הבסיס הגנטי של המחלות',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01112215 - הבסיס המולקולרי והביוכימי של המחלות',
@@ -11647,91 +11647,91 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01113209 - רפואה נסמכת הוכחות',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01113300 - חינוך רפואי ותקשורת-שנה ג',
-		'faculty_name':'אחת לשבועיים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01114000 - רפואה דחופה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01114001 - דימות',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01114006 - פדיאטריה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01114007 - כירורגיה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01114103 - מקצוענות ברפואה',
-		'faculty_name':'מופעים בדידים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01114106 - גריאטריה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01114107 - דרמטולוגיה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01114115 - קלרקשיפ פנימית',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01115103 - מקצוענות ברפואה',
-		'faculty_name':'מופעים בדידים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01115155 - נוירולוגיה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01115161 - גינקולוגיה ומיילדות',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01116000 - פנימית - בחינה ארצית',
-		'faculty_name':'מופעים בדידים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01116147 - אונקולוגיה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01116164 - רפואה פנימית Subinternship',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01116166 - אפידמיולוגיה ורפואה מונעת',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01116167 - בריאות וחולי בקהילה (רפואת המשפחה)',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01116974 - אלקטיב',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01117000 - פדיאטריה - בחינה ארצית',
-		'faculty_name':'מופעים בדידים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01117999 - עבודת גמר',
-		'faculty_name':'מופעים בדידים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01118000 - כירורגיה - בחינה ארצית',
-		'faculty_name':'מופעים בדידים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01135552 - מבנה העצם ותפקודו',
@@ -11739,7 +11739,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01146545 - גנטיקה בעידן הפוסט גנומי',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01146574 - תרפיה תאית וגנטית במחלות עצבים',
@@ -11819,7 +11819,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01454000 - כתיבה מדעית',
-		'faculty_name':'ללא זמ"ק	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01454108 - ניהול הרפואה באסונות המוניים ואירועים רבי נפגעים',
@@ -11839,11 +11839,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01454117 - אתיקה באסונות',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01454205 - אסונות לא קונבנציונליים',
-		'faculty_name':'ללא זמ"ק	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01454207 - על תהליכי תחקיר והפקת לקחים: למידה אישית וארגונית מאירועים',
@@ -11855,11 +11855,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01454400 - הכרת משאבי הספריה לרפואה לתכנית ניהול מצבי חירום ואסון',
-		'faculty_name':'ללא זמ"ק	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01454420 - היבטים משפטיים בניהול אסונות וסיוע הומניטרי',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01454440 - ניתוח אירועי אסון',
@@ -11919,7 +11919,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01461123 - משפט ביו-רפואי ובריאות הציבור',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01461124 - ניהול איכות בשירותי בריאות',
@@ -11935,7 +11935,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01464400 - הכרת משאבי הספריה לרפואה ולמדעי החיים-אפידמיולוגיה ובריאות הציבור',
-		'faculty_name':'ללא זמ"ק	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01481007 - פיזיולוגיה של המאמץ',
@@ -11983,7 +11983,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01581206 - תכנון מחקר אפידמיולוגי וכתיבת הצעת מחקר',
-		'faculty_name':'אחת לשבועיים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01581207 - היבטים נבחרים בשיטות אפידמיולוגיות מתקדמות א+ב',
@@ -12019,7 +12019,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01611110 - התפתחות מוטורית תקינה וחריגה בגיל הרך ושיתוק מוחין',
-		'faculty_name':'מופעים בדידים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01611113 - מבוא לפסיכואקוסטיקה',
@@ -12115,11 +12115,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01612142 - שפה דיבור וקוגניציה היבטים התפתחותיים אצל תינוקות וילדים לקו',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01612200 - מבוא למחלות הסחרחורת לקלינאי תקשורת',
-		'faculty_name':'טווח תאריכים - שבועי	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01612501 - מיומנויות תקשורת חליפית ותומכת',
@@ -12155,7 +12155,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01613125 - מכשירי שמיעה',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01613127 - אינטגרציה קלינית בקול שפה ודיבור',
@@ -12235,7 +12235,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01621113 - קורס החייאה ועזרה ראשונה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01621116 - פתולוגיה כללית וספציפית',
@@ -12299,7 +12299,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01622117 - בריאות העובד והסביבה',
-		'faculty_name':'טווח תאריכים - שבועי	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01622118 - מיומנויות תמיכה, ייעוץ והדרכה בסיעוד ב',
@@ -12379,7 +12379,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01623156 - עשייה מקצועית מבוססת ראיות צעד אחר צעד: מודל יישומי בשדה הקליני הסיעוד',
-		'faculty_name':'טווח תאריכים - שבועי	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01624101 - סיעוד ומשפט',
@@ -12411,7 +12411,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01627009 - קורס החייאה ועזרה ראשונה',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01627103 - אומדן פיסיקאלי',
@@ -12455,7 +12455,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01627213 - בריאות העובד והסביבה',
-		'faculty_name':'מופעים בדידים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01627214 - סיעוד הנפש קליני מעשי',
@@ -12595,7 +12595,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01635100 - פיתוח מחקר וכתיבה מדעית מתקדמת א',
-		'faculty_name':'מופעים בדידים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01639999 - עבודת גמר',
@@ -12679,7 +12679,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01652118 - מבוא לנוירופסיכולוגיה קלינית',
-		'faculty_name':'טווח תאריכים - שבועי	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01652136 - רפואה פנימית',
@@ -12691,7 +12691,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01652138 - ריפוי בעיסוק ילדים ב-  תחום סנסורי - מושגים, אבחנות וטיפול',
-		'faculty_name':'טווח תאריכים - שבועי	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01652148 - ריפוי בעיסוק בבריאות הנפש- הבנת אדם עיסוק סביבה',
@@ -12699,7 +12699,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01652150 - יסודות מקצוע הריפוי בעיסוק - Ii גישות מנחות טיפול והערכה',
-		'faculty_name':'טווח תאריכים - שבועי	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01652152 - למידה מוטורית',
@@ -12707,7 +12707,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01652159 - טכנולוגיה מסייעת',
-		'faculty_name':'טווח תאריכים - שבועי	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01652180 - Pbt- תיאורי מקרה Ii',
@@ -12719,11 +12719,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01653002 - תיאורי מקרה Iii- ב',
-		'faculty_name':'טווח תאריכים - שבועי	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01653003 - יסודות מקצוע הריפוי בעיסוק 3- סוגיות מתקדמות בהתערבות',
-		'faculty_name':'טווח תאריכים - שבועי	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01653020 - קורס קדם קליני',
@@ -12731,19 +12731,19 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01653029 - רב"ע ילדים ג - תחום קוגניטיבי רגשי- מושגים , אבחנות וטיפול',
-		'faculty_name':'טווח תאריכים - שבועי	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01653108 - ריפוי בעיסוק ילדים ד -ליקויי למידה והפרעת קשב',
-		'faculty_name':'טווח תאריכים - שבועי	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01653109 - ריפוי בעיסוק בזיקנה',
-		'faculty_name':'טווח תאריכים - שבועי	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01653115 - עבודה אמפירית - סמינר',
-		'faculty_name':'טווח תאריכים - שבועי	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01653116 - גריאטריה',
@@ -12755,11 +12755,11 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01653132 - ריפוי בעיסוק פסיכיאטרי של הילד והמתבגר',
-		'faculty_name':'טווח תאריכים - שבועי	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01653204 - שימושי מחשב',
-		'faculty_name':'טווח תאריכים - שבועי	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01653212 - לימודים קליניים ג390 שעות',
@@ -12779,7 +12779,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01653334 - מיומנויות Adl',
-		'faculty_name':'טווח תאריכים - שבועי	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01653336 - סדנת הדרכה',
@@ -12799,7 +12799,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01655001 - תרפיה באמנות',
-		'faculty_name':'טווח תאריכים - שבועי	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01655003 - בחירה א',
@@ -12939,7 +12939,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01911200 - חינוך רפואי ותקשורת (שנה א רפו"ש)',
-		'faculty_name':'אחת לשבועיים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01911207 - מבוא לאפדמיולוגיה סטטיסטיקה ושיטות מחקר',
@@ -12971,7 +12971,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01912200 - חינוך רפואי ותקשורת שנה ב',
-		'faculty_name':'אחת לשבועיים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01912213 - וירולוגיה לתלמידי רפואת שיניים',
@@ -12979,7 +12979,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01912214 - הבסיס הגנטי של המחלות',
-		'faculty_name':'חצי סמסטריאלי - מחצית ראשונה	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01913000 - רדיולוגיה אורלית',
@@ -12999,15 +12999,15 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01913221 - קלרקשיפ פנימית',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01913222 - מערכות א לרפואת שיניים',
-		'faculty_name':'טווח תאריכים ברצף	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01913300 - חינוך רפואי ותקשורת -שנה ג',
-		'faculty_name':'אחת לשבועיים	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01914113 - רפואת שניים משמרת ד - חלק ב',
@@ -13099,7 +13099,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'01916114 - רפואת שיניים ומשפט',
-		'faculty_name':'חצי סמסטריאלי - מחצית שניה	רפואה'
+		'faculty_name':'רפואה'
 	},
 	{
 		'course_name':'01916115 - פורום תכניות טיפול',
@@ -13235,7 +13235,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'11103028 - סמינר אמפירי',
-		'faculty_name':'אחת לשבועיים	עבודה סוציאלית'
+		'faculty_name':'עבודה סוציאלית'
 	},
 	{
 		'course_name':'11103187 - ע"ס בתחום החברה הרב תרבותית',
@@ -13539,7 +13539,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'11109988 - הנחיית תיזה',
-		'faculty_name':'ללא זמ"ק	עבודה סוציאלית'
+		'faculty_name':'עבודה סוציאלית'
 	},
 	{
 		'course_name':'07212033 - הערכת תכניות התערבות',
@@ -13827,7 +13827,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'07574013 - למידה מדעית המשלבת את הפיזיקה, הכימיה ומדעי החיים',
-		'faculty_name':'טווח תאריכים ברצף	חינוך'
+		'faculty_name':'חינוך'
 	},
 	{
 		'course_name':'07574025 - פרקים בחשיבה אלגברית',
@@ -13947,7 +13947,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'07691006 - תכנון לימודים',
-		'faculty_name':'טווח תאריכים - שבועי	חינוך'
+		'faculty_name':'חינוך'
 	},
 	{
 		'course_name':'07691007 - הערכת הישגים-מושגי יסוד במדידה והערכת הלומד',
@@ -13955,7 +13955,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'07691017 - שער להוראה: גישות ופרטיקות בזירה הבית ספרית והכיתתית',
-		'faculty_name':'טווח תאריכים - שבועי	חינוך'
+		'faculty_name':'חינוך'
 	},
 	{
 		'course_name':'07692010 - סוגיות בהוראת שפות',
@@ -14035,15 +14035,15 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'15002061 - מעבדת פרויקט במדעי המוח',
-		'faculty_name':'ללא זמ"ק	לימודי המוח'
+		'faculty_name':'לימודי המוח'
 	},
 	{
 		'course_name':'15002062 - מעבדת פרויקט במדעי המוח',
-		'faculty_name':'ללא זמ"ק	לימודי המוח'
+		'faculty_name':'לימודי המוח'
 	},
 	{
 		'course_name':'15002101 - מעבדת פרויקט במדעי המוח',
-		'faculty_name':'ללא זמ"ק	לימודי המוח'
+		'faculty_name':'לימודי המוח'
 	},
 	{
 		'course_name':'15002300 - סמינר סוגיות במדעי המוח ב חישובי',
@@ -14059,7 +14059,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'15005010 - פרוייקט מעבדה ביולוגי הנדסי',
-		'faculty_name':'ללא זמ"ק	לימודי המוח'
+		'faculty_name':'לימודי המוח'
 	},
 	{
 		'course_name':'15011005 - מבוא לנוירוביולוגיה מערכתית',
@@ -14091,175 +14091,175 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'15019999 - עבודת גמר',
-		'faculty_name':'ללא זמ"ק	לימודי המוח'
+		'faculty_name':'לימודי המוח'
 	},
 	{
 		'course_name':'21710024 - אנגלית מתקדמים ב למדעי החברה',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21710054 - אנגלית מתקדמים ב - הנדסה',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21710162 - אנגלית מתקדמים א סיעוד',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21710604 - אנגלית מתקדמים ב מדעי הרוח',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21710612 - אנגלית מתקדמים א',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21710622 - אנגלית מתקדמים א',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21711404 - אנגלית מתקדמים ב-  משפטים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21711654 - אנגלית מתקדמים ב-  ריפוי בעיסוק',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21713314 - אנגלית מתקדמים ב-  מדעי החיים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21715344 - אנגלית מתקדמים ב - סיעוד',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21715374 - אנגלית מתקדמים ב-  פיזיותרפיה',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21715604 - אנגלית מתקדמים ב-  עבודה סוציאלית',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21718114 - אנגלית מתקדמים ב אמנויות',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21719201 - מתקדמים ב חוצה דיצפלינות בין תחומי',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21721133 - צרפתית מזורז',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21721136 - גרמנית מזורז',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21721160 - ספרדית למתחילים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21721166 - איטלקית מזורז',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21721260 - ספרדית מזורז',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21721590 - רומנית מתחילים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21721600 - צרפתית למתחילים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21721610 - גרמנית למתחילים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21721620 - יידיש למתחילים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21721640 - איטלקית למתחילים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21721670 - פולנית למתחילים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21721690 - רוסית למתחילים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21721710 - ערבית מדוברת למתחילים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21721711 - ערבית מדוברת וחברה בתרבות הערבית',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21721800 - תורכית מתחילים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21722160 - ספרדית למתקדמים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21722590 - רומנית מתקדמים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21722600 - צרפתית למתקדמים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21722610 - גרמנית למתקדמים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21722620 - יידיש למתקדמים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21722640 - איטלקית למתקדמים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21722690 - רוסית למתקדמים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21722830 - תורכית למתקדמים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21723315 - כתיבה אקדמית באנגלית',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21723790 - רוסית לחוקרים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21725610 - גרמנית מדוברת למתחילים',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'21725640 - איטלקית תרבות באיטליה - קורס מקוון',
-		'faculty_name':'יחידות מיוחדות'
+		'faculty_name':'שפות'
 	},
 	{
 		'course_name':'18800306 - כדור הארץ כפלנטה מאפשרת חיים',
-		'faculty_name':'מופעים בדידים	תכניות לימוד מיוחדות'
+		'faculty_name':'תכניות לימוד מיוחדות'
 	},
 	{
 		'course_name':'18800311 - אטום, גרעין, איזוטופים, ביקוע גרעיני והשלכותיו',
@@ -14275,7 +14275,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'18800407 - קוגניציה בבעלי חיים',
-		'faculty_name':'מופעים בדידים	תכניות לימוד מיוחדות'
+		'faculty_name':'תכניות לימוד מיוחדות'
 	},
 	{
 		'course_name':'18800415 - תולדות שמירת הטבע בישראל ואתגרים לעתיד',
@@ -14287,15 +14287,15 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'18800610 - המהפכה המדעית מקופרניקוס ועד ניוטון',
-		'faculty_name':'מופעים בדידים	תכניות לימוד מיוחדות'
+		'faculty_name':'תכניות לימוד מיוחדות'
 	},
 	{
 		'course_name':'18800613 - דמוקרטיה, ליברליזם וקפיטליזם: ארצות הברית מהקמתה ועד ימינו',
-		'faculty_name':'מופעים בדידים	תכניות לימוד מיוחדות'
+		'faculty_name':'תכניות לימוד מיוחדות'
 	},
 	{
 		'course_name':'18800628 - מבוא לסוציולוגיה של האמנות',
-		'faculty_name':'מופעים בדידים	תכניות לימוד מיוחדות'
+		'faculty_name':'תכניות לימוד מיוחדות'
 	},
 	{
 		'course_name':'18800638 - מה קרה לכיפה אדומה בדרך למאה ה-21?',
@@ -14303,15 +14303,15 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'18800801 - סיפור העין: המבט באמנות',
-		'faculty_name':'מופעים בדידים	תכניות לימוד מיוחדות'
+		'faculty_name':'תכניות לימוד מיוחדות'
 	},
 	{
 		'course_name':'18800808 - פילוסופיה בקולנוע',
-		'faculty_name':'מופעים בדידים	תכניות לימוד מיוחדות'
+		'faculty_name':'תכניות לימוד מיוחדות'
 	},
 	{
 		'course_name':'18800901 - משבר האקלים וקיימות: מבט רב תחומי',
-		'faculty_name':'מופעים בדידים	תכניות לימוד מיוחדות'
+		'faculty_name':'תכניות לימוד מיוחדות'
 	},
 	{
 		'course_name':'18801007 - ילידים דיגיטליים',
@@ -14323,7 +14323,7 @@ TAU_courses_list = [
 	},
 	{
 		'course_name':'18820301 - צעדים ראשונים במדעי המחשב ותכנות בפייתון',
-		'faculty_name':'מופעים בדידים	תכניות לימוד מיוחדות'
+		'faculty_name':'תכניות לימוד מיוחדות'
 	},
 	{
 		'course_name':'18430310 - מבוא כללי לתכנות ולמדעי המחשב',
@@ -14352,4 +14352,4 @@ TAU_courses_list = [
 	{
 		'course_name':'18431422 - הגנת מידע ופרטיות',
 		'faculty_name':'תכניות לימוד מיוחדות'
-	},
+	}]
