@@ -204,9 +204,9 @@ with open(output_js_file_path, 'w', newline='', encoding='utf-8') as output_file
     for curr_faculty_name in unique_ordered_faculties_list:
         i += 1
         if i == faculties_num:
-            curr_faculty_line = '\t"{}"\n];\n\n'.format(curr_faculty_name)
+            curr_faculty_line = "\t'{}'\n];\n\n".format(curr_faculty_name)
         else:
-            curr_faculty_line = '\t"{}",\n'.format(curr_faculty_name)
+            curr_faculty_line = "\t'{}',\n".format(curr_faculty_name)
         output_file.write(curr_faculty_line)    
 
     ### write the courses array of arrays ###
@@ -217,10 +217,10 @@ with open(output_js_file_path, 'w', newline='', encoding='utf-8') as output_file
         curr_courses_list = [d['course_name'] for d in courses if d['faculty_name'] == curr_faculty_name]
         curr_courses_num = len(curr_courses_list)
         j = 0
-        curr_courses_line = '{}_courses_lists["{}"] = \n[\n'.format(University, curr_faculty_name)
+        curr_courses_line = "{}_courses_lists['{}'] = \n[\n".format(University, curr_faculty_name)
         for course in curr_courses_list:
             j += 1
-            curr_course_name = '\t\t"' + course + '"'
+            curr_course_name = "\t\t'" + course + "'"
             if j == curr_courses_num:
                 curr_course_name =  curr_course_name + "\n];\n"
             else:
