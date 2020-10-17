@@ -23,7 +23,7 @@ var Technion_faculties_list = [
 	'ספורט'
 ];
 
-var Technion_courses_lists = new Array(20)
+var Technion_courses_lists = new Array(20);
 Technion_courses_lists['הנדסה אזרחית וסביבתית'] = 
 [
 		'014003 - סטטיסטיקה',

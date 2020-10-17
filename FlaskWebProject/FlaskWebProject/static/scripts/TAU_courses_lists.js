@@ -59,7 +59,7 @@ var TAU_faculties_list = [
 	'תכניות לימוד מיוחדות'
 ];
 
-var TAU_courses_lists = new Array(56)
+var TAU_courses_lists = new Array(56);
 TAU_courses_lists['הנדסה'] = 
 [
 		'05091117 - כלים מתמטיים לפיזיקה',

@@ -211,7 +211,7 @@ with open(output_js_file_path, 'w', newline='', encoding='utf-8') as output_file
 
     ### write the courses array of arrays ###
     
-    output_file.write("var {}_courses_lists = new Array({})\n".format(University, faculties_num))
+    output_file.write("var {}_courses_lists = new Array({});\n".format(University, faculties_num))
     
     for curr_faculty_name in unique_ordered_faculties_list:
         curr_courses_list = [d['course_name'] for d in courses if d['faculty_name'] == curr_faculty_name]

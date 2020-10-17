@@ -30,24 +30,26 @@
                 <p class="text-right">כדי ליצור קשר עם המוסר, תוכל לפנות אליו במייל</p>
             </div>
             <div class="container"
-                <form action="{{ url_for('tabs_page') }}" onload="faculties_dropdown();" id="search_form">
-                    <br />
-                    <!--Faculty selection-->
-                    <div class="row pull-right">
-                        <select class="selectpicker" data-live-search="true" title="Select your favorite tv show" id="search_faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="courses_dropdown(this);" dir="rtl">
-                            <option value="0">Select a faculty</option>
-                        </select>
-                    </div>
-                    <br />
-                    <br />
-                    <!--Course selection-->
-                    <div class="row pull-right">
-                        <select class="selectpicker" data-live-search="true" data-width="auto" title="Select your favorite character" name="course" id="search_courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
-                            <option value="0">Select a course</option>
-                        </select>
-                    </div>
-                    <br /> <br /> <br />
-                    <button type="submit" class="btn btn-ps pull-right" id="search_submit" onclick="load_table()"><span class="glyphicon glyphicon-search"></span> חיפוש</button>
+                <form action="{{ url_for('tabs_page') }}" id="search_form">
+                    <body onload="faculties_dropdown('{{university}}')">
+                        <br />
+                        <!--Faculty selection-->
+                        <div class="row pull-right">
+                            <select class="selectpicker" data-live-search="true" title="בחר פקולטה" id="search_faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="courses_dropdown(this, '{{university}}');" dir="rtl">
+                                <option value="0">Select a faculty</option>
+                            </select>
+                        </div>
+                        <br />
+                        <br />
+                        <!--Course selection-->
+                        <div class="row pull-right">
+                            <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר קורס" name="course" id="search_courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
+                                <option value="0">Select a course</option>
+                            </select>
+                        </div>
+                        <br /> <br /> <br />
+                        <button type="submit" class="btn btn-ps pull-right" id="search_submit" onclick="load_table()"><span class="glyphicon glyphicon-search"></span> חיפוש</button>
+                    </body>
                 </form>
                    </div>
         </div>
@@ -87,8 +89,6 @@
             <br />
             <div class="container"
                 <form action="how_to">
-
-                    <!--Faculty selection-->
                     <!--Faculty selection-->
                     <div class="row pull-right">
                         <select class="selectpicker" data-live-search="true" title="Select your favorite tv show" id="search_faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onload="faculties_dropdown();" onchange="courses_dropdown(this);" dir="rtl">
@@ -162,31 +162,4 @@
     </div>
 </div>
 
-<!-- this function should go to courses_dropdown.js but i couldn't activate it with event 'onload=""', so i left it here. now it works perfectly fine. need o change
-    var Technion_faculties_list to the real list and thats it-->
-<script>
-    // get list
-    //var Technion_faculties_list = ["Paper Share Team", "Rick And Morty", "Modern Family", "South Park"];
-    // get faculty select by id
-    var cSelect = document.getElementById("search_faculties");
-    // remove default option
-    while (cSelect.options.length > 0) {
-        cSelect.remove(0);
-    }
-    // start adding all options from list to select
-    for (var i = 0; i < Technion_faculties_list.length; i++) {
-        newOption = document.createElement("option");
-        newOption.value = Technion_faculties_list[i];  // assumes option string and value are the same 
-        newOption.text = Technion_faculties_list[i];
-        // add the new option 
-        try {
-            cSelect.add(newOption);  // this will fail in DOM browsers but is needed for IE 
-        }
-        catch (e) {
-            cSelect.appendChild(newOption);
-        }
-    }
-    // update data in select - needed only in outer js file
-    // $('.selectpicker').selectpicker('refresh');
-</script>
 {% endblock %}
