@@ -5,7 +5,9 @@ import re
 # constants
 universities_dict = {
             "campus.technion.ac.il" : "Technion",
-            "mail.tau.ac.il"        : "TAU"
+            "mail.tau.ac.il"        : "TAU",
+            "post.bgu.ac.il"        : "BGU",
+            "post.idc.ac.il"        : "IDC"
 }
 
 # url for outside microsoft login form

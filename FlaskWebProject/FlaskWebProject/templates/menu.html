@@ -3,6 +3,9 @@
     -->
 {% extends "layout.html" %}
 
+<meta charset="UTF-8" />
+
+
 {% block content %}
 <script src="/static/scripts/Technion_courses_lists.js"></script>
 <script src="/static/scripts/TAU_courses_lists.js"></script>
@@ -18,24 +21,23 @@
     <li><a data-toggle="tab" href="#home">חיפוש במאגר</a></li>
 </ul>
 
-<div class="tab-content">
+<body onload="faculties_dropdown('{{university}}')">
 
-    <!--TAB1- find materials-->
-
-    <div id="home" class="tab-pane fade in active">
-        <br /> <br />
-        <div class="container">
-            <div class="row">
-                <h3 class="text-right">חיפוש חומרי לימוד למסירה</h3>
-                <p class="text-right">כדי ליצור קשר עם המוסר, תוכל לפנות אליו במייל</p>
-            </div>
-            <div class="container"
+    <div class="tab-content">
+        <!--TAB1- find materials-->
+        <div id="home" class="tab-pane fade in active">
+            <br /> <br />
+            <div class="container">
+                <div class="row">
+                    <h3 class="text-right">חיפוש חומרי לימוד למסירה</h3>
+                    <p class="text-right">כדי ליצור קשר עם המוסר, תוכל לפנות אליו במייל</p>
+                </div>
+                <div class="container"
                 <form action="{{ url_for('tabs_page') }}" id="search_form">
-                    <body onload="faculties_dropdown('{{university}}')">
                         <br />
                         <!--Faculty selection-->
                         <div class="row pull-right">
-                            <select class="selectpicker" data-live-search="true" title="בחר פקולטה" id="search_faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="courses_dropdown(this, '{{university}}');" dir="rtl">
+                            <select class="selectpicker" data-live-search="true" title="בחר פקולטה" id="search_faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="courses_dropdown(this, 'search_courses', '{{university}}');" dir="rtl">
                                 <option value="0">Select a faculty</option>
                             </select>
                         </div>
@@ -43,19 +45,18 @@
                         <br />
                         <!--Course selection-->
                         <div class="row pull-right">
-                            <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר קורס" name="course" id="search_courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
-                                <option value="0">Select a course</option>
+                            <select class="selectpicker" data-live-search="true" title="בחר קורס" name="course" id="search_courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
+                                <option value="0">Select a faculty first</option>
                             </select>
                         </div>
                         <br /> <br /> <br />
                         <button type="submit" class="btn btn-ps pull-right" id="search_submit" onclick="load_table()"><span class="glyphicon glyphicon-search"></span> חיפוש</button>
-                    </body>
                 </form>
                    </div>
-        </div>
+            </div>
 
-        <!--Results display-->
-        <div class="container"
+            <!--Results display-->
+            <div class="container"
             <br /> <br />
             <h4 class="text-right" id="table_caption"></h4>
             <br />
@@ -66,100 +67,101 @@
                         <tr>
                             <th class="text-right">שלח בקשה</th>
                             <th class="text-right">תיאור</th>
-                            <th class="text-right">Email</th>
                             <th class="text-right">קורס</th>
+                            <th class="text-right">תאריך מסירה</th>
                         </tr>
                     </thead>
                     <tbody id="search_table_body"></tbody>
                 </table>
             </div>
         </div>
-        <br />
-    </div>
-    <br />
-
-    <!--TAB2-give away materials-->
-    <div id="menu1" class="tab-pane fade">
-        <br />
-        <div class="container">
-            <div class="row">
-                <h3 class="text-right">מצא סטודנטים למסור להם חומרי לימוד</h3>
-                <p class="text-right">אחרי השליחה, תוכל\י לראות את המסירות שלך תחת המסירות שלי</p>
-            </div>
             <br />
-            <div class="container"
-                <form action="how_to">
-                    <!--Faculty selection-->
-                    <div class="row pull-right">
-                        <select class="selectpicker" data-live-search="true" title="Select your favorite tv show" id="search_faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onload="faculties_dropdown();" onchange="courses_dropdown(this);" dir="rtl">
-                            <option value="0">Select a faculty</option>
-                        </select>
-                    </div>
-                    <br />
-                    <br />
-                    <!--Course selection-->
-                    <div class="row pull-right">
-                        <select class="selectpicker" data-live-search="true" data-width="auto" title="Select your favorite character" name="course" id="search_courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
-                            <option value="0">Select a course</option>
-                        </select>
-                    </div>
-                    <br /><br />
+        </div>
+        <br />
 
-                    <!--Description input-->
-                    <div class="row">
-                        <p class="text-right">מה את\ה מוסר\ת? (למשל: קובץ מבחנים מודפס)</p>
-                        <input class="form-control pull-right text-right input-lg col-sx-10" min="5" id="Description" required oninvalid="this.setCustomValidity('אנא תאר את חומר הלימוד אותו אתה מוסר')" oninput="this.setCustomValidity('')">
-                    </div>
-                    <div class="row">
-                        <div class="checkbox pull-right">
-                            <label><input type="checkbox" id="agree-terms" required oninvalid="this.setCustomValidity('אנא אשר קבלת מייל')" oninput="this.setCustomValidity('')"> אני מסכים\ה שיצרו איתי קשר במייל האוניברסיטאי בנוגע למסירת חומרי הלימוד</label>
+        <!--TAB2-give away materials-->
+        <div id="menu1" class="tab-pane fade">
+            <br />
+            <div class="container">
+                <div class="row">
+                    <h3 class="text-right">מצא סטודנטים למסור להם חומרי לימוד</h3>
+                    <p class="text-right">אחרי השליחה, תוכל\י לראות את המסירות שלך תחת המסירות שלי</p>
+                </div>
+                <br />
+                <div class="container"
+                <form  id="give_away_form">
+                        <!--Faculty selection-->
+                        <div class="row pull-right">
+                            <select class="selectpicker" data-live-search="true" title="בחר פקולטה" id="give_away_faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="courses_dropdown(this, 'give_away_courses', '{{university}}');" dir="rtl">
+                                <option value="0">Select a faculty</option>
+                            </select>
                         </div>
-                    </div>
-                    <br /> <br />
-                    <button type="submit" value="1" class="btn btn-ps pull-right"><span class="glyphicon glyphicon-send"></span> שליחה</button>
+                        <br />
+                        <br />
+                        <!--Course selection-->
+                        <div class="row pull-right">
+                            <select class="selectpicker" data-live-search="true" data-width="auto" title="בחר קורס" name="course" id="give_away_courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
+                                <option value="0">Select a faculty first</option>
+                            </select>
+                        </div>
+                        <br /><br />
+
+                        <!--Description input-->
+                        <div class="row">
+                            <p class="text-right">מה את\ה מוסר\ת? (למשל: קובץ מבחנים מודפס)</p>
+                            <input class="form-control pull-right text-right input-lg col-sx-10" min="5" id="Description" required oninvalid="this.setCustomValidity('אנא תאר את חומר הלימוד אותו אתה מוסר')" oninput="this.setCustomValidity('')">
+                        </div>
+                        <div class="row">
+                            <div class="checkbox pull-right">
+                                <label><input type="checkbox" id="agree-terms" required oninvalid="this.setCustomValidity('אנא אשר קבלת מייל')" oninput="this.setCustomValidity('')"> אני מסכים\ה שיצרו איתי קשר במייל האוניברסיטאי בנוגע למסירת חומרי הלימוד</label>
+                            </div>
+                        </div>
+                        <br /> <br />
+                        <button type="submit" value="1" class="btn btn-ps pull-right"><span class="glyphicon glyphicon-send"></span> שליחה</button>
                 </form>
             </div>
-            <br />
+                <br />
+            </div>
         </div>
-    </div>
 
-    <!--TAB3-your posts-->
-    <div id="menu2" class="tab-pane fade">
-        <br /> <br />
-        <div class="container">
-            <div class="row">
-                <h3 class="text-right">אלו הם חומרי הלימוד שפרסמת למסירה, ניתן להסיר אותם מהאתר בכל זמן</h3>
-                <p class="text-right">.כאשר סטודנט ירצה לקבל את אחד החומרים שמסרת, הוא יצור איתך קשר במייל האוניברסיטאי שלך</p>
-            </div>
+        <!--TAB3-your posts-->
+        <div id="menu2" class="tab-pane fade">
+            <br /> <br />
             <div class="container">
-                <table class="table table-striped table-hover text-right">
-                    <thead>
-                        <tr>
-                            <th class="text-right">פקולטה</th>
-                            <th class="text-right">קורס</th>
-                            <th class="text-right">תיאור</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>הנדסת חשמל</td>
-                            <td>חדו"א</td>
-                            <td> מבחנים מודפסים</td>
-                        </tr>
-                        <tr>
-                            <td>הנדסת חשמל</td>
-                            <td>Python</td>
-                            <td>סיכום</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="row">
+                    <h3 class="text-right">אלו הם חומרי הלימוד שפרסמת למסירה, ניתן להסיר אותם מהאתר בכל זמן</h3>
+                    <p class="text-right">.כאשר סטודנט ירצה לקבל את אחד החומרים שמסרת, הוא יצור איתך קשר במייל האוניברסיטאי שלך</p>
+                </div>
+                <div class="container">
+                    <table class="table table-striped table-hover text-right">
+                        <thead>
+                            <tr>
+                                <th class="text-right">פקולטה</th>
+                                <th class="text-right">קורס</th>
+                                <th class="text-right">תיאור</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>הנדסת חשמל</td>
+                                <td>חדו"א</td>
+                                <td> מבחנים מודפסים</td>
+                            </tr>
+                            <tr>
+                                <td>הנדסת חשמל</td>
+                                <td>Python</td>
+                                <td>סיכום</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="row pull-right">
+                    <button type="button" class="btn btn-ps pull-right" onclick="confirm('האם אתה בטוח שברצונך להסיר את הרשומה?')"><span class="glyphicon glyphicon-fire"></span> הסר מהאתר</button>
+                </div>
+                <br />
             </div>
-            <div class="row pull-right">
-                <button type="button" class="btn btn-ps pull-right" onclick="confirm('האם אתה בטוח שברצונך להסיר את הרשומה?')"><span class="glyphicon glyphicon-fire"></span> הסר מהאתר</button>
-            </div>
-            <br />
         </div>
     </div>
-</div>
+</body>
 
 {% endblock %}

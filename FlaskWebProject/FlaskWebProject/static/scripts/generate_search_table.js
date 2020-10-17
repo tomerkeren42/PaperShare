@@ -4,6 +4,7 @@
     var faculty = faculty_select.options[faculty_select.selectedIndex].text;
     var course_select = document.getElementById("search_courses");
     var course = course_select.options[course_select.selectedIndex].text;
+
     // make new table caption
     var new_caption = "מציג חומרי לימוד מקורס " + course + " בפקולטה " + faculty;
     var new_caption = "Showing material from course " + course + " in faculty " + faculty + " and i cant make it work in hebrew, mr. itamar!";
@@ -13,6 +14,13 @@
 
     // toggle table on 
     var table = document.getElementById("search_table");
+    var num_of_rows = table.rows.length;
+    // if table is already fill up, remove all previous search
+    if (num_of_rows > 1) {
+        for (var i = num_of_rows; i > 1; i--) {
+            table.deleteRow(i-1);
+        }
+    }
     // if table style is none  (hidden) - change it to inline (show)
     // need to check validation of form - do only if form is submitted
     if (table.style.display === "none") {
@@ -22,9 +30,9 @@
      function for uploading table from DB
      */
     const found_in_DB = [
-        { course: "חדשות 13", email: "adva_dadon@papershare.co.il", description: "בחלק הזה בקוד יכנס כל המידע האמיתי שנשיג מהדאטה בייס, בעזרת השם בצורה הזו בדיוק", button: "כאן יהיה כפתור"},
-        { course: "ספורט5", email: "miri_nevo@papershare.co.il", description: "חברה של אלי אילדיס", button: "כאן יהיה כפתור" },
-        { course: "חדשות 12", email: "tamar_ish_shalom@papershare.co.il", description: "גם מגישה מעולה וגם חכמה וגם יפה!", button: "כאן יהיה כפתור" },
+        { course: "חדשות 13", email: "13.13", description: "בחלק הזה בקוד יכנס כל המידע האמיתי שנשיג מהדאטה בייס, בעזרת השם בצורה הזו בדיוק", button: "כאן יהיה כפתור"},
+        { course: "ספורט5", email: "10.13", description: "buisness plans", button: "כאן יהיה כפתור" },
+        { course: "חדשות 12", email: "13.10", description: "more money making ideas", button: "כאן יהיה כפתור" },
     ];
     found_in_DB.forEach(item => {
         let row = table.insertRow();
@@ -36,9 +44,10 @@
         email.innerHTML = item.email;
         let course = row.insertCell(3);
         course.innerHTML = item.course;
+        var x = table.rows.length;
     });
     // when finished, submit form
-    document.getElementById("search_material").submit();
+    // document.getElementById("search_material").submit();
 }
 
 function new_mail_request() {
