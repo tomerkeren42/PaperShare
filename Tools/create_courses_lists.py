@@ -25,7 +25,7 @@ parser = argparse.ArgumentParser(description='Script purpose: Upload courses csv
 
 parser.add_argument('--University', type=str, default='Technion', required=False,
                     choices=['Technion', 'TAU'], help='University. Must be Technion or TAU')
-                    
+
 args = parser.parse_args()
 
 University = args.University
@@ -37,11 +37,11 @@ University = args.University
 ##################################################################################################################
 
 if University == 'Technion':
-    
+
     print("\n\nStart downloading all courses' files for {}...\n\n".format(University))
 
     raw_files_path = "..\\..\\Courses_files\\" + University + "\\raw_js_files"
-    
+
     http = urllib3.PoolManager()
 
     ############################# create a list of all courses' .js files' links #####################################
@@ -72,12 +72,12 @@ if University == 'Technion':
         splitted_url = url.split("/")
         name_idx = len(splitted_url)
         file_name = splitted_url[name_idx-1]
-        
+
         file_full_name = raw_files_path + "\\" + file_name
-        
-        with http.request('GET', url, preload_content=False) as r, open(file_full_name, 'wb') as out_file:       
+
+        with http.request('GET', url, preload_content=False) as r, open(file_full_name, 'wb') as out_file:
             shutil.copyfileobj(r, out_file)
-        
+
         print("{} - Downloaded Successfully".format(file_full_name))
 
     print("\n\nFinish downloading all courses' files for {}!\n\n".format(University))
@@ -89,21 +89,21 @@ if University == 'Technion':
 print("Start parsing all courses' files for {}...\n\n".format(University))
 
 if University == 'Technion':
-    
+
     ######################## read from courses' .js files, parse, and write to a container ###########################
-    
+
     course_numbers = []
     courses = []
-    
+
     # iterate over all .js files
     for file in os.listdir(raw_files_path):
-        temp_file_path = raw_files_path + "\\" + file  
-        
+        temp_file_path = raw_files_path + "\\" + file
+
         # iterate over all lines in the current .js file
         with open(temp_file_path, encoding="utf8") as fp:
             line = fp.readline()
             while line:
-            
+
                 if "general" in line:
                     line = fp.readline()
                     temp_faculty = line.split(":")[1].strip(' ').replace(',','').replace('"','').strip()
@@ -113,7 +113,7 @@ if University == 'Technion':
 
                     line = fp.readline()
                     temp_course_number = line.split(":")[1].strip(' ').replace(',','').replace('"','').strip()
-                                        
+
                     temp_course_full_name = temp_course_number + " - " + temp_course_name
                     temp_course_full_name = temp_course_full_name.replace("'", "").replace("\\", "")
 
@@ -127,18 +127,21 @@ if University == 'Technion':
                             'faculty_name':temp_faculty
                         }
                         courses.append(temp_course_dict)
-                    
-                                            
+
+
                 line = fp.readline()
-                
+
 
 elif University == 'TAU':
     ######################## read from courses' .txt files, parse, and write to a container ###########################
-    
-    raw_files_path = "raw\\TAU_RawCourses.txt"
-    
+
+    raw_files_path = "raw/TAU_RawCourses.txt"
+
     course_numbers = []
     courses = []
+    TAU_faculty_list = ['הנדסה', 'אמנויות', 'מדעי החברה', 'מדעי החיים', 'רוח', 'תכנית הלימודים הרב-תחומית',
+                        'מדעים מדויקים', 'משפטים', 'ניהול', 'רפואה', 'עבודה סוציאלית', 'חינוך', 'לימודי המוח', 'שפות',
+                        'תכניות לימוד מיוחדות']
 
     # iterate over all lines in the .txt file
     with open(raw_files_path, encoding="utf8") as fp:
@@ -152,7 +155,15 @@ elif University == 'TAU':
 
                 line = fp.readline()
                 temp_faculty = line.split("/")[0]
-                
+                valid_faculty_flag = 0
+                for fac in TAU_faculty_list:
+                    if fac in temp_faculty:
+                        temp_faculty = fac
+                        valid_faculty_flag = 1
+                        break
+                if not valid_faculty_flag:
+                    temp_faculty = 'התוכנית הבינלאומית בישוב סכסוכים'
+
                 temp_course_full_name = temp_course_number + " - " + temp_course_name
                 temp_course_full_name = temp_course_full_name.replace("'", "").replace("\\", "")
 
@@ -168,8 +179,8 @@ elif University == 'TAU':
                     courses.append(temp_course_dict)
 
             line = fp.readline()
-    
-                
+
+
 print("Finish parsing all courses' files for {}!\n\n".format(University))
 
 ##################################################################################################################
@@ -188,15 +199,15 @@ unique_ordered_faculties_list = list(OrderedDict.fromkeys(faculties_list))
 if '' in unique_ordered_faculties_list:
     if University == 'Technion':
         unique_ordered_faculties_list.remove('')
-    elif University == 'TAU':
-        unique_ordered_faculties_list.remove('') ################## Arama: NEED TO CHANGE IT TO "ENGLISH COURSES" ??? ##################
+    #elif University == 'TAU':
+     #   unique_ordered_faculties_list.replace('','התוכנית הבינלאומית בישוב סכסוכים')
 
 faculties_num = len(unique_ordered_faculties_list)
 
 with open(output_js_file_path, 'w', newline='', encoding='utf-8') as output_file:
-    
+
     output_file.write("// " + University + "'s courses:\n\n")
-    
+
     ### write the faculties array ###
 
     output_file.write("var {}_faculties_list = [\n".format(University))
@@ -207,12 +218,12 @@ with open(output_js_file_path, 'w', newline='', encoding='utf-8') as output_file
             curr_faculty_line = "\t'{}'\n];\n\n".format(curr_faculty_name)
         else:
             curr_faculty_line = "\t'{}',\n".format(curr_faculty_name)
-        output_file.write(curr_faculty_line)    
+        output_file.write(curr_faculty_line)
 
     ### write the courses array of arrays ###
-    
+
     output_file.write("var {}_courses_lists = new Array({});\n".format(University, faculties_num))
-    
+
     for curr_faculty_name in unique_ordered_faculties_list:
         curr_courses_list = [d['course_name'] for d in courses if d['faculty_name'] == curr_faculty_name]
         curr_courses_num = len(curr_courses_list)
@@ -227,7 +238,7 @@ with open(output_js_file_path, 'w', newline='', encoding='utf-8') as output_file
                 curr_course_name = curr_course_name + ",\n"
             curr_courses_line += curr_course_name
         output_file.write(curr_courses_line)
-            
+
 print("Finish writing courses' of {} to JavaScript file!\n\n".format(University))
 
 sys.exit()
