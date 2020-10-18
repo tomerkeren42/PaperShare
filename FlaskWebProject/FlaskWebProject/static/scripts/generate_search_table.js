@@ -6,13 +6,13 @@
     var course = course_select.options[course_select.selectedIndex].text;
 
     // make new table caption
-    var new_caption = "מציג חומרי לימוד מקורס " + course + " בפקולטה " + faculty;
-    var new_caption = "Showing material from course " + course + " in faculty " + faculty + " and i cant make it work in hebrew, mr. itamar!";
-    var caption = document.getElementById("table_caption");
+    var new_caption =  faculty + " / " + course;
     // change in HTML
-    caption.innerHTML = new_caption;
+    document.getElementById("table_caption").innerHTML = new_caption;
 
-    // toggle table on 
+
+
+    // toggle table on
     var table = document.getElementById("search_table");
     var num_of_rows = table.rows.length;
     // if table is already fill up, remove all previous search
