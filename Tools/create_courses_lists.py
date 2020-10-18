@@ -157,10 +157,15 @@ elif University == 'TAU':
                 temp_faculty = line.split("/")[0]
                 valid_faculty_flag = 0
                 for fac in TAU_faculty_list:
+                    if 'מיוחדות' in temp_faculty:
+                        temp_faculty = sub_faculty = line.split("/")[1].strip("'").strip('\n')
+                        valid_faculty_flag = 1
+                        break
                     if fac in temp_faculty:
                         temp_faculty = fac
                         valid_faculty_flag = 1
                         break
+
                 if not valid_faculty_flag:
                     temp_faculty = 'התוכנית הבינלאומית בישוב סכסוכים'
 
