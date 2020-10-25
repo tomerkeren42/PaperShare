@@ -10,7 +10,16 @@ app_DB = firebase_db()
 
 @app.route('/', methods=['POST'])
 def login_func():
-    not_exist, not_uni, email, name, university = login(app_DB)
+    not_exist, not_uni, email, name, university, debug_mode = login(app_DB)
+    if debug_mode:
+        return render_template(
+               'index.html',
+               year                = datetime.now().year,
+               not_uni             = not_uni,
+               not_exist           = not_exist,
+               debug_mode          = debug_mode,
+               email               = email
+               )
     if not_exist is False and not_uni is False:
         return render_template(
                 'menu.html',

@@ -39,6 +39,12 @@
 
             </div>
             {% endif %}
+            {% if debug_mode %}
+            <div class="alert">
+                <span class="closebtn" dir="rtl" onclick="this.parentElement.style.display = 'none';">&times;</span>
+                מצטערים, האתר בבנייה!
+            </div>
+            {% endif %}
             {% if not_uni %}
             <div class="alert">
                 <span class="closebtn" dir="rtl" onclick="this.parentElement.style.display = 'none';">&times;</span>
