@@ -57,8 +57,14 @@ def login(app_DB):
     name = splitted_mail[0].lower()
     university_suff = splitted_mail[1].lower()
 
+    
     debug_mode = True
+    
+    if (name == "debug"):
+        university = "Technion"
+        return not_exist, not_uni, email, name, university, False
 
+ 
     # check if tau \ technion
     if is_uni_valid(email):
         university = universities_dict[university_suff]
