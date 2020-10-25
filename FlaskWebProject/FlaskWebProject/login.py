@@ -6,6 +6,7 @@ import re
 universities_dict = {
             "campus.technion.ac.il" : "Technion",
             "mail.tau.ac.il"        : "TAU",
+            "tauex.tau.ac.il"       : "TAU",
             "post.bgu.ac.il"        : "BGU",
             "post.idc.ac.il"        : "IDC"
 }
@@ -22,7 +23,8 @@ app = Flask(__name__)
 def is_uni_valid(email):
     if(email.find('@') != -1):
         splitted_mail = email.split("@")
-        if splitted_mail[1] in universities_dict:
+        # universities_dict holds only lowercase keys
+        if splitted_mail[1].lower() in universities_dict:
             return True
         else:
             return False
@@ -51,8 +53,9 @@ def login(app_DB):
     # parse email address
     email = request.form['email']
     splitted_mail = email.split("@")
-    name = splitted_mail[0]
-    university_suff = splitted_mail[1]
+    # saving data as lowercase
+    name = splitted_mail[0].lower()
+    university_suff = splitted_mail[1].lower()
 
     # check if tau \ technion
     if is_uni_valid(email):
