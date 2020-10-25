@@ -24,7 +24,11 @@
 <body onload="faculties_dropdown('{{university}}')">
 
     <div class="tab-content">
-        <!--TAB1- find materials-->
+
+<!--  ##########################################################################
+TAB1- find materials
+##########################################################################   -->
+
         <div id="home" class="tab-pane fade in active">
             <br /> <br />
             <div class="container">
@@ -79,7 +83,10 @@
         </div>
         <br />
 
-        <!--TAB2-give away materials-->
+<!--  ##########################################################################
+TAB2- give away materials
+##########################################################################   -->
+
         <div id="menu1" class="tab-pane fade">
             <br />
             <div class="container">
@@ -90,6 +97,7 @@
                 <br />
                 <div class="container"
                 <form  id="give_away_form">
+
                         <!--Faculty selection-->
                         <div class="row pull-right">
                             <select class="selectpicker pull-right" data-live-search="true" title="בחר פקולטה" id="give_away_faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="courses_dropdown(this, 'give_away_courses', '{{university}}');" dir="rtl">
@@ -98,6 +106,7 @@
                         </div>
                         <br />
                         <br />
+
                         <!--Course selection-->
                         <div class="row pull-right">
                             <select class="selectpicker pull-right" data-live-search="true" data-width="auto" title="בחר קורס" name="course" id="give_away_courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
@@ -117,14 +126,55 @@
                             </div>
                         </div>
                         <br /> <br />
-                        <button type="submit" value="1" class="btn btn-ps pull-right"><span class="glyphicon glyphicon-send"></span> שליחה</button>
+                        <button type="submit" value="1" class="btn btn-ps pull-right" data-toggle="modal" data-target="#submission_modal"><span class="glyphicon glyphicon-send"></span> שליחה</button>
                 </form>
             </div>
+
+            <!-- submission modal-->
+            <div class="modal fade" id="submission_modal" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- submission_modal content-->
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title text-center"><b> המסירה שלך נרשמה במערכת </b></h4>
+                        </div>
+
+                        <div class="modal-body">
+                          <h3 class="text-right">ניתן לצפות במסירה תחת לשונית ׳המסירות שלי׳ או להוסיף מסירה נוספת</h3>
+                          <img src="/static/img/pslogo.png" alt="airplane" class="center img-how-to div-ps" style="width:100px;height:100px;">
+                          <br/>
+
+                        <div class="modal-footer">
+                          <div class="row">
+                              <div class="col-md-4 text-center">
+                                  <button type="button" name="my_subs" class="btn btn-ps center" data-dismiss="modal" data-toggle="tab" href="#menu2">המסירות שלי</button>
+                              </div>
+                              <div class="col-md-4 text-center">
+                                <button type="button" name="another_sub" class="btn btn-ps center" data-dismiss="modal">מסירה נוספת</button>
+                              </div>
+                              <div class="col-md-4 text-center">
+                                <button type="button" class="btn btn-ps center" data-dismiss="modal">סגור</button>
+                              </div>
+
+                          </div>
+                        </div>
+                        </div>
+                  </div>
+              </div>
                 <br />
             </div>
         </div>
+      </div>
 
-        <!--TAB3-your posts-->
+
+<!--  ##########################################################################
+TAB3- my posts
+##########################################################################   -->
+
+        <!-- header-->
         <div id="menu2" class="tab-pane fade">
             <br /> <br />
             <div class="container">
@@ -133,6 +183,8 @@
                     <p class="text-right">.כאשר סטודנט ירצה לקבל את אחד החומרים שמסרת, הוא יצור איתך קשר במייל האוניברסיטאי שלך</p>
                 </div>
                 <div class="container">
+
+                    <!-- data table, my give aways -->
                     <table class="table table-striped table-hover text-right">
                         <thead>
                             <tr>
