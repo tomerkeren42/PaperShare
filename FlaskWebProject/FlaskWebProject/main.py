@@ -9,6 +9,9 @@ app_DB = firebase_db()
 
 @app.route('/', methods=['POST'])
 def login_func():
+    dt = datetime.now()
+    #Now get rid of seconds and microseconds component:
+    dt = dt.replace(second=0, microsecond=0)
     not_exist, not_uni, email, name, university, debug_mode = login(app_DB)
     if debug_mode:
         return render_template(
@@ -23,6 +26,7 @@ def login_func():
         return render_template(
                 'menu.html',
                 year                 = datetime.now().year,
+                date                 = dt,
                 university           = university,
                 email                = email,
                 username             = name,
@@ -50,11 +54,15 @@ def login_page():
 
 @app.route('/menu', methods=['POST'])
 def tabs_page():
+    dt = datetime.now()
+    #Now get rid of seconds and microseconds component:
+    dt = dt.replace(second=0, microsecond=0)
     """Renders the about page."""
     return render_template(
         'menu.html',
-        title='Menu',
-        year=datetime.now().year
+        title   = 'Menu',
+        date    = dt,
+        year    = datetime.now().year
     )
 
 
@@ -67,7 +75,6 @@ def how_to():
         year=datetime.now().year,
         message='Your application help page.'
     )
-
 
 @app.route('/contacts')
 def contacts():

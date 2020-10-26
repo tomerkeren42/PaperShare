@@ -1,6 +1,6 @@
-function parse_and_upload_giveaway(university, user) {
+function parse_and_upload_giveaway(university, email, date) {
     console.log("in the parse_and_upload_giveaway()");
-    if (!submit_to_db()) {
+    if (!check_submit()) {
         return;
     }
     // get variables
@@ -13,25 +13,33 @@ function parse_and_upload_giveaway(university, user) {
     var description = description_input.value;
 
     console.log("in the parse_and_upload_giveaway() - university: " + university);
-    console.log("in the parse_and_upload_giveaway() - user: " + user);
+    console.log("in the parse_and_upload_giveaway() - email: " + email);
     console.log("in the parse_and_upload_giveaway() - faculty: " + faculty);
     console.log("in the parse_and_upload_giveaway() - course: " + course);
     console.log("in the parse_and_upload_giveaway() - description: " + description);
+    console.log("in the parse_and_upload_giveaway() - date: " + date);
 
-    add_giveawat_to_db(university, user, faculty, course, description);
+    add_giveawat_to_db(university, email, faculty, course, description, date);
 
 }
 
-function load_table() {
+function load_table(university) {
+    console.log("in the load_table()");
+
     $("[data-toggle='popover']").popover('destroy');
     var faculty_select = document.getElementById("search_faculties");
+    var faculty = faculty_select.options[faculty_select.selectedIndex].text;
+    var course_select = document.getElementById("search_courses");
+    var course = course_select.options[course_select.selectedIndex].text;
+
     if (faculty_select.value == "") {
         $("[data-toggle='popover']").popover('show');
         document.getElementById("table_caption").innerHTML = "";
         return;
     }
 
-    make_new_caption();
+    make_new_caption(faculty, course);
+
     // toggle table on
     var table = document.getElementById("search_table");
     var num_of_rows = table.rows.length;
@@ -46,37 +54,55 @@ function load_table() {
     if (table.style.display === "none") {
         table.style.display = "inline";
     }
+
     /*
      function for uploading table from DB
      */
-    const found_in_DB = [
-        { course: "����� 13", email: "13.13", description: "���� ��� ���� ���� �� ����� ������ ����� ������ ����, ����� ��� ����� ��� �����", button: "��� ���� �����" },
-        { course: "�����5", email: "10.13", description: "buisness plans", button: "��� ���� �����" },
-        { course: "����� 12", email: "13.10", description: "more money making ideas", button: "��� ���� �����" },
-    ];
-    // fill up table
-    found_in_DB.forEach(item => {
-        let row = table.insertRow();
-        let button = create_button();
-        button_place = row.insertCell(0);
-        button_place.appendChild(button);
+    var found_in_DB = find_giveaways_by_search(university, faculty, course);
 
-        let description = row.insertCell(1);
-        description.innerHTML = item.description;
-        let email = row.insertCell(2);
-        email.innerHTML = item.email;
-        let course = row.insertCell(3);
-        course.innerHTML = item.course;
+    var keys = found_in_DB.once('value').then(function (datakey) {
+        datakey.forEach(function (data) {
+            let row = table.insertRow();
+            let button = create_button();
+            button_place = row.insertCell(0);
+            button_place.appendChild(button);
+
+            var giveaway = data.val();
+
+            let description = row.insertCell(1);
+            description.innerHTML = giveaway.Description;
+            let date = row.insertCell(2);
+            date.innerHTML = giveaway.Date;
+            let course = row.insertCell(3);
+            course.innerHTML = giveaway.Course;
+        });
     });
+
+    // const found_in_DB = [
+    //     { course: "����� 13", email: "13.13", description: "���� ��� ���� ���� �� ����� ������ ����� ������ ����, ����� ��� ����� ��� �����", button: "��� ���� �����" },
+    //     { course: "�����5", email: "10.13", description: "buisness plans", button: "��� ���� �����" },
+    //     { course: "����� 12", email: "13.10", description: "more money making ideas", button: "��� ���� �����" },
+    // ];
+
+    //   // fill up table
+    //   found_in_DB.forEach(item => {
+    //       let row = table.insertRow();
+    //       let button = create_button();
+    //       button_place = row.insertCell(0);
+    //       button_place.appendChild(button);
+    //   
+    //       let description = row.insertCell(1);
+    //       description.innerHTML = item.description;
+    //       let email = row.insertCell(2);
+    //       email.innerHTML = item.email;
+    //       let course = row.insertCell(3);
+    //       course.innerHTML = item.course;
+    //   });
     // when finished, submit form
     // document.getElementById("search_material").submit();
 }
 
-function make_new_caption() {
-    var faculty_select = document.getElementById("search_faculties");
-    var faculty = faculty_select.options[faculty_select.selectedIndex].text;
-    var course_select = document.getElementById("search_courses");
-    var course = course_select.options[course_select.selectedIndex].text;
+function make_new_caption(faculty, course) {
     // make new table caption
     var new_caption = faculty + " / " + course;
     // change in HTML
@@ -115,7 +141,7 @@ function new_mail_request() {
     //<a id="bws" target="_blank" href="https://mail.google.com/mail/u/0/?view=cm&amp;to=print.bws@campus.technion.ac.il&amp;su=���� ���� ���� ���&amp;fs=1&amp;tf=1"><span class="img_container"><img src="icons/page.svg"></span> ���� ���, ��-����</a>
 }
 
-function submit_to_db() {
+function check_submit() {
     $("[data-toggle='popover']").popover('destroy');
     console.log("inside submit func")
     if (document.getElementById("give_away_faculties").value != ""){
