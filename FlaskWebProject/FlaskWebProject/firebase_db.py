@@ -19,29 +19,19 @@ class firebase_db(object):
         self.firebase = pyrebase.initialize_app(self.config)
         self.db = self.firebase.database()
 
-    def delete_point_in_name(self, name):
-        res_name = ""
-        if name.find(".") != -1:
-            res_name = name.replace(".","")
-        else:
-            res_name = name
-        return res_name
-
     def add_new_user(self, name, email, university):
+        uploads = []
         new_user_data = {
             'name'          :   name,
             'email'         :   email,
-            'university'    :   university
+            'university'    :   university,
+            'uploads'       :   uploads
         }
-        name_for_db = self.delete_point_in_name(name)
-        self.db.child(university).child('users').child(name_for_db).set(new_user_data)
-        #user_path = '/users/' + university + '/' + name + '/'
-        #self.db.child(user_path).set(new_user_data)
+        self.db.child(university).child('users').child(name).set(new_user_data)
+
 
     def delete_user(self, name, university):
         self.db.child(university).child('users').child(name).remove()
-        #user_path = '/users/' + university + '/' + name + '/'
-        #db.child(user_path).remove()
 
     def is_user_in_db(self, name, email, university):
         name_for_db = self.delete_point_in_name(name)
