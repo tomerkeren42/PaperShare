@@ -10,13 +10,16 @@ universities_courses_lists['TAU'] = TAU_courses_lists;
 universities_courses_lists['IDC'] = TAU_courses_lists;
 universities_courses_lists['BGU'] = TAU_courses_lists;
 
-function load_html(university) {
+function load_html(university, email) {
     load_faculties_dropdown(university);
-    load_my_giveaways();
+    load_my_giveaways(university, email);
 }
 
-function load_my_giveaways() {
-    var table = document.getElementById("my_giveaways_table");
+function load_my_giveaways(university, email) {
+    console.log("in the load_my_giveaways()");
+
+    // toggle table on
+    var table = document.getElementById("user_table");
     var num_of_rows = table.rows.length;
     // if table is already fill up, remove all previous search
     if (num_of_rows > 1) {
@@ -24,25 +27,45 @@ function load_my_giveaways() {
             table.deleteRow(i - 1);
         }
     }
-    const current_user_db_data = [
-        { course: "sport5", email: "10.13", description: "buisness plans", button: "god damm" },
-        { course: "news 12", email: "13.10", description: "more money making ideas", button: "damm god" },
-    ];
-    // fill up table
-    current_user_db_data.forEach(item => {
-        let row = table.insertRow();
-        let button = create_button();
-        button.innerHTML = "הסר מהאתר";
-        button.setAttribute("onclick", "confirm_remove_from_db();");
-        button_place = row.insertCell(0);
-        button_place.appendChild(button);
+    // if table style is none  (hidden) - change it to inline (show)
+    // need to check validation of form - do only if form is submitted
+    if (table.style.display === "none") {
+        table.style.display = "inline";
+    }
 
-        let description = row.insertCell(1);
-        description.innerHTML = item.description;
-        let email = row.insertCell(2);
-        email.innerHTML = item.email;
-        let course = row.insertCell(3);
-        course.innerHTML = item.course;
+    /*
+     function for uploading table from DB
+     */
+    var found_in_DB = find_user_giveaways(university, email);
+
+    var curr_email;
+    var giveaway;
+
+    var keys = found_in_DB.once('value').then(function (faculty) {
+        faculty.forEach(function (course) {
+            course.forEach(function (data) {
+                giveaway = data.val();
+                giveaway = Object.values(giveaway);
+                curr_email = giveaway[0].Email;
+                console.log("in the load_my_giveaways(), curr_email = " + curr_email);
+                if (curr_email == email) {
+                    console.log("in the load_my_giveaways(), in the if");
+                    let row = table.insertRow();
+                    let button = create_button();
+                    button.innerHTML = "הסר מהאתר";
+                    button.setAttribute("onclick", "confirm_remove_from_db();");
+                    button_place = row.insertCell(0);
+                    button_place.appendChild(button);
+
+                    let description = row.insertCell(1);
+                    description.innerHTML = giveaway[0].Description;
+                    let date = row.insertCell(2);
+                    date.innerHTML = giveaway[0].Date;
+                    let course = row.insertCell(3);
+                    course.innerHTML = giveaway[0].Course;
+                }
+            });
+        });
     });
 }
 
