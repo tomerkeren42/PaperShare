@@ -20,7 +20,7 @@
     <li><a data-toggle="tab" href="#home">חיפוש במאגר</a></li>
 </ul>
 
-<body onload="faculties_dropdown('{{university}}')">
+<body onload="load_html('{{university}}')">
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
 
@@ -197,7 +197,7 @@
 
 
         <!--  ##########################################################################
-        TAB3- my posts
+        TAB3- my giveaways
         ##########################################################################   -->
         <!-- header-->
         <div id="menu2" class="tab-pane fade">
@@ -207,32 +207,18 @@
                     <h3 class="text-right">אלו הם חומרי הלימוד שפרסמת למסירה, ניתן להסיר אותם מהאתר בכל זמן</h3>
                     <p class="text-right">.כאשר סטודנט ירצה לקבל את אחד החומרים שמסרת, הוא יצור איתך קשר במייל האוניברסיטאי שלך</p>
                 </div>
-                <div class="container">
-
+                <div class="container pull-right">
                     <!-- data table, my give aways -->
-                    <table class="table table-striped table-hover text-right">
+                    <table class="table table-striped table-hover text-right" data-width="auto" id="my_giveaways_table">
                         <thead>
                             <tr>
                                 <th class="text-right">הסרה</th>
-                                <th class="text-right">פקולטה</th>
-                                <th class="text-right">קורס</th>
                                 <th class="text-right">תיאור</th>
+                                <th class="text-right">עדכני לתאריך</th>
+                                <th class="text-right">שם הקורס</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <td><button type="button" class="btn btn-ps pull-right" onclick="confirm('האם אתה בטוח שברצונך להסיר את הרשומה?')"><span class="glyphicon glyphicon-fire"></span> הסר מהאתר</button></td>
-                                <td>הנדסת חשמל</td>
-                                <td>חדו"א</td>
-                                <td> מבחנים מודפסים</td>
-                            </tr>
-                            <tr>
-                                <td><button type="button" class="btn btn-ps pull-right" onclick="confirm('האם אתה בטוח שברצונך להסיר את הרשומה?')"><span class="glyphicon glyphicon-fire"></span> הסר מהאתר</button></td>
-                                <td>הנדסת חשמל</td>
-                                <td>Python</td>
-                                <td>סיכום</td>
-                            </tr>
-                        </tbody>
+                        <tbody id="my_giveaways_table_body"></tbody>
                     </table>
                     <br />
                 </div>
