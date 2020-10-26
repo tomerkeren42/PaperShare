@@ -9,9 +9,8 @@ app_DB = firebase_db()
 
 @app.route('/', methods=['POST'])
 def login_func():
-    dt = datetime.now()
+    date = datetime.now().date()
     #Now get rid of seconds and microseconds component:
-    dt = dt.replace(second=0, microsecond=0)
     not_exist, not_uni, email, name, university, debug_mode = login(app_DB)
     if debug_mode:
         return render_template(
@@ -20,13 +19,14 @@ def login_func():
                not_uni             = not_uni,
                not_exist           = not_exist,
                debug_mode          = debug_mode,
-               email               = email
+               email               = email,
+               username            = name
                )
     if not_exist is False and not_uni is False:
         return render_template(
                 'menu.html',
                 year                 = datetime.now().year,
-                date                 = dt,
+                date                 = date,
                 university           = university,
                 email                = email,
                 username             = name,
@@ -54,14 +54,13 @@ def login_page():
 
 @app.route('/menu', methods=['POST'])
 def tabs_page():
-    dt = datetime.now()
+    date = datetime.now().date()
     #Now get rid of seconds and microseconds component:
-    dt = dt.replace(second=0, microsecond=0)
     """Renders the about page."""
     return render_template(
         'menu.html',
         title   = 'Menu',
-        date    = dt,
+        date    = date,
         year    = datetime.now().year
     )
 

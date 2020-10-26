@@ -1,4 +1,4 @@
-function add_giveawat_to_db(university, email, faculty, course, description_str, upload_date) {
+function add_giveawat_to_db(university, email, user, faculty, course, description_str, upload_date) {
     console.log("in the add_giveawat_to_db()");
 
     // A post entry.
@@ -7,6 +7,7 @@ function add_giveawat_to_db(university, email, faculty, course, description_str,
         Course: course,
         Description: description_str,
         Email: email,
+        User: user,
         Date: upload_date
     };
 
@@ -34,13 +35,37 @@ function find_giveaways_by_search(university, faculty, course) {
     if (course == '') {
         console.log("in the find_giveaways_by_search(), course is None");
         search_path = university + '/uploads/' + faculty;
-        ref = db.ref(search_path).orderByChild();//'Faculty').equalTo(faculty);
+        ref = db.ref(search_path);
     }
     else {
         console.log("in the find_giveaways_by_search(), course isn't None");
         search_path = university + '/uploads/' + faculty + '/' + course;
         ref = db.ref(search_path).orderByChild('Course').equalTo(course);
     }
+
+    /*
+    ref.once('value', snapshot => {
+        if (snapshot.exists()) {
+            var giveaway = snapshot.val();
+            giveaway = Object.values(giveaway);
+            description = giveaway[0].Description;
+            console.log('description : ' + description);
+        }
+        else {
+            console.log('No match for this course: ' + course)
+        }
+    });
+    */
+    return ref;
+}
+
+function find_user_giveaways(university, email) {
+    console.log("in the find_user_giveaways()");
+    var db = firebase.database();
+    var ref;
+    var search_path = university + '/uploads/';
+
+    ref = db.ref(search_path);
 
     /*
     ref.once('value', snapshot => {

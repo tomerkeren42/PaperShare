@@ -78,7 +78,7 @@
                             </select>
                         </div>
                         <br /> <br /> <br />
-                        <button type="submit" class="btn btn-ps pull-right" id="search_submit" onclick="load_table('{{university}}')" data-toggle="popover" data-placement="left" data-content="יש למלא את כל השדות" data-trigger="focus" ><span class="glyphicon glyphicon-search"></span> חיפוש</button>
+                        <button type="submit" class="btn btn-ps pull-right" id="search_submit" onclick="load_table_on_search('{{university}}')" data-toggle="popover" data-placement="left" data-content="יש למלא את כל השדות" data-trigger="focus" ><span class="glyphicon glyphicon-search"></span> חיפוש</button>
                 </form>
                    </div>
             </div>
@@ -152,7 +152,7 @@
                             </div>
                         </div>
                         <br /> <br />
-                        <button type="submit" id="submit_button" class="btn btn-ps pull-right" onclick="parse_and_upload_giveaway('{{university}}', '{{email}}', '{{date}}')" data-toggle="popover" data-placement="left" data-content="יש למלא את כל השדות" data-trigger="focus" ><span class="glyphicon glyphicon-send"></span> שליחה</button>
+                        <button type="submit" id="submit_button" class="btn btn-ps pull-right" onclick="parse_and_upload_giveaway('{{university}}', '{{email}}', '{{username}}', '{{date}}')" data-toggle="popover" data-placement="left" data-content="יש למלא את כל השדות" data-trigger="focus" ><span class="glyphicon glyphicon-send"></span> שליחה</button>
                     </form>
             </div>
                 <!-- submission modal-->
@@ -200,7 +200,7 @@
         TAB3- my posts
         ##########################################################################   -->
         <!-- header-->
-        <div id="menu2" class="tab-pane fade">
+        <div id="menu2" class="tab-pane fade" onload = "load_user_table('{{university}}', '{{email}}')">
             <br /> <br />
             <div class="container">
                 <div class="row">
@@ -210,7 +210,7 @@
                 <div class="container">
 
                     <!-- data table, my give aways -->
-                    <table class="table table-striped table-hover text-right">
+                    <table class="table table-striped table-hover text-right" id="user_table">
                         <thead>
                             <tr>
                                 <th class="text-right">הסרה</th>
@@ -220,7 +220,8 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
+
+                            <!--<tr>
                                 <td><button type="button" class="btn btn-ps pull-right" onclick="confirm('האם אתה בטוח שברצונך להסיר את הרשומה?')"><span class="glyphicon glyphicon-fire"></span> הסר מהאתר</button></td>
                                 <td>הנדסת חשמל</td>
                                 <td>חדו"א</td>
@@ -231,7 +232,7 @@
                                 <td>הנדסת חשמל</td>
                                 <td>Python</td>
                                 <td>סיכום</td>
-                            </tr>
+                            </tr>-->
                         </tbody>
                     </table>
                     <br />
