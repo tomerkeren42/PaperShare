@@ -5,7 +5,6 @@ from collections import OrderedDict
 from firebase_db import *
 from login import *
 
-
 app_DB = firebase_db()
 
 @app.route('/', methods=['POST'])
@@ -40,7 +39,7 @@ def login_page():
         year=datetime.now().year
     )
 
-@app.route('/menu')
+@app.route('/menu', methods=['POST'])
 def tabs_page():
     """Renders the about page."""
     return render_template(

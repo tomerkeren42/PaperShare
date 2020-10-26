@@ -1,4 +1,26 @@
-ï»¿
+function parse_and_upload_giveaway() {
+    console.log("in the parse_and_upload_giveaway()");
+    // get variables
+    var faculty_select = document.getElementById("search_faculties");
+    var faculty = faculty_select.options[faculty_select.selectedIndex].text;
+    var course_select = document.getElementById("search_courses");
+    var course = course_select.options[course_select.selectedIndex].text;
+
+    var user = document.getElementById("username");
+    var university = document.getElementById("university");
+    var description = document.getElementById("Description");
+
+    console.log("in the parse_and_upload_giveaway() - faculty:");
+    console.log(faculty);
+    console.log("in the parse_and_upload_giveaway() - course:");
+    console.log(course);
+    console.log("in the parse_and_upload_giveaway() - university:");
+    console.log(university);
+    console.log("in the parse_and_upload_giveaway() - description:");
+    console.log(description);
+    console.log("in the parse_and_upload_giveaway() - user:");
+    console.log(user);
+}
 
 function load_table() {
     // get variables for new table caption
@@ -8,7 +30,7 @@ function load_table() {
     var course = course_select.options[course_select.selectedIndex].text;
 
     // make new table caption
-    var new_caption =  faculty + " / " + course;
+    var new_caption = faculty + " / " + course;
     // change in HTML
     document.getElementById("table_caption").innerHTML = new_caption;
 
@@ -20,7 +42,7 @@ function load_table() {
     // if table is already fill up, remove all previous search
     if (num_of_rows > 1) {
         for (var i = num_of_rows; i > 1; i--) {
-            table.deleteRow(i-1);
+            table.deleteRow(i - 1);
         }
     }
     // if table style is none  (hidden) - change it to inline (show)
@@ -32,9 +54,9 @@ function load_table() {
      function for uploading table from DB
      */
     const found_in_DB = [
-        { course: "×—×“×©×•×ª 13", email: "13.13", description: "×‘×—×œ×§ ×”×–×” ×‘×§×•×“ ×™×›× ×¡ ×›×œ ×”×ž×™×“×¢ ×”××ž×™×ª×™ ×©× ×©×™×’ ×ž×”×“××˜×” ×‘×™×™×¡, ×‘×¢×–×¨×ª ×”×©× ×‘×¦×•×¨×” ×”×–×• ×‘×“×™×•×§", button: "×›××Ÿ ×™×”×™×” ×›×¤×ª×•×¨"},
-        { course: "×¡×¤×•×¨×˜5", email: "10.13", description: "buisness plans", button: "×›××Ÿ ×™×”×™×” ×›×¤×ª×•×¨" },
-        { course: "×—×“×©×•×ª 12", email: "13.10", description: "more money making ideas", button: "×›××Ÿ ×™×”×™×” ×›×¤×ª×•×¨" },
+        { course: "çãùåú 13", email: "13.13", description: "áçì÷ äæä á÷åã éëðñ ëì äîéãò äàîéúé ùðùéâ îäãàèä áééñ, áòæøú äùí áöåøä äæå áãéå÷", button: "ëàï éäéä ëôúåø" },
+        { course: "ñôåøè5", email: "10.13", description: "buisness plans", button: "ëàï éäéä ëôúåø" },
+        { course: "çãùåú 12", email: "13.10", description: "more money making ideas", button: "ëàï éäéä ëôúåø" },
     ];
     found_in_DB.forEach(item => {
         let row = table.insertRow();

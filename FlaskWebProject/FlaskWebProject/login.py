@@ -44,6 +44,7 @@ def is_server_valid(email):
         return False
 
 def login(app_DB):
+    print("in the login()")
     not_uni   = False
     not_exist = False
     username  = ""
