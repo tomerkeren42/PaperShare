@@ -5,7 +5,6 @@
 
 <meta charset="UTF-8" />
 
-
 {% block content %}
 <script src="/static/scripts/Technion_courses_lists.js"></script>
 <script src="/static/scripts/TAU_courses_lists.js"></script>
@@ -22,12 +21,37 @@
 </ul>
 
 <body onload="faculties_dropdown('{{university}}')">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-database.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyBJ20paxlR6HuiqNai2ecOa87V4AhFcsMo",
+            authDomain: "paper-share.firebaseapp.com",
+            databaseURL: "https://paper-share.firebaseio.com",
+            projectId: "paper-share",
+            storageBucket: "paper-share.appspot.com",
+            messagingSenderId: "716824219562",
+            appId: "1:716824219562:web:9746189bbe2c9efbe165d3",
+            measurementId: "G-QXR9SVGB3F"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
 
     <div class="tab-content">
 
-<!--  ##########################################################################
-TAB1- find materials
-##########################################################################   -->
+        <!--  ##########################################################################
+        TAB1- find materials
+        ##########################################################################   -->
 
         <div id="home" class="tab-pane fade in active">
             <br /> <br />
@@ -83,9 +107,9 @@ TAB1- find materials
         </div>
         <br />
 
-<!--  ##########################################################################
-TAB2- give away materials
-##########################################################################   -->
+        <!--  ##########################################################################
+        TAB2- give away materials
+        ##########################################################################   -->
 
         <div id="menu1" class="tab-pane fade">
             <br />
@@ -125,55 +149,54 @@ TAB2- give away materials
                             </div>
                         </div>
                         <br /> <br />
-                        <button type="submit" class="btn btn-ps pull-right" id="giveaway_submit" onclick="parse_and_upload_giveaway()"><span class="glyphicon glyphicon-send"></span> שליחה</button>
+                        <button type="submit" class="btn btn-ps pull-right" id="giveaway_submit" onclick="parse_and_upload_giveaway('{{university}}', '{{username}}')"><span class="glyphicon glyphicon-send"></span> שליחה</button>
                         <!--<button type="submit" value="1" class="btn btn-ps pull-right"><span class="glyphicon glyphicon-send"></span> שליחה</button>-->
                     </form>
             </div>
 
-            <!-- submission modal-->
-            <div class="modal fade" id="submission_modal" role="dialog">
-                <div class="modal-dialog">
+                <!-- submission modal-->
+                <div class="modal fade" id="submission_modal" role="dialog">
+                    <div class="modal-dialog">
 
-                    <!-- submission_modal content-->
-                    <div class="modal-content">
+                        <!-- submission_modal content-->
+                        <div class="modal-content">
 
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title text-center"><b> המסירה שלך נרשמה במערכת </b></h4>
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title text-center"><b> המסירה שלך נרשמה במערכת </b></h4>
+                            </div>
+
+                            <div class="modal-body">
+                                <h3 class="text-right">ניתן לצפות במסירה תחת לשונית ׳המסירות שלי׳ או להוסיף מסירה נוספת</h3>
+                                <img src="/static/img/pslogo.png" alt="airplane" class="center img-how-to div-ps" style="width:100px;height:100px;">
+                                <br />
+
+                                <div class="modal-footer">
+                                    <div class="row">
+                                        <div class="col-md-4 text-center">
+                                            <button type="button" name="my_subs" class="btn btn-ps center" data-dismiss="modal" data-toggle="tab" href="#menu2">המסירות שלי</button>
+                                        </div>
+                                        <div class="col-md-4 text-center">
+                                            <button type="button" name="another_sub" class="btn btn-ps center" data-dismiss="modal">מסירה נוספת</button>
+                                        </div>
+                                        <div class="col-md-4 text-center">
+                                            <button type="button" class="btn btn-ps center" data-dismiss="modal">סגור</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="modal-body">
-                          <h3 class="text-right">ניתן לצפות במסירה תחת לשונית ׳המסירות שלי׳ או להוסיף מסירה נוספת</h3>
-                          <img src="/static/img/pslogo.png" alt="airplane" class="center img-how-to div-ps" style="width:100px;height:100px;">
-                          <br/>
-
-                        <div class="modal-footer">
-                          <div class="row">
-                              <div class="col-md-4 text-center">
-                                  <button type="button" name="my_subs" class="btn btn-ps center" data-dismiss="modal" data-toggle="tab" href="#menu2">המסירות שלי</button>
-                              </div>
-                              <div class="col-md-4 text-center">
-                                <button type="button" name="another_sub" class="btn btn-ps center" data-dismiss="modal">מסירה נוספת</button>
-                              </div>
-                              <div class="col-md-4 text-center">
-                                <button type="button" class="btn btn-ps center" data-dismiss="modal">סגור</button>
-                              </div>
-
-                          </div>
-                        </div>
-                        </div>
-                  </div>
-              </div>
-                <br />
+                    </div>
+                    <br />
+                </div>
             </div>
         </div>
-      </div>
 
 
-<!--  ##########################################################################
-TAB3- my posts
-##########################################################################   -->
-
+        <!--  ##########################################################################
+        TAB3- my posts
+        ##########################################################################   -->
         <!-- header-->
         <div id="menu2" class="tab-pane fade">
             <br /> <br />
