@@ -95,22 +95,21 @@ function create_button() {
 }
 
 function new_mail_request() {
-
     // prepare data to send
-    var faculty_select = document.getElementById("search_faculties");
-    var faculty = faculty_select.options[faculty_select.selectedIndex].text;
-    var course_select = document.getElementById("search_courses");
-    var course = course_select.options[course_select.selectedIndex].text;
+    var faculty = document.getElementById("search_faculties").options[document.getElementById("search_faculties").selectedIndex].text;
+    var course = document.getElementById("search_courses").options[document.getElementById("search_courses").selectedIndex].text;
 
     // get from table!
-    var giver_email = "enter_email@papershare.co.il";
-    var subject = "can i get your things pliz";
-    var body = "i want the things in " + course + "from " + faculty;
+    var giver_email = "need_to_get_this@from_db.com";
+    var subject = "PaperShare: אני מעוניין בחומרי לימוד שלך!";
+    var body = "פנייה בנוגע למסירת חומרי לימוד בקורס " + course;
     let send_us_copy = "papershare@gmail.com"
 
     // email sender
     //window.open("mailto:" + giver_email + '?cc=' + send_us_copy + '&subject=' + subjet + '&body=' + body);
-    location.href = "mailto:" + giver_email + '?cc=' + send_us_copy + '&subject=' + subject + '&body=' + body;
+    mail_str = "https://mail.google.com/mail/u/0/?view=cm" + "&to=" + giver_email + '&cc=' + send_us_copy + "&su=" + subject + '&body=' + body + "&fs=1&tf=1";
+    window.open(mail_str);
+    //location.href = "https://mail.google.com/mail/u/0/?view=cm" + "&to=" + giver_email + '&cc=' + send_us_copy + "&su=" + subject + '&body=' + body + "&fs=1&tf=1";
 
     //"email sender from technion+ app"
     //location.href = "https://mail.google.com/mail/u/0/?view=cm&amp;to=" + giver_email + "&amp;su=" + subject + "&amp;fs=1&amp;tf=1"   
@@ -125,7 +124,6 @@ function submit_to_db() {
             if (document.getElementById("Description").value != ""){
                 if (document.getElementById("agree-terms").checked){
                     $("#submission_modal").modal();
-
                     return true;
                 }
             }
