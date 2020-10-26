@@ -120,7 +120,7 @@
                 </div>
                 <br />
                 <div class="container"
-                <form  id="give_away_form">
+                    <form action="." name="give_away_form" method="POST">
                         <!--Faculty selection-->
                         <div class="row pull-right">
                             <select class="selectpicker pull-right" data-live-search="true" title="בחר פקולטה" id="give_away_faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="courses_dropdown(this, 'give_away_courses', '{{university}}');" dir="rtl">
@@ -150,6 +150,7 @@
                         </div>
                         <br /> <br />
                         <button type="submit" class="btn btn-ps pull-right" id="giveaway_submit" onclick="parse_and_upload_giveaway('{{university}}', '{{username}}')"><span class="glyphicon glyphicon-send"></span> שליחה</button>
+
                         <!--<button type="submit" value="1" class="btn btn-ps pull-right"><span class="glyphicon glyphicon-send"></span> שליחה</button>-->
                     </form>
             </div>

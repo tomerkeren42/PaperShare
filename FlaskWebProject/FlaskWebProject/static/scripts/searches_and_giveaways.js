@@ -22,7 +22,6 @@ function parse_and_upload_giveaway(university, user) {
 
 function load_table() {
     make_new_caption();
-
     // toggle table on
     var table = document.getElementById("search_table");
     var num_of_rows = table.rows.length;
@@ -33,17 +32,17 @@ function load_table() {
         }
     }
     // if table style is none  (hidden) - change it to inline (show)
+    // need to check validation of form - do only if form is submitted
     if (table.style.display === "none") {
         table.style.display = "inline";
     }
     /*
      function for uploading table from DB
      */
-
     const found_in_DB = [
-        { course: "çãùåú 13", email: "13.13", description: "áçì÷ äæä á÷åã éëðñ ëì äîéãò äàîéúé ùðùéâ îäãàèä áééñ, áòæøú äùí áöåøä äæå áãéå÷", button: "ëàï éäéä ëôúåø" },
-        { course: "ñôåøè5", email: "10.13", description: "buisness plans", button: "ëàï éäéä ëôúåø" },
-        { course: "çãùåú 12", email: "13.10", description: "more money making ideas", button: "ëàï éäéä ëôúåø" },
+        { course: "ï¿½ï¿½ï¿½ï¿½ï¿½ 13", email: "13.13", description: "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½", button: "ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½" },
+        { course: "ï¿½ï¿½ï¿½ï¿½ï¿½5", email: "10.13", description: "buisness plans", button: "ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½" },
+        { course: "ï¿½ï¿½ï¿½ï¿½ï¿½ 12", email: "13.10", description: "more money making ideas", button: "ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½" },
     ];
     // fill up table
     found_in_DB.forEach(item => {
@@ -51,6 +50,7 @@ function load_table() {
         let button = create_button();
         button_place = row.insertCell(0);
         button_place.appendChild(button);
+
         let description = row.insertCell(1);
         description.innerHTML = item.description;
         let email = row.insertCell(2);
@@ -58,7 +58,6 @@ function load_table() {
         let course = row.insertCell(3);
         course.innerHTML = item.course;
     });
-
     // when finished, submit form
     // document.getElementById("search_material").submit();
 }
@@ -79,11 +78,12 @@ function create_button() {
     button.setAttribute("class", "btn btn-ps pull-right");
     button.setAttribute("id", "email_button");
     button.setAttribute("onclick", "new_mail_request();");
-    button.innerHTML = "ùìç á÷ùä";
+    button.innerHTML = "ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½";
     return button;
 }
 
 function new_mail_request() {
+
     // prepare data to send
     var faculty_select = document.getElementById("search_faculties");
     var faculty = faculty_select.options[faculty_select.selectedIndex].text;
@@ -102,5 +102,6 @@ function new_mail_request() {
 
     //"email sender from technion+ app"
     //location.href = "https://mail.google.com/mail/u/0/?view=cm&amp;to=" + giver_email + "&amp;su=" + subject + "&amp;fs=1&amp;tf=1"   
-    //<a id="bws" target="_blank" href="https://mail.google.com/mail/u/0/?view=cm&amp;to=print.bws@campus.technion.ac.il&amp;su=ä÷ìã îñôø æäåú ëàï&amp;fs=1&amp;tf=1"><span class="img_container"><img src="icons/page.svg"></span> ùçåø ìáï, çã-öããé</a>
+    //<a id="bws" target="_blank" href="https://mail.google.com/mail/u/0/?view=cm&amp;to=print.bws@campus.technion.ac.il&amp;su=ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½&amp;fs=1&amp;tf=1"><span class="img_container"><img src="icons/page.svg"></span> ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½, ï¿½ï¿½-ï¿½ï¿½ï¿½ï¿½</a>
 }
+
