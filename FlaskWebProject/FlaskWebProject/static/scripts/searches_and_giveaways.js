@@ -125,7 +125,6 @@ function submit_to_db() {
             if (document.getElementById("Description").value != ""){
                 if (document.getElementById("agree-terms").checked){
                     $("#submission_modal").modal();
-
                     return true;
                 }
             }
