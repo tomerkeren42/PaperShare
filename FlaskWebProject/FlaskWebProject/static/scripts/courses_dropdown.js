@@ -1,9 +1,8 @@
-var universities_faculties_lists = new Array(4);
+﻿var universities_faculties_lists = new Array(4);
 universities_faculties_lists['Technion'] = Technion_faculties_list;
 universities_faculties_lists['TAU'] = TAU_faculties_list;
 universities_faculties_lists['IDC'] = TAU_faculties_list;
 universities_faculties_lists['BGU'] = TAU_faculties_list;
-
 
 var universities_courses_lists = new Array(4);
 universities_courses_lists['Technion'] = Technion_courses_lists;
@@ -11,8 +10,48 @@ universities_courses_lists['TAU'] = TAU_courses_lists;
 universities_courses_lists['IDC'] = TAU_courses_lists;
 universities_courses_lists['BGU'] = TAU_courses_lists;
 
+function load_html(university) {
+    load_faculties_dropdown(university);
+    load_my_giveaways();
+}
 
-function faculties_dropdown(university) {
+function load_my_giveaways() {
+    var table = document.getElementById("my_giveaways_table");
+    var num_of_rows = table.rows.length;
+    // if table is already fill up, remove all previous search
+    if (num_of_rows > 1) {
+        for (var i = num_of_rows; i > 1; i--) {
+            table.deleteRow(i - 1);
+        }
+    }
+    const current_user_db_data = [
+        { course: "sport5", email: "10.13", description: "buisness plans", button: "god damm" },
+        { course: "news 12", email: "13.10", description: "more money making ideas", button: "damm god" },
+    ];
+    // fill up table
+    current_user_db_data.forEach(item => {
+        let row = table.insertRow();
+        let button = create_button();
+        button.innerHTML = "הסר מהאתר";
+        button.setAttribute("onclick", "confirm_remove_from_db();");
+        button_place = row.insertCell(0);
+        button_place.appendChild(button);
+
+        let description = row.insertCell(1);
+        description.innerHTML = item.description;
+        let email = row.insertCell(2);
+        email.innerHTML = item.email;
+        let course = row.insertCell(3);
+        course.innerHTML = item.course;
+    });
+}
+
+function confirm_remove_from_db() {
+    $("#remove_modal").modal();
+    
+
+}
+function load_faculties_dropdown(university) {
     // get list
     var faculties_list = universities_faculties_lists[university];
     // get faculty select by id

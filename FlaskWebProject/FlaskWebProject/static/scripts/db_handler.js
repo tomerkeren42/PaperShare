@@ -1,5 +1,6 @@
-function add_giveawat_to_db(university, email, user, faculty, course, description_str, upload_date) {
-    console.log("in the add_giveawat_to_db()");
+function add_giveaway_to_db(university, email, user, faculty, course, description_str, upload_date) {
+
+    console.log("in the add_giveaway_to_db()");
 
     // A post entry.
     var postData = {
@@ -83,18 +84,11 @@ function find_user_giveaways(university, email) {
     return ref;
 }
 
-// getNameByEmail(email) {
-//     var db = firebase.database();
-//     var ref = db.ref('users').orderByChild('email').equalTo(email);
-//     ref.once('value', snapshot => {
-//         if (snapshot.exists()) {
-//             var name = snapshot.val();
-//             name = Object.values(name);
-//             name = name[0].name;
-//             console.log('User email : ' + email + ' User name: ' + name);
-//         } else {
-//             console.log('There is no user who has email like ' + email)
-//         }
-//     })
-// 
-// }
+function remove_from_db() {
+    console.log("in the remove_from_db()");
+    load_my_giveaways();
+    //var db_path = '/users/' + university + '/' + user + '/' + course;
+    //firebase.database().ref(db_path).remove();
+
+}
+

@@ -19,8 +19,7 @@ function parse_and_upload_giveaway(university, email, user, date) {
     console.log("in the parse_and_upload_giveaway() - description: " + description);
     console.log("in the parse_and_upload_giveaway() - date: " + date);
 
-    add_giveawat_to_db(university, email, user, faculty, course, description, date);
-
+    add_giveaway_to_db(university, email, user, faculty, course, description, date);
 }
 
 function load_table_on_search(university) {
@@ -160,27 +159,26 @@ function create_button() {
     button.setAttribute("class", "btn btn-ps pull-right");
     button.setAttribute("id", "email_button");
     button.setAttribute("onclick", "new_mail_request();");
-    button.innerHTML = "��� ����";
+    button.innerHTML = "שלח בקשה";
     return button;
 }
 
 function new_mail_request() {
-
     // prepare data to send
-    var faculty_select = document.getElementById("search_faculties");
-    var faculty = faculty_select.options[faculty_select.selectedIndex].text;
-    var course_select = document.getElementById("search_courses");
-    var course = course_select.options[course_select.selectedIndex].text;
+    var faculty = document.getElementById("search_faculties").options[document.getElementById("search_faculties").selectedIndex].text;
+    var course = document.getElementById("search_courses").options[document.getElementById("search_courses").selectedIndex].text;
 
     // get from table!
-    var giver_email = "enter_email@papershare.co.il";
-    var subject = "can i get your things pliz";
-    var body = "i want the things in " + course + "from " + faculty;
+    var giver_email = "need_to_get_this@from_db.com";
+    var subject = "PaperShare: אני מעוניין בחומרי לימוד שלך!";
+    var body = "פנייה בנוגע למסירת חומרי לימוד בקורס " + course;
     let send_us_copy = "papershare@gmail.com"
 
     // email sender
     //window.open("mailto:" + giver_email + '?cc=' + send_us_copy + '&subject=' + subjet + '&body=' + body);
-    location.href = "mailto:" + giver_email + '?cc=' + send_us_copy + '&subject=' + subject + '&body=' + body;
+    mail_str = "https://mail.google.com/mail/u/0/?view=cm" + "&to=" + giver_email + '&cc=' + send_us_copy + "&su=" + subject + '&body=' + body + "&fs=1&tf=1";
+    window.open(mail_str);
+    //location.href = "https://mail.google.com/mail/u/0/?view=cm" + "&to=" + giver_email + '&cc=' + send_us_copy + "&su=" + subject + '&body=' + body + "&fs=1&tf=1";
 
     //"email sender from technion+ app"
     //location.href = "https://mail.google.com/mail/u/0/?view=cm&amp;to=" + giver_email + "&amp;su=" + subject + "&amp;fs=1&amp;tf=1"   
@@ -195,7 +193,6 @@ function check_submit() {
             if (document.getElementById("Description").value != ""){
                 if (document.getElementById("agree-terms").checked){
                     $("#submission_modal").modal();
-
                     return true;
                 }
             }
@@ -204,4 +201,14 @@ function check_submit() {
     console.log("after all ifs")
     $("[data-toggle='popover']").popover('show');
     return false;
+}
+
+function giveaway_modal(action) {
+    document.getElementById("Description").value = "";
+    $('#agree-terms').prop('checked', false);
+    if (action == "close") {
+        $('#give_away_faculties').selectpicker('val', '0');
+        $('#give_away_courses').selectpicker('val', '0');
+    }
+    return;
 }
