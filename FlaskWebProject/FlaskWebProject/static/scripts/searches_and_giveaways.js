@@ -18,8 +18,7 @@ function parse_and_upload_giveaway(university, user) {
     console.log("in the parse_and_upload_giveaway() - course: " + course);
     console.log("in the parse_and_upload_giveaway() - description: " + description);
 
-    add_giveawat_to_db(university, user, faculty, course, description);
-
+    add_giveaway_to_db(university, user, faculty, course, description);
 }
 
 function load_table() {
@@ -55,9 +54,12 @@ function load_table() {
         { course: "����� 12", email: "13.10", description: "more money making ideas", button: "��� ���� �����" },
     ];
     // fill up table
+    var row_number = 0;
     found_in_DB.forEach(item => {
+        row_number += 1;
         let row = table.insertRow();
         let button = create_button();
+        button.setAttribute("value", row_number);
         button_place = row.insertCell(0);
         button_place.appendChild(button);
 
@@ -88,7 +90,7 @@ function create_button() {
     button.setAttribute("class", "btn btn-ps pull-right");
     button.setAttribute("id", "email_button");
     button.setAttribute("onclick", "new_mail_request();");
-    button.innerHTML = "��� ����";
+    button.innerHTML = "שלח בקשה";
     return button;
 }
 
