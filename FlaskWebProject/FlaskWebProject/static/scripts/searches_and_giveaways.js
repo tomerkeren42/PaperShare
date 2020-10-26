@@ -133,3 +133,13 @@ function submit_to_db() {
     $("[data-toggle='popover']").popover('show');
     return false;
 }
+
+function giveaway_modal(action) {
+    document.getElementById("Description").value = "";
+    $('#agree-terms').prop('checked', false);
+    if (action == "close") {
+        $('#give_away_faculties').selectpicker('val', '0');
+        $('#give_away_courses').selectpicker('val', '0');
+    }
+    return;
+}
