@@ -31,7 +31,7 @@
 
     <script>
         // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional        
         var firebaseConfig = {
             apiKey: "AIzaSyBJ20paxlR6HuiqNai2ecOa87V4AhFcsMo",
             authDomain: "paper-share.firebaseapp.com",
@@ -78,7 +78,7 @@
                             </select>
                         </div>
                         <br /> <br /> <br />
-                        <button type="submit" class="btn btn-ps pull-right" id="search_submit" onclick="load_table()" data-toggle="popover" data-placement="left" data-content="יש למלא את כל השדות" data-trigger="focus" ><span class="glyphicon glyphicon-search"></span> חיפוש</button>
+                        <button type="submit" class="btn btn-ps pull-right" id="search_submit" onclick="load_table_on_search('{{university}}')" data-toggle="popover" data-placement="left" data-content="יש למלא את כל השדות" data-trigger="focus" ><span class="glyphicon glyphicon-search"></span> חיפוש</button>
                 </form>
                    </div>
             </div>
@@ -145,19 +145,19 @@
                             <p class="text-right">מה את\ה מוסר\ת? (למשל: קובץ מבחנים מודפס)</p>
                             <input class="form-control pull-right text-right input-lg col-sx-10" id="Description" dir="rtl">
                         </div>
-                        
+
                         <div class="row">
                             <div class="checkbox pull-right">
                                 <label><input type="checkbox" id="agree-terms"> אני מסכים\ה שיצרו איתי קשר במייל האוניברסיטאי בנוגע למסירת חומרי הלימוד</label>
                             </div>
                         </div>
                         <br /> <br />
-                        <button type="submit" id="submit_button" class="btn btn-ps pull-right" onclick="parse_and_upload_giveaway('{{university}}', '{{username}}')" data-toggle="popover" data-placement="left" data-content="יש למלא את כל השדות" data-trigger="focus" ><span class="glyphicon glyphicon-send"></span> שליחה</button>
+                        <button type="submit" id="submit_button" class="btn btn-ps pull-right" onclick="parse_and_upload_giveaway('{{university}}', '{{email}}', '{{username}}', '{{date}}')" data-toggle="popover" data-placement="left" data-content="יש למלא את כל השדות" data-trigger="focus" ><span class="glyphicon glyphicon-send"></span> שליחה</button>
                     </form>
             </div>
-            <!-- submission modal-->
-            <div class="modal fade" id="submission_modal" role="dialog">
-                <div class="modal-dialog">
+                <!-- submission modal-->
+                <div class="modal fade" id="submission_modal" role="dialog">
+                    <div class="modal-dialog">
                         <!-- submission_modal content-->
                         <div class="modal-content">
 
@@ -198,7 +198,7 @@
         TAB3- my giveaways
         ##########################################################################   -->
         <!-- header-->
-        <div id="menu2" class="tab-pane fade">
+        <div id="menu2" class="tab-pane fade" onload = "load_user_table('{{university}}', '{{email}}')">
             <br /> <br />
             <div class="container">
                 <div class="row">
@@ -207,7 +207,7 @@
                 </div>
                 <div class="container pull-right">
                     <!-- data table, my give aways -->
-                    <table class="table table-striped table-hover text-right" data-width="auto" id="my_giveaways_table">
+                    <table class="table table-striped table-hover text-right" id="user_table">
                         <thead>
                             <tr>
                                 <th class="text-right">הסרה</th>

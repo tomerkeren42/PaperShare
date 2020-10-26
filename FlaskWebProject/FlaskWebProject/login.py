@@ -55,14 +55,14 @@ def login(app_DB):
     email = request.form['email']
     splitted_mail = email.split("@")
     # saving data as lowercase
-    name = splitted_mail[0].lower()
+    name = delete_point_in_name(splitted_mail[0].lower())
     university_suff = splitted_mail[1].lower()
 
-    
-    debug_mode = True
+    debug_mode = False
     
     if (name == "debug"):
         university = "Technion"
+        app_DB.add_new_user(name, email, university)
         return not_exist, not_uni, email, name, university, False
 
  
@@ -82,3 +82,11 @@ def login(app_DB):
 
 
     return not_exist, not_uni, email, name, university, debug_mode
+
+def delete_point_in_name(name):
+    res_name = ""
+    if name.find(".") != -1:
+        res_name = name.replace(".","")
+    else:
+        res_name = name
+    return res_name
