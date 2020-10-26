@@ -1,5 +1,4 @@
 ﻿
-
 function load_table() {
     make_new_caption();
 

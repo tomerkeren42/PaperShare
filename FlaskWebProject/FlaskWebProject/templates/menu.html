@@ -10,8 +10,8 @@
 <script src="/static/scripts/Technion_courses_lists.js"></script>
 <script src="/static/scripts/TAU_courses_lists.js"></script>
 <script src="/static/scripts/courses_dropdown.js"></script>
-<script src="/static/scripts/generate_search_table.js"></script>
-
+<script src="/static/scripts/searches_and_giveaways.js"></script>
+<script src="/static/scripts/db_handler.js"></script>
 
 <!--3 tabs for actions-->
 
@@ -37,7 +37,7 @@ TAB1- find materials
                     <p class="text-right">כדי ליצור קשר עם המוסר, תוכל לפנות אליו במייל</p>
                 </div>
                 <div class="container"
-                <form action="{{ url_for('tabs_page') }}" id="search_form">
+                <form action="." id="search_form" name="search_form">
                         <br />
                         <!--Faculty selection-->
                         <div class="row pull-right">
@@ -97,7 +97,6 @@ TAB2- give away materials
                 <br />
                 <div class="container"
                 <form  id="give_away_form">
-
                         <!--Faculty selection-->
                         <div class="row pull-right">
                             <select class="selectpicker pull-right" data-live-search="true" title="בחר פקולטה" id="give_away_faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="courses_dropdown(this, 'give_away_courses', '{{university}}');" dir="rtl">
@@ -126,8 +125,9 @@ TAB2- give away materials
                             </div>
                         </div>
                         <br /> <br />
-                        <button type="submit" value="1" class="btn btn-ps pull-right" data-toggle="modal" data-target="#submission_modal"><span class="glyphicon glyphicon-send"></span> שליחה</button>
-                </form>
+                        <button type="submit" class="btn btn-ps pull-right" id="giveaway_submit" onclick="parse_and_upload_giveaway()"><span class="glyphicon glyphicon-send"></span> שליחה</button>
+                        <!--<button type="submit" value="1" class="btn btn-ps pull-right"><span class="glyphicon glyphicon-send"></span> שליחה</button>-->
+                    </form>
             </div>
 
             <!-- submission modal-->
