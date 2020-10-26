@@ -1,6 +1,14 @@
 ﻿
 
 function load_table() {
+    $("[data-toggle='popover']").popover('destroy');
+    var faculty_select = document.getElementById("search_faculties");
+    if (faculty_select.value == "") {
+        $("[data-toggle='popover']").popover('show');
+        document.getElementById("table_caption").innerHTML = "";
+        return;
+    }
+
     make_new_caption();
 
     // toggle table on
@@ -83,4 +91,22 @@ function new_mail_request() {
     //"email sender from technion+ app"
     //location.href = "https://mail.google.com/mail/u/0/?view=cm&amp;to=" + giver_email + "&amp;su=" + subject + "&amp;fs=1&amp;tf=1"   
     //<a id="bws" target="_blank" href="https://mail.google.com/mail/u/0/?view=cm&amp;to=print.bws@campus.technion.ac.il&amp;su=הקלד מספר זהות כאן&amp;fs=1&amp;tf=1"><span class="img_container"><img src="icons/page.svg"></span> שחור לבן, חד-צדדי</a>
+}
+
+function submit_to_db() {
+    $("[data-toggle='popover']").popover('destroy');
+    console.log("inside submit func")
+    if (document.getElementById("give_away_faculties").value != ""){
+        if (document.getElementById("give_away_courses").value != ""){
+            if (document.getElementById("Description").value != ""){
+                if (document.getElementById("agree-terms").checked){
+                    $("#submission_modal").modal();
+
+                    return;
+                }
+            }
+        }
+    }
+    console.log("after all ifs")
+    $("[data-toggle='popover']").popover('show');
 }

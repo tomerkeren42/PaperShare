@@ -54,7 +54,7 @@ TAB1- find materials
                             </select>
                         </div>
                         <br /> <br /> <br />
-                        <button type="submit" class="btn btn-ps pull-right" id="search_submit" onclick="load_table()" ><span class="glyphicon glyphicon-search"></span> חיפוש</button>
+                        <button type="submit" class="btn btn-ps pull-right" id="search_submit" onclick="load_table()" data-toggle="popover" data-placement="left" data-content="יש למלא את כל השדות" data-trigger="focus" ><span class="glyphicon glyphicon-search"></span> חיפוש</button>
                 </form>
                    </div>
             </div>
@@ -96,11 +96,11 @@ TAB2- give away materials
                 </div>
                 <br />
                 <div class="container"
-                <form  id="give_away_form">
+                    <form id="give_away_form">
 
                         <!--Faculty selection-->
                         <div class="row pull-right">
-                            <select class="selectpicker pull-right" data-live-search="true" title="בחר פקולטה" id="give_away_faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="courses_dropdown(this, 'give_away_courses', '{{university}}');" dir="rtl">
+                            <select class="selectpicker pull-right" data-live-search="true" title="בחר פקולטה" id="give_away_faculties"  onchange="courses_dropdown(this, 'give_away_courses', '{{university}}');" dir="rtl">
                                 <option value="0">Select a faculty</option>
                             </select>
                         </div>
@@ -109,7 +109,7 @@ TAB2- give away materials
 
                         <!--Course selection-->
                         <div class="row pull-right">
-                            <select class="selectpicker pull-right" data-live-search="true" title="בחר קורס" name="course" id="give_away_courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
+                            <select class="selectpicker pull-right" data-live-search="true" title="בחר קורס"  id="give_away_courses"  dir="rtl">
                                 <option value="0">Select a faculty first</option>
                             </select>
                         </div>
@@ -120,16 +120,16 @@ TAB2- give away materials
                             <p class="text-right">מה את\ה מוסר\ת? (למשל: קובץ מבחנים מודפס)</p>
                             <input class="form-control pull-right text-right input-lg col-sx-10" min="5" id="Description" required oninvalid="this.setCustomValidity('אנא תאר את חומר הלימוד אותו אתה מוסר')" oninput="this.setCustomValidity('')">
                         </div>
+                        
                         <div class="row">
                             <div class="checkbox pull-right">
-                                <label><input type="checkbox" id="agree-terms" required oninvalid="this.setCustomValidity('אנא אשר קבלת מייל')" oninput="this.setCustomValidity('')"> אני מסכים\ה שיצרו איתי קשר במייל האוניברסיטאי בנוגע למסירת חומרי הלימוד</label>
+                                <label><input type="checkbox" id="agree-terms"> אני מסכים\ה שיצרו איתי קשר במייל האוניברסיטאי בנוגע למסירת חומרי הלימוד</label>
                             </div>
                         </div>
                         <br /> <br />
-                        <button type="submit" value="1" class="btn btn-ps pull-right" data-toggle="modal" data-target="#submission_modal"><span class="glyphicon glyphicon-send"></span> שליחה</button>
-                </form>
+                        <button type="submit" id="submit_button" class="btn btn-ps pull-right" onclick="submit_to_db()" data-toggle="popover" data-placement="left" data-content="יש למלא את כל השדות" data-trigger="focus" ><span class="glyphicon glyphicon-send"></span> שליחה</button>
+                    </form>
             </div>
-
             <!-- submission modal-->
             <div class="modal fade" id="submission_modal" role="dialog">
                 <div class="modal-dialog">
