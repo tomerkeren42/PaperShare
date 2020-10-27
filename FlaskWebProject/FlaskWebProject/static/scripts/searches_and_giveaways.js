@@ -12,12 +12,12 @@ function parse_and_upload_giveaway(university, email, user, date) {
     var description_input = document.getElementById("Description");
     var description = description_input.value;
 
-    console.log("in the parse_and_upload_giveaway() - university: " + university);
-    console.log("in the parse_and_upload_giveaway() - email: " + email);
-    console.log("in the parse_and_upload_giveaway() - faculty: " + faculty);
-    console.log("in the parse_and_upload_giveaway() - course: " + course);
-    console.log("in the parse_and_upload_giveaway() - description: " + description);
-    console.log("in the parse_and_upload_giveaway() - date: " + date);
+    //console.log("in the parse_and_upload_giveaway() - university: " + university);
+    //console.log("in the parse_and_upload_giveaway() - email: " + email);
+    //console.log("in the parse_and_upload_giveaway() - faculty: " + faculty);
+    //console.log("in the parse_and_upload_giveaway() - course: " + course);
+    //console.log("in the parse_and_upload_giveaway() - description: " + description);
+    //console.log("in the parse_and_upload_giveaway() - date: " + date);
 
     add_giveaway_to_db(university, email, user, faculty, course, description, date);
 }
@@ -58,7 +58,6 @@ function load_table_on_search(university) {
      function for uploading table from DB
      */
     var found_in_DB = find_giveaways_by_search(university, faculty, course);
-
     if (course == '') {
         var keys = found_in_DB.once('value').then(function (coursekey) {
             coursekey.forEach(function (course) {
@@ -81,6 +80,7 @@ function load_table_on_search(university) {
         });
     }
     else {
+        console.log("in load_table_on_search(): course is not empty")
         var keys = found_in_DB.once('value').then(function (datakey) {
             datakey.forEach(function (data) {
                 let row = table.insertRow();
@@ -98,7 +98,16 @@ function load_table_on_search(university) {
                 course.innerHTML = giveaway.Course;
             });
         });
+
+ 
     }
+    //if (is_table_empty == true) {
+    //    console.log("inside is_empty which is: " + is_empty);
+    //    document.getElementById("table_caption").innerHTML = "מצטערים, אין חומרים למסירה בקורס שבחרת!";
+    //    document.getElementById("table_header").style.display = "none";
+    //}
+    //console.log("table.rows.length is: " + document.getElementById("search_table").rows.length);
+
 }
 
 function load_user_table(university, email) {
@@ -198,17 +207,21 @@ function check_submit() {
             }
         }
     }
-    console.log("after all ifs")
     $("[data-toggle='popover']").popover('show');
     return false;
 }
 
 function giveaway_modal(action) {
+    $('#submission_modal').modal('hide');
     document.getElementById("Description").value = "";
     $('#agree-terms').prop('checked', false);
     if (action == "close") {
         $('#give_away_faculties').selectpicker('val', '0');
         $('#give_away_courses').selectpicker('val', '0');
+    }
+    else if (action == "my_giveaway") {
+        console.log("inside my giveaway");
+        $('[href="#menu2"]').tab('show');
     }
     return;
 }
