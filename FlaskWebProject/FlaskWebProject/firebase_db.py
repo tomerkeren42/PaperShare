@@ -34,7 +34,7 @@ class firebase_db(object):
         self.db.child(university).child('users').child(name).remove()
 
     def is_user_in_db(self, name, email, university):
-        name_for_db = self.delete_point_in_name(name)
+        name_for_db = name
         all_users_keys = self.db.child(university).child('users').shallow().get().val()
         if (all_users_keys is not None) and (name_for_db in all_users_keys):
             return True
