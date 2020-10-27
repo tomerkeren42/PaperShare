@@ -47,9 +47,9 @@ function load_my_giveaways(university, email) {
                 giveaway = data.val();
                 giveaway = Object.values(giveaway);
                 curr_email = giveaway[0].Email;
-                console.log("in the load_my_giveaways(), curr_email = " + curr_email);
+                //console.log("in the load_my_giveaways(), curr_email = " + curr_email);
                 if (curr_email == email) {
-                    console.log("in the load_my_giveaways(), in the if");
+                   // console.log("in the load_my_giveaways(), in the if");
                     let row = table.insertRow();
                     let button = create_button();
                     button.innerHTML = "הסר מהאתר";

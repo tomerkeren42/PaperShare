@@ -34,12 +34,12 @@ function find_giveaways_by_search(university, faculty, course) {
     var ref;
 
     if (course == '') {
-        console.log("in the find_giveaways_by_search(), course is None");
+        //console.log("in the find_giveaways_by_search(), course is None");
         search_path = university + '/uploads/' + faculty;
         ref = db.ref(search_path);
     }
     else {
-        console.log("in the find_giveaways_by_search(), course isn't None");
+        //console.log("in the find_giveaways_by_search(), course isn't None");
         search_path = university + '/uploads/' + faculty + '/' + course;
         ref = db.ref(search_path).orderByChild('Course').equalTo(course);
     }
@@ -61,7 +61,7 @@ function find_giveaways_by_search(university, faculty, course) {
 }
 
 function find_user_giveaways(university, email) {
-    console.log("in the find_user_giveaways()");
+   // console.log("in the find_user_giveaways()");
     var db = firebase.database();
     var ref;
     var search_path = university + '/uploads/';
