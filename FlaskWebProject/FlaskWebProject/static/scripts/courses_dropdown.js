@@ -1,14 +1,17 @@
-﻿var universities_faculties_lists = new Array(4);
+﻿var universities_faculties_lists = new Array(5);
 universities_faculties_lists['Technion'] = Technion_faculties_list;
 universities_faculties_lists['TAU'] = TAU_faculties_list;
 universities_faculties_lists['IDC'] = TAU_faculties_list;
 universities_faculties_lists['BGU'] = TAU_faculties_list;
+universities_faculties_lists['HUJI'] = TAU_faculties_list;
 
-var universities_courses_lists = new Array(4);
+
+var universities_courses_lists = new Array(5);
 universities_courses_lists['Technion'] = Technion_courses_lists;
 universities_courses_lists['TAU'] = TAU_courses_lists;
 universities_courses_lists['IDC'] = TAU_courses_lists;
 universities_courses_lists['BGU'] = TAU_courses_lists;
+universities_courses_lists['HUJI'] = TAU_courses_lists;
 
 function load_html(university, email) {
     load_faculties_dropdown(university);
