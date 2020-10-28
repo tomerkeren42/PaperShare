@@ -248,7 +248,7 @@ elif University == 'HUJI':
 
                 temp_course_full_name = temp_course_number + " - " + temp_course_name
 
-                temp_course_full_name = temp_course_full_name.replace("'", "").replace("\\", "")
+                temp_course_full_name = temp_course_full_name.replace("'", "").replace("\\", "").strip('\n')
 
                 # if new course - add to courses and to course_numbers list
 
