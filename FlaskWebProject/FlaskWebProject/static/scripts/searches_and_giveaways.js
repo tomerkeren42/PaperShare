@@ -103,7 +103,7 @@ function load_table_on_search(university) {
     }
     //if (is_table_empty == true) {
     //    console.log("inside is_empty which is: " + is_empty);
-    //    document.getElementById("table_caption").innerHTML = "מצטערים, אין חומרים למסירה בקורס שבחרת!";
+    //    document.getElementById("table_caption").innerHTML = "אין חומרים למסירה בקורס שבחרת";
     //    document.getElementById("table_header").style.display = "none";
     //}
     //console.log("table.rows.length is: " + document.getElementById("search_table").rows.length);
@@ -198,15 +198,13 @@ function create_button(target_email, faculty, course) {
 function new_mail_request(target_email, target_faculty, target_course) {
     console.log("in new_mail target is " + target_email);
     // prepare data to send
-    //var faculty = document.getElementById("search_faculties").options[document.getElementById("search_faculties").selectedIndex].text;
-    //var course = document.getElementById("search_courses").options[document.getElementById("search_courses").selectedIndex].text;
     var faculty = target_faculty;
     var course = target_course;
 
     // get from table!
     var giver_email = target_email;
-    var subject = "PaperShare: אני מעוניין בחומרי לימוד שלך!";
-    var body = "פנייה בנוגע למסירת חומרי לימוד בקורס " + course;
+    var subject = "PaperShare: אני מעוניין/ת בחומרי הלימוד שלך";
+    var body = "היי, ראיתי שאת/ה מוסר/ת חומרי לימוד ב " + course + "," +" אשמח לקבל אותם ממך! אם כבר מסרת את חומרי הלימוד, ניתן להסיר אותם מהאתר ";
     let send_us_copy = "papershare@gmail.com"
 
     // email sender
