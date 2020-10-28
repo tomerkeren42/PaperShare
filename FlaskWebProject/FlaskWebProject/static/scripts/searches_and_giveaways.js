@@ -176,8 +176,8 @@ function create_button(target_email, faculty, course) {
             confirm_remove_from_db();
         });
         var icon = document.createElement("span");
-        icon.className = "fab fa-gripfire";
-        button.innerHTML = "הסר מהאתר";
+        icon.className = "fas fa-minus-square";
+        button.innerHTML = " הסר מהאתר ";
         button.appendChild(icon);
     }
     //else it's שלח בקשה button
@@ -189,7 +189,7 @@ function create_button(target_email, faculty, course) {
         });
         var icon = document.createElement("span");
         icon.className = "fas fa-envelope";
-        button.innerHTML = "שלח בקשה";
+        button.innerHTML = " שלח בקשה ";
         button.appendChild(icon);
     }
     return button;
