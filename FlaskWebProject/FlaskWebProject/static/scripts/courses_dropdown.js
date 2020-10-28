@@ -51,9 +51,7 @@ function load_my_giveaways(university, email) {
                 if (curr_email == email) {
                    // console.log("in the load_my_giveaways(), in the if");
                     let row = table.insertRow();
-                    let button = create_button();
-                    button.innerHTML = "הסר מהאתר";
-                    button.setAttribute("onclick", "confirm_remove_from_db();");
+                    let button = create_button("", "", "");
                     button_place = row.insertCell(0);
                     button_place.appendChild(button);
 
@@ -74,6 +72,7 @@ function confirm_remove_from_db() {
     
 
 }
+
 function load_faculties_dropdown(university) {
     // get list
     var faculties_list = universities_faculties_lists[university];
