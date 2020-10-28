@@ -19,64 +19,73 @@
 
 
 <!--Input bar to give University email. ENTER button-->
-<div class="container">
-<div class="row">
-    <h2 class="text-right">התחבר\י עם כתובת מייל אוניברסיטאית</h2>
-    <p class="text-right">אין צורך ברישום</p>
+        <div class="container">
+            <div class="row">
+                <h2 class="text-right">התחבר\י עם כתובת מייל אוניברסיטאית</h2>
+                <p class="text-right">אין צורך ברישום</p>
 
-    <form name="login" action="." method="POST">
-        <div class="form-group text-right">
-            <br />
-            {% if email %}
-            <input type="email" class="form-control" id="email" name="email" value={{ email }} required oninvalid="this.setCustomValidity('הכנס כתובת מייל לצורך כניסה למערכת')" oninput="this.setCustomValidity('')" onchange="this.setCustomValidity('')">
-            {% else %}
-            <input type="email" class="form-control" id="email" name="email" placeholder="הכנס\י כתובת מייל אוניברסיטאית" required oninvalid="this.setCustomValidity('הכנס כתובת מייל לצורך כניסה למערכת')" oninput="this.setCustomValidity('')">
-            {% endif %}
-            {% if not_exist %}
-            <div class="alert">
-                <span class="closebtn" dir="rtl" onclick="this.parentElement.style.display = 'none';">&times;</span>
-                כתובת מייל לא נכונה. אנא הכנס\י כתובת מייל קיימת בלבד
+                <form name="login" action="." method="POST">
+                    <div class="form-group text-right">
+                        <br />
+                        <div class="container">
+                            <div class="row">
+                                {% if email %}
+                                <input type="email" class="form-control" id="email" name="email" value={{ email }} required oninvalid="this.setCustomValidity('הכנס כתובת מייל לצורך כניסה למערכת')" oninput="this.setCustomValidity('')" onchange="this.setCustomValidity('')">
+                                {% else %}
+                                <input type="email" class="form-control" id="email" name="email" placeholder="הכנס\י כתובת מייל אוניברסיטאית" required oninvalid="this.setCustomValidity('הכנס כתובת מייל לצורך כניסה למערכת')" oninput="this.setCustomValidity('')">
+                                {% endif %}
+                                <button type="submit" class="btn btn-ps"><span class="glyphicon glyphicon-log-in"></span> כניסה</button>
+                            </div>
 
+                        </div>
+                    </div>
+                </form>
             </div>
-            {% endif %}
-            {% if debug_mode %}
-            <div class="alert">
-                <span class="closebtn" dir="rtl" onclick="this.parentElement.style.display = 'none';">&times;</span>
-                מצטערים, האתר בבנייה!
-            </div>
-            {% endif %}
-            {% if not_uni %}
-            <div class="alert">
-                <span class="closebtn" dir="rtl" onclick="this.parentElement.style.display = 'none';">&times;</span>
-                הכניסה באמצעות כתובת מייל אוניברסיטאית בלבד
-            </div>
-            {% endif %}
-            <button type="submit" class="btn btn-ps"><span class="glyphicon glyphicon-log-in"></span> כניסה</button>
+                {% if not_exist %}
+
+                    <div class="well well-sm text-right" style="background-color: #cc3359; color:white">
+                        <span class="closebtn" dir="rtl" onclick="this.parentElement.style.display = 'none';">&times;</span>
+                        כתובת מייל לא נכונה. אנא הכנס\י כתובת מייל קיימת בלבד
+                    </div>
+                    {% endif %}
+                    {% if debug_mode %}
+                    <div class="well well-sm text-right" style="background-color: #cc3359; color:white">
+                        <span class="closebtn" dir="rtl" onclick="this.parentElement.style.display = 'none';">&times;</span>
+                        מצטערים, האתר בבנייה!
+                    </div>
+                    {% endif %}
+                    {% if not_uni %}
+                    <div class="well well-sm text-right" style="background-color: #cc3359; color:white">
+                        <span class="closebtn" dir="rtl" onclick="this.parentElement.style.display = 'none';">&times;</span>
+                        הכניסה באמצעות כתובת מייל אוניברסיטאית בלבד
+                    </div>
+                    {% endif %}
+
+
+
+
+
+
+            <!--
+        <button data-toggle="collapse" data-target="#supported" class="btn btn-ps pull-right"><span class="fas fa-school"></span> מוסדות נתמכים</button>
+        <div id="supported" class="collapse text-right pull-right">
+        הטכניון,
+        אוניברסיטאת ת״א
         </div>
-    </form>
-
-
-    <!--
-    <button data-toggle="collapse" data-target="#supported" class="btn btn-ps pull-right"><span class="fas fa-school"></span> מוסדות נתמכים</button>
-    <div id="supported" class="collapse text-right pull-right">
-    הטכניון,
-    אוניברסיטאת ת״א
-    </div>
--->
-
-<!--Supported schools-->
-    <div class="dropdown pull-right">
-  <button class="btn btn-ps dropdown-toggle" type="button" data-toggle="dropdown"><span class="fas fa-school"></span> מוסדות נתמכים</button>
-  <ul class="dropdown-menu pull-right">
-    <li class="disabled"><a class="text-right">אונ׳ ת״א</a></li>
-    <li class="disabled"><a class="text-right">אונ׳ ב״ש</a></li>
-    <li class="disabled"><a class="text-right">הטכניון</a></li>
-    <li class="disabled"><a class="text-right">הבינתחומי</a></li>
-  </ul>
-</div>
+    -->
+            <!--Supported schools-->
+            <div class="dropdown pull-right">
+                <button class="btn btn-ps dropdown-toggle" type="button" data-toggle="dropdown"><span class="fas fa-school"></span> מוסדות נתמכים</button>
+                <ul class="dropdown-menu pull-right">
+                    <li class="disabled"><a class="text-right">אונ׳ ת״א</a></li>
+                    <li class="disabled"><a class="text-right">אונ׳ ב״ש</a></li>
+                    <li class="disabled"><a class="text-right">הטכניון</a></li>
+                    <li class="disabled"><a class="text-right">הבינתחומי</a></li>
+                </ul>
+            </div>
+        </div>
     <br />
-</div>
-</div>
+
 
 
 

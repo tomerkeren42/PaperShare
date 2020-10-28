@@ -167,6 +167,7 @@ function make_new_caption(faculty, course) {
 function create_button(target_email, faculty, course) {
     let button = document.createElement("button");
     button.setAttribute("class", "btn btn-ps pull-right");
+
     // if it's הסר מהאתר button
     if (target_email == "") {
         button.setAttribute("id", "remove_button");
@@ -174,7 +175,10 @@ function create_button(target_email, faculty, course) {
         button.addEventListener('click', function () {
             confirm_remove_from_db();
         });
+        var icon = document.createElement("span");
+        icon.className = "fab fa-gripfire";
         button.innerHTML = "הסר מהאתר";
+        button.appendChild(icon);
     }
     //else it's שלח בקשה button
     else {
@@ -183,7 +187,10 @@ function create_button(target_email, faculty, course) {
         button.addEventListener('click', function () {
             new_mail_request(target_email, faculty, course);
         });
+        var icon = document.createElement("span");
+        icon.className = "fas fa-envelope";
         button.innerHTML = "שלח בקשה";
+        button.appendChild(icon);
     }
     return button;
 }
