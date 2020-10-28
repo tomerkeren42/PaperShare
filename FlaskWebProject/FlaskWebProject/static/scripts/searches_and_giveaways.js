@@ -167,13 +167,24 @@ function make_new_caption(faculty, course) {
 function create_button(target_email, faculty, course) {
     let button = document.createElement("button");
     button.setAttribute("class", "btn btn-ps pull-right");
-    button.setAttribute("id", "email_button");
-    console.log("in create_btn target is " + target_email);
-    button.addEventListener('click', function () {
-        new_mail_request(target_email, faculty, course);
-    });
-
-    button.innerHTML = "שלח בקשה";
+    // if it's הסר מהאתר button
+    if (target_email == "") {
+        button.setAttribute("id", "remove_button");
+        //button.setAttribute("onclick", "confirm_remove_from_db();");
+        button.addEventListener('click', function () {
+            confirm_remove_from_db();
+        });
+        button.innerHTML = "הסר מהאתר";
+    }
+    //else it's שלח בקשה button
+    else {
+        button.setAttribute("id", "email_button");
+        //console.log("in create_btn target is " + target_email);
+        button.addEventListener('click', function () {
+            new_mail_request(target_email, faculty, course);
+        });
+        button.innerHTML = "שלח בקשה";
+    }
     return button;
 }
 
