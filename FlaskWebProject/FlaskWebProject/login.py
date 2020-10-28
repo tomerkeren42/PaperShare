@@ -1,6 +1,7 @@
 from flask import request, Flask
 import requests as req
 import re
+from smtplib import SMTP
 
 # constants
 universities_dict = {
@@ -8,18 +9,20 @@ universities_dict = {
             "mail.tau.ac.il"        : "TAU",
             "tauex.tau.ac.il"       : "TAU",
             "post.bgu.ac.il"        : "BGU",
-            "post.idc.ac.il"        : "IDC"
+            "mail.huji.ac.il"       : "HUJI",
+            "post.idc.ac.il"        : "IDC",
 }
 
+##smtp = SMTP('smtp.server.com')
+
+
 # url for outside microsoft login form
-url = 'https://login.microsoftonline.com/common/GetCredentialType'
+microsoft_url = "https://login.microsoftonline.com/common/GetCredentialType"
+check_email_api = "https://isitarealemail.com/api/email/validate"
 
 app = Flask(__name__)
 
 
-# check if this user already exists in the data base
-# if exists - fetch its details to this session
-# if doesn't exist - add to data base
 def is_uni_valid(email):
     if(email.find('@') != -1):
         splitted_mail = email.split("@")
@@ -29,24 +32,32 @@ def is_uni_valid(email):
         else:
             return False
 
+def microsoft_email_check(email):
+     body = '{"Username":"%s"}' % email
+     request = req.post(microsoft_url, data=body)
+     response = request.text
+     valid = re.search('"IfExistsResult":0', response)
+     if valid is True:
+         return True
+     else:
+         return False
 
-def is_server_valid(email):
-    email = email
-    body = '{"Username":"%s"}' % email
-    #send to url the request
-    request = req.post(url, data=body)
-    # get response from port
-    response = request.text
-    # if mail exist in microsoft servers it'll return 0 in IfExistResult
-    valid = re.search('"IfExistsResult":0', response)
-    invalid = re.search('"IfExistsResult":1', response)
-    if valid:
-        return True
+def other_email_check(email):
+     response = req.get(check_email_api, params = {'email': email})
+     status = response.json()['status']
+     if status == "valid":
+         return True
+     else:
+         return False
+
+def is_server_valid(email, university):
+    print("inside is_server_valid()")
+    if university == "HUJI" or university == "IDC":
+        return other_email_check(email)
     else:
-        return False
+        return microsoft_email_check(email)
 
 def login(app_DB):
-    print("in the login()")
     not_uni   = False
     not_exist = False
     username  = ""
@@ -56,31 +67,27 @@ def login(app_DB):
     splitted_mail = email.split("@")
     # saving data as lowercase
     name = delete_point_in_name(splitted_mail[0].lower())
-    print(name)
     university_suff = splitted_mail[1].lower()
 
+    # debug mode
     debug_mode = False
-    
     if (name == "debug"):
-        university = "Technion"
-        app_DB.add_new_user(name, email, university)
-        return not_exist, not_uni, email, name, university, False
-
+        app_DB.add_new_user(name, email, "Technion")
+        return not_exist, not_uni, email, name, "Technion", False
  
-    # check if tau \ technion
+    # check if valid university
     if is_uni_valid(email):
         university = universities_dict[university_suff]
-        # check if the mail is real and exists
-        if is_server_valid(email):
-            # check if user already in database
-            if app_DB.is_user_in_db(name, email, university) is False:
+        if app_DB.is_user_in_db(name, email, university) is False:
+            # check if the mail is real and exists
+            if is_server_valid(email, university):
+                # check if user already in database
                 # if new user - add to database
                 app_DB.add_new_user(name, email, university)
-        else:
-            not_exist = True
+            else:
+                not_exist = True
     else:
         not_uni = True
-
 
     return not_exist, not_uni, email, name, university, debug_mode
 
