@@ -7,6 +7,7 @@ universities_dict = {
             "campus.technion.ac.il" : "Technion",
             "mail.tau.ac.il"        : "TAU",
             "tauex.tau.ac.il"       : "TAU",
+            "mail.huji.ac.il"       : "HUJI"
             "post.bgu.ac.il"        : "BGU",
             "post.idc.ac.il"        : "IDC"
 }

@@ -23,8 +23,8 @@ from collections import OrderedDict
 
 parser = argparse.ArgumentParser(description='Script purpose: Upload courses csv file to Firebase Storage')
 
-parser.add_argument('--University', type=str, default='Technion', required=False,
-                    choices=['Technion', 'TAU'], help='University. Must be Technion or TAU')
+parser.add_argument('--University', type=str, default='HUJI', required=False,
+                    choices=['Technion', 'TAU', 'HUJI'], help='University. Must be Technion, HUJI or TAU')
 
 args = parser.parse_args()
 
@@ -185,6 +185,92 @@ elif University == 'TAU':
 
             line = fp.readline()
 
+
+elif University == 'HUJI':
+
+    ######################## read from courses' .txt files, parse, and write to a container ###########################
+
+
+    raw_files_path = "raw/HUJI_RawCourses.txt"
+
+    course_numbers = []
+
+    courses = []
+
+    current_faculty = ''
+
+    # iterate over all lines in the .txt file
+
+    with open(raw_files_path, encoding="utf8") as fp:
+
+        line = fp.readline()
+
+        for line in fp:
+
+            if line == '\n':
+
+                continue
+
+            elif "psps" in line:
+
+                line = fp.readline()
+
+                current_faculty = line.strip('\n')
+
+                continue
+
+            else:
+
+                splitted = line.split('-')
+
+                print(splitted)
+
+                i = 1
+
+                temp_course_name = ''
+
+                for element in range(len(splitted)):
+
+                    if element == 0:
+                        continue
+
+                    temp_course_name += splitted[element]
+
+                    i += 1
+
+                print(temp_course_name)
+
+                temp_course_number = splitted[0]
+
+                print(temp_course_number)
+
+                temp_faculty = current_faculty
+
+                temp_course_full_name = temp_course_number + " - " + temp_course_name
+
+                temp_course_full_name = temp_course_full_name.replace("'", "").replace("\\", "")
+
+                # if new course - add to courses and to course_numbers list
+
+                if temp_course_number in course_numbers:
+
+                    continue
+
+                else:
+
+                    course_numbers.append(temp_course_number)
+
+                    temp_course_dict = {
+
+                        'course_name': temp_course_full_name,
+
+                        'faculty_name': temp_faculty
+
+                    }
+
+                    courses.append(temp_course_dict)
+
+            line = fp.readline()
 
 print("Finish parsing all courses' files for {}!\n\n".format(University))
 
