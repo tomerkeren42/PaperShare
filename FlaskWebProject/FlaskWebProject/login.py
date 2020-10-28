@@ -56,6 +56,7 @@ def login(app_DB):
     splitted_mail = email.split("@")
     # saving data as lowercase
     name = delete_point_in_name(splitted_mail[0].lower())
+    print(name)
     university_suff = splitted_mail[1].lower()
 
     debug_mode = False

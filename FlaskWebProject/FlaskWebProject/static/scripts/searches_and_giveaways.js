@@ -62,12 +62,12 @@ function load_table_on_search(university) {
         var keys = found_in_DB.once('value').then(function (coursekey) {
             coursekey.forEach(function (course) {
                 course.forEach(function (data) {
+                    var giveaway = data.val();
+                    console.log("this is the target email " + giveaway.Email);
                     let row = table.insertRow();
-                    let button = create_button();
+                    let button = create_button(giveaway.Email, giveaway.Faculty, giveaway.Course);
                     button_place = row.insertCell(0);
                     button_place.appendChild(button);
-
-                    var giveaway = data.val();
 
                     let description = row.insertCell(1);
                     description.innerHTML = giveaway.Description;
@@ -83,12 +83,12 @@ function load_table_on_search(university) {
         console.log("in load_table_on_search(): course is not empty")
         var keys = found_in_DB.once('value').then(function (datakey) {
             datakey.forEach(function (data) {
+                var giveaway = data.val();
+                console.log("this is the target email " + giveaway.Email);
                 let row = table.insertRow();
-                let button = create_button();
+                let button = create_button(giveaway.Email, giveaway.Faculty, giveaway.Course);
                 button_place = row.insertCell(0);
                 button_place.appendChild(button);
-
-                var giveaway = data.val();
 
                 let description = row.insertCell(1);
                 description.innerHTML = giveaway.Description;
@@ -163,22 +163,30 @@ function make_new_caption(faculty, course) {
     document.getElementById("table_caption").innerHTML = new_caption;
 }
 
-function create_button() {
+// creates the btn with the target email
+function create_button(target_email, faculty, course) {
     let button = document.createElement("button");
     button.setAttribute("class", "btn btn-ps pull-right");
     button.setAttribute("id", "email_button");
-    button.setAttribute("onclick", "new_mail_request();");
+    console.log("in create_btn target is " + target_email);
+    button.addEventListener('click', function () {
+        new_mail_request(target_email, faculty, course);
+    });
+
     button.innerHTML = "שלח בקשה";
     return button;
 }
 
-function new_mail_request() {
+function new_mail_request(target_email, target_faculty, target_course) {
+    console.log("in new_mail target is " + target_email);
     // prepare data to send
-    var faculty = document.getElementById("search_faculties").options[document.getElementById("search_faculties").selectedIndex].text;
-    var course = document.getElementById("search_courses").options[document.getElementById("search_courses").selectedIndex].text;
+    //var faculty = document.getElementById("search_faculties").options[document.getElementById("search_faculties").selectedIndex].text;
+    //var course = document.getElementById("search_courses").options[document.getElementById("search_courses").selectedIndex].text;
+    var faculty = target_faculty;
+    var course = target_course;
 
     // get from table!
-    var giver_email = "need_to_get_this@from_db.com";
+    var giver_email = target_email;
     var subject = "PaperShare: אני מעוניין בחומרי לימוד שלך!";
     var body = "פנייה בנוגע למסירת חומרי לימוד בקורס " + course;
     let send_us_copy = "papershare@gmail.com"
