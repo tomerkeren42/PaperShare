@@ -172,8 +172,10 @@ function create_button(target_email, faculty, course) {
     button.addEventListener('click', function () {
         new_mail_request(target_email, faculty, course);
     });
-
-    button.innerHTML = "שלח בקשה";
+    var icon = document.createElement("span");
+    icon.className = "fas fa-envelope";
+    button.innerHTML = " שלח בקשה ";
+    button.appendChild(icon);
     return button;
 }
 
