@@ -79,6 +79,8 @@ function confirm_remove_from_db() {
 function load_faculties_dropdown(university) {
     // get list
     var faculties_list = universities_faculties_lists[university];
+    faculties_list.sort();
+
     // get faculty select by id
     var cSelect = document.getElementById("search_faculties");
     var dSelect = document.getElementById("give_away_faculties");
