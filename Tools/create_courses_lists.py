@@ -270,7 +270,6 @@ elif University == 'HUJI':
 
                     courses.append(temp_course_dict)
 
-            line = fp.readline()
 
 print("Finish parsing all courses' files for {}!\n\n".format(University))
 
