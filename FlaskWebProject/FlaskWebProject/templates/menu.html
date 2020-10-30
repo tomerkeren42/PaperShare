@@ -32,7 +32,7 @@
 
     <script>
         // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional        
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
         var firebaseConfig = {
             apiKey: "AIzaSyBJ20paxlR6HuiqNai2ecOa87V4AhFcsMo",
             authDomain: "paper-share.firebaseapp.com",
@@ -95,7 +95,7 @@
                         <tr>
                             <th class="text-right">שלח בקשה</th>
                             <th class="text-right">תיאור</th>
-                            <th class="text-right">עדכני לתאריך</th>
+                            <th class="text-right" id="th_date"> תאריך</th>
                             <th class="text-right">שם הקורס</th>
                         </tr>
                     </thead>
@@ -176,7 +176,7 @@
                                             <button type="button" class="btn btn-ps center" onclick="giveaway_modal('my_giveaway')">המסירות שלי</button>
                                         </div>
                                         <div class="col-md-4 text-center">
-                                            <button type="button" class="btn btn-ps center" onclick="giveaway_modal('giveaway_more')" >מסירה נוספת</button>
+                                            <button type="button" class="btn btn-ps center" onclick="giveaway_modal('giveaway_more')">מסירה נוספת</button>
                                         </div>
                                         <div class="col-md-4 text-center">
                                             <button type="button" class="btn btn-ps center" onclick="giveaway_modal('close')">סגור</button>
@@ -231,14 +231,14 @@
                         </div>
 
                         <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-md-6 text-center">
-                                        <button type="button" id="confirm_remove_button" class="btn btn-ps center" data-dismiss="modal">אני בטוח</button>
-                                    </div>
-                                    <div class="col-md-6 text-center">
-                                        <button type="button" id="cancel_remove_button" class="btn btn-ps center" data-dismiss="modal">אני מתחרט</button>
-                                    </div>
+                            <div class="row">
+                                <div class="col-md-6 text-center">
+                                    <button type="button" id="confirm_remove_button" class="btn btn-ps center" data-dismiss="modal">אני בטוח</button>
                                 </div>
+                                <div class="col-md-6 text-center">
+                                    <button type="button" id="cancel_remove_button" class="btn btn-ps center" data-dismiss="modal">אני מתחרט</button>
+                                </div>
+                            </div>
                         </div>
 
                     </div>

@@ -107,6 +107,8 @@ function load_table_on_search(university) {
 
 }
 
+
+
 //function load_user_table(university, email) {
 //    console.log("in the load_user_table()");
 //    // toggle table on

@@ -38,19 +38,23 @@ function load_my_giveaways(university, email) {
     /*
      function for uploading table from DB
      */
-    var found_in_DB = find_user_giveaways(university, email);
     var curr_email;
     var giveaway;
+
+    var found_in_DB = find_user_giveaways(university, email);
+
     found_in_DB.once('value').then(function (faculty) {
         faculty.forEach(function (course) {
             course.forEach(function (data) {
+                var itamar = data;
                 giveaway = data.val();
                 giveaway = Object.values(giveaway);
                 curr_email = giveaway[0].Email;
                 if (curr_email == email) {
-                    giveaway.forEach(function (upload) {
+                    itamar.forEach(function (upload) {
+                        let path_to_delete = make_path(upload);
                         let row = table.insertRow();
-                        let button = create_button(true, upload);
+                        let button = create_button(true, path_to_delete);
                         button_place = row.insertCell(0);
                         button_place.appendChild(button);
                         let description = row.insertCell(1);
@@ -64,6 +68,12 @@ function load_my_giveaways(university, email) {
             });
         });
     });
+}
+function make_path(upload) {
+    var path_array = upload.ref_.path.pieces_;
+    var path = path_array[0] + "/" + path_array[1] + "/" + path_array[2] + "/" + path_array[3] + "/" + path_array[4];
+    console.log("path is: ", path);
+    return path;
 }
 
 function confirm_remove_from_db(ref) {

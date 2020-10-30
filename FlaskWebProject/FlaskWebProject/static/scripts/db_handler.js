@@ -81,15 +81,19 @@ function find_user_giveaways(university, email) {
     return ref;
 }
 
-function remove_from_db(upload) {
+function remove_from_db(path) {
     console.log("in the remove_from_db()");
-    upload.remove()
+    console.log("try to get id:", path);
+    //console.log("try to get key:", upload.key);
+    var ref_to_delete = firebase.database().ref(path);
+    ref_to_delete.remove()
         .then(function () {
             console.log("Remove succeeded.")
         })
         .catch(function (error) {
             console.log("Remove failed: " + error.message)
         });
-    load_my_giveaways();
+    //need to refresh
+    //load_my_giveaways();
 }
 
