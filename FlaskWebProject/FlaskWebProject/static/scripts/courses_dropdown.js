@@ -19,8 +19,7 @@ function load_html(university, email) {
 }
 
 function load_my_giveaways(university, email) {
-    console.log("in the load_my_giveaways()");
-
+    console.log("in load_my_giveaways()");
     // toggle table on
     var table = document.getElementById("user_table");
     var num_of_rows = table.rows.length;
@@ -40,40 +39,39 @@ function load_my_giveaways(university, email) {
      function for uploading table from DB
      */
     var found_in_DB = find_user_giveaways(university, email);
-
     var curr_email;
     var giveaway;
-
-    var keys = found_in_DB.once('value').then(function (faculty) {
+    found_in_DB.once('value').then(function (faculty) {
         faculty.forEach(function (course) {
             course.forEach(function (data) {
                 giveaway = data.val();
                 giveaway = Object.values(giveaway);
                 curr_email = giveaway[0].Email;
-                //console.log("in the load_my_giveaways(), curr_email = " + curr_email);
                 if (curr_email == email) {
-                   // console.log("in the load_my_giveaways(), in the if");
-                    let row = table.insertRow();
-                    let button = create_button("", "", "");
-                    button_place = row.insertCell(0);
-                    button_place.appendChild(button);
-
-                    let description = row.insertCell(1);
-                    description.innerHTML = giveaway[0].Description;
-                    let date = row.insertCell(2);
-                    date.innerHTML = giveaway[0].Date;
-                    let course = row.insertCell(3);
-                    course.innerHTML = giveaway[0].Course;
+                    giveaway.forEach(function (upload) {
+                        let row = table.insertRow();
+                        let button = create_button(true, upload);
+                        button_place = row.insertCell(0);
+                        button_place.appendChild(button);
+                        let description = row.insertCell(1);
+                        description.innerHTML = upload.Description;
+                        let date = row.insertCell(2);
+                        date.innerHTML = upload.Date;
+                        let course = row.insertCell(3);
+                        course.innerHTML = upload.Course;
+                    });
                 }
             });
         });
     });
 }
 
-function confirm_remove_from_db() {
-    $("#remove_modal").modal();
-    
-
+function confirm_remove_from_db(ref) {
+    var remove_button = document.getElementById("confirm_remove_button");
+    remove_button.onclick = function () {
+        remove_from_db(ref);
+    }
+    $("#remove_modal").modal();    
 }
 
 function load_faculties_dropdown(university) {

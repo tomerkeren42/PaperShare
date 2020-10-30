@@ -1,4 +1,4 @@
-function add_giveaway_to_db(university, email, user, faculty, course, description_str, upload_date) {
+﻿function add_giveaway_to_db(university, email, user, faculty, course, description_str, upload_date) {
 
     console.log("in the add_giveaway_to_db()");
 
@@ -63,11 +63,8 @@ function find_giveaways_by_search(university, faculty, course) {
 function find_user_giveaways(university, email) {
    // console.log("in the find_user_giveaways()");
     var db = firebase.database();
-    var ref;
     var search_path = university + '/uploads/';
-
-    ref = db.ref(search_path);
-
+    var ref = db.ref(search_path);
     /*
     ref.once('value', snapshot => {
         if (snapshot.exists()) {
@@ -84,11 +81,15 @@ function find_user_giveaways(university, email) {
     return ref;
 }
 
-function remove_from_db() {
+function remove_from_db(upload) {
     console.log("in the remove_from_db()");
+    upload.remove()
+        .then(function () {
+            console.log("Remove succeeded.")
+        })
+        .catch(function (error) {
+            console.log("Remove failed: " + error.message)
+        });
     load_my_giveaways();
-    //var db_path = '/users/' + university + '/' + user + '/' + course;
-    //firebase.database().ref(db_path).remove();
-
 }
 

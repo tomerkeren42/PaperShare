@@ -59,16 +59,14 @@ function load_table_on_search(university) {
      */
     var found_in_DB = find_giveaways_by_search(university, faculty, course);
     if (course == '') {
-        var keys = found_in_DB.once('value').then(function (coursekey) {
+        found_in_DB.once('value').then(function (coursekey) {
             coursekey.forEach(function (course) {
                 course.forEach(function (data) {
                     var giveaway = data.val();
-                    console.log("this is the target email " + giveaway.Email);
                     let row = table.insertRow();
-                    let button = create_button(giveaway.Email, giveaway.Faculty, giveaway.Course);
+                    let button = create_button(false, giveaway);
                     button_place = row.insertCell(0);
                     button_place.appendChild(button);
-
                     let description = row.insertCell(1);
                     description.innerHTML = giveaway.Description;
                     let date = row.insertCell(2);
@@ -80,16 +78,15 @@ function load_table_on_search(university) {
         });
     }
     else {
-        console.log("in load_table_on_search(): course is not empty")
-        var keys = found_in_DB.once('value').then(function (datakey) {
+        //console.log("in load_table_on_search(): course is not empty")
+        found_in_DB.once('value').then(function (datakey) {
             datakey.forEach(function (data) {
                 var giveaway = data.val();
-                console.log("this is the target email " + giveaway.Email);
+                console.log("in the load_table_on_search(): give away is:", giveaway);
                 let row = table.insertRow();
-                let button = create_button(giveaway.Email, giveaway.Faculty, giveaway.Course);
+                let button = create_button(false, giveaway);
                 button_place = row.insertCell(0);
                 button_place.appendChild(button);
-
                 let description = row.insertCell(1);
                 description.innerHTML = giveaway.Description;
                 let date = row.insertCell(2);
@@ -110,51 +107,49 @@ function load_table_on_search(university) {
 
 }
 
-function load_user_table(university, email) {
-    console.log("in the load_user_table()");
+//function load_user_table(university, email) {
+//    console.log("in the load_user_table()");
+//    // toggle table on
+//    var table = document.getElementById("user_table");
+//    var num_of_rows = table.rows.length;
+//    // if table is already fill up, remove all previous search
+//    if (num_of_rows > 1) {
+//        for (var i = num_of_rows; i > 1; i--) {
+//            table.deleteRow(i - 1);
+//        }
+//    }
+//    // if table style is none  (hidden) - change it to inline (show)
+//    // need to check validation of form - do only if form is submitted
+//    if (table.style.display === "none") {
+//        table.style.display = "inline";
+//    }
 
-    // toggle table on
-    var table = document.getElementById("user_table");
-    var num_of_rows = table.rows.length;
-    // if table is already fill up, remove all previous search
-    if (num_of_rows > 1) {
-        for (var i = num_of_rows; i > 1; i--) {
-            table.deleteRow(i - 1);
-        }
-    }
-    // if table style is none  (hidden) - change it to inline (show)
-    // need to check validation of form - do only if form is submitted
-    if (table.style.display === "none") {
-        table.style.display = "inline";
-    }
+//    /*
+//     function for uploading table from DB
+//     */
+//    var found_in_DB = find_user_giveaways(university, email);
 
-    /*
-     function for uploading table from DB
-     */
-    var found_in_DB = find_user_giveaways(university, email);
-
-    var keys = found_in_DB.once('value').then(function (faculty) {
-        faculty.forEach(function (course) {
-            course.forEach(function (data) {
-                if (data.val().Email.equalTo(email)) {
-                    let row = table.insertRow();
-                    let button = create_button();
-                    button_place = row.insertCell(0);
-                    button_place.appendChild(button);
-
-                    var giveaway = data.val();
-
-                    let description = row.insertCell(1);
-                    description.innerHTML = giveaway.Description;
-                    let date = row.insertCell(2);
-                    date.innerHTML = giveaway.Date;
-                    let course = row.insertCell(3);
-                    course.innerHTML = giveaway.Course;
-                }
-            });
-        });
-    });
-}
+//    var keys = found_in_DB.once('value').then(function (faculty) {
+//        faculty.forEach(function (course) {
+//            course.forEach(function (data) {
+//                if (data.val().Email.equalTo(email)) {
+//                    console.log("in the load_user_table(): give away is: " ,giveaway)
+//                    var giveaway = data.val();
+//                    let row = table.insertRow();
+//                    let button = create_button(true, giveaway);
+//                    button_place = row.insertCell(0);
+//                    button_place.appendChild(button);
+//                    let description = row.insertCell(1);
+//                    description.innerHTML = giveaway.Description;
+//                    let date = row.insertCell(2);
+//                    date.innerHTML = giveaway.Date;
+//                    let course = row.insertCell(3);
+//                    course.innerHTML = giveaway.Course;
+//                }
+//            });
+//        });
+//    });
+//}
 
 function make_new_caption(faculty, course) {
     // make new table caption
@@ -164,20 +159,19 @@ function make_new_caption(faculty, course) {
 }
 
 // creates the btn with the target email
-function create_button(target_email, faculty, course) {
+function create_button(is_remove, ref) {
     let button = document.createElement("button");
     button.setAttribute("class", "btn btn-ps pull-right");
 
     // if it's הסר מהאתר button
-    if (target_email == "") {
+    if (is_remove) {
         button.setAttribute("id", "remove_button");
-        //button.setAttribute("onclick", "confirm_remove_from_db();");
         button.addEventListener('click', function () {
-            confirm_remove_from_db();
+            confirm_remove_from_db(ref);
         });
         var icon = document.createElement("span");
         icon.className = "fas fa-minus-square";
-        button.innerHTML = " הסר מהאתר ";
+        button.innerHTML = "  הסר מהאתר  ";
         button.appendChild(icon);
     }
     //else it's שלח בקשה button
@@ -185,11 +179,11 @@ function create_button(target_email, faculty, course) {
         button.setAttribute("id", "email_button");
         //console.log("in create_btn target is " + target_email);
         button.addEventListener('click', function () {
-            new_mail_request(target_email, faculty, course);
+            new_mail_request(ref.Email, ref.Faculty, ref.Course);
         });
         var icon = document.createElement("span");
         icon.className = "fas fa-envelope";
-        button.innerHTML = " שלח בקשה ";
+        button.innerHTML = "  שלח בקשה  ";
         button.appendChild(icon);
     }
     return button;
