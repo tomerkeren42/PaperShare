@@ -69,7 +69,7 @@
             <div class="container">
                 <div class="row">
                     <h3 class="text-right">חיפוש חומרי לימוד למסירה</h3>
-                    <p class="text-right">כדי ליצור קשר עם המוסר, תוכל לפנות אליו במייל</p>
+                    <p class="text-right">כדי ליצור קשר עם המוסר\ת, תוכל\י לקשר במייל במייל</p>
                 </div>
                 <div class="container"
                 <form action="." id="search_form" name="search_form">
@@ -133,9 +133,9 @@
                     <form id="give_away_form">
 
                         <!--Faculty selection-->
-                        <div class="row pull-right">
-                            <select class="selectpicker pull-right" data-live-search="true" title="בחר פקולטה" id="give_away_faculties"  onchange="courses_dropdown(this, 'give_away_courses', '{{university}}');" dir="rtl">
-                                <option value="0">Select a faculty</option>
+                        <div class="row pull-right" style="text-align: right; font-size: 20px;">
+                            <select class="selectpicker pull-right" data-live-search="true" title="בחר פקולטה" id="give_away_faculties"  onchange="courses_dropdown(this, 'give_away_courses', '{{university}}');" dir="rtl" style="text-align: right; font-size: 20px;">
+                                <option value="0" style="text-align: right; font-size: 20px;">Select a faculty</option>
                             </select>
                         </div>
                         <br />
@@ -222,7 +222,7 @@
                             <tr>
                                 <th class="text-right">הסרה</th>
                                 <th class="text-right" onclick="sortTable(1, 'user_table')" style="cursor:pointer">תיאור <span class="fas fa-sort"></span></th>
-                                <th class="text-right" onclick="sortTable(2, 'user_table')" style="cursor:pointer">עדכני לתאריך <span class="fas fa-sort"></span></th>
+                                <th class="text-right" onclick="sortTable(2, 'user_table')" style="cursor:pointer">תאריך <span class="fas fa-sort"></span></th>
                                 <th class="text-right" onclick="sortTable(3, 'user_table')" style="cursor:pointer">שם הקורס <span class="fas fa-sort"></span></th>
                             </tr>
                         </thead>

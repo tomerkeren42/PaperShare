@@ -2,6 +2,9 @@
 PaperShare projects CSS unique classes
 */
 
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+
 
 body {
     font-family: Calibri, sans-serif;
@@ -26,6 +29,42 @@ tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
+h1,
+.h1 {
+    font-size: 40px;
+}
+
+h2,
+.h2 {
+    font-size: 34px;
+}
+
+h3,
+.h3 {
+    font-size: 28px;
+}
+
+h4,
+.h4 {
+    font-size: 22px;
+}
+
+h5,
+.h5 {
+    font-size: 18px;
+}
+
+h6,
+.h6 {
+    font-size: 16px;
+}
+
+h1 small,
+.h1 small {
+    font-size: 24px;
+}
+
+
 .imgban {
     display: block;
     margin-left: auto;
@@ -37,6 +76,7 @@ tr:nth-child(even) {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 500px;
 }
 .form-ps {
     overflow: hidden;
@@ -146,11 +186,73 @@ tr:nth-child(even) {
     border-color: #ffffff;
 }
 
+.dropdown-menu {
+    font-size: 18px;
+}
+
+
+selectpicker {
+    text-align: right;
+    font-size: 18px;
+}
+
+select.bs-select-hidden,
+.bootstrap-select > select.bs-select-hidden,
+select.selectpicker {
+    text-align: right;
+    font-size: 18px;
+}
+
+    .form-control {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 20px;
+    line-height: 1.428571429;
+    color: #555555;
+    vertical-align: middle;
+    text-align: right;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+
+.form-group-lg .bootstrap-select.form-control .dropdown-toggle,
+.form-group-sm .bootstrap-select.form-control .dropdown-toggle {
+    height: 100%;
+    font-size: 18px;
+    line-height: inherit;
+    border-radius: inherit;
+}
+
+.bootstrap-select.form-control-sm .dropdown-toggle,
+.bootstrap-select.form-control-lg .dropdown-toggle {
+    font-size: 18px;
+    line-height: inherit;
+    border-radius: inherit;
+}
+
+
 .btn-ps {
+    font-size: 20px;
     color: #ffffff;
     background-color: green;
     border-color: #ffffff;
 }
+
+.btn-ps-table {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: green;
+    border-color: #ffffff;
+}
+
 .nav-tabs {
     color: #5cb85c;
     border-bottom: 1px solid #dddddd;
@@ -215,3 +317,45 @@ input {
 .closebtn:hover {
     color: black;
 }
+
+.btn-three {
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+}
+
+    .btn-three::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background-color: rgba(255,255,255,0.1);
+        transition: all 0.3s;
+    }
+
+    .btn-three:hover::before {
+        opacity: 0;
+        transform: scale(0.5,0.5);
+    }
+
+    .btn-three::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0;
+        transition: all 0.3s;
+        border: 1px solid rgba(255,255,255,0.5);
+        transform: scale(1.2,1.2);
+    }
+
+    .btn-three:hover::after {
+        opacity: 1;
+        transform: scale(1,1);
+    }

@@ -229,7 +229,7 @@ function make_new_caption(faculty, course) {
 // creates the btn with the target email
 function create_button(is_remove, ref, email) {
     let button = document.createElement("button");
-    button.setAttribute("class", "btn btn-ps pull-right");
+    button.setAttribute("class", "btn btn-ps-table pull-right");
 
     // if it's הסר מהאתר button
     if (is_remove) {
