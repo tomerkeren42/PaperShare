@@ -42,6 +42,8 @@ function load_table_on_search(university) {
     // toggle table on
     var table = document.getElementById("search_table");
     var num_of_rows = table.rows.length;
+    var empty_msg = document.getElementById("table_caption");
+
     // if table is already fill up, remove all previous search
     if (num_of_rows > 1) {
         for (var i = num_of_rows; i > 1; i--) {
@@ -54,14 +56,27 @@ function load_table_on_search(university) {
         table.style.display = "inline";
     }
 
+    if (empty_msg.style.display === "none") {
+        empty_msg.style.display = "block";
+        
+    }
+
     /*
      function for uploading table from DB
      */
     var found_in_DB = find_giveaways_by_search(university, faculty, course);
+    empty_msg.innerHTML = "אין חומרים למסירה בקורס שבחרת";
+    document.getElementById("table_header").style.display = "none";
+
     if (course == '') {
         found_in_DB.once('value').then(function (coursekey) {
             coursekey.forEach(function (course) {
                 course.forEach(function (data) {
+
+                    //reaching this point means table isn't empty. hide empy_msg & show header
+                    empty_msg.style.display = "none";
+                    document.getElementById("table_header").style.display = "block";
+
                     var giveaway = data.val();
                     let row = table.insertRow();
                     let button = create_button(false, giveaway);
@@ -73,6 +88,7 @@ function load_table_on_search(university) {
                     date.innerHTML = giveaway.Date;
                     let course = row.insertCell(3);
                     course.innerHTML = giveaway.Course;
+
                 });
             });
         });
@@ -81,6 +97,11 @@ function load_table_on_search(university) {
         //console.log("in load_table_on_search(): course is not empty")
         found_in_DB.once('value').then(function (datakey) {
             datakey.forEach(function (data) {
+
+                //reaching this point means table isn't empty. hide empy_msg & show header
+                empty_msg.style.display = "none";
+                document.getElementById("table_header").style.display = "block";
+
                 var giveaway = data.val();
                 console.log("in the load_table_on_search(): give away is:", giveaway);
                 let row = table.insertRow();
@@ -93,20 +114,21 @@ function load_table_on_search(university) {
                 date.innerHTML = giveaway.Date;
                 let course = row.insertCell(3);
                 course.innerHTML = giveaway.Course;
+
             });
         });
 
  
     }
-    //if (is_table_empty == true) {
-    //    console.log("inside is_empty which is: " + is_empty);
-    //    document.getElementById("table_caption").innerHTML = "אין חומרים למסירה בקורס שבחרת";
-    //    document.getElementById("table_header").style.display = "none";
+    //if (table_empty == true) {
+      //  console.log("inside is_empty ");
+        //document.getElementById("table_caption").innerHTML = "אין חומרים למסירה בקורס שבחרת";
+        //document.getElementById("table_header").style.display = "none";
+        //table_empty = false;
     //}
     //console.log("table.rows.length is: " + document.getElementById("search_table").rows.length);
 
 }
-
 
 
 //function load_user_table(university, email) {
