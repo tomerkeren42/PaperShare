@@ -116,8 +116,6 @@ function load_table_on_search(university) {
 
             });
         });
-
- 
     }
     sortTable(2, "search_table");
 }
@@ -269,7 +267,7 @@ function new_mail_request(target_email, target_faculty, target_course) {
     var giver_email = target_email;
     var subject = "PaperShare: אני מעוניין/ת בחומרי הלימוד שלך";
     var body = "היי, ראיתי שאת/ה מוסר/ת חומרי לימוד ב " + course + "," +" אשמח לקבל אותם ממך! אם כבר מסרת את חומרי הלימוד, ניתן להסיר אותם מהאתר ";
-    let send_us_copy = "papershare@gmail.com"
+    let send_us_copy = "papershareproject@gmail.com"
 
     // email sender
     //window.open("mailto:" + giver_email + '?cc=' + send_us_copy + '&subject=' + subjet + '&body=' + body);
