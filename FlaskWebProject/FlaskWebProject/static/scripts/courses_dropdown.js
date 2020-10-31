@@ -34,37 +34,34 @@ function load_my_giveaways(university, email) {
     if (table.style.display === "none") {
         table.style.display = "inline";
     }
+    init_my_giveaway_table(university, email);
+    sortTable(3, 'user_table');
+}
 
-    /*
-     function for uploading table from DB
-     */
-    var curr_email;
-    var giveaway;
-
-    var found_in_DB = find_user_giveaways(university, email);
-
-    found_in_DB.once('value').then(function (faculty) {
+function init_my_giveaway_table(university, email) {
+    var table = document.getElementById("user_table");
+    var upload_ref = find_user_giveaways(university, email);
+    upload_ref.once('value').then(function (faculty) {
         faculty.forEach(function (course) {
-            course.forEach(function (data) {
-                var itamar = data;
-                giveaway = data.val();
-                giveaway = Object.values(giveaway);
-                curr_email = giveaway[0].Email;
-                if (curr_email == email) {
-                    itamar.forEach(function (upload) {
-                        let path_to_delete = make_path(upload);
+            course.forEach(function (course_giveaways) {
+                course_giveaways.forEach(function (giveaway) {
+                    giveaway_data = giveaway.val();
+                    if (giveaway_data.Email == email) {
                         let row = table.insertRow();
-                        let button = create_button(true, path_to_delete);
+                        let button = create_button(true, make_path(giveaway), email);
                         button_place = row.insertCell(0);
                         button_place.appendChild(button);
+
                         let description = row.insertCell(1);
-                        description.innerHTML = upload.Description;
+                        description.innerHTML = giveaway_data.Description;
+
                         let date = row.insertCell(2);
-                        date.innerHTML = upload.Date;
+                        date.innerHTML = giveaway_data.Date;
+
                         let course = row.insertCell(3);
-                        course.innerHTML = upload.Course;
-                    });
-                }
+                        course.innerHTML = giveaway_data.Course;
+                    }
+                });
             });
         });
     });
@@ -72,14 +69,13 @@ function load_my_giveaways(university, email) {
 function make_path(upload) {
     var path_array = upload.ref_.path.pieces_;
     var path = path_array[0] + "/" + path_array[1] + "/" + path_array[2] + "/" + path_array[3] + "/" + path_array[4];
-    console.log("path is: ", path);
     return path;
 }
 
-function confirm_remove_from_db(ref) {
+function confirm_remove_from_db(path, email) {
     var remove_button = document.getElementById("confirm_remove_button");
     remove_button.onclick = function () {
-        remove_from_db(ref);
+        remove_from_db(path, email);
     }
     $("#remove_modal").modal();    
 }

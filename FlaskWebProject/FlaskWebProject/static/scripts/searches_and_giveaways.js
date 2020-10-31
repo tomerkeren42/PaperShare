@@ -88,7 +88,6 @@ function load_table_on_search(university) {
                     date.innerHTML = giveaway.Date;
                     let course = row.insertCell(3);
                     course.innerHTML = giveaway.Course;
-
                 });
             });
         });
@@ -120,16 +119,63 @@ function load_table_on_search(university) {
 
  
     }
-    //if (table_empty == true) {
-      //  console.log("inside is_empty ");
-        //document.getElementById("table_caption").innerHTML = "אין חומרים למסירה בקורס שבחרת";
-        //document.getElementById("table_header").style.display = "none";
-        //table_empty = false;
-    //}
-    //console.log("table.rows.length is: " + document.getElementById("search_table").rows.length);
-
+    sortTable(2, "search_table");
 }
 
+function sortTable(sort_by_col_num, table_name) {
+    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+    table = document.getElementById(table_name);
+    switching = true;
+    //Set the sorting direction to ascending:
+    dir = "asc";
+    /*Make a loop that will continue until
+    no switching has been done:*/
+    while (switching) {
+        //start by saying: no switching is done:
+        switching = false;
+        rows = table.rows;
+        /*Loop through all table rows (except the
+        first, which contains table headers):*/
+        for (i = 1; i < (rows.length - 1); i++) {
+            //start by saying there should be no switching:
+            shouldSwitch = false;
+            /*Get the two elements you want to compare,
+            one from current row and one from the next:*/
+            x = rows[i].getElementsByTagName("TD")[sort_by_col_num];
+            y = rows[i + 1].getElementsByTagName("TD")[sort_by_col_num];
+            /*check if the two rows should switch place,
+            based on the direction, asc or desc:*/
+            if (dir == "asc") {
+                if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                    //if so, mark as a switch and break the loop:
+                    shouldSwitch = true;
+                    break;
+                }
+            } else if (dir == "desc") {
+                if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                    //if so, mark as a switch and break the loop:
+                    shouldSwitch = true;
+                    break;
+                }
+            }
+        }
+        if (shouldSwitch) {
+            /*If a switch has been marked, make the switch
+            and mark that a switch has been done:*/
+            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+            switching = true;
+            //Each time a switch is done, increase this count by 1:
+            switchcount++;
+        } else {
+            /*If no switching has been done AND the direction is "asc",
+            set the direction to "desc" and run the while loop again.*/
+            if (switchcount == 0 && dir == "asc") {
+                dir = "desc";
+                switching = true;
+            }
+        }
+    }
+}
 
 //function load_user_table(university, email) {
 //    console.log("in the load_user_table()");
@@ -155,7 +201,7 @@ function load_table_on_search(university) {
 
 //    var keys = found_in_DB.once('value').then(function (faculty) {
 //        faculty.forEach(function (course) {
-//            course.forEach(function (data) {
+//            course.forEach(funcion (data) {
 //                if (data.val().Email.equalTo(email)) {
 //                    console.log("in the load_user_table(): give away is: " ,giveaway)
 //                    var giveaway = data.val();
@@ -183,7 +229,7 @@ function make_new_caption(faculty, course) {
 }
 
 // creates the btn with the target email
-function create_button(is_remove, ref) {
+function create_button(is_remove, ref, email) {
     let button = document.createElement("button");
     button.setAttribute("class", "btn btn-ps pull-right");
 
@@ -191,7 +237,7 @@ function create_button(is_remove, ref) {
     if (is_remove) {
         button.setAttribute("id", "remove_button");
         button.addEventListener('click', function () {
-            confirm_remove_from_db(ref);
+            confirm_remove_from_db(ref, email);
         });
         var icon = document.createElement("span");
         icon.className = "fas fa-minus-square";
@@ -253,7 +299,7 @@ function check_submit() {
     return false;
 }
 
-function giveaway_modal(action) {
+function giveaway_modal(action, university, email) {
     $('#submission_modal').modal('hide');
     document.getElementById("Description").value = "";
     $('#agree-terms').prop('checked', false);
@@ -264,6 +310,7 @@ function giveaway_modal(action) {
     else if (action == "my_giveaway") {
         console.log("inside my giveaway");
         $('[href="#menu2"]').tab('show');
+        load_my_giveaways(university, email);
     }
     return;
 }

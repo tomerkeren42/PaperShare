@@ -13,6 +13,16 @@
 <script src="/static/scripts/searches_and_giveaways.js"></script>
 <script src="/static/scripts/db_handler.js"></script>
 
+<!--<style>
+    th {
+        cursor: pointer;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2
+    }
+</style>-->
+
 <!--3 tabs for actions-->
 
 <ul class="nav nav-tabs pull-right">
@@ -93,10 +103,10 @@
                 <table class="table table-striped table-hover text-right" data-width="auto" id="search_table" style="display:none">
                     <thead id="table_header">
                         <tr>
-                            <th class="text-right">שלח בקשה</th>
+                            <th class="text-right" >שלח בקשה</th>
                             <th class="text-right">תיאור</th>
-                            <th class="text-right" id="th_date"> תאריך</th>
-                            <th class="text-right">שם הקורס</th>
+                            <th class="text-right" id="th_date"  onclick="sortTable(2, 'search_table')" style="cursor:pointer"> תאריך</th>
+                            <th class="text-right"  onclick="sortTable(3, 'search_table')" style="cursor:pointer">שם הקורס</th>
                         </tr>
                     </thead>
                     <tbody id="search_table_body"></tbody>
@@ -173,7 +183,7 @@
                                 <div class="modal-footer">
                                     <div class="row">
                                         <div class="col-md-4 text-center">
-                                            <button type="button" class="btn btn-ps center" onclick="giveaway_modal('my_giveaway')">המסירות שלי</button>
+                                            <button type="button" class="btn btn-ps center" onclick="giveaway_modal('my_giveaway', '{{university}}', '{{email}}')">המסירות שלי</button>
                                         </div>
                                         <div class="col-md-4 text-center">
                                             <button type="button" class="btn btn-ps center" onclick="giveaway_modal('giveaway_more')">מסירה נוספת</button>
@@ -210,9 +220,9 @@
                         <thead>
                             <tr>
                                 <th class="text-right">הסרה</th>
-                                <th class="text-right">תיאור</th>
-                                <th class="text-right">עדכני לתאריך</th>
-                                <th class="text-right">שם הקורס</th>
+                                <th class="text-right" onclick="sortTable(1, 'user_table')" style="cursor:pointer">תיאור</th>
+                                <th class="text-right" onclick="sortTable(2, 'user_table')" style="cursor:pointer">עדכני לתאריך</th>
+                                <th class="text-right" onclick="sortTable(3, 'user_table')" style="cursor:pointer">שם הקורס</th>
                             </tr>
                         </thead>
                         <tbody id="my_giveaways_table_body"></tbody>

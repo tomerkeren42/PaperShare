@@ -2,6 +2,9 @@
 PaperShare projects CSS unique classes
 */
 
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
 
 .imgban {
     display: block;
