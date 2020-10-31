@@ -240,7 +240,7 @@ function create_button(is_remove, ref, email) {
             confirm_remove_from_db(ref, email);
         });
         var icon = document.createElement("span");
-        icon.className = "fas fa-minus-square";
+        icon.className = "fas fa-trash-alt";
         button.innerHTML = "  הסר מהאתר  ";
         button.appendChild(icon);
     }
