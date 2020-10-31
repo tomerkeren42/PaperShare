@@ -6,6 +6,7 @@ from smtplib import SMTP
 # constants
 universities_dict = {
             "campus.technion.ac.il" : "Technion",
+            "technion.ac.il"        : "Technion",
             "mail.tau.ac.il"        : "TAU",
             "tauex.tau.ac.il"       : "TAU",
             "mail.huji.ac.il"       : "HUJI",
