@@ -3,7 +3,7 @@ universities_faculties_lists['Technion'] = Technion_faculties_list;
 universities_faculties_lists['TAU'] = TAU_faculties_list;
 universities_faculties_lists['IDC'] = TAU_faculties_list;
 universities_faculties_lists['BGU'] = TAU_faculties_list;
-universities_faculties_lists['HUJI'] = TAU_faculties_list;
+universities_faculties_lists['HUJI'] = HUJI_faculties_list;
 
 
 var universities_courses_lists = new Array(5);
@@ -11,7 +11,7 @@ universities_courses_lists['Technion'] = Technion_courses_lists;
 universities_courses_lists['TAU'] = TAU_courses_lists;
 universities_courses_lists['IDC'] = TAU_courses_lists;
 universities_courses_lists['BGU'] = TAU_courses_lists;
-universities_courses_lists['HUJI'] = TAU_courses_lists;
+universities_courses_lists['HUJI'] = HUJI_courses_lists;
 
 function load_html(university, email) {
     load_faculties_dropdown(university);
@@ -19,8 +19,7 @@ function load_html(university, email) {
 }
 
 function load_my_giveaways(university, email) {
-    console.log("in the load_my_giveaways()");
-
+    console.log("in load_my_giveaways()");
     // toggle table on
     var table = document.getElementById("user_table");
     var num_of_rows = table.rows.length;
@@ -35,50 +34,57 @@ function load_my_giveaways(university, email) {
     if (table.style.display === "none") {
         table.style.display = "inline";
     }
+    init_my_giveaway_table(university, email);
+    sortTable(3, 'user_table');
+}
 
-    /*
-     function for uploading table from DB
-     */
-    var found_in_DB = find_user_giveaways(university, email);
-
-    var curr_email;
-    var giveaway;
-
-    var keys = found_in_DB.once('value').then(function (faculty) {
+function init_my_giveaway_table(university, email) {
+    var table = document.getElementById("user_table");
+    var upload_ref = find_user_giveaways(university, email);
+    upload_ref.once('value').then(function (faculty) {
         faculty.forEach(function (course) {
-            course.forEach(function (data) {
-                giveaway = data.val();
-                giveaway = Object.values(giveaway);
-                curr_email = giveaway[0].Email;
-                //console.log("in the load_my_giveaways(), curr_email = " + curr_email);
-                if (curr_email == email) {
-                   // console.log("in the load_my_giveaways(), in the if");
-                    let row = table.insertRow();
-                    let button = create_button("", "", "");
-                    button_place = row.insertCell(0);
-                    button_place.appendChild(button);
+            course.forEach(function (course_giveaways) {
+                course_giveaways.forEach(function (giveaway) {
+                    giveaway_data = giveaway.val();
+                    if (giveaway_data.Email == email) {
+                        let row = table.insertRow();
+                        let button = create_button(true, make_path(giveaway), email);
+                        button_place = row.insertCell(0);
+                        button_place.appendChild(button);
 
-                    let description = row.insertCell(1);
-                    description.innerHTML = giveaway[0].Description;
-                    let date = row.insertCell(2);
-                    date.innerHTML = giveaway[0].Date;
-                    let course = row.insertCell(3);
-                    course.innerHTML = giveaway[0].Course;
-                }
+                        let description = row.insertCell(1);
+                        description.innerHTML = giveaway_data.Description;
+
+                        let date = row.insertCell(2);
+                        date.innerHTML = giveaway_data.Date;
+
+                        let course = row.insertCell(3);
+                        course.innerHTML = giveaway_data.Course;
+                    }
+                });
             });
         });
     });
 }
+function make_path(upload) {
+    var path_array = upload.ref_.path.pieces_;
+    var path = path_array[0] + "/" + path_array[1] + "/" + path_array[2] + "/" + path_array[3] + "/" + path_array[4];
+    return path;
+}
 
-function confirm_remove_from_db() {
-    $("#remove_modal").modal();
-    
-
+function confirm_remove_from_db(path, email) {
+    var remove_button = document.getElementById("confirm_remove_button");
+    remove_button.onclick = function () {
+        remove_from_db(path, email);
+    }
+    $("#remove_modal").modal();    
 }
 
 function load_faculties_dropdown(university) {
     // get list
     var faculties_list = universities_faculties_lists[university];
+    faculties_list.sort();
+
     // get faculty select by id
     var cSelect = document.getElementById("search_faculties");
     var dSelect = document.getElementById("give_away_faculties");
