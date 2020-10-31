@@ -13,12 +13,10 @@ universities_dict = {
             "post.idc.ac.il"        : "IDC",
 }
 
-##smtp = SMTP('smtp.server.com')
-
-
 # url for outside microsoft login form
 microsoft_url = "https://login.microsoftonline.com/common/GetCredentialType"
-check_email_api = "https://isitarealemail.com/api/email/validate"
+isitrealmail_email_api = "https://isitarealemail.com/api/email/validate"
+# mailboxlayer_url = "http://apilayer.net/api/check?access_key=21e9a428f544fdf81eed31c991d4e1c9"  
 
 app = Flask(__name__)
 
@@ -32,31 +30,51 @@ def is_uni_valid(email):
         else:
             return False
 
+## use for technion accounts
 def microsoft_email_check(email):
      body = '{"Username":"%s"}' % email
      request = req.post(microsoft_url, data=body)
      response = request.text
-     valid = re.search('"IfExistsResult":0', response)
-     if valid is True:
+     is_exist = response.split('"IfExistsResult":')
+     if is_exist[1][0] == "0":
          return True
      else:
          return False
 
-def other_email_check(email):
-     response = req.get(check_email_api, params = {'email': email})
+## use for huji accounts
+def isitrealmail_email_check(email):
+     response = req.get(isitrealmail_email_api, params = {'email': email})
      status = response.json()['status']
      if status == "valid":
          return True
      else:
          return False
 
+# can't validate TAU!
+# def TAU_email_check(email):
+    # print ("microsoft is: ", microsoft_email_check(email))
+    #print ("isitrealmail is: ", isitrealmail_email_check(email))
+    # response = req.get('https://api.mailgun.net/v4/address/validate',
+    #    auth=("api", '9b1bf5d3-2cdec14d'),
+    #    params={"address": email})
+    #print("mailgun:", response )
+    #response = req.post(
+    #    "https://api.mailgun.net/v4/address/validate",
+    #    auth=("api", "9b1bf5d3-2cdec14d"),
+    #    data={"address": email})
+    #print("mailgun:", response )
+
+
 def is_server_valid(email, university):
     print("inside is_server_valid()")
-    if university == "HUJI" or university == "IDC":
-        return other_email_check(email)
-    else:
+    print("uni is: ", university)
+    if university == "Technion" or university == "BGU":
         return microsoft_email_check(email)
-
+    elif university == "HUJI":
+        return isitrealmail_email_check(email)
+    elif university == "TAU":
+        return True
+        
 def login(app_DB):
     not_uni   = False
     not_exist = False
