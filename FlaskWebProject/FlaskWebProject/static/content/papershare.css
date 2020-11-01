@@ -2,15 +2,6 @@
 PaperShare projects CSS unique classes
 */
 
-@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
-
-
-
-body {
-    font-family: Calibri, sans-serif;
-    font-size: 18px;
-}
-
 h1,
 h2,
 h3,
@@ -28,6 +19,12 @@ h6,
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+
+body {
+    font-family: Calibri, sans-serif;
+    font-size: 16px;
+}
+
 
 h1,
 .h1 {
@@ -62,6 +59,33 @@ h6,
 h1 small,
 .h1 small {
     font-size: 24px;
+}
+
+.form-group-lg .bootstrap-select.form-control .dropdown-toggle,
+.form-group-sm .bootstrap-select.form-control .dropdown-toggle {
+    height: 100%;
+    font-size: 18px;
+    line-height: inherit;
+    border-radius: inherit;
+}
+
+.bootstrap-select.form-control-sm .dropdown-toggle,
+.bootstrap-select.form-control-lg .dropdown-toggle {
+    font-size: 18px;
+    line-height: inherit;
+    border-radius: inherit;
+}
+
+selectpicker {
+    text-align: right;
+    font-size: 18px;
+}
+
+select.bs-select-hidden,
+.bootstrap-select > select.bs-select-hidden,
+select.selectpicker {
+    text-align: right;
+    font-size: 18px;
 }
 
 
@@ -187,21 +211,10 @@ h1 small,
 }
 
 .dropdown-menu {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 
-selectpicker {
-    text-align: right;
-    font-size: 18px;
-}
-
-select.bs-select-hidden,
-.bootstrap-select > select.bs-select-hidden,
-select.selectpicker {
-    text-align: right;
-    font-size: 18px;
-}
 
     .form-control {
     display: block;
@@ -222,21 +235,6 @@ select.selectpicker {
     transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 
-
-.form-group-lg .bootstrap-select.form-control .dropdown-toggle,
-.form-group-sm .bootstrap-select.form-control .dropdown-toggle {
-    height: 100%;
-    font-size: 18px;
-    line-height: inherit;
-    border-radius: inherit;
-}
-
-.bootstrap-select.form-control-sm .dropdown-toggle,
-.bootstrap-select.form-control-lg .dropdown-toggle {
-    font-size: 18px;
-    line-height: inherit;
-    border-radius: inherit;
-}
 
 
 .btn-ps {
