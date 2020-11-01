@@ -105,7 +105,7 @@
                         <tr>
                             <th class="text-right" >שלח בקשה</th>
                             <th class="text-right">תיאור</th>
-                            <th class="text-right" id="th_date" onclick="sortTable(2, 'search_table')" style="cursor:pointer">תאריך <span class="fas fa-sort"></span></th>
+                            <th class="text-right" id="th_date" onclick="sortTable(2, 'search_table')" style="cursor:pointer">תאריך</th>
                             <th class="text-right" onclick="sortTable(3, 'search_table')" style="cursor:pointer">שם הקורס</th>
                         </tr>
                     </thead>
@@ -207,22 +207,23 @@
         <!--  ##########################################################################
         TAB3- my giveaways
         ##########################################################################   -->
-        <!-- header-->
+ 
         <div id="menu2" class="tab-pane fade">
             <br /> <br />
             <div class="container">
                 <div class="row">
                     <h3 class="text-right">אלו הם חומרי הלימוד שפרסמת למסירה, ניתן להסיר אותם מהאתר בכל זמן</h3>
-                    <p class="text-right">.כאשר סטודנט ירצה לקבל את אחד החומרים שמסרת, הוא יצור איתך קשר במייל האוניברסיטאי שלך</p>
+                    <p class="text-right">כאשר סטודנט ירצה לקבל את אחד החומרים שמסרת, הוא יצור איתך קשר במייל האוניברסיטאי</p>
+                </div>
                 </div>
                 <div class="container pull-right">
                     <!-- data table, my give aways -->
-                    <table class="table table-striped table-hover text-right" id="user_table">
+                    <table class="table table-striped table-hover text-right pull-right" id="user_table">
                         <thead>
                             <tr>
                                 <th class="text-right">הסרה</th>
                                 <th class="text-right" onclick="sortTable(1, 'user_table')" style="cursor:pointer">תיאור</th>
-                                <th class="text-right" onclick="sortTable(2, 'user_table')" style="cursor:pointer">תאריך <span class="fas fa-sort"></span></th>
+                                <th class="text-right" onclick="sortTable(2, 'user_table')" style="cursor:pointer">תאריך</th>
                                 <th class="text-right" onclick="sortTable(3, 'user_table')" style="cursor:pointer">שם הקורס</th>
                             </tr>
                         </thead>
@@ -230,7 +231,7 @@
                     </table>
                     <br />
                 </div>
-            </div>
+            
             <!-- remove confirmation modal-->
             <div class="modal fade" id="remove_modal" role="dialog">
                 <div class="modal-dialog">
@@ -256,7 +257,10 @@
                 </div>
                 <br />
             </div>
+
+
         </div>
+        
 
 </body>
 

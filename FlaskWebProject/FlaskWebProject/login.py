@@ -10,7 +10,7 @@ universities_dict = {
             "tauex.tau.ac.il"       : "TAU",
             "mail.huji.ac.il"       : "HUJI",
             "post.bgu.ac.il"        : "BGU",
-            "post.idc.ac.il"        : "IDC",
+            "post.idc.ac.il"        : "IDC"
 }
 
 ##smtp = SMTP('smtp.server.com')
@@ -63,7 +63,7 @@ def login(app_DB):
     username  = ""
     university = None
     # parse email address
-    email = request.form['email']
+    email = request.form['email'].lower()
     splitted_mail = email.split("@")
     # saving data as lowercase
     name = delete_point_in_name(splitted_mail[0].lower())
