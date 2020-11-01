@@ -116,8 +116,6 @@ function load_table_on_search(university) {
 
             });
         });
-
- 
     }
     sortTable(2, "search_table");
 }
