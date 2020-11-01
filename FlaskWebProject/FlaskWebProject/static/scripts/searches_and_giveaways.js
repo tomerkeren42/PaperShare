@@ -239,7 +239,7 @@ function create_button(is_remove, ref, email) {
         });
         var icon = document.createElement("span");
         icon.className = "fas fa-trash-alt";
-        button.innerHTML = "  הסר מהאתר  ";
+        button.innerHTML = " הסר ";
         button.appendChild(icon);
     }
     //else it's שלח בקשה button
