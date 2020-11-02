@@ -22,26 +22,37 @@ function left_to_right_date(date) {
 }
 
 function load_table_on_search(university) {
-    console.log("in the load_table_on_search()");
+    //console.log("in the load_table_on_search()");
 
     $("[data-toggle='popover']").popover('destroy');
+
     var faculty_select = document.getElementById("search_faculties");
     var faculty = faculty_select.options[faculty_select.selectedIndex].text;
-    var course_select = document.getElementById("search_courses");
-    var course = course_select.options[course_select.selectedIndex].text;
 
     if (faculty_select.value == "") {
         $("[data-toggle='popover']").popover('show');
         document.getElementById("table_caption").innerHTML = "";
         return;
     }
+    var is_empty = true;
+    var courses = $('#search_courses').val();
+    //var course_select = document.getElementById("search_courses");
+    //var course = course_select.options[course_select.selectedIndex].text;
+    //console.log("in the load_table_on_search() - course text is: " , course);
+    //console.log("in the load_table_on_search() - all selected vals are: ", courses);
 
-    make_new_caption(faculty, course);
+    var show_all_courses = false;
+    if (courses == null) {
+        show_all_courses = true;
+    }
+    else if (courses[0] == "") {
+        show_all_courses = true;
+    }
 
     // toggle table on
     var table = document.getElementById("search_table");
     var num_of_rows = table.rows.length;
-    var empty_msg = document.getElementById("table_caption");
+    //var empty_msg = document.getElementById("table_caption");
 
     // if table is already fill up, remove all previous search
     if (num_of_rows > 1) {
@@ -50,35 +61,39 @@ function load_table_on_search(university) {
         }
     }
     // if table style is none  (hidden) - change it to inline (show)
-    // need to check validation of form - do only if form is submitted
     if (table.style.display === "none") {
         table.style.display = "inline";
     }
 
-    if (empty_msg.style.display === "none") {
-        empty_msg.style.display = "block";
-        
-    }
+    //if (empty_msg.style.display === "none") {
+    //    empty_msg.style.display = "block";
+    //}
+    //// if all courses, act like non-picked
+    //if (course == 'כל הקורסים') {
+    //    //console.log("in the load_table_on_search() - inside if");
+    //    course = '';
+    //}
+    //console.log("in the load_table_on_search() - after check all courses text, course is: ", course);
 
-    /*
-     function for uploading table from DB
-     */
-    if (course.text = 'כל הקורסים') {
-        course = '';
-    }
-    var found_in_DB = find_giveaways_by_search(university, faculty, course);
-    empty_msg.innerHTML = "אין חומרים למסירה בקורס שבחרת";
+    //var found_in_DB = find_giveaways_by_search(university, faculty, course);
+
     document.getElementById("table_header").style.display = "none";
 
-    if (course == '') {
+    //console.log("new header is: ", document.getElementById("table_caption").innerHTML);
+   // console.log("empty msg is: ", empty_msg.innerHTML);
+    // if "all courses" is chosen
+    document.getElementById("table_caption").innerHTML = "אין חומרים למסירה בקורס שבחרת";
+    if (show_all_courses) {
+        //console.log("in the load_table_on_search() - inside empty if, then show all courses");
+        var found_in_DB = find_giveaways_by_search(university, faculty, "");
         found_in_DB.once('value').then(function (coursekey) {
             coursekey.forEach(function (course) {
                 course.forEach(function (data) {
-
                     //reaching this point means table isn't empty. hide empy_msg & show header
-                    empty_msg.style.display = "none";
+                    //empty_msg.style.display = "none";
                     document.getElementById("table_header").style.display = "block";
-
+                    //console.log("in all courses: ", is_empty);
+                    //is_empty = false;
                     var giveaway = data.val();
                     let row = table.insertRow();
                     let button = create_button(false, giveaway);
@@ -90,35 +105,48 @@ function load_table_on_search(university) {
                     date.innerHTML = giveaway.Date;
                     let course = row.insertCell(3);
                     course.innerHTML = giveaway.Course;
+                    make_new_caption(faculty, courses, show_all_courses);
                 });
             });
         });
+       
     }
     else {
         //console.log("in load_table_on_search(): course is not empty")
-        found_in_DB.once('value').then(function (datakey) {
-            datakey.forEach(function (data) {
-
-                //reaching this point means table isn't empty. hide empy_msg & show header
-                empty_msg.style.display = "none";
-                document.getElementById("table_header").style.display = "block";
-
-                var giveaway = data.val();
-                console.log("in the load_table_on_search(): give away is:", giveaway);
-                let row = table.insertRow();
-                let button = create_button(false, giveaway);
-                button_place = row.insertCell(0);
-                button_place.appendChild(button);
-                let description = row.insertCell(1);
-                description.innerHTML = giveaway.Description;
-                let date = row.insertCell(2);
-                date.innerHTML = giveaway.Date;
-                let course = row.insertCell(3);
-                course.innerHTML = giveaway.Course;
-
+        //console.log("in the load_table_on_search() - run in loop for all courses chosen");
+        //console.log("in the load_table_on_search() - length is: ", courses.length);
+        for (var i = 0; i < courses.length; i += 1) {
+            //console.log("in the load_table_on_search() - iteration num: ", i, "run on: ", courses[i]);
+            var found_in_DB = find_giveaways_by_search(university, faculty, courses[i]);
+            found_in_DB.once('value').then(function (datakey) {
+                datakey.forEach(function (data) {
+                    //console.log("in loop is_empty is: ", is_empty);
+                    //reaching this point means table isn't empty. hide empy_msg & show header
+                    //empty_msg.style.display = "none";
+                    document.getElementById("table_header").style.display = "block";
+                    //is_empty = false;
+                    var giveaway = data.val();
+                    // console.log("in the load_table_on_search(): give away is:", giveaway);
+                    let row = table.insertRow();
+                    let button = create_button(false, giveaway);
+                    button_place = row.insertCell(0);
+                    button_place.appendChild(button);
+                    let description = row.insertCell(1);
+                    description.innerHTML = giveaway.Description;
+                    let date = row.insertCell(2);
+                    date.innerHTML = giveaway.Date;
+                    let course = row.insertCell(3);
+                    course.innerHTML = giveaway.Course;
+                    make_new_caption(faculty, courses, show_all_courses);
+                });
             });
-        });
+        }
+        
     }
+    //console.log("after all is_empty is: ", is_empty);
+    //if (is_empty) {
+    //    document.getElementById("table_caption").innerHTML = "אין חומרים למסירה בקורס שבחרת";
+    //}
     sortTable(2, "search_table");
 }
 
@@ -221,11 +249,28 @@ function sortTable(sort_by_col_num, table_name) {
 //    });
 //}
 
-function make_new_caption(faculty, course) {
+function make_new_caption(faculty, courses, show_all_courses) {
+
     // make new table caption
-    var new_caption = faculty + " / " + course;
+    var new_caption = "";
+  
+    new_caption = faculty;
+    //console.log("new caption is: ", new_caption);
+    if (!show_all_courses) {
+        //console.log("not showing all courses");
+        for (var i = 0; i < courses.length; i += 1) {
+            new_caption = new_caption + " / " + courses[i];
+            //console.log("new caption is: ", new_caption);
+        }
+    }
+    else {
+        new_caption = " עבור כל הקורסים ב " + faculty;
+    }
     // change in HTML
+    //console.log("final new caption is: ", new_caption);
+    
     document.getElementById("table_caption").innerHTML = new_caption;
+
 }
 
 // creates the btn with the target email
