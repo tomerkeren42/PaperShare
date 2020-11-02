@@ -1,7 +1,7 @@
-
-﻿<!---
-   INDEX PAGE (LOGIN)
-   -->
+﻿
+<!---
+  INDEX PAGE (LOGIN)
+  -->
 {% extends "layout.html" %}
 
 {% block content %}
@@ -57,48 +57,62 @@
                 </form>
             </div>
                 {% if not_exist %}
-
-                    <div class="well well-sm text-right" style="background-color: #cc3359; color:white">
-                        <span class="closebtn" dir="rtl" onclick="this.parentElement.style.display = 'none';">&times;</span>
-                        כתובת מייל לא נכונה. אנא הכנס\י כתובת מייל קיימת בלבד
+        <form name="login" action="." method="POST">
+            <div class="form-group text-right">
+                <br />
+                <div class="container">
+                    <div class="row">
+                        {% if email %}
+                        <input type="email" class="form-control" id="email" name="email" value={{ email }} required oninvalid="this.setCustomValidity('הכנס כתובת מייל לצורך כניסה למערכת')" oninput="this.setCustomValidity('')" onchange="this.setCustomValidity('')">
+                        {% else %}
+                        <input type="email" class="form-control" id="email" name="email" placeholder="הכנס\י כתובת מייל אוניברסיטאית" required oninvalid="this.setCustomValidity('הכנס כתובת מייל לצורך כניסה למערכת')" oninput="this.setCustomValidity('')">
+                        {% endif %}
+                        <button type="submit" class="btn btn-ps btn-three"> כניסה <span class="glyphicon glyphicon-log-in"></span></button>
                     </div>
-                    {% endif %}
-                    {% if debug_mode %}
-                    <div class="well well-sm text-right" style="background-color: #cc3359; color:white">
-                        <span class="closebtn" dir="rtl" onclick="this.parentElement.style.display = 'none';">&times;</span>
-                        מצטערים, האתר בבנייה!
-                    </div>
-                    {% endif %}
-                    {% if not_uni %}
-                    <div class="well well-sm text-right" style="background-color: #cc3359; color:white">
-                        <span class="closebtn" dir="rtl" onclick="this.parentElement.style.display = 'none';">&times;</span>
-                        הכניסה באמצעות כתובת מייל אוניברסיטאית בלבד
-                    </div>
-                    {% endif %}
+
+                </div>
+            </div>
+        </form>
+    </div>
+    {% if not_exist %}
+
+    <div class="well well-sm text-right" style="background-color: #cc3359; color:white">
+        <span class="closebtn" dir="rtl" onclick="this.parentElement.style.display = 'none';">&times;</span>
+        כתובת מייל לא נכונה. אנא הכנס\י כתובת מייל קיימת בלבד
+    </div>
+    {% endif %}
+    {% if debug_mode %}
+    <div class="well well-sm text-right" style="background-color: #cc3359; color:white">
+        <span class="closebtn" dir="rtl" onclick="this.parentElement.style.display = 'none';">&times;</span>
+        מצטערים, האתר בבנייה!
+    </div>
+    {% endif %}
+    {% if not_uni %}
+    <div class="well well-sm text-right" style="background-color: #cc3359; color:white">
+        <span class="closebtn" dir="rtl" onclick="this.parentElement.style.display = 'none';">&times;</span>
+        הכניסה באמצעות כתובת מייל אוניברסיטאית בלבד
+    </div>
+    {% endif %}
 
 
-
-
-
-
-            <!--
+    <!--
         <button data-toggle="collapse" data-target="#supported" class="btn btn-ps pull-right"><span class="fas fa-school"></span> מוסדות נתמכים</button>
         <div id="supported" class="collapse text-right pull-right">
         הטכניון,
         אוניברסיטאת ת״א
         </div>
     -->
-            <!--Supported schools-->
-            <div class="dropdown pull-right">
-                <button class="btn btn-ps dropdown-toggle" type="button" data-toggle="dropdown"> מוסדות נתמכים <span class="fas fa-school"></span></button>
-                <ul class="dropdown-menu pull-right">
-                    <li class="disabled"><a class="text-right">אונ׳ ת״א <img src="/static/img/tau.jpg" style="width:20px; height:20px"></a></li>
-                    <li class="disabled"><a class="text-right">האונ' העברית <img src="/static/img/huji.jpg" style="width:20px; height:20px"></a></li>
-                    <li class="disabled"><a class="text-right">הטכניון <img src="/static/img/technion.jpg" style="width:20px; height:20px"></a></li>
-                </ul>
-            </div>
-        </div>
-    <br />
+    <!--Supported schools-->
+    <div class="dropdown pull-right">
+        <button class="btn btn-ps dropdown-toggle" type="button" data-toggle="dropdown"> מוסדות נתמכים <span class="fas fa-school"></span></button>
+        <ul class="dropdown-menu pull-right">
+            <li class="disabled"><a class="text-right">אונ׳ ת״א <img src="/static/img/tau.jpg" style="width:20px; height:20px"></a></li>
+            <li class="disabled"><a class="text-right">האונ' העברית <img src="/static/img/huji.jpg" style="width:20px; height:20px"></a></li>
+            <li class="disabled"><a class="text-right">הטכניון <img src="/static/img/technion.jpg" style="width:20px; height:20px"></a></li>
+        </ul>
+    </div>
+</div>
+<br />
 
 
 
