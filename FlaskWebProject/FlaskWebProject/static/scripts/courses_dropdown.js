@@ -66,6 +66,7 @@ function init_my_giveaway_table(university, email) {
         });
     });
 }
+
 function make_path(upload) {
     var path_array = upload.ref_.path.pieces_;
     var path = path_array[0] + "/" + path_array[1] + "/" + path_array[2] + "/" + path_array[3] + "/" + path_array[4];
@@ -84,7 +85,6 @@ function load_faculties_dropdown(university) {
     // get list
     var faculties_list = universities_faculties_lists[university];
     faculties_list.sort();
-
     // get faculty select by id
     var cSelect = document.getElementById("search_faculties");
     var dSelect = document.getElementById("give_away_faculties");
@@ -93,6 +93,7 @@ function load_faculties_dropdown(university) {
         cSelect.remove(0);
         dSelect.remove(0);
     }
+
     // work on both selects
     for (var j = 0; j < 2; j++) {
         // start adding all options from list to select
@@ -108,7 +109,6 @@ function load_faculties_dropdown(university) {
             catch (e) {
                 cSelect.appendChild(newOption);
             }
-
         }
         $('.selectpicker').selectpicker('refresh');
         cSelect = dSelect;
@@ -126,12 +126,26 @@ function courses_dropdown(selectObj, course_select_id, university) {
     // get the country select element via its known id 
     var cSelect = document.getElementById(course_select_id);
     // remove the current options from the country select 
-    var len = cSelect.options.length;
     while (cSelect.options.length > 0) {
         cSelect.remove(0);
     }
     var newOption;
+    // only on search tab, make this "all courses" option
+    if (course_select_id != 'give_away_courses') {
+        newOption = document.createElement("option");
+        newOption.value = '';  // assumes option string and value are the same 
+        newOption.text = "כל הקורסים";
+        newOption.style.textAlign = "right";
+        // add the new option 
+        try {
+            cSelect.add(newOption);  // this will fail in DOM browsers but is needed for IE 
+        }
+        catch (e) {
+            cSelect.appendChild(newOption);
+        }
+    }
     // create new options 
+
     for (var i = 0; i < cList.length; i++) {
         newOption = document.createElement("option");
         newOption.value = cList[i];  // assumes option string and value are the same 

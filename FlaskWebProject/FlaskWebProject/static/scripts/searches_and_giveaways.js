@@ -11,15 +11,14 @@ function parse_and_upload_giveaway(university, email, user, date) {
 
     var description_input = document.getElementById("Description");
     var description = description_input.value;
-
-    //console.log("in the parse_and_upload_giveaway() - university: " + university);
-    //console.log("in the parse_and_upload_giveaway() - email: " + email);
-    //console.log("in the parse_and_upload_giveaway() - faculty: " + faculty);
-    //console.log("in the parse_and_upload_giveaway() - course: " + course);
-    //console.log("in the parse_and_upload_giveaway() - description: " + description);
-    //console.log("in the parse_and_upload_giveaway() - date: " + date);
-
     add_giveaway_to_db(university, email, user, faculty, course, description, date);
+    //add_giveaway_to_db(university, email, user, faculty, course, description, left_to_right_date(date));
+}
+
+function left_to_right_date(date) {
+    let splitted_date = date.split("-");
+    let new_date = splitted_date[2] + "-" + splitted_date[1] + "-" + splitted_date[0];
+    return new_date;
 }
 
 function load_table_on_search(university) {
@@ -64,6 +63,9 @@ function load_table_on_search(university) {
     /*
      function for uploading table from DB
      */
+    if (course.text = 'כל הקורסים') {
+        course = '';
+    }
     var found_in_DB = find_giveaways_by_search(university, faculty, course);
     empty_msg.innerHTML = "אין חומרים למסירה בקורס שבחרת";
     document.getElementById("table_header").style.display = "none";
@@ -308,7 +310,7 @@ function giveaway_modal(action, university, email) {
     else if (action == "my_giveaway") {
         console.log("inside my giveaway");
         $('[href="#menu2"]').tab('show');
-        load_my_giveaways(university, email);
     }
+    load_my_giveaways(university, email);
     return;
 }

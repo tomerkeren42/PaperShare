@@ -75,7 +75,7 @@
                         <br />
                         <!--Faculty selection-->
                         <div class="row pull-right">
-                            <select class="selectpicker pull-right" data-live-search="true" title="בחר פקולטה" id="search_faculties" required oninvalid="this.setCustomValidity('אנא בחר פקולטה מהרשימה')" onchange="courses_dropdown(this, 'search_courses', '{{university}}');" dir="rtl">
+                            <select class="selectpicker pull-right" data-live-search="true" data-live-search-placeholder="בחר פקולטה" title="בחר פקולטה" id="search_faculties" required onchange="courses_dropdown(this, 'search_courses', '{{university}}');" dir="rtl">
                                 <option value="0">Select a faculty</option>
                             </select>
                         </div>
@@ -84,7 +84,7 @@
                         <!--Course selection-->
                         <div class="row pull-right">
                             <select class="selectpicker pull-right" data-live-search="true" title="בחר קורס" name="course" id="search_courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
-                                <option value="0">Select a faculty first</option>
+                                <option value="0">כל הקורסים</option>
                             </select>
                         </div>
                         <br /> <br /> <br />
@@ -151,12 +151,12 @@
                         <!--Description input-->
                         <div class="row">
                             <p class="text-right">מה את\ה מוסר\ת? (למשל: קובץ מבחנים מודפס)</p>
-                            <input class="form-control pull-right text-right input-lg col-sx-10" id="Description" dir="rtl">
+                            <input class="form-control pull-right text-right col-sx-10" id="Description" dir="rtl" style="font-size:initial">
                         </div>
 
                         <div class="row">
                             <div class="checkbox pull-right">
-                                <label><input type="checkbox" id="agree-terms"> אני מסכים\ה שיצרו איתי קשר במייל האוניברסיטאי בנוגע למסירת חומרי הלימוד</label>
+                                <label><input type="checkbox" id="agree-terms" style="width:20px;height:20px"> אני מסכים\ה שיצרו איתי קשר במייל האוניברסיטאי בנוגע למסירת חומרי הלימוד</label>
                             </div>
                         </div>
                         <br /> <br />
