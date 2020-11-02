@@ -9,54 +9,36 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- big banner of PS logo and introduction text-->
-        <div class="jumbotron">
-            <div class="container">
-                <div class="bird-container bird-container--one">
-                    <div class="bird bird--one"></div>
-                </div>
-
-                <div class="bird-container bird-container--two">
-                    <div class="bird bird--two"></div>
-                </div>
-
-                <div class="bird-container bird-container--three">
-                    <div class="bird bird--three"></div>
-                </div>
-
-                <div class="bird-container bird-container--four">
-                    <div class="bird bird--four"></div>
-                </div>
-                <img src="/static/img/psbannergrey.png" alt="PaperShare" class="center imgban">
-                <br />
-                <p class="lead text-center" style="font-size:90%"> המקום למסור ולקבל חומרי לימוד </p>
-            </div>
+<div class="jumbotron">
+    <div class="container">
+        <div class="bird-container bird-container--one">
+            <div class="bird bird--one"></div>
         </div>
+
+        <div class="bird-container bird-container--two">
+            <div class="bird bird--two"></div>
+        </div>
+
+        <div class="bird-container bird-container--three">
+            <div class="bird bird--three"></div>
+        </div>
+
+        <div class="bird-container bird-container--four">
+            <div class="bird bird--four"></div>
+        </div>
+        <img src="/static/img/psbannergrey.png" alt="PaperShare" class="center imgban">
+        <br />
+        <p class="lead text-center" style="font-size:90%"> המקום למסור ולקבל חומרי לימוד </p>
+    </div>
+</div>
 
 
 <!--Input bar to give University email. ENTER button-->
-        <div class="container">
-            <div class="row">
-                <h2 class="text-right">התחבר\י עם כתובת מייל אוניברסיטאית</h2>
-                <p class="text-right">אין צורך ברישום</p>
+<div class="container">
+    <div class="row">
+        <h2 class="text-right">התחבר\י עם כתובת מייל אוניברסיטאית</h2>
+        <p class="text-right">אין צורך ברישום</p>
 
-                <form name="login" action="." method="POST">
-                    <div class="form-group text-right">
-                        <br />
-                        <div class="container">
-                            <div class="row">
-                                {% if email %}
-                                <input type="email" class="form-control" id="email" name="email" value={{ email }} required oninvalid="this.setCustomValidity('הכנס כתובת מייל לצורך כניסה למערכת')" oninput="this.setCustomValidity('')" onchange="this.setCustomValidity('')">
-                                {% else %}
-                                <input type="email" class="form-control" id="email" name="email" placeholder="הכנס\י כתובת מייל אוניברסיטאית" required oninvalid="this.setCustomValidity('הכנס כתובת מייל לצורך כניסה למערכת')" oninput="this.setCustomValidity('')">
-                                {% endif %}
-                                <button type="submit" class="btn btn-ps"> כניסה <span class="glyphicon glyphicon-log-in"></span></button>
-                            </div>
-
-                        </div>
-                    </div>
-                </form>
-            </div>
-                {% if not_exist %}
         <form name="login" action="." method="POST">
             <div class="form-group text-right">
                 <br />
@@ -67,7 +49,7 @@
                         {% else %}
                         <input type="email" class="form-control" id="email" name="email" placeholder="הכנס\י כתובת מייל אוניברסיטאית" required oninvalid="this.setCustomValidity('הכנס כתובת מייל לצורך כניסה למערכת')" oninput="this.setCustomValidity('')">
                         {% endif %}
-                        <button type="submit" class="btn btn-ps btn-three"> כניסה <span class="glyphicon glyphicon-log-in"></span></button>
+                        <button type="submit" class="btn btn-ps"> כניסה </button>
                     </div>
 
                 </div>
@@ -93,6 +75,10 @@
         הכניסה באמצעות כתובת מייל אוניברסיטאית בלבד
     </div>
     {% endif %}
+
+
+
+
 
 
     <!--
