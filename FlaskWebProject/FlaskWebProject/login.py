@@ -31,11 +31,14 @@ def is_uni_valid(email):
         else:
             return False
 
-## use for technion accounts
 def microsoft_email_check(email):
      body = '{"Username":"%s"}' % email
      request = req.post(microsoft_url, data=body)
      response = request.text
+     # write to a file for debug
+     #with open('microsoft_out.txt', 'a') as f:
+     #   print("response is: ", response, file=f)
+     #   print("request is:", request, "\n\n",  file=f)
      is_exist = response.split('"IfExistsResult":')
      if is_exist[1][0] == "0":
          return True
@@ -67,14 +70,13 @@ def isitrealmail_email_check(email):
 
 
 def is_server_valid(email, university):
-    print("inside is_server_valid()")
-    print("uni is: ", university)
-    if university == "Technion" or university == "BGU":
-        return microsoft_email_check(email)
-    elif university == "HUJI":
+    if university == "HUJI":
         return isitrealmail_email_check(email)
-    elif university == "TAU":
-        return True
+    else :
+        return microsoft_email_check(email)
+
+    #elif university == "TAU":
+    #    return True
         
 def login(app_DB):
     not_uni   = False
@@ -88,20 +90,16 @@ def login(app_DB):
     name = delete_point_in_name(splitted_mail[0].lower())
     university_suff = splitted_mail[1].lower()
 
-    # debug mode
+    # debug mode - close the site for visitors
     debug_mode = False
     if (name == "debug"):
         app_DB.add_new_user(name, email, "Technion")
         return not_exist, not_uni, email, name, "Technion", False
- 
-    # check if valid university
+ # check valid uni + in DB + valid server
     if is_uni_valid(email):
         university = universities_dict[university_suff]
         if app_DB.is_user_in_db(name, email, university) is False:
-            # check if the mail is real and exists
             if is_server_valid(email, university):
-                # check if user already in database
-                # if new user - add to database
                 app_DB.add_new_user(name, email, university)
             else:
                 not_exist = True
