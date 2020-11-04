@@ -2,17 +2,17 @@
     MENU PAGE
     -->
 {% extends "layout.html" %}
+<head>
+    <meta charset="UTF-8" />
 
-<meta charset="UTF-8" />
-
-{% block content %}
-<script src="/static/scripts/Technion_courses_lists.js"></script>
-<script src="/static/scripts/TAU_courses_lists.js"></script>
-<script src="/static/scripts/HUJI_courses_lists.js"></script>
-<script src="/static/scripts/courses_dropdown.js"></script>
-<script src="/static/scripts/searches_and_giveaways.js"></script>
-<script src="/static/scripts/db_handler.js"></script>
-
+    {% block content %}
+    <script src="/static/scripts/Technion_courses_lists.js"></script>
+    <script src="/static/scripts/TAU_courses_lists.js"></script>
+    <script src="/static/scripts/HUJI_courses_lists.js"></script>
+    <script src="/static/scripts/courses_dropdown.js"></script>
+    <script src="/static/scripts/searches_and_giveaways.js"></script>
+    <script src="/static/scripts/db_handler.js"></script>
+</head>
 <!--<style>
     th {
         cursor: pointer;
@@ -83,7 +83,7 @@
                         <br />
                         <!--Course selection-->
                         <div class="row pull-right">
-                            <select class="selectpicker pull-right" data-live-search="true" title="בחר קורס" name="course" multiple id="search_courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
+                            <select class="selectpicker pull-right" data-live-search="true" data-live-search-placeholder="..חפש קורס מהרשימה" title="בחר קורס" name="course" multiple id="search_courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
                                 <option value="0">כל הקורסים</option>
                             </select>
                         </div>
