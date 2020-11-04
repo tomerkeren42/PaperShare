@@ -330,15 +330,36 @@ function new_mail_request(target_email, target_faculty, target_course) {
 function check_submit() {
     $("[data-toggle='popover']").popover('destroy');
     console.log("inside submit func")
-    if (document.getElementById("give_away_faculties").value != ""){
-        if (document.getElementById("give_away_courses").value != ""){
-            if (document.getElementById("Description").value != ""){
-                if (document.getElementById("agree-terms").checked){
+    document.getElementById("checkbox_input").setAttribute("style", "color:grey");
+    document.getElementById("description_input").setAttribute("class", "row");
+    document.getElementById("course_input").setAttribute("class", "row pull-right");
+    document.getElementById("faculty_input").setAttribute("class", "row pull-right");
+
+    if (document.getElementById("give_away_faculties").value != "") {
+ 
+        if (document.getElementById("give_away_courses").value != "") {
+
+            if (document.getElementById("Description").value != "") {
+
+                if (document.getElementById("agree-terms").checked) {
+
                     $("#submission_modal").modal();
                     return true;
                 }
+                else {
+                    document.getElementById("checkbox_input").setAttribute("style", "color:red");
+                }
+            }
+            else {
+                document.getElementById("description_input").setAttribute("class", "row has-error");
             }
         }
+        else {
+            document.getElementById("course_input").setAttribute("class", "row pull-right has-error");
+        }
+    }
+    else {
+        document.getElementById("faculty_input").setAttribute("class", "row pull-right has-error");
     }
     $("[data-toggle='popover']").popover('show');
     return false;

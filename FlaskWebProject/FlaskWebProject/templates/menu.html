@@ -132,8 +132,8 @@
                     <form id="give_away_form">
 
                         <!--Faculty selection-->
-                        <div class="row pull-right" style="text-align: right; font-size: 20px;">
-                            <select class="selectpicker pull-right" data-live-search="true" title="בחר פקולטה" id="give_away_faculties"  onchange="courses_dropdown(this, 'give_away_courses', '{{university}}');" dir="rtl" style="text-align: right; font-size: 20px;">
+                        <div class="row pull-right" style="text-align: right; font-size: 20px;" id="faculty_input">
+                            <select class="selectpicker pull-right" data-live-search="true" title="בחר פקולטה" id="give_away_faculties" onchange="courses_dropdown(this, 'give_away_courses', '{{university}}');" dir="rtl" style="text-align: right; font-size: 20px;">
                                 <option value="0" style="text-align: right; font-size: 20px;">Select a faculty</option>
                             </select>
                         </div>
@@ -141,7 +141,7 @@
                         <br />
 
                         <!--Course selection-->
-                        <div class="row pull-right">
+                        <div class="row pull-right" style="text-align: right; font-size: 20px;" id="course_input">
                             <select class="selectpicker pull-right" data-live-search="true" title="בחר קורס"  id="give_away_courses"  dir="rtl">
                                 <option value="0">Select a faculty first</option>
                             </select>
@@ -149,13 +149,13 @@
                         <br /><br />
 
                         <!--Description input-->
-                        <div class="row">
+                        <div class="row" id="description_input">
                             <p class="text-right">מה את\ה מוסר\ת? (למשל: קובץ מבחנים מודפס)</p>
                             <input class="form-control pull-right text-right col-sx-10" id="Description" dir="rtl" style="font-size:initial">
                         </div>
 
-                        <div class="row">
-                            <div class="checkbox pull-right">
+                        <div class="row" >
+                            <div class="checkbox pull-right" id="checkbox_input">
                                 <label><input type="checkbox" id="agree-terms" style="width:15px;height:15px"> אני מסכים\ה שיצרו איתי קשר במייל האוניברסיטאי בנוגע למסירת חומרי הלימוד</label>
                             </div>
                         </div>
