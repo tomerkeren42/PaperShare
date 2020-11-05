@@ -21,7 +21,7 @@ function left_to_right_date(date) {
     return new_date;
 }
 
-function load_table_on_search(university) {
+function load_table_on_search(university, email) {
     //console.log("in the load_table_on_search()");
 
     $("[data-toggle='popover']").popover('destroy');
@@ -96,7 +96,7 @@ function load_table_on_search(university) {
                     //is_empty = false;
                     var giveaway = data.val();
                     let row = table.insertRow();
-                    let button = create_button(false, giveaway);
+                    let button = create_button(false, giveaway, email);
                     button_place = row.insertCell(0);
                     button_place.appendChild(button);
                     let description = row.insertCell(1);
@@ -128,7 +128,7 @@ function load_table_on_search(university) {
                     var giveaway = data.val();
                     // console.log("in the load_table_on_search(): give away is:", giveaway);
                     let row = table.insertRow();
-                    let button = create_button(false, giveaway);
+                    let button = create_button(false, giveaway, email);
                     button_place = row.insertCell(0);
                     button_place.appendChild(button);
                     let description = row.insertCell(1);
@@ -277,7 +277,8 @@ function make_new_caption(faculty, courses, show_all_courses) {
 function create_button(is_remove, ref, email) {
     let button = document.createElement("button");
     button.setAttribute("class", "btn btn-ps-table pull-right");
-
+    console.log("email is: ", email);
+    console.log("ref.Email is: ", ref.Email);
     // if it's הסר מהאתר button
     if (is_remove) {
         button.setAttribute("id", "remove_button");
@@ -287,6 +288,17 @@ function create_button(is_remove, ref, email) {
         var icon = document.createElement("span");
         icon.className = "fas fa-trash-alt";
         button.innerHTML = " הסר ";
+        button.appendChild(icon);
+    }
+    //if it's a submission by me
+    else if (email == ref.Email){
+        button.setAttribute("id", "byme_button");
+        button.innerHTML = "  מסירה שלי  ";
+        button.addEventListener('click', function () {
+            $('[href="#menu2"]').tab('show');
+        });
+        var icon = document.createElement("span");
+        icon.className = "fas fa-user-check";
         button.appendChild(icon);
     }
     //else it's שלח בקשה button
@@ -330,7 +342,7 @@ function new_mail_request(target_email, target_faculty, target_course) {
 function check_submit() {
     $("[data-toggle='popover']").popover('destroy');
     console.log("inside submit func")
-    document.getElementById("checkbox_input").setAttribute("style", "color:grey");
+    document.getElementById("checkbox_input").setAttribute("style", "color:black");
     document.getElementById("description_input").setAttribute("class", "row");
     document.getElementById("course_input").setAttribute("class", "row pull-right");
     document.getElementById("faculty_input").setAttribute("class", "row pull-right");
@@ -378,5 +390,19 @@ function giveaway_modal(action, university, email) {
         $('[href="#menu2"]').tab('show');
     }
     load_my_giveaways(university, email);
+    return;
+}
+
+function search_clear() {
+    $('#search_faculties').selectpicker('val', '0');
+    $('#search_courses').selectpicker('val', '0');
+    return;
+}
+
+function giveaway_clear() {
+    $('#give_away_faculties').selectpicker('val', '0');
+    $('#give_away_courses').selectpicker('val', '0');
+    document.getElementById('Description').value = '';
+    document.getElementById('agree-terms').checked = false;
     return;
 }
