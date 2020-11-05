@@ -27,13 +27,15 @@ function load_table_on_search(university, email) {
     $("[data-toggle='popover']").popover('destroy');
 
     var faculty_select = document.getElementById("search_faculties");
-    var faculty = faculty_select.options[faculty_select.selectedIndex].text;
+
 
     if (faculty_select.value == "") {
         $("[data-toggle='popover']").popover('show');
         document.getElementById("table_caption").innerHTML = "";
         return;
     }
+
+    var faculty = faculty_select.options[faculty_select.selectedIndex].text;
     var is_empty = true;
     var courses = $('#search_courses').val();
     //var course_select = document.getElementById("search_courses");
@@ -277,8 +279,6 @@ function make_new_caption(faculty, courses, show_all_courses) {
 function create_button(is_remove, ref, email) {
     let button = document.createElement("button");
     button.setAttribute("class", "btn btn-ps-table pull-right");
-    console.log("email is: ", email);
-    console.log("ref.Email is: ", ref.Email);
     // if it's הסר מהאתר button
     if (is_remove) {
         button.setAttribute("id", "remove_button");
@@ -286,7 +286,7 @@ function create_button(is_remove, ref, email) {
             confirm_remove_from_db(ref, email);
         });
         var icon = document.createElement("span");
-        icon.className = "fas fa-trash-alt";
+        icon.className = "fas fa-trash";
         button.innerHTML = " הסר ";
         button.appendChild(icon);
     }
@@ -359,7 +359,7 @@ function check_submit() {
                     return true;
                 }
                 else {
-                    document.getElementById("checkbox_input").setAttribute("style", "color:red");
+                    document.getElementById("checkbox_input").setAttribute("style", "color:darkred");
                 }
             }
             else {
@@ -404,5 +404,6 @@ function giveaway_clear() {
     $('#give_away_courses').selectpicker('val', '0');
     document.getElementById('Description').value = '';
     document.getElementById('agree-terms').checked = false;
+    document.getElementById("checkbox_input").setAttribute("style", "color:black");
     return;
 }

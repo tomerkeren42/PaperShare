@@ -71,7 +71,7 @@
                     <p class="text-right">כדי ליצור קשר עם המוסר\ת, תוכל\י לשלוח מייל</p>
                 </div>
                 <div class="container"
-                <form action="." id="search_form" name="search_form">
+                    <form action="." id="search_form" name="search_form">
                         <br />
                         <!--Faculty selection-->
                         <div class="row pull-right">
@@ -88,9 +88,10 @@
                             </select>
                         </div>
                         <br /> <br /> <br />
-                        <button type="submit" class="btn btn-ps pull-right" id="search_submit" onclick="load_table_on_search('{{university}}', '{{email}}')" data-toggle="popover" data-placement="left" data-content="יש למלא את שם הפקולטה" data-trigger="focus" > חיפוש <span class="glyphicon glyphicon-search"></span></button>
                         <button class="btn btn-ps pull-right" id="search_clear" onclick="search_clear()">איפוס <i class="fas fa-eraser"></i></button>
-                </form>
+                        <button type="submit" class="btn btn-ps pull-right" id="search_submit" onclick="load_table_on_search('{{university}}', '{{email}}')" data-toggle="popover" data-placement="left" data-content="יש למלא את שם הפקולטה" data-trigger="focus"> חיפוש <span class="glyphicon glyphicon-search"></span></button>
+
+                    </form>
                    </div>
             </div>
 
@@ -143,7 +144,7 @@
 
                         <!--Course selection-->
                         <div class="row pull-right" style="text-align: right; font-size: 20px;" id="course_input">
-                            <select class="selectpicker pull-right" data-live-search="true" title="בחר קורס"  id="give_away_courses"  dir="rtl">
+                            <select class="selectpicker pull-right" data-live-search="true" title="בחר קורס" id="give_away_courses" dir="rtl">
                                 <option value="0">Select a faculty first</option>
                             </select>
                         </div>
@@ -155,14 +156,15 @@
                             <input class="form-control pull-right text-right col-sx-10" id="Description" dir="rtl" style="font-size:initial">
                         </div>
 
-                        <div class="row" >
+                        <div class="row">
                             <div class="checkbox pull-right" id="checkbox_input">
                                 <label><input type="checkbox" id="agree-terms" style="width:15px;height:15px"> אני מסכים\ה שיצרו איתי קשר במייל האוניברסיטאי בנוגע למסירת חומרי הלימוד</label>
                             </div>
                         </div>
                         <br /> <br />
-                        <button type="submit" id="submit_button" class="btn btn-ps pull-right" onclick="parse_and_upload_giveaway('{{university}}', '{{email}}', '{{username}}', '{{date}}')" data-toggle="popover" data-placement="left" data-content="יש למלא את כל השדות" data-trigger="focus" > שליחה <span class="glyphicon glyphicon-send"></span></button>
                         <button class="btn btn-ps pull-right" id="giveaway_clear" onclick="giveaway_clear()">איפוס <i class="fas fa-eraser"></i></button>
+                        <button type="submit" id="submit_button" class="btn btn-ps pull-right" onclick="parse_and_upload_giveaway('{{university}}', '{{email}}', '{{username}}', '{{date}}')" data-toggle="popover" data-placement="left" data-content="יש למלא את כל השדות" data-trigger="focus"> שליחה <span class="glyphicon glyphicon-send"></span></button>
+
                     </form>
             </div>
                 <!-- submission modal-->
