@@ -88,7 +88,8 @@
                             </select>
                         </div>
                         <br /> <br /> <br />
-                        <button type="submit" class="btn btn-ps pull-right" id="search_submit" onclick="load_table_on_search('{{university}}')" data-toggle="popover" data-placement="left" data-content="יש למלא את שם הפקולטה" data-trigger="focus" > חיפוש <span class="glyphicon glyphicon-search"></span></button>
+                        <button type="submit" class="btn btn-ps pull-right" id="search_submit" onclick="load_table_on_search('{{university}}', '{{email}}')" data-toggle="popover" data-placement="left" data-content="יש למלא את שם הפקולטה" data-trigger="focus" > חיפוש <span class="glyphicon glyphicon-search"></span></button>
+                        <button class="btn btn-ps pull-right" id="search_clear" onclick="search_clear()">איפוס <i class="fas fa-eraser"></i></button>
                 </form>
                    </div>
             </div>
@@ -104,7 +105,7 @@
                         <tr>
                             <th class="text-right" >שלח בקשה </th>
                             <th class="text-right">תיאור </th>
-                            <th class="text-right" id="th_date" onclick="sortTable(2, 'search_table')" style="cursor:pointer">תאריך <span class="fas fa-sort"></span></th>
+                            <th class="text-right" id="th_date" onclick="sortTable(2, 'search_table')" style="cursor:pointer">תאריך </th>
                             <th class="text-right" onclick="sortTable(3, 'search_table')" style="cursor:pointer">שם הקורס</th>
                         </tr>
                     </thead>
@@ -161,6 +162,7 @@
                         </div>
                         <br /> <br />
                         <button type="submit" id="submit_button" class="btn btn-ps pull-right" onclick="parse_and_upload_giveaway('{{university}}', '{{email}}', '{{username}}', '{{date}}')" data-toggle="popover" data-placement="left" data-content="יש למלא את כל השדות" data-trigger="focus" > שליחה <span class="glyphicon glyphicon-send"></span></button>
+                        <button class="btn btn-ps pull-right" id="giveaway_clear" onclick="giveaway_clear()">איפוס <i class="fas fa-eraser"></i></button>
                     </form>
             </div>
                 <!-- submission modal-->
