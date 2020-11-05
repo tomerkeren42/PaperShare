@@ -11,8 +11,8 @@ function parse_and_upload_giveaway(university, email, user, date) {
 
     var description_input = document.getElementById("Description");
     var description = description_input.value;
-    add_giveaway_to_db(university, email, user, faculty, course, description, date);
-    //add_giveaway_to_db(university, email, user, faculty, course, description, left_to_right_date(date));
+    //add_giveaway_to_db(university, email, user, faculty, course, description, date);
+    add_giveaway_to_db(university, email, user, faculty, course, description, left_to_right_date(date));
 }
 
 function left_to_right_date(date) {
