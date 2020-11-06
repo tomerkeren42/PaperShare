@@ -157,7 +157,7 @@ function courses_dropdown(selectObj, course_select_id, university) {
         newOption.text = cList[i];
         newOption.style.textAlign = "right";
 
-        if (!detectMob()) {
+        if (detectMob()) {
             newOption.style.maxWidth = "300px";
             newOption.style.textAlign = "left";
         }
