@@ -115,6 +115,10 @@ function load_faculties_dropdown(university) {
     }
 }
 
+function detectMob() {
+    return ((window.innerWidth <= 800) && (window.innerHeight <= 600));
+}
+
 function courses_dropdown(selectObj, course_select_id, university) {
     // get the index of the selected option 
     var idx = selectObj.selectedIndex;
@@ -152,6 +156,17 @@ function courses_dropdown(selectObj, course_select_id, university) {
         newOption.value = cList[i];  // assumes option string and value are the same 
         newOption.text = cList[i];
         newOption.style.textAlign = "right";
+
+        if (!detectMob()) {
+            newOption.style.maxWidth = "300px";
+            newOption.style.textAlign = "left";
+        }
+
+        /*if (newOption.text.length > 20) {
+            newOption.text = newOption.text.substring(0, 20) + '%0D%0A' + newOption.text.substring(20, newOption.text.length);
+        }*/
+
+        
         // add the new option 
         try {
             cSelect.add(newOption);  // this will fail in DOM browsers but is needed for IE 

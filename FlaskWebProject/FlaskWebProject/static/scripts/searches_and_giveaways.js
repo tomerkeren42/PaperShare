@@ -374,6 +374,7 @@ function check_submit() {
     }
     else {
         document.getElementById("faculty_input").setAttribute("class", "row pull-right has-error");
+
     }
     $("[data-toggle='popover']").popover('show');
     return false;
@@ -407,6 +408,17 @@ function giveaway_clear() {
     document.getElementById('Description').value = '';
     document.getElementById('agree-terms').checked = false;
     document.getElementById("checkbox_input").setAttribute("style", "color:black");
+
+
+    var table = document.getElementById("search_table");
+    var num_of_rows = table.rows.length;
+
+    // if table is already fill up, remove all previous search
+    if (num_of_rows > 1) {
+        for (var i = num_of_rows; i > 1; i--) {
+            table.deleteRow(i - 1);
+        }
+    }
     return;
 }
 
