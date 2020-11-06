@@ -25,7 +25,7 @@
 <!--3 tabs for actions-->
 
 <ul class="nav nav-tabs pull-right">
-    <li><a data-toggle="tab" href="#menu2">המסירות שלי</a></li>
+    <li><a data-toggle="tab" href="#menu2" onclick="load_my_giveaways('{{university}}', '{{email}}')">המסירות שלי</a></li>
     <li><a data-toggle="tab" href="#menu1">מסירה חדשה</a></li>
     <li><a data-toggle="tab" href="#home">חיפוש במאגר</a></li>
 </ul>
@@ -74,16 +74,16 @@
                     <form action="." id="search_form" name="search_form">
                         <br />
                         <!--Faculty selection-->
-                        <div class="row pull-right">
-                            <select class="selectpicker pull-right" data-live-search="true" data-live-search-placeholder="בחר פקולטה" title="בחר פקולטה" id="search_faculties" required onchange="courses_dropdown(this, 'search_courses', '{{university}}');" dir="rtl">
+                        <div class="row pull-right" style="word-wrap:break-word">
+                            <select class="selectpicker pull-right" data-live-search="true" data-dropup-auto="false" data-live-search-placeholder="בחר פקולטה" title="בחר פקולטה" id="search_faculties" required onchange="courses_dropdown(this, 'search_courses', '{{university}}');" dir="rtl">
                                 <option value="0">Select a faculty</option>
                             </select>
                         </div>
                         <br />
                         <br />
                         <!--Course selection-->
-                        <div class="row pull-right">
-                            <select class="selectpicker pull-right" data-live-search="true" data-live-search-placeholder="..חפש קורס מהרשימה" title="בחר קורס" name="course" multiple id="search_courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
+                        <div class="row pull-right" style="word-wrap:break-word">
+                            <select class="selectpicker pull-right" style="word-wrap:break-word" data-live-search="true" data-dropup-auto="false"  data-live-search-placeholder="..חפש קורס מהרשימה" title="בחר קורס" name="course" multiple id="search_courses" required oninvalid="this.setCustomValidity('אנא בחר קורס מהרשימה')" onchange="this.setCustomValidity('')" dir="rtl">
                                 <option value="0">כל הקורסים</option>
                             </select>
                         </div>
@@ -226,7 +226,7 @@
                             <tr>
                                 <th class="text-right">הסרה</th>
                                 <th class="text-right" onclick="sortTable(1, 'user_table')" style="cursor:pointer">תיאור</th>
-                                <th class="text-right" onclick="sortTable(2, 'user_table')" style="cursor:pointer">תאריך <span class="fas fa-sort"></span></th>
+                                <th class="text-right" onclick="sortTable(2, 'user_table')" style="cursor:pointer">תאריך</th>
                                 <th class="text-right" onclick="sortTable(3, 'user_table')" style="cursor:pointer">שם הקורס</th>
                             </tr>
                         </thead>

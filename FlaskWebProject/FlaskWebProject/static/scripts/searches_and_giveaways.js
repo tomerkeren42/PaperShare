@@ -396,6 +396,19 @@ function giveaway_modal(action, university, email) {
 function search_clear() {
     $('#search_faculties').selectpicker('val', '0');
     $('#search_courses').selectpicker('val', '0');
+
+    document.getElementById("table_header").style.display = "none";
+    document.getElementById("table_caption").innerHTML = "";
+
+    var table = document.getElementById("search_table");
+    var num_of_rows = table.rows.length;
+
+    // if table is already fill up, remove all previous search
+    if (num_of_rows > 1) {
+        for (var i = num_of_rows; i > 1; i--) {
+            table.deleteRow(i - 1);
+        }
+    }
     return;
 }
 
@@ -405,5 +418,16 @@ function giveaway_clear() {
     document.getElementById('Description').value = '';
     document.getElementById('agree-terms').checked = false;
     document.getElementById("checkbox_input").setAttribute("style", "color:black");
+
+
+    var table = document.getElementById("search_table");
+    var num_of_rows = table.rows.length;
+
+    // if table is already fill up, remove all previous search
+    if (num_of_rows > 1) {
+        for (var i = num_of_rows; i > 1; i--) {
+            table.deleteRow(i - 1);
+        }
+    }
     return;
 }
