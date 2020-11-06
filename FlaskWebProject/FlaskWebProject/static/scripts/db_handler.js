@@ -1,4 +1,14 @@
-﻿function add_giveaway_to_db(university, email, user, faculty, course, description_str, upload_date) {
+﻿function get_db_course_name(course) {
+    var res_course_name;
+    res_course_name = course.replace(".", "");
+    res_course_name = res_course_name.replace("#", "");
+    res_course_name = res_course_name.replace("]", "");
+    res_course_name = res_course_name.replace("[", "");
+
+    return res_course_name;
+}
+
+function add_giveaway_to_db(university, email, user, faculty, course, description_str, upload_date) {
 
     console.log("in the add_giveaway_to_db()");
 
@@ -12,7 +22,7 @@
         Date: upload_date
     };
 
-    var db_path = university + '/uploads/' + faculty + '/' + course + '/';
+    var db_path = university + '/uploads/' + faculty + '/' + get_db_course_name(course) + '/';
     //var user_uploads_path = university + '/users/' + user_name + '/' + "uploads";
 
     // Get a key for a new Post.
@@ -40,44 +50,19 @@ function find_giveaways_by_search(university, faculty, course) {
     }
     else {
         //console.log("in the find_giveaways_by_search(), course isn't None");
-        search_path = university + '/uploads/' + faculty + '/' + course;
+        search_path = university + '/uploads/' + faculty + '/' + get_db_course_name(course);
         ref = db.ref(search_path).orderByChild('Course').equalTo(course);
     }
 
-    /*
-    ref.once('value', snapshot => {
-        if (snapshot.exists()) {
-            var giveaway = snapshot.val();
-            giveaway = Object.values(giveaway);
-            description = giveaway[0].Description;
-            console.log('description : ' + description);
-        }
-        else {
-            console.log('No match for this course: ' + course)
-        }
-    });
-    */
     return ref;
 }
 
-function find_user_giveaways(university, email) {
-   // console.log("in the find_user_giveaways()");
+function get_uploads_ref(university) {
+   // console.log("in the get_uploads_ref()");
     var db = firebase.database();
     var search_path = university + '/uploads/';
     var ref = db.ref(search_path);
-    /*
-    ref.once('value', snapshot => {
-        if (snapshot.exists()) {
-            var giveaway = snapshot.val();
-            giveaway = Object.values(giveaway);
-            description = giveaway[0].Description;
-            console.log('description : ' + description);
-        }
-        else {
-            console.log('No match for this course: ' + course)
-        }
-    });
-    */
+
     return ref;
 }
 

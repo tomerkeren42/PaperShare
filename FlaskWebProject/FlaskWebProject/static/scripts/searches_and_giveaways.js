@@ -207,50 +207,6 @@ function sortTable(sort_by_col_num, table_name) {
     }
 }
 
-//function load_user_table(university, email) {
-//    console.log("in the load_user_table()");
-//    // toggle table on
-//    var table = document.getElementById("user_table");
-//    var num_of_rows = table.rows.length;
-//    // if table is already fill up, remove all previous search
-//    if (num_of_rows > 1) {
-//        for (var i = num_of_rows; i > 1; i--) {
-//            table.deleteRow(i - 1);
-//        }
-//    }
-//    // if table style is none  (hidden) - change it to inline (show)
-//    // need to check validation of form - do only if form is submitted
-//    if (table.style.display === "none") {
-//        table.style.display = "inline";
-//    }
-
-//    /*
-//     function for uploading table from DB
-//     */
-//    var found_in_DB = find_user_giveaways(university, email);
-
-//    var keys = found_in_DB.once('value').then(function (faculty) {
-//        faculty.forEach(function (course) {
-//            course.forEach(funcion (data) {
-//                if (data.val().Email.equalTo(email)) {
-//                    console.log("in the load_user_table(): give away is: " ,giveaway)
-//                    var giveaway = data.val();
-//                    let row = table.insertRow();
-//                    let button = create_button(true, giveaway);
-//                    button_place = row.insertCell(0);
-//                    button_place.appendChild(button);
-//                    let description = row.insertCell(1);
-//                    description.innerHTML = giveaway.Description;
-//                    let date = row.insertCell(2);
-//                    date.innerHTML = giveaway.Date;
-//                    let course = row.insertCell(3);
-//                    course.innerHTML = giveaway.Course;
-//                }
-//            });
-//        });
-//    });
-//}
-
 function make_new_caption(faculty, courses, show_all_courses) {
 
     // make new table caption

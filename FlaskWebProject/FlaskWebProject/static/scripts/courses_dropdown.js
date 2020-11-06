@@ -40,7 +40,7 @@ function load_my_giveaways(university, email) {
 
 function init_my_giveaway_table(university, email) {
     var table = document.getElementById("user_table");
-    var upload_ref = find_user_giveaways(university, email);
+    var upload_ref = get_uploads_ref(university);
     upload_ref.once('value').then(function (faculty) {
         faculty.forEach(function (course) {
             course.forEach(function (course_giveaways) {
