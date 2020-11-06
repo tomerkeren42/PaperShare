@@ -11,8 +11,8 @@ function parse_and_upload_giveaway(university, email, user, date) {
 
     var description_input = document.getElementById("Description");
     var description = description_input.value;
-    add_giveaway_to_db(university, email, user, faculty, course, description, date);
-    //add_giveaway_to_db(university, email, user, faculty, course, description, left_to_right_date(date));
+    //add_giveaway_to_db(university, email, user, faculty, course, description, date);
+    add_giveaway_to_db(university, email, user, faculty, course, description, left_to_right_date(date));
 }
 
 function left_to_right_date(date) {
@@ -82,7 +82,7 @@ function load_table_on_search(university, email) {
     document.getElementById("table_header").style.display = "none";
 
     //console.log("new header is: ", document.getElementById("table_caption").innerHTML);
-   // console.log("empty msg is: ", empty_msg.innerHTML);
+    // console.log("empty msg is: ", empty_msg.innerHTML);
     // if "all courses" is chosen
     document.getElementById("table_caption").innerHTML = "אין חומרים למסירה בקורס שבחרת";
     if (show_all_courses) {
@@ -325,7 +325,9 @@ function new_mail_request(target_email, target_faculty, target_course) {
     // get from table!
     var giver_email = target_email;
     var subject = "PaperShare: אני מעוניין/ת בחומרי הלימוד שלך";
-    var body = "היי, ראיתי שאת/ה מוסר/ת חומרי לימוד ב " + course + "," +" אשמח לקבל אותם ממך! אם כבר מסרת את חומרי הלימוד, ניתן להסיר אותם מהאתר ";
+    var body = "היי, ראיתי שאת/ה מוסר/ת חומרי לימוד ב " + course + "," + " אשמח לקבל אותם ממך! " + "%0D%0A" + "אם כבר מסרת את חומרי הלימוד, ניתן להסיר אותם מהאתר" + "%0D%0A";
+    var body = body + "תודה רבה!";
+
     let send_us_copy = "papershareproject@gmail.com"
 
     // email sender
@@ -372,6 +374,7 @@ function check_submit() {
     }
     else {
         document.getElementById("faculty_input").setAttribute("class", "row pull-right has-error");
+
     }
     $("[data-toggle='popover']").popover('show');
     return false;
@@ -394,27 +397,14 @@ function giveaway_modal(action, university, email) {
 }
 
 function search_clear() {
+    selectpicker_clear("search_courses");
     $('#search_faculties').selectpicker('val', '0');
-    $('#search_courses').selectpicker('val', '0');
-
-    document.getElementById("table_header").style.display = "none";
-    document.getElementById("table_caption").innerHTML = "";
-
-    var table = document.getElementById("search_table");
-    var num_of_rows = table.rows.length;
-
-    // if table is already fill up, remove all previous search
-    if (num_of_rows > 1) {
-        for (var i = num_of_rows; i > 1; i--) {
-            table.deleteRow(i - 1);
-        }
-    }
     return;
 }
 
 function giveaway_clear() {
+    selectpicker_clear("give_away_courses");
     $('#give_away_faculties').selectpicker('val', '0');
-    $('#give_away_courses').selectpicker('val', '0');
     document.getElementById('Description').value = '';
     document.getElementById('agree-terms').checked = false;
     document.getElementById("checkbox_input").setAttribute("style", "color:black");
@@ -430,4 +420,15 @@ function giveaway_clear() {
         }
     }
     return;
+}
+
+function selectpicker_clear(select_id) {
+    var select = document.getElementById(select_id);
+    while (select.options.length > 0) {
+        console.log("removing options");
+        select.remove(0);
+    }
+    var jquery_select = "#" + select_id;
+    $(jquery_select).selectpicker('val', 0);
+    $('.selectpicker').selectpicker('refresh');
 }

@@ -94,5 +94,6 @@ function remove_from_db(path, email) {
             console.log("Remove failed: " + error.message)
         });
     load_my_giveaways(university, email);
+    load_table_on_search(university, email);
 }
 

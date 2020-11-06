@@ -130,9 +130,10 @@ function courses_dropdown(selectObj, course_select_id, university) {
     // get the country select element via its known id 
     var cSelect = document.getElementById(course_select_id);
     // remove the current options from the country select 
-    while (cSelect.options.length > 0) {
-        cSelect.remove(0);
-    }
+    selectpicker_clear(course_select_id);
+    //while (cSelect.options.length > 0) {
+    //    cSelect.remove(0);
+    //}
     var newOption;
     // only on search tab, make this "all courses" option
     if (course_select_id != 'give_away_courses') {
