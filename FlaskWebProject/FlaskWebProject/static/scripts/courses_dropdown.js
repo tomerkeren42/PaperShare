@@ -38,7 +38,7 @@ function load_my_giveaways(university, email) {
 
 function init_my_giveaway_table(university, email) {
     var table = document.getElementById("user_table");
-    var upload_ref = find_user_giveaways(university, email);
+    var upload_ref = get_uploads_ref(university);
     upload_ref.once('value').then(function (faculty) {
         faculty.forEach(function (course) {
             course.forEach(function (course_giveaways) {
@@ -114,7 +114,7 @@ function load_faculties_dropdown(university) {
 }
 
 function detectMob() {
-    return ((window.innerWidth <= 800) && (window.innerHeight <= 600));
+    return Math.min(window.screen.width, window.screen.height) < 768 || navigator.userAgent.indexOf("Mobi") > -1;
 }
 
 function courses_dropdown(selectObj, course_select_id, university) {
@@ -129,6 +129,7 @@ function courses_dropdown(selectObj, course_select_id, university) {
     var cSelect = document.getElementById(course_select_id);
     // remove the current options from the country select 
     selectpicker_clear(course_select_id);
+
     var newOption;
     // only on search tab, make this "all courses" option
     if (course_select_id != 'give_away_courses') {
@@ -155,7 +156,7 @@ function courses_dropdown(selectObj, course_select_id, university) {
         if (detectMob()) {
             newOption.style.maxWidth = "300px";
             newOption.style.textAlign = "left";
-        }     
+        }       
         // add the new option 
         try {
             cSelect.add(newOption);  // this will fail in DOM browsers but is needed for IE 

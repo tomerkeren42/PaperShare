@@ -1,7 +1,13 @@
-﻿function add_giveaway_to_db(university, email, user, faculty, course, description_str, upload_date) {
+﻿function get_db_course_name(course) {
+    var res_course_name;
+    res_course_name = course.replace(".", "");
+    res_course_name = res_course_name.replace("#", "");
+    res_course_name = res_course_name.replace("]", "");
+    res_course_name = res_course_name.replace("[", "");
 
-    //console.log("in the add_giveaway_to_db()");
-
+    return res_course_name;
+}
+function add_giveaway_to_db(university, email, user, faculty, course, description_str, upload_date) {
     // A post entry.
     var postData = {
         Faculty: faculty,
@@ -12,7 +18,7 @@
         Date: upload_date
     };
 
-    var db_path = university + '/uploads/' + faculty + '/' + course + '/';
+    var db_path = university + '/uploads/' + faculty + '/' + get_db_course_name(course) + '/';
     //var user_uploads_path = university + '/users/' + user_name + '/' + "uploads";
 
     // Get a key for a new Post.
@@ -26,7 +32,6 @@
     return firebase.database().ref().update(updates);
 
 }
-
 function find_giveaways_by_search(university, faculty, course) {
     var db = firebase.database();
     var search_path;
@@ -37,31 +42,23 @@ function find_giveaways_by_search(university, faculty, course) {
         ref = db.ref(search_path);
     }
     else {
-        search_path = university + '/uploads/' + faculty + '/' + course;
+        search_path = university + '/uploads/' + faculty + '/' + get_db_course_name(course);
         ref = db.ref(search_path).orderByChild('Course').equalTo(course);
     }
     return ref;
 }
-
-function find_user_giveaways(university, email) {
+function get_uploads_ref(university) {
     var db = firebase.database();
     var search_path = university + '/uploads/';
     var ref = db.ref(search_path);
+
     return ref;
 }
-
 function remove_from_db(path, email) {
     var split_path = path.split("/");
     var university = split_path[0];
     var ref_to_delete = firebase.database().ref(path);
-    ref_to_delete.remove()
-        .then(function () {
-           console.log("Remove succeeded.")
-        })
-        .catch(function (error) {
-           console.log("Remove failed: " + error.message)
-        });
+    ref_to_delete.remove();
     load_my_giveaways(university, email);
     load_table_on_search(university, email);
 }
-

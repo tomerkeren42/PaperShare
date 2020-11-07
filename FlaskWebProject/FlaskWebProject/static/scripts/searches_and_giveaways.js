@@ -167,7 +167,6 @@ function sortTable(sort_by_col_num, table_name) {
     }
 }
 
-
 function make_new_caption(faculty, courses, show_all_courses) {
 
     // make new table caption
