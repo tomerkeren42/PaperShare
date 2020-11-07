@@ -116,7 +116,7 @@ function load_faculties_dropdown(university) {
 }
 
 function detectMob() {
-    return ((window.innerWidth <= 800) && (window.innerHeight <= 600));
+    return Math.min(window.screen.width, window.screen.height) < 768 || navigator.userAgent.indexOf("Mobi") > -1;
 }
 
 function courses_dropdown(selectObj, course_select_id, university) {
