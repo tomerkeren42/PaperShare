@@ -18,13 +18,14 @@ import urllib3, shutil
 import argparse
 import sys
 from collections import OrderedDict
+import csv
 
 ################################### START ARGUMENTS ###################################
 
 parser = argparse.ArgumentParser(description='Script purpose: Upload courses csv file to Firebase Storage')
 
-parser.add_argument('--University', type=str, default='HUJI', required=False,
-                    choices=['Technion', 'TAU', 'HUJI'], help='University. Must be Technion, HUJI or TAU')
+parser.add_argument('--University', type=str, default='OpenUniversity', required=False,
+                    choices=['Technion', 'TAU', 'HUJI', 'OpenUniversity'], help='University. Must be Technion, OpenUniversity, HUJI or TAU')
 
 args = parser.parse_args()
 
@@ -270,6 +271,54 @@ elif University == 'HUJI':
 
                     courses.append(temp_course_dict)
 
+elif University == 'OpenUniversity':
+
+    ######################## read from courses' .txt files, parse, and write to a container ###########################
+
+
+    raw_files_path = "raw/OpenUni_RawCourses.csv"
+
+    course_numbers = []
+
+    courses = []
+
+    current_faculty = ''
+
+    # iterate over all lines in the .txt file
+
+    with open(raw_files_path, encoding="utf8") as fp:
+
+        i = 0
+        csv_reader = csv.reader(fp, delimiter=',')
+
+        for line in csv_reader:
+
+            if i < 2:
+                i += 1
+                continue
+
+            row = line
+
+            temp_course_number = row[0]
+            temp_course_name = row[1].strip('" ')
+            temp_faculty = row[2].strip(' ').strip('"').strip('\n\r')
+
+            if temp_faculty == '':
+                continue
+            if  not temp_faculty[-1].isalpha():
+                temp_faculty = temp_faculty[:-1]
+            temp_course_full_name = temp_course_number + " - " + temp_course_name
+            temp_course_full_name = temp_course_full_name.replace("'", "").replace("\\", "").strip(' ')[:-1].replace('""','"')
+
+            # if new course - add to courses and to course_numbers list
+
+            course_numbers.append(temp_course_number)
+            temp_course_dict = {
+                'course_name': temp_course_full_name,
+                'faculty_name': temp_faculty
+            }
+            if temp_course_dict not in courses:
+                courses.append(temp_course_dict)
 
 print("Finish parsing all courses' files for {}!\n\n".format(University))
 
