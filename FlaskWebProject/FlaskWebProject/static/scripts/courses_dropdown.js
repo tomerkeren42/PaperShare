@@ -40,7 +40,7 @@ function load_my_giveaways(university, email) {
 
 function init_my_giveaway_table(university, email) {
     var table = document.getElementById("user_table");
-    var upload_ref = find_user_giveaways(university, email);
+    var upload_ref = get_uploads_ref(university);
     upload_ref.once('value').then(function (faculty) {
         faculty.forEach(function (course) {
             course.forEach(function (course_giveaways) {
@@ -116,7 +116,7 @@ function load_faculties_dropdown(university) {
 }
 
 function detectMob() {
-    return ((window.innerWidth <= 800) && (window.innerHeight <= 600));
+    return Math.min(window.screen.width, window.screen.height) < 768 || navigator.userAgent.indexOf("Mobi") > -1;
 }
 
 function courses_dropdown(selectObj, course_select_id, university) {
@@ -157,7 +157,7 @@ function courses_dropdown(selectObj, course_select_id, university) {
         newOption.text = cList[i];
         newOption.style.textAlign = "right";
 
-        if (!detectMob()) {
+        if (detectMob()) {
             newOption.style.maxWidth = "300px";
             newOption.style.textAlign = "left";
         }

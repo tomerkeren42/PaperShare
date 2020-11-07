@@ -50,6 +50,7 @@
     <Content Include="FlaskWebProject\static\scripts\bootstrap-select.min.js" />
     <Content Include="FlaskWebProject\static\scripts\courses_dropdown.js" />
     <Content Include="FlaskWebProject\static\scripts\db_handler.js" />
+    <Content Include="FlaskWebProject\static\scripts\HUJI_courses_lists.js" />
     <Content Include="FlaskWebProject\static\scripts\searches_and_giveaways.js" />
     <Content Include="FlaskWebProject\static\scripts\TAU_courses_lists.js" />
     <Content Include="FlaskWebProject\static\scripts\Technion_courses_lists.js" />
