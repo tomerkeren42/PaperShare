@@ -1,5 +1,4 @@
 function parse_and_upload_giveaway(university, email, user, date) {
-    console.log("in the parse_and_upload_giveaway()");
     if (!check_submit()) {
         return;
     }
@@ -11,7 +10,6 @@ function parse_and_upload_giveaway(university, email, user, date) {
 
     var description_input = document.getElementById("Description");
     var description = description_input.value;
-    //add_giveaway_to_db(university, email, user, faculty, course, description, date);
     add_giveaway_to_db(university, email, user, faculty, course, description, left_to_right_date(date));
 }
 
@@ -22,12 +20,10 @@ function left_to_right_date(date) {
 }
 
 function load_table_on_search(university, email) {
-    //console.log("in the load_table_on_search()");
 
     $("[data-toggle='popover']").popover('destroy');
 
     var faculty_select = document.getElementById("search_faculties");
-
 
     if (faculty_select.value == "") {
         $("[data-toggle='popover']").popover('show');
@@ -36,12 +32,7 @@ function load_table_on_search(university, email) {
     }
 
     var faculty = faculty_select.options[faculty_select.selectedIndex].text;
-    var is_empty = true;
     var courses = $('#search_courses').val();
-    //var course_select = document.getElementById("search_courses");
-    //var course = course_select.options[course_select.selectedIndex].text;
-    //console.log("in the load_table_on_search() - course text is: " , course);
-    //console.log("in the load_table_on_search() - all selected vals are: ", courses);
 
     var show_all_courses = false;
     if (courses == null) {
@@ -54,7 +45,6 @@ function load_table_on_search(university, email) {
     // toggle table on
     var table = document.getElementById("search_table");
     var num_of_rows = table.rows.length;
-    //var empty_msg = document.getElementById("table_caption");
 
     // if table is already fill up, remove all previous search
     if (num_of_rows > 1) {
@@ -67,35 +57,17 @@ function load_table_on_search(university, email) {
         table.style.display = "inline";
     }
 
-    //if (empty_msg.style.display === "none") {
-    //    empty_msg.style.display = "block";
-    //}
-    //// if all courses, act like non-picked
-    //if (course == 'כל הקורסים') {
-    //    //console.log("in the load_table_on_search() - inside if");
-    //    course = '';
-    //}
-    //console.log("in the load_table_on_search() - after check all courses text, course is: ", course);
-
-    //var found_in_DB = find_giveaways_by_search(university, faculty, course);
-
     document.getElementById("table_header").style.display = "none";
 
-    //console.log("new header is: ", document.getElementById("table_caption").innerHTML);
-    // console.log("empty msg is: ", empty_msg.innerHTML);
     // if "all courses" is chosen
     document.getElementById("table_caption").innerHTML = "אין חומרים למסירה בקורס שבחרת";
     if (show_all_courses) {
-        //console.log("in the load_table_on_search() - inside empty if, then show all courses");
         var found_in_DB = find_giveaways_by_search(university, faculty, "");
         found_in_DB.once('value').then(function (coursekey) {
             coursekey.forEach(function (course) {
                 course.forEach(function (data) {
                     //reaching this point means table isn't empty. hide empy_msg & show header
-                    //empty_msg.style.display = "none";
                     document.getElementById("table_header").style.display = "block";
-                    //console.log("in all courses: ", is_empty);
-                    //is_empty = false;
                     var giveaway = data.val();
                     let row = table.insertRow();
                     let button = create_button(false, giveaway, email);
@@ -114,21 +86,13 @@ function load_table_on_search(university, email) {
        
     }
     else {
-        //console.log("in load_table_on_search(): course is not empty")
-        //console.log("in the load_table_on_search() - run in loop for all courses chosen");
-        //console.log("in the load_table_on_search() - length is: ", courses.length);
         for (var i = 0; i < courses.length; i += 1) {
-            //console.log("in the load_table_on_search() - iteration num: ", i, "run on: ", courses[i]);
             var found_in_DB = find_giveaways_by_search(university, faculty, courses[i]);
             found_in_DB.once('value').then(function (datakey) {
                 datakey.forEach(function (data) {
-                    //console.log("in loop is_empty is: ", is_empty);
-                    //reaching this point means table isn't empty. hide empy_msg & show header
-                    //empty_msg.style.display = "none";
+               
                     document.getElementById("table_header").style.display = "block";
-                    //is_empty = false;
                     var giveaway = data.val();
-                    // console.log("in the load_table_on_search(): give away is:", giveaway);
                     let row = table.insertRow();
                     let button = create_button(false, giveaway, email);
                     button_place = row.insertCell(0);
@@ -145,10 +109,6 @@ function load_table_on_search(university, email) {
         }
         
     }
-    //console.log("after all is_empty is: ", is_empty);
-    //if (is_empty) {
-    //    document.getElementById("table_caption").innerHTML = "אין חומרים למסירה בקורס שבחרת";
-    //}
     sortTable(2, "search_table");
 }
 
@@ -213,22 +173,16 @@ function make_new_caption(faculty, courses, show_all_courses) {
     var new_caption = "";
   
     new_caption = faculty;
-    //console.log("new caption is: ", new_caption);
     if (!show_all_courses) {
-        //console.log("not showing all courses");
         for (var i = 0; i < courses.length; i += 1) {
             new_caption = new_caption + " / " + courses[i];
-            //console.log("new caption is: ", new_caption);
         }
     }
     else {
         new_caption = " עבור כל הקורסים ב " + faculty;
     }
-    // change in HTML
-    //console.log("final new caption is: ", new_caption);
-    
+    // change in HTML  
     document.getElementById("table_caption").innerHTML = new_caption;
-
 }
 
 // creates the btn with the target email
@@ -260,7 +214,6 @@ function create_button(is_remove, ref, email) {
     //else it's שלח בקשה button
     else {
         button.setAttribute("id", "email_button");
-        //console.log("in create_btn target is " + target_email);
         button.addEventListener('click', function () {
             new_mail_request(ref.Email, ref.Faculty, ref.Course);
         });
@@ -273,33 +226,22 @@ function create_button(is_remove, ref, email) {
 }
 
 function new_mail_request(target_email, target_faculty, target_course) {
-    console.log("in new_mail target is " + target_email);
     // prepare data to send
-    var faculty = target_faculty;
     var course = target_course;
-
     // get from table!
     var giver_email = target_email;
     var subject = "PaperShare: אני מעוניין/ת בחומרי הלימוד שלך";
     var body = "היי, ראיתי שאת/ה מוסר/ת חומרי לימוד ב " + course + "," + " אשמח לקבל אותם ממך! " + "%0D%0A" + "אם כבר מסרת את חומרי הלימוד, ניתן להסיר אותם מהאתר" + "%0D%0A";
     var body = body + "תודה רבה!";
-
     let send_us_copy = "papershareproject@gmail.com"
 
     // email sender
-    //window.open("mailto:" + giver_email + '?cc=' + send_us_copy + '&subject=' + subjet + '&body=' + body);
     mail_str = "https://mail.google.com/mail/u/0/?view=cm" + "&to=" + giver_email + '&cc=' + send_us_copy + "&su=" + subject + '&body=' + body + "&fs=1&tf=1";
     window.open(mail_str);
-    //location.href = "https://mail.google.com/mail/u/0/?view=cm" + "&to=" + giver_email + '&cc=' + send_us_copy + "&su=" + subject + '&body=' + body + "&fs=1&tf=1";
-
-    //"email sender from technion+ app"
-    //location.href = "https://mail.google.com/mail/u/0/?view=cm&amp;to=" + giver_email + "&amp;su=" + subject + "&amp;fs=1&amp;tf=1"   
-    //<a id="bws" target="_blank" href="https://mail.google.com/mail/u/0/?view=cm&amp;to=print.bws@campus.technion.ac.il&amp;su=���� ���� ���� ���&amp;fs=1&amp;tf=1"><span class="img_container"><img src="icons/page.svg"></span> ���� ���, ��-����</a>
 }
 
 function check_submit() {
     $("[data-toggle='popover']").popover('destroy');
-    console.log("inside submit func")
     document.getElementById("checkbox_input").setAttribute("style", "color:black");
     document.getElementById("description_input").setAttribute("class", "row");
     document.getElementById("course_input").setAttribute("class", "row pull-right");
@@ -345,7 +287,6 @@ function giveaway_modal(action, university, email) {
         $('#give_away_courses').selectpicker('val', '0');
     }
     else if (action == "my_giveaway") {
-        console.log("inside my giveaway");
         $('[href="#menu2"]').tab('show');
     }
     load_my_giveaways(university, email);
@@ -381,7 +322,6 @@ function giveaway_clear() {
 function selectpicker_clear(select_id) {
     var select = document.getElementById(select_id);
     while (select.options.length > 0) {
-        console.log("removing options");
         select.remove(0);
     }
     var jquery_select = "#" + select_id;
