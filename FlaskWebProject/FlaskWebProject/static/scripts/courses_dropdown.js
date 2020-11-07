@@ -19,7 +19,6 @@ function load_html(university, email) {
 }
 
 function load_my_giveaways(university, email) {
-    console.log("in load_my_giveaways()");
     // toggle table on
     var table = document.getElementById("user_table");
     var num_of_rows = table.rows.length;
@@ -30,7 +29,6 @@ function load_my_giveaways(university, email) {
         }
     }
     // if table style is none  (hidden) - change it to inline (show)
-    // need to check validation of form - do only if form is submitted
     if (table.style.display === "none") {
         table.style.display = "inline";
     }
@@ -131,9 +129,6 @@ function courses_dropdown(selectObj, course_select_id, university) {
     var cSelect = document.getElementById(course_select_id);
     // remove the current options from the country select 
     selectpicker_clear(course_select_id);
-    //while (cSelect.options.length > 0) {
-    //    cSelect.remove(0);
-    //}
     var newOption;
     // only on search tab, make this "all courses" option
     if (course_select_id != 'give_away_courses') {
@@ -160,13 +155,7 @@ function courses_dropdown(selectObj, course_select_id, university) {
         if (detectMob()) {
             newOption.style.maxWidth = "300px";
             newOption.style.textAlign = "left";
-        }
-
-        /*if (newOption.text.length > 20) {
-            newOption.text = newOption.text.substring(0, 20) + '%0D%0A' + newOption.text.substring(20, newOption.text.length);
-        }*/
-
-        
+        }     
         // add the new option 
         try {
             cSelect.add(newOption);  // this will fail in DOM browsers but is needed for IE 

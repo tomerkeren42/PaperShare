@@ -1,6 +1,6 @@
 ﻿function add_giveaway_to_db(university, email, user, faculty, course, description_str, upload_date) {
 
-    console.log("in the add_giveaway_to_db()");
+    //console.log("in the add_giveaway_to_db()");
 
     // A post entry.
     var postData = {
@@ -28,70 +28,38 @@
 }
 
 function find_giveaways_by_search(university, faculty, course) {
-    console.log("in the find_giveaways_by_search()");
     var db = firebase.database();
     var search_path;
     var ref;
 
     if (course == '') {
-        //console.log("in the find_giveaways_by_search(), course is None");
         search_path = university + '/uploads/' + faculty;
         ref = db.ref(search_path);
     }
     else {
-        //console.log("in the find_giveaways_by_search(), course isn't None");
         search_path = university + '/uploads/' + faculty + '/' + course;
         ref = db.ref(search_path).orderByChild('Course').equalTo(course);
     }
-
-    /*
-    ref.once('value', snapshot => {
-        if (snapshot.exists()) {
-            var giveaway = snapshot.val();
-            giveaway = Object.values(giveaway);
-            description = giveaway[0].Description;
-            console.log('description : ' + description);
-        }
-        else {
-            console.log('No match for this course: ' + course)
-        }
-    });
-    */
     return ref;
 }
 
 function find_user_giveaways(university, email) {
-   // console.log("in the find_user_giveaways()");
     var db = firebase.database();
     var search_path = university + '/uploads/';
     var ref = db.ref(search_path);
-    /*
-    ref.once('value', snapshot => {
-        if (snapshot.exists()) {
-            var giveaway = snapshot.val();
-            giveaway = Object.values(giveaway);
-            description = giveaway[0].Description;
-            console.log('description : ' + description);
-        }
-        else {
-            console.log('No match for this course: ' + course)
-        }
-    });
-    */
     return ref;
 }
 
 function remove_from_db(path, email) {
     var split_path = path.split("/");
     var university = split_path[0];
-    console.log("uni is: ", university, "email is:", email);
     var ref_to_delete = firebase.database().ref(path);
     ref_to_delete.remove()
         .then(function () {
-            console.log("Remove succeeded.")
+           console.log("Remove succeeded.")
         })
         .catch(function (error) {
-            console.log("Remove failed: " + error.message)
+           console.log("Remove failed: " + error.message)
         });
     load_my_giveaways(university, email);
     load_table_on_search(university, email);
