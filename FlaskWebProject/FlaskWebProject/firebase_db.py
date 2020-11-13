@@ -7,14 +7,14 @@ class firebase_db(object):
     # initiate the class
     def __init__(self):
         self.config = {
-            "apiKey"                : "AIzaSyBJ20paxlR6HuiqNai2ecOa87V4AhFcsMo",
-            "authDomain"            : "paper-share.firebaseapp.com",
-            "databaseURL"           : "https://paper-share.firebaseio.com",
-            "projectId"             : "paper-share",
-            "storageBucket"         : "paper-share.appspot.com",
-            "messagingSenderId"     : "716824219562",
-            "appId"                 : "1:716824219562:web:9746189bbe2c9efbe165d3",
-            "measurementId"         : "G-QXR9SVGB3F"
+            "apiKey"                : "AIzaSyCebFrGEHN_IZyOVOc739txyvC1qYn61e8",
+            "authDomain"            : "rules-tests.firebaseapp.com",
+            "databaseURL"           : "https://rules-tests.firebaseio.com",
+            "projectId"             : "rules-tests",
+            "storageBucket"         : "rules-tests.appspot.com",
+            "messagingSenderId"     : "556698880812",
+            "appId"                 : "1:556698880812:web:0e36133f514707a6247a89",
+            "measurementId"         : "G-CW1HH5S5C9"
         }
         self.firebase = pyrebase.initialize_app(self.config)
         self.db = self.firebase.database()
