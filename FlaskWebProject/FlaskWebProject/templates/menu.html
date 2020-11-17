@@ -95,7 +95,7 @@
                     <thead id="table_header">
                         <tr>
                             <th class="text-right" >שלח בקשה </th>
-                            <th class="text-right">תיאור </th>
+                            <th class="text-right">פרטים </th>
                             <th class="text-right" id="th_date" onclick="sortTable(2, 'search_table')" style="cursor:pointer">תאריך </th>
                             <th class="text-right" onclick="sortTable(3, 'search_table')" style="cursor:pointer">שם הקורס</th>
                         </tr>
@@ -121,42 +121,52 @@
                 </div>
                 <br />
                 <div class="container"
-                    <form id="give_away_form">
+                <form id="give_away_form">
 
-                        <!--Faculty selection-->
-                        <div class="row pull-right" style="text-align: right; font-size: 20px;" id="faculty_input">
-                            <select class="selectpicker pull-right" data-live-search="true" title="בחר פקולטה" id="give_away_faculties" onchange="courses_dropdown(this, 'give_away_courses', '{{university}}');" dir="rtl" style="text-align: right; font-size: 20px;">
-                                <option value="0" style="text-align: right; font-size: 20px;">Select a faculty</option>
-                            </select>
-                        </div>
-                        <br />
-                        <br />
+                <!--Faculty selection-->
+                <div class="row pull-right" style="text-align: right; font-size: 20px;" id="faculty_input">
+                <select class="selectpicker pull-right" data-live-search="true" title="בחר פקולטה" id="give_away_faculties" onchange="courses_dropdown(this, 'give_away_courses', '{{university}}');" dir="rtl" style="text-align: right; font-size: 20px;">
+                <option value="0" style="text-align: right; font-size: 20px;">Select a faculty</option>
+                </select>
+                </div>
+                <br />
+                <br />
 
-                        <!--Course selection-->
-                        <div class="row pull-right" style="text-align: right; font-size: 20px;" id="course_input">
-                            <select class="selectpicker pull-right" data-live-search="true" title="בחר קורס" id="give_away_courses" dir="rtl">
-                                <option value="0">Select a faculty first</option>
-                            </select>
-                        </div>
-                        <br /><br />
+                <!--Course selection-->
+                <div class="row pull-right" style="text-align: right; font-size: 20px;" id="course_input">
+                <select class="selectpicker pull-right" data-live-search="true" title="בחר קורס" id="give_away_courses" dir="rtl">
+                <option value="0">Select a faculty first</option>
+                </select>
+                </div>
+                <br /><br />
 
-                        <!--Description input-->
-                        <div class="row" id="description_input">
-                            <p class="text-right">מה את\ה מוסר\ת? (למשל: קובץ מבחנים מודפס)</p>
-                            <input class="form-control pull-right text-right col-sx-10" id="Description" dir="rtl" style="font-size:initial">
-                        </div>
+                <!--Description input-->
+                <div class="row" id="description_input">
+                <p class="text-right">תיאור <i class="fas fa-file-signature"></i></p>
+                <input class="form-control pull-right text-right col-sx-10" id="Description" dir="rtl" style="font-size:initial" placeholder="מה את\ה מוסר\ת?">
+                </div>
 
-                        <div class="row">
-                            <div class="checkbox pull-right" id="checkbox_input">
-                                <label><input type="checkbox" id="agree-terms" style="width:15px;height:15px"> אני מסכים\ה שיצרו איתי קשר במייל האוניברסיטאי בנוגע למסירת חומרי הלימוד</label>
-                            </div>
-                        </div>
-                        <br /> <br />
-                        <button class="btn btn-ps pull-right" id="giveaway_clear" onclick="giveaway_clear()">איפוס <i class="fas fa-eraser"></i></button>
-                        <button type="submit" id="submit_button" class="btn btn-ps pull-right" onclick="parse_and_upload_giveaway('{{university}}', '{{email}}', '{{username}}', '{{date}}')" data-toggle="popover" data-placement="left" data-content="יש למלא את כל השדות" data-trigger="focus"> שליחה <span class="glyphicon glyphicon-send"></span></button>
+                <div class="row" id="location_input">
+                <p class="text-right">מקום מסירה <i class="fas fa-map"></i></p>
+                <input class="form-control pull-right text-right col-sx-10" id="Location" dir="rtl" style="font-size:initial" placeholder="איפה תמסור את חומרי הלימוד?">
+                </div>
 
-                    </form>
-            </div>
+                <div class="row" id="phone_input">
+                <p class="text-right">טלפון -לא חובה <i class="fas fa-mobile-alt"></i></p>
+                <input class="form-control pull-right text-right col-sx-10" id="Phone" dir="rtl" style="font-size:initial" placeholder="מספר הטלפון שלך">
+                </div>
+
+                <div class="row">
+                <div class="checkbox pull-right" id="checkbox_input">
+                <label><input type="checkbox" id="agree-terms" style="width:15px;height:15px"> אני מסכים\ה שיצרו איתי קשר במייל האוניברסיטאי בנוגע למסירת חומרי הלימוד</label>
+                </div>
+                </div>
+                <br /> <br />
+                <button class="btn btn-ps pull-right" id="giveaway_clear" onclick="giveaway_clear()">איפוס <i class="fas fa-eraser"></i></button>
+                <button type="submit" id="submit_button" class="btn btn-ps pull-right" onclick="parse_and_upload_giveaway('{{university}}', '{{email}}', '{{username}}', '{{date}}')" data-toggle="popover" data-placement="left" data-content="יש למלא את כל השדות" data-trigger="focus"> שליחה <span class="glyphicon glyphicon-send"></span></button>
+
+                </form>
+                </div>
                 <!-- submission modal-->
                 <div class="modal fade" id="submission_modal" role="dialog">
                     <div class="modal-dialog">

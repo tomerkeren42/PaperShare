@@ -1,9 +1,21 @@
-﻿function add_giveaway_to_db(university, email, user, faculty, course, description_str, upload_date) {
+
+﻿function get_db_course_name(course) {
+    var res_course_name;
+    res_course_name = course.replace(".", "");
+    res_course_name = res_course_name.replace("#", "");
+    res_course_name = res_course_name.replace("]", "");
+    res_course_name = res_course_name.replace("[", "");
+
+    return res_course_name;
+}
+function add_giveaway_to_db(university, email, user, faculty, course, description_str, location_str, phone_str, upload_date) {
     // A post entry.
     var postData = {
         Faculty: faculty,
         Course: course,
         Description: description_str,
+        Location: location_str,
+        Phone: phone_str,
         Email: email,
         User: user,
         Date: upload_date
