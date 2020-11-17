@@ -10,7 +10,14 @@ function parse_and_upload_giveaway(university, email, user, date) {
 
     var description_input = document.getElementById("Description");
     var description = description_input.value;
-    add_giveaway_to_db(university, email, user, faculty, course, description, left_to_right_date(date));
+
+    var location_input = document.getElementById("Location");
+    var location = location_input.value;
+
+    var phone_input = document.getElementById("Phone");
+    var phone = phone_input.value;
+
+    add_giveaway_to_db(university, email, user, faculty, course, description, location, phone, left_to_right_date(date));
 }
 
 function left_to_right_date(date) {
@@ -73,8 +80,10 @@ function load_table_on_search(university, email) {
                     let button = create_button(false, giveaway, email);
                     button_place = row.insertCell(0);
                     button_place.appendChild(button);
-                    let description = row.insertCell(1);
-                    description.innerHTML = giveaway.Description;
+                    let info_btn = create_info_btn(giveaway, email);
+                    info_place = row.insertCell(1);
+                    info_place.setAttribute("style" , "text-align: center")
+                    info_place.appendChild(info_btn);
                     let date = row.insertCell(2);
                     date.innerHTML = giveaway.Date;
                     let course = row.insertCell(3);
@@ -97,8 +106,9 @@ function load_table_on_search(university, email) {
                     let button = create_button(false, giveaway, email);
                     button_place = row.insertCell(0);
                     button_place.appendChild(button);
-                    let description = row.insertCell(1);
-                    description.innerHTML = giveaway.Description;
+                    let info_btn = create_info_btn(giveaway, email);
+                    info_place = row.insertCell(1);
+                    info_place.appendChild(info_btn);
                     let date = row.insertCell(2);
                     date.innerHTML = giveaway.Date;
                     let course = row.insertCell(3);
@@ -184,6 +194,38 @@ function make_new_caption(faculty, courses, show_all_courses) {
     // change in HTML  
     document.getElementById("table_caption").innerHTML = new_caption;
 }
+
+// creates the btn in the search table for more details
+function create_info_btn(ref, email) {
+    let info_btn = document.createElement("button");
+    info_btn.setAttribute("id", "info_popover");
+    info_btn.setAttribute("class", "btn btn-ps-table pull-right");
+    var icon = document.createElement("span");
+    icon.className = "fas fa-info";
+    info_btn.appendChild(icon);
+    info_btn.setAttribute("style", "font-size: 14");
+    info_btn.setAttribute("data-toggle", "popover");
+    console.log("loc is: ", ref.Location);
+    console.log("phn is: ", ref.Phone);
+
+    // Change trigger to click for mobile devices only
+    $('[data-toggle="popover"]').popover({
+        trigger: "hover",
+        html: true,
+        content: ref.Description + " <span class='fas fa-file-signature'></span>" + "%0D%0A" +
+            ref.Location + " <span class='fas fa-map'></span>" + "%0D%0A" +
+            ref.Phone + " <span class='fas fa-mobile-alt'></span>"
+        ,
+    });
+
+    //err: for new uploads, the popover isn't showing
+
+    return info_btn;
+}
+
+
+
+
 
 // creates the btn with the target email
 function create_button(is_remove, ref, email) {
