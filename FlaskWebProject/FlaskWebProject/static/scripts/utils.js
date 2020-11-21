@@ -36,8 +36,8 @@ function create_info_btn(ref, phone, loc) {
         trigger: "hover",
         html: true,
         content: ref.Description,
-        //content: ref.Description + " <span class='fas fa-file-signature'></span>" + "\n" +
-        //    loc + " <span class='fas fa-map'></span>" + "\n" +
+        //content: ref.Description + " <span class='fas fa-book'></span>" + "\n" +
+        //    loc + " <span class='fas fa-map-marker-alt'></span>" + "\n" +
         //    phone + " <span class='fas fa-mobile-alt'></span>"
         //,
     });
