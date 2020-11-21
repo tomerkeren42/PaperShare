@@ -63,7 +63,6 @@ var TAU_courses_lists = new Array(18);
 var HUJI_courses_lists = new Array(13);
 
 // Technion's courses:
-
 Technion_courses_lists['הנדסה אזרחית וסביבתית'] =
 	[
 		'014003 - סטטיסטיקה',
@@ -12011,4 +12010,3 @@ universities_courses_lists['TAU'] = TAU_courses_lists;
 universities_courses_lists['IDC'] = TAU_courses_lists;
 universities_courses_lists['BGU'] = TAU_courses_lists;
 universities_courses_lists['HUJI'] = HUJI_courses_lists;
-

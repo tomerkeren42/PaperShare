@@ -16,6 +16,34 @@ function selectpicker_clear(select_id) {
     $(jquery_select).selectpicker('val', 0);
     $('.selectpicker').selectpicker('refresh');
 }
+// creates the btn in the search table for more details
+function create_info_btn(ref, phone, loc) {
+    let info_btn = document.createElement("button");
+    info_btn.setAttribute("id", "info_popover");
+    info_btn.setAttribute("class", "btn btn-ps-table pull-right");
+    var icon = document.createElement("span");
+    icon.className = "fas fa-info";
+    info_btn.appendChild(icon);
+    info_btn.setAttribute("style", "font-size: 14");
+    info_btn.setAttribute("data-toggle", "popover");
+    console.log("loc is: ", ref.Location);
+    console.log("phn is: ", ref.Phone);
+    console.log("phone type: ", typeof(phone));
+    console.log("desc type: ", typeof(ref.Description));
+   
+    // Change trigger to click for mobile devices only
+    $('[data-toggle="popover"]').popover({
+        trigger: "hover",
+        html: true,
+        content: ref.Description,
+        //content: ref.Description + " <span class='fas fa-file-signature'></span>" + "\n" +
+        //    loc + " <span class='fas fa-map'></span>" + "\n" +
+        //    phone + " <span class='fas fa-mobile-alt'></span>"
+        //,
+    });
+    //err: for new uploads, the popover isn't showing
+    return info_btn;
+}
 function create_button(is_remove, ref, email) {
     let button = document.createElement("button");
     button.setAttribute("class", "btn btn-ps-table pull-right");

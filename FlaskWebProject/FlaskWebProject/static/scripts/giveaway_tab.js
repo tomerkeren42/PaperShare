@@ -10,7 +10,14 @@ function parse_and_upload_giveaway(university, email, user, date) {
 
     var description_input = document.getElementById("Description");
     var description = description_input.value;
-    add_giveaway_to_db(university, email, user, faculty, course, description, left_to_right_date(date));
+
+    var location_input = document.getElementById("Location");
+    var location = location_input.value;
+
+    var phone_input = document.getElementById("Phone");
+    var phone = phone_input.value;
+
+    add_giveaway_to_db(university, email, user, faculty, course, description, location, phone, left_to_right_date(date));
 }
 function check_giveaway_submit() {
     $("[data-toggle='popover']").popover('destroy');

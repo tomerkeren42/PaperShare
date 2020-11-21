@@ -116,8 +116,15 @@ function load_table_on_search(university, email) {
                     let button = create_button(false, giveaway, email);
                     button_place = row.insertCell(0);
                     button_place.appendChild(button);
-                    let description = row.insertCell(1);
-                    description.innerHTML = giveaway.Description;
+                    let phone = giveaway.Phone;
+                    let loc = giveaway.Location;
+
+                    let info_btn = create_info_btn(giveaway, phone, loc);
+                    info_place = row.insertCell(1);
+                    info_place.setAttribute("style", "text-align: center")
+                    info_place.appendChild(info_btn);
+                    //let description = row.insertCell(1);
+                    //description.innerHTML = giveaway.Description;
                     let date = row.insertCell(2);
                     date.innerHTML = giveaway.Date;
                     let course = row.insertCell(3);
