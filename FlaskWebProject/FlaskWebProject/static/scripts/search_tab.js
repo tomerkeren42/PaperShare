@@ -104,6 +104,9 @@ function load_table_on_search(university, email) {
 
     // if "all courses" is chosen
     document.getElementById("table_caption").innerHTML = "אין חומרים למסירה בקורס שבחרת";
+
+    debug_counter = 0;
+
     if (show_all_courses) {
         var found_in_DB = find_giveaways_by_search(university, faculty, "");
         found_in_DB.once('value').then(function (coursekey) {
@@ -111,26 +114,10 @@ function load_table_on_search(university, email) {
                 course.forEach(function (data) {
                     //reaching this point means table isn't empty. hide empy_msg & show header
                     document.getElementById("table_header").style.display = "block";
-                    var giveaway = data.val();
-                    let row = table.insertRow();
-                    let button = create_button(false, giveaway, email);
-                    button_place = row.insertCell(0);
-                    button_place.appendChild(button);
-                    let phone = giveaway.Phone;
-                    let loc = giveaway.Location;
-
-                    let info_btn = create_info_btn(giveaway, phone, loc);
-                    info_place = row.insertCell(1);
-                    info_place.setAttribute("style", "text-align: center")
-                    info_place.appendChild(info_btn);
-                    //let description = row.insertCell(1);
-                    //description.innerHTML = giveaway.Description;
-                    let date = row.insertCell(2);
-                    date.innerHTML = giveaway.Date;
-                    let course = row.insertCell(3);
-                    course.innerHTML = giveaway.Course;
-                    new_search_table_header(faculty, courses, show_all_courses);
+                    insert_table_row(table, data, email, true, debug_counter);
+                    debug_counter = debug_counter + 1;
                 });
+                new_search_table_header(faculty, courses, show_all_courses);
             });
         });
 
@@ -140,27 +127,39 @@ function load_table_on_search(university, email) {
             var found_in_DB = find_giveaways_by_search(university, faculty, courses[i]);
             found_in_DB.once('value').then(function (datakey) {
                 datakey.forEach(function (data) {
-
                     document.getElementById("table_header").style.display = "block";
-                    var giveaway = data.val();
-                    let row = table.insertRow();
-                    let button = create_button(false, giveaway, email);
-                    button_place = row.insertCell(0);
-                    button_place.appendChild(button);
-                    let description = row.insertCell(1);
-                    description.innerHTML = giveaway.Description;
-                    let date = row.insertCell(2);
-                    date.innerHTML = giveaway.Date;
-                    let course = row.insertCell(3);
-                    course.innerHTML = giveaway.Course;
-                    new_search_table_header(faculty, courses, show_all_courses);
+                    insert_table_row(table, data, email, true, debug_counter)
                 });
+                new_search_table_header(faculty, courses, show_all_courses);
             });
         }
-
     }
     sortTable(2, "search_table");
 }
+
+function insert_table_row(table, data, email, search_table, debug_counter) {
+    var giveaway = data.val();
+    //let giveaway_data = get_data(data);
+    let row = table.insertRow();
+    let button = create_button(false, giveaway, email);
+    button_place = row.insertCell(0);
+    button_place.appendChild(button);
+    if (search_table) {
+        let info_btn = create_info_btn(data, debug_counter);
+        info_place = row.insertCell(1);
+        info_place.setAttribute("style", "text-align: center");
+        info_place.appendChild(info_btn);
+    }
+    var date = row.insertCell(2);
+    date.innerHTML = giveaway.Date;
+    let course = row.insertCell(3);
+    course.innerHTML = giveaway.Course;
+}
+//function get_data(data) {
+//    let data_arr = [];
+//    let giveaway = data.val();
+//}
+
 function new_search_table_header(faculty, courses, show_all_courses) {
 
     // make new table caption

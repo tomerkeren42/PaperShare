@@ -17,31 +17,53 @@ function selectpicker_clear(select_id) {
     $('.selectpicker').selectpicker('refresh');
 }
 // creates the btn in the search table for more details
-function create_info_btn(ref, phone, loc) {
-    let info_btn = document.createElement("button");
+function create_info_btn(data, debug_counter) {
+    giveaway = data.val();
+    var description = giveaway.Description;
+    var phone = "";
+    var location = "";
+    if (giveaway.hasOwnProperty('Phone')) {
+        phone = giveaway.Phone;
+    }
+    if (giveaway.hasOwnProperty('Location')) {
+        location = giveaway.Location;
+    }
+    console.log("info is: ", description, phone, location);
+    content = "<span class='fas fa-file-signature'></span>" + description + "<br\> ";
+    if (location != "") {
+        content += location + "<span class='fas fa-map'></span><br\> ";
+    }
+    if (phone != "") {
+        content += phone + "<span class='fas fa-mobile-alt'></span>";
+    }
+    content.dir = "rtl";
+
+    var info_btn = document.createElement("button");
     info_btn.setAttribute("id", "info_popover");
     info_btn.setAttribute("class", "btn btn-ps-table pull-right");
+
     var icon = document.createElement("span");
     icon.className = "fas fa-info";
     info_btn.appendChild(icon);
+
     info_btn.setAttribute("style", "font-size: 14");
+    info_btn.setAttribute("data-trigger", "hover");
+    info_btn.setAttribute("data-placement", "right");
+    info_btn.setAttribute("style", "direction:rtl");
+    info_btn.setAttribute("data-html", "true");
     info_btn.setAttribute("data-toggle", "popover");
-    console.log("loc is: ", ref.Location);
-    console.log("phn is: ", ref.Phone);
-    console.log("phone type: ", typeof(phone));
-    console.log("desc type: ", typeof(ref.Description));
-   
-    // Change trigger to click for mobile devices only
-    $('[data-toggle="popover"]').popover({
-        trigger: "hover",
-        html: true,
-        content: ref.Description,
-        //content: ref.Description + " <span class='fas fa-file-signature'></span>" + "\n" +
-        //    loc + " <span class='fas fa-map'></span>" + "\n" +
-        //    phone + " <span class='fas fa-mobile-alt'></span>"
-        //,
-    });
-    //err: for new uploads, the popover isn't showing
+
+    /*if (detectMob()) {
+       info_btn.setAttribute("data-trigger", "click");
+    }
+    else {
+       info_btn.setAttribute("data-trigger", "hover");
+    }
+    */
+
+    info_btn.setAttribute("data-content", content);
+
+    $('[data-toggle="popover"]').popover();
     return info_btn;
 }
 function create_button(is_remove, ref, email) {
