@@ -52,6 +52,7 @@ function create_info_btn(data, debug_counter) {
     info_btn.setAttribute("style", "direction:rtl");
     info_btn.setAttribute("data-html", "true");
     info_btn.setAttribute("data-toggle", "popover");
+<<<<<<< HEAD
 
     /*if (detectMob()) {
        info_btn.setAttribute("data-trigger", "click");
@@ -64,6 +65,24 @@ function create_info_btn(data, debug_counter) {
     info_btn.setAttribute("data-content", content);
 
     $('[data-toggle="popover"]').popover();
+=======
+    console.log("loc is: ", ref.Location);
+    console.log("phn is: ", ref.Phone);
+    console.log("phone type: ", typeof(phone));
+    console.log("desc type: ", typeof(ref.Description));
+   
+    // Change trigger to click for mobile devices only
+    $('[data-toggle="popover"]').popover({
+        trigger: "hover",
+        html: true,
+        content: ref.Description,
+        //content: ref.Description + " <span class='fas fa-book'></span>" + "\n" +
+        //    loc + " <span class='fas fa-map-marker-alt'></span>" + "\n" +
+        //    phone + " <span class='fas fa-mobile-alt'></span>"
+        //,
+    });
+    //err: for new uploads, the popover isn't showing
+>>>>>>> e6a891e877ef8c21e4dddfa8e7ea78e3c3a43a3c
     return info_btn;
 }
 function create_button(is_remove, ref, email) {

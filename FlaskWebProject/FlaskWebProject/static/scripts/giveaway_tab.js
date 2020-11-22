@@ -75,6 +75,8 @@ function giveaway_clear() {
     selectpicker_clear("give_away_courses");
     $('#give_away_faculties').selectpicker('val', '0');
     document.getElementById('Description').value = '';
+    document.getElementById('Phone').value = '';
+    document.getElementById('Location').value = '';
     document.getElementById('agree-terms').checked = false;
     document.getElementById("checkbox_input").setAttribute("style", "color:black");
     return;
