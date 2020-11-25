@@ -105,8 +105,6 @@ function load_table_on_search(university, email) {
     // if "all courses" is chosen
     document.getElementById("table_caption").innerHTML = "אין חומרים למסירה בקורס שבחרת";
 
-    debug_counter = 0;
-
     if (show_all_courses) {
         var found_in_DB = find_giveaways_by_search(university, faculty, "");
         found_in_DB.once('value').then(function (coursekey) {
@@ -114,8 +112,7 @@ function load_table_on_search(university, email) {
                 course.forEach(function (data) {
                     //reaching this point means table isn't empty. hide empy_msg & show header
                     document.getElementById("table_header").style.display = "block";
-                    insert_table_row(table, data, email, true, debug_counter);
-                    debug_counter = debug_counter + 1;
+                    insert_table_row(table, data, email, true);
                 });
                 new_search_table_header(faculty, courses, show_all_courses);
             });
@@ -128,7 +125,7 @@ function load_table_on_search(university, email) {
             found_in_DB.once('value').then(function (datakey) {
                 datakey.forEach(function (data) {
                     document.getElementById("table_header").style.display = "block";
-                    insert_table_row(table, data, email, true, debug_counter)
+                    insert_table_row(table, data, email, true)
                 });
                 new_search_table_header(faculty, courses, show_all_courses);
             });
@@ -136,8 +133,7 @@ function load_table_on_search(university, email) {
     }
     sortTable(2, "search_table");
 }
-
-function insert_table_row(table, data, email, search_table, debug_counter) {
+function insert_table_row(table, data, email, search_table) {
     var giveaway = data.val();
     //let giveaway_data = get_data(data);
     let row = table.insertRow();
@@ -145,7 +141,7 @@ function insert_table_row(table, data, email, search_table, debug_counter) {
     button_place = row.insertCell(0);
     button_place.appendChild(button);
     if (search_table) {
-        let info_btn = create_info_btn(data, debug_counter);
+        let info_btn = create_info_btn(data);
         info_place = row.insertCell(1);
         info_place.setAttribute("style", "text-align: center");
         info_place.appendChild(info_btn);
@@ -156,7 +152,6 @@ function insert_table_row(table, data, email, search_table, debug_counter) {
     let course = row.insertCell(3);
     course.innerHTML = giveaway.Course;
 }
-
 function new_search_table_header(faculty, courses, show_all_courses) {
 
     // make new table caption
@@ -174,7 +169,7 @@ function new_search_table_header(faculty, courses, show_all_courses) {
     // change in HTML  
     document.getElementById("table_caption").innerHTML = new_caption;
 }
-function new_mail_request(target_email, target_faculty, target_course) {
+function new_mail_request(target_email, target_course) {
     // prepare data to send
     var course = target_course;
     // get from table!

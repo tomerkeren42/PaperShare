@@ -17,7 +17,7 @@ function selectpicker_clear(select_id) {
     $('.selectpicker').selectpicker('refresh');
 }
 // creates the btn in the search table for more details
-function create_info_btn(data, debug_counter) {
+function create_info_btn(data) {
 
     //get info from giveaway
     giveaway = data.val();
@@ -31,8 +31,8 @@ function create_info_btn(data, debug_counter) {
         location = giveaway.Location;
     }
 
-    //set content to popoverw
-    content = description + " <span class='fas fa-file-signature'></span> <br\>";
+    //set content to popover
+    content =" <span class='fas fa-file-signature'></span>" + description + " <br\>";
     if (location != "") {
         content += location + " <span class='fas fa-map'></span> <br\> ";
     }
@@ -44,7 +44,7 @@ function create_info_btn(data, debug_counter) {
     var info_btn = document.createElement("button");
     info_btn.setAttribute("id", "info_popover");
     info_btn.setAttribute("class", "btn btn-ps-table pull-right");
-
+    
     //add icon to btn
     var icon = document.createElement("span");
     icon.className = "fas fa-info";
@@ -59,7 +59,7 @@ function create_info_btn(data, debug_counter) {
     info_btn.setAttribute("data-html", "true");
     info_btn.setAttribute("data-toggle", "popover");
     info_btn.setAttribute("data-content", content);
-
+    
     // need to change trigger for mobile, not working for me now
     /*if (detectMob()) {
        info_btn.setAttribute("data-trigger", "click");
@@ -101,7 +101,7 @@ function create_button(is_remove, ref, email) {
     else {
         button.setAttribute("id", "email_button");
         button.addEventListener('click', function () {
-            new_mail_request(ref.Email, ref.Faculty, ref.Course);
+            new_mail_request(ref.Email, ref.Course);
         });
         var icon = document.createElement("span");
         icon.className = "fas fa-envelope";

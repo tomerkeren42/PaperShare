@@ -39,7 +39,7 @@ function check_giveaway_submit(faculty, course, description, phone) {
                     }
                 }
                 else {
-                    alert("need to mark in red the phone number when it's not valid!");
+                    alert("ITAMAR! need to mark in red the phone number when it's not valid!");
                 }
             }
             else {
