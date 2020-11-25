@@ -1,7 +1,4 @@
 function parse_and_upload_giveaway(university, email, user, date) {
-    if (!check_giveaway_submit()) {
-        return;
-    }
     // get variables
     var faculty_select = document.getElementById("give_away_faculties");
     var faculty = faculty_select.options[faculty_select.selectedIndex].text;
@@ -17,28 +14,32 @@ function parse_and_upload_giveaway(university, email, user, date) {
     var phone_input = document.getElementById("Phone");
     var phone = phone_input.value;
 
+    if (!check_giveaway_submit(faculty, course, description, phone)) {
+        return;
+    }
+   
     add_giveaway_to_db(university, email, user, faculty, course, description, location, phone, left_to_right_date(date));
 }
-function check_giveaway_submit() {
+function check_giveaway_submit(faculty, course, description, phone) { 
     $("[data-toggle='popover']").popover('destroy');
     document.getElementById("checkbox_input").setAttribute("style", "color:black");
     document.getElementById("description_input").setAttribute("class", "row");
     document.getElementById("course_input").setAttribute("class", "row pull-right");
     document.getElementById("faculty_input").setAttribute("class", "row pull-right");
-
-    if (document.getElementById("give_away_faculties").value != "") {
- 
-        if (document.getElementById("give_away_courses").value != "") {
-
-            if (document.getElementById("Description").value != "") {
-
-                if (document.getElementById("agree-terms").checked) {
-
-                    $("#submission_modal").modal();
-                    return true;
+    if (faculty != "") {
+        if (course != "") {
+            if (description != "") {
+                if (( phone=="" || /^\d+$/.test(phone) || /^\d+-\d+$/.test(phone))) {
+                    if (document.getElementById("agree-terms").checked) {
+                        $("#submission_modal").modal();
+                        return true;
+                    }
+                    else {
+                        document.getElementById("checkbox_input").setAttribute("style", "color:darkred");
+                    }
                 }
                 else {
-                    document.getElementById("checkbox_input").setAttribute("style", "color:darkred");
+                    alert("need to mark in red the phone number when it's not valid!");
                 }
             }
             else {

@@ -149,16 +149,13 @@ function insert_table_row(table, data, email, search_table, debug_counter) {
         info_place = row.insertCell(1);
         info_place.setAttribute("style", "text-align: center");
         info_place.appendChild(info_btn);
+        $('[data-toggle="popover"]').popover();
     }
     var date = row.insertCell(2);
     date.innerHTML = giveaway.Date;
     let course = row.insertCell(3);
     course.innerHTML = giveaway.Course;
 }
-//function get_data(data) {
-//    let data_arr = [];
-//    let giveaway = data.val();
-//}
 
 function new_search_table_header(faculty, courses, show_all_courses) {
 

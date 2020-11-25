@@ -30,15 +30,14 @@ function create_info_btn(data, debug_counter) {
     if (giveaway.hasOwnProperty('Location')) {
         location = giveaway.Location;
     }
-    console.log("info is: ", description, phone, location);
 
     //set content to popoverw
-    content = "<span class='fas fa-file-signature'></span>" + description + "<br\> ";
+    content = description + " <span class='fas fa-file-signature'></span> <br\>";
     if (location != "") {
-        content += location + "<span class='fas fa-map'></span><br\> ";
+        content += location + " <span class='fas fa-map'></span> <br\> ";
     }
     if (phone != "") {
-        content += phone + "<span class='fas fa-mobile-alt'></span>";
+        content += phone + " <span class='fas fa-mobile-alt'> </span>";
     }
 
     // make btn with id and class
@@ -69,9 +68,8 @@ function create_info_btn(data, debug_counter) {
        info_btn.setAttribute("data-trigger", "hover");
     }
     */
-
-    //activate popover:
-    $('[data-toggle="popover"]').popover();
+    //activate popover: <moved this to search_tab.js. it takes all popovers.
+    //$('[data-toggle="popover"]').popover();
     return info_btn;
 }
 function create_button(is_remove, ref, email) {
