@@ -51,6 +51,7 @@
     <Content Include="FlaskWebProject\static\content\bootstrap-select.min.css" />
     <Content Include="FlaskWebProject\static\scripts\bootstrap\bootstrap-select.js" />
     <Content Include="FlaskWebProject\static\scripts\bootstrap\bootstrap-select.min.js" />
+    <Content Include="FlaskWebProject\static\scripts\jquery\jquery.repeatable.js" />
     <Content Include="FlaskWebProject\static\scripts\search_tab.js" />
     <Content Include="FlaskWebProject\static\scripts\db_handler.js" />
     <Content Include="FlaskWebProject\static\scripts\defines.js" />

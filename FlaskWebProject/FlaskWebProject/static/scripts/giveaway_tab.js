@@ -1,23 +1,40 @@
 function parse_and_upload_giveaway(university, email, user, date) {
-    if (!check_giveaway_submit()) {
-        return;
-    }
-    // get variables
-    var faculty_select = document.getElementById("give_away_faculties");
-    var faculty = faculty_select.options[faculty_select.selectedIndex].text;
-    var course_select = document.getElementById("give_away_courses");
-    var course = course_select.options[course_select.selectedIndex].text;
 
-    var description_input = document.getElementById("Description");
-    var description = description_input.value;
+    $(".giveaway_inst").each(function () {
+        var faculty_select = $(this).getElementById("give_away_faculties");
+        var faculty = faculty_select.options[faculty_select.selectedIndex].text;
 
-    var location_input = document.getElementById("Location");
-    var location = location_input.value;
+        var course_select = $(this).getElementById("give_away_courses");
+        var course = course_select.options[course_select.selectedIndex].text;
 
-    var phone_input = document.getElementById("Phone");
-    var phone = phone_input.value;
+        var description_input = $(this).getElementById("Description");
+        var description = description_input.value;
 
-    add_giveaway_to_db(university, email, user, faculty, course, description, location, phone, left_to_right_date(date));
+        console.log("faculty: " + faculty);
+        console.log("course: " + course);
+        console.log("description: " + description);
+
+    });
+
+    //if (!check_giveaway_submit()) {
+    //    return;
+    //}
+    //// get variables
+    //var faculty_select = document.getElementById("give_away_faculties");
+    //var faculty = faculty_select.options[faculty_select.selectedIndex].text;
+    //var course_select = document.getElementById("give_away_courses");
+    //var course = course_select.options[course_select.selectedIndex].text;
+    //
+    //var description_input = document.getElementById("Description");
+    //var description = description_input.value;
+    //
+    //var location_input = document.getElementById("Location");
+    //var location = location_input.value;
+    //
+    //var phone_input = document.getElementById("Phone");
+    //var phone = phone_input.value;
+    //
+    //add_giveaway_to_db(university, email, user, faculty, course, description, location, phone, left_to_right_date(date));
 }
 function check_giveaway_submit() {
     $("[data-toggle='popover']").popover('destroy');

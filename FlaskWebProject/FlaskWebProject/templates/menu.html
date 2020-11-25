@@ -33,14 +33,14 @@
         // Your web app's Firebase configuration
         // For Firebase JS SDK v7.20.0 and later, measurementId is optional
         var firebaseConfig = {
-            apiKey: "AIzaSyBJ20paxlR6HuiqNai2ecOa87V4AhFcsMo",
-            authDomain: "paper-share.firebaseapp.com",
-            databaseURL: "https://paper-share.firebaseio.com",
-            projectId: "paper-share",
-            storageBucket: "paper-share.appspot.com",
-            messagingSenderId: "716824219562",
-            appId: "1:716824219562:web:9746189bbe2c9efbe165d3",
-            measurementId: "G-QXR9SVGB3F"
+            apiKey: "AIzaSyCebFrGEHN_IZyOVOc739txyvC1qYn61e8",
+            authDomain: "rules-tests.firebaseapp.com",
+            databaseURL: "https://rules-tests.firebaseio.com",
+            projectId: "rules-tests",
+            storageBucket: "rules-tests.appspot.com",
+            messagingSenderId: "556698880812",
+            appId: "1:556698880812:web:0e36133f514707a6247a89",
+            measurementId: "G-CW1HH5S5C9"
         };
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
@@ -122,34 +122,7 @@
                 </div>
                 <br />
                 <div class="container"
-                    <form id="give_away_form">
-                        <div class="row">
-                            <p class="text-right"><i style="color:red"> * </i>פקולטה וקורס <i class="fas fa-graduation-cap"></i></p>
-                        </div>                    
-                        
-                        <!--Faculty selection-->
-                        <div class="row pull-right" style="text-align: right; font-size: 20px;" id="faculty_input">
-                            <select class="selectpicker pull-right" data-live-search="true" title="בחר פקולטה" id="give_away_faculties" onchange="courses_dropdown(this, 'give_away_courses', '{{university}}');" dir="rtl" style="text-align: right; font-size: 20px;">
-                                <option value="0" style="text-align: right; font-size: 20px;">Select a faculty</option>
-                            </select>
-                        </div>
-                        <br />
-                        <br />
-
-                        <!--Course selection-->
-                        <div class="row pull-right" style="text-align: right; font-size: 20px;" id="course_input">
-                            <select class="selectpicker pull-right" data-live-search="true" title="בחר קורס" id="give_away_courses" dir="rtl">
-                                <option value="0">Select a faculty first</option>
-                            </select>
-                        </div>
-                        <br /><br />
-
-                        <!--Description input-->
-                        <div class="row" id="description_input">
-                            <p class="text-right"><i style="color:red"> * </i>תיאור <i class="fas fa-book"></i></p>
-                            <input class="form-control pull-right text-right col-sx-10" id="Description" dir="rtl" style="font-size:initial" placeholder="מה את\ה מוסר\ת?">
-                        </div>
-
+                    <form class="give_away_form" id="give_away_form">
                         <div class="row" id="location_input">
                             <p class="text-right"> מקום מסירה<i style="font-size:14px"> (לא חובה) </i> <i class="fas fa-map-marker-alt"></i></p>
                             <input class="form-control pull-right text-right col-sx-10" id="Location" dir="rtl" style="font-size:initial" placeholder="איפה תמסור את חומרי הלימוד?">
@@ -158,6 +131,47 @@
                         <div class="row" id="phone_input">
                             <p class="text-right"> טלפון<i style="font-size:14px"> (לא חובה) </i> <i class="fas fa-mobile-alt"></i></p>
                             <input class="form-control pull-right text-right col-sx-10" id="Phone" dir="rtl" style="font-size:initial" placeholder="מספר הטלפון שלך">
+                        </div>
+                        <br />
+                        <br />
+
+                        <div class="container"> 
+                            <form class="giveaway_details">
+                                <div class="giveaway_inst">
+                                    <div class="row">
+                                        <p class="text-right"><i style="color:red"> * </i>פקולטה וקורס <i class="fas fa-graduation-cap"></i></p>
+                                    </div>
+
+                                    <!--Faculty selection-->
+                                    <div class="row pull-right" style="text-align: right; font-size: 20px;" id="faculty_input">
+                                        <select class="selectpicker pull-right" data-live-search="true" title="בחר פקולטה" id="give_away_faculties" onchange="courses_dropdown(this, 'give_away_courses', '{{university}}');" dir="rtl" style="text-align: right; font-size: 20px;">
+                                            <option value="0" style="text-align: right; font-size: 20px;">Select a faculty</option>
+                                        </select>
+                                    </div>
+                                    <br />
+                                    <br />
+
+                                    <!--Course selection-->
+                                    <div class="row pull-right" style="text-align: right; font-size: 20px;" id="course_input">
+                                        <select class="selectpicker pull-right" data-live-search="true" title="בחר קורס" id="give_away_courses" dir="rtl">
+                                            <option value="0">Select a faculty first</option>
+                                        </select>
+                                    </div>
+                                    <br /><br />
+
+                                    <!--Description input-->
+                                    <div class="row" id="description_input">
+                                        <p class="text-right"><i style="color:red"> * </i>תיאור <i class="fas fa-book"></i></p>
+                                        <input class="form-control pull-right text-right col-sx-10" id="Description" dir="rtl" style="font-size:initial" placeholder="מה את\ה מוסר\ת?">
+                                    </div>
+                                    <br />
+                                    <hr />
+                                    <br />
+                                </div>
+                                <input type="button" value="מסירה נוספת" class="btn btn-ps add" align="left">
+                                <br />
+                                <br />
+                            </form>
                         </div>
 
                         <div class="row">
@@ -171,6 +185,22 @@
 
                     </form>
                 </div>
+
+                <script>
+                    $(document).ready(function(){
+                        $( ".add" ).click(function(){
+                            //var clone = $(".giveaway_inst").first().clone();
+                            var clone = $(".giveaway_inst").first().clone();
+                            clone.append( "<button type='button' class='btn btn-danger remove-row'>הסר/י מסירה</button>" );
+                            clone.insertBefore(".add");
+                        });
+
+                        $(".giveaway_details").on("click", ".remove-row", function () {
+                            $(this).parent().remove();
+                        });
+                    });
+                </script>
+
                 <!-- submission modal-->
                 <div class="modal fade" id="submission_modal" role="dialog">
                     <div class="modal-dialog">
