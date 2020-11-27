@@ -1,4 +1,4 @@
-function parse_and_upload_giveaway(university, email, user, date) {
+﻿function parse_and_upload_giveaway(university, email, user, date) {
 
     $(".giveaway_inst").each(function () {
         var faculty_select = $(this).getElementById("give_away_faculties");
@@ -74,6 +74,31 @@ function check_giveaway_submit() {
     $("[data-toggle='popover']").popover('show');
     return false;
 }
+
+
+
+function add_giveaway_form(email) {  
+    var num = 1;
+    console.log("email: ",email);
+    console.log("num: " , num);
+        //var clone = $(".giveaway_inst").first().clone();
+    var clone = $(".giveaway_inst").first().clone();
+    var id = email.toString().concat(num.toString());
+    console.log("id: ", id);
+    clone.append("<button type='button' onclick='remove_giveaway_row("+id+")' class='btn btn-danger remove-row'>הסר/י מסירה</button>");
+    clone.prop('id', email.toString() + num.toString());
+    clone.insertBefore(".add");
+    num++;
+}
+
+function remove_giveaway_row() {
+    console.log("in remove giveaway row");
+    console.log("id: ", id);
+    $(".giveaway_inst").remove();
+    getElementById(id).remove();
+}
+
+
 function giveaway_modal(action, university, email) {
     $('#submission_modal').modal('hide');
     document.getElementById("Description").value = "";

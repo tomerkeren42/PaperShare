@@ -136,7 +136,7 @@
                         <br />
 
                         <div class="container"> 
-                            <form class="giveaway_details">
+
                                 <div class="giveaway_inst">
                                     <div class="row">
                                         <p class="text-right"><i style="color:red"> * </i>פקולטה וקורס <i class="fas fa-graduation-cap"></i></p>
@@ -168,10 +168,10 @@
                                     <hr />
                                     <br />
                                 </div>
-                                <input type="button" value="מסירה נוספת" class="btn btn-ps add" align="left">
+                                <input type="button" value="מסירה נוספת" class="btn btn-ps add" onclick="add_giveaway_form('{{ email }}')" align="left">
                                 <br />
                                 <br />
-                            </form>
+
                         </div>
 
                         <div class="row">
@@ -187,16 +187,20 @@
                 </div>
 
                 <script>
-                    $(document).ready(function(){
-                        $( ".add" ).click(function(){
-                            //var clone = $(".giveaway_inst").first().clone();
-                            var clone = $(".giveaway_inst").first().clone();
-                            clone.append( "<button type='button' class='btn btn-danger remove-row'>הסר/י מסירה</button>" );
-                            clone.insertBefore(".add");
-                        });
+                    $(document).ready(function () {
+                        var num = 0;
+                        //$( ".add" ).click(function(){
+                        //    //var clone = $(".giveaway_inst").first().clone();
+                        //    var clone = $(".giveaway_inst").first().clone();
+                        //    clone.append("<button type='button' class='btn btn-danger remove-row'>הסר/י מסירה</button>");
+                        //    clone.prop('id', 'klon' + num);
+                        //    clone.insertBefore(".add");
+                        //    num++;
+                        //});
 
-                        $(".giveaway_details").on("click", ".remove-row", function () {
-                            $(this).parent().remove();
+                        $(".remove-row").on("click", ".remove-row", function () {
+                            $(".giveaway_inst").remove();
+                            //$(this).style.display = "hide";
                         });
                     });
                 </script>
