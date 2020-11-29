@@ -1,4 +1,4 @@
-function parse_and_upload_giveaway(university, email, user, date) {
+﻿function parse_and_upload_giveaway(university, email, user, date) {
     // get variables
     var faculty_select = document.getElementById("give_away_faculties");
     var faculty = faculty_select.options[faculty_select.selectedIndex].text;
@@ -24,8 +24,10 @@ function check_giveaway_submit(faculty, course, description, phone) {
     $("[data-toggle='popover']").popover('destroy');
     document.getElementById("checkbox_input").setAttribute("style", "color:black");
     document.getElementById("description_input").setAttribute("class", "row");
+    document.getElementById("phone_input").setAttribute("class", "row");
     document.getElementById("course_input").setAttribute("class", "row pull-right");
     document.getElementById("faculty_input").setAttribute("class", "row pull-right");
+
     if (faculty != "") {
         if (course != "") {
             if (description != "") {
@@ -39,7 +41,8 @@ function check_giveaway_submit(faculty, course, description, phone) {
                     }
                 }
                 else {
-                    alert("ITAMAR! need to mark in red the phone number when it's not valid!");
+                    alert("מספר הטלפון מכיל תו שאינו מספר");
+                    document.getElementById("phone_input").setAttribute("class", "row has-error");
                 }
             }
             else {
@@ -80,6 +83,10 @@ function giveaway_clear() {
     document.getElementById('Location').value = '';
     document.getElementById('agree-terms').checked = false;
     document.getElementById("checkbox_input").setAttribute("style", "color:black");
+    document.getElementById("description_input").setAttribute("class", "row");
+    document.getElementById("phone_input").setAttribute("class", "row");
+    document.getElementById("course_input").setAttribute("class", "row pull-right");
+    document.getElementById("faculty_input").setAttribute("class", "row pull-right");
     return;
 }
 function init_my_giveaway_table(university, email) {
