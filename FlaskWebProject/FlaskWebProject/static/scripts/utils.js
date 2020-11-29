@@ -32,9 +32,9 @@ function create_info_btn(data) {
     }
 
     //set content to popover
-    content =" <span class='fas fa-file-signature'></span>" + description + " <br\>";
+    content = " <span class='fas fa-book pull-right'></span> "+ description;
     if (location != "") {
-        content += location + " <span class='fas fa-map'></span> <br\> ";
+        content += " <br\>" + location + " <span class='fas fa-map-marker-alt'></span> <br\>";
     }
     if (phone != "") {
         content += phone + " <span class='fas fa-mobile-alt'> </span>";
@@ -43,7 +43,7 @@ function create_info_btn(data) {
     // make btn with id and class
     var info_btn = document.createElement("button");
     info_btn.setAttribute("id", "info_popover");
-    info_btn.setAttribute("class", "btn btn-ps-table pull-right");
+    info_btn.setAttribute("class", "btn btn-ps-table");
     
     //add icon to btn
     var icon = document.createElement("span");
@@ -55,6 +55,9 @@ function create_info_btn(data) {
 
     //change popover attributes
     info_btn.setAttribute("data-trigger", "hover");
+    if (detectMob()) {
+        info_btn.setAttribute("data-trigger", "click");
+    };
     info_btn.setAttribute("data-placement", "right");
     info_btn.setAttribute("data-html", "true");
     info_btn.setAttribute("data-toggle", "popover");
