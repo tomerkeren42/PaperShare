@@ -75,27 +75,49 @@ function check_giveaway_submit() {
     return false;
 }
 
-
-
 function add_giveaway_form(email) {  
-    var num = 1;
-    console.log("email: ",email);
-    console.log("num: " , num);
-        //var clone = $(".giveaway_inst").first().clone();
-    var clone = $(".giveaway_inst").first().clone();
-    var id = email.toString().concat(num.toString());
+    var numItems = $('.giveaway_inst').length
+    console.log("number of giveaway_inst: ", numItems);
+    console.log("email: ", email);
+
+    //var clone = $(".giveaway_inst").first().clone();
+    var clone = $(".giveaway_inst").clone();
+    var id = "giveaway_" + numItems;
+    var faculties_select_id = "give_away_faculties_" + numItems;
+
     console.log("id: ", id);
-    clone.append("<button type='button' onclick='remove_giveaway_row("+id+")' class='btn btn-danger remove-row'>הסר/י מסירה</button>");
-    clone.prop('id', email.toString() + num.toString());
-    clone.insertBefore(".add");
-    num++;
+    console.log("faculties_select_id: ", faculties_select_id);
+
+    var close_btn_str = "<button type='button' data-id='" + id + "' onclick='remove_giveaway_row(this)' class='btn btn-danger remove-row'>הסר/י מסירה</button>";
+    console.log("close_btn_str: ", close_btn_str);
+    clone.append(close_btn_str);
+
+    clone.prop('id', id);
+
+    //var faculties_select = clone.children().find("give_away_faculties");
+    //console.log("faculties_select: ", faculties_select);
+    //var faculties_select_curr_id = faculties_select.id;
+    //console.log("faculties_select_curr_id: ", faculties_select_curr_id);
+    //
+    //
+    //while (faculties_select.options.length > 0) {
+    //    faculties_select.remove(0);
+    //}
+    //faculties_select.id = faculties_select_id;
+
+    clone.insertBefore(".add");  
+    
+    console.log("clone id: ", clone.attr('id'));
 }
 
-function remove_giveaway_row() {
+function remove_giveaway_row(CurrObj) {
+    var obj_id = CurrObj.getAttribute('data-id');
     console.log("in remove giveaway row");
-    console.log("id: ", id);
-    $(".giveaway_inst").remove();
-    getElementById(id).remove();
+    console.log("obj_id: ", obj_id);
+
+    //$(".giveaway_inst").remove();
+    //CurrObj.parent().remove();
+    document.getElementById(obj_id).remove();
 }
 
 
