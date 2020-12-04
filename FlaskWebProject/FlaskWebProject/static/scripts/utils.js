@@ -32,12 +32,12 @@ function create_info_btn(data) {
     }
 
     //set content to popover
-    content = " <span class='fas fa-book pull-right'></span> "+ description;
+    content = " <span class='fas fa-book pull-right'> </span>"+ description;
     if (location != "") {
-        content += " <br\>" + location + " <span class='fas fa-map-marker-alt'></span> <br\>";
+        content += " <br\>" + location + " <span class='fas fa-map-marker-alt'> </span>";
     }
     if (phone != "") {
-        content += phone + " <span class='fas fa-mobile-alt'> </span>";
+        content += " <br\>" + phone + " <span class='fas fa-mobile-alt'> </span>";
     }
 
     // make btn with id and class
