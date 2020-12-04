@@ -4,26 +4,16 @@
 {% extends "layout.html" %}
 <head>
     <meta charset="UTF-8" />
-
     {% block content %}
-    <script src="/static/scripts/Technion_courses_lists.js"></script>
-    <script src="/static/scripts/TAU_courses_lists.js"></script>
-    <script src="/static/scripts/HUJI_courses_lists.js"></script>
-    <script src="/static/scripts/courses_dropdown.js"></script>
-    <script src="/static/scripts/searches_and_giveaways.js"></script>
+    <script src="/static/scripts/defines.js"></script>
+    <script src="/static/scripts/utils.js"></script>
+    <script src="/static/scripts/load_menu_page.js"></script>
+    <script src="/static/scripts/search_tab.js"></script>
+    <script src="/static/scripts/giveaway_tab.js"></script>
     <script src="/static/scripts/db_handler.js"></script>
 </head>
-<!--<style>
-    th {
-        cursor: pointer;
-    }
 
-    tr:nth-child(even) {
-        background-color: #f2f2f2
-    }
-</style>-->
 <!--3 tabs for actions-->
-
 <ul class="nav nav-tabs pull-right">
     <li><a data-toggle="tab" href="#menu2" onclick="load_my_giveaways('{{university}}', '{{email}}')">המסירות שלי</a></li>
     <li><a data-toggle="tab" href="#menu1">מסירה חדשה</a></li>
@@ -105,7 +95,7 @@
                     <thead id="table_header">
                         <tr>
                             <th class="text-right" >שלח בקשה </th>
-                            <th class="text-right">תיאור </th>
+                            <th class="text-right">פרטים </th>
                             <th class="text-right" id="th_date" onclick="sortTable(2, 'search_table')" style="cursor:pointer">תאריך </th>
                             <th class="text-right" onclick="sortTable(3, 'search_table')" style="cursor:pointer">שם הקורס</th>
                         </tr>
@@ -128,11 +118,15 @@
                 <div class="row">
                     <h3 class="text-right">מסור\י חומרי לימוד לסטודנטים אחרים</h3>
                     <p class="text-right">אחרי השליחה, תוכל\י לראות את המסירות שלך תחת לשונית המסירות שלי</p>
+                    <p class="text-right">שדה חובה -<i style="color:red"> * </i> </p>
                 </div>
                 <br />
                 <div class="container"
                     <form id="give_away_form">
-
+                        <div class="row">
+                            <p class="text-right"><i style="color:red"> * </i>פקולטה וקורס <i class="fas fa-graduation-cap"></i></p>
+                        </div>                    
+                        
                         <!--Faculty selection-->
                         <div class="row pull-right" style="text-align: right; font-size: 20px;" id="faculty_input">
                             <select class="selectpicker pull-right" data-live-search="true" title="בחר פקולטה" id="give_away_faculties" onchange="courses_dropdown(this, 'give_away_courses', '{{university}}');" dir="rtl" style="text-align: right; font-size: 20px;">
@@ -152,21 +146,31 @@
 
                         <!--Description input-->
                         <div class="row" id="description_input">
-                            <p class="text-right">מה את\ה מוסר\ת? (למשל: קובץ מבחנים מודפס)</p>
-                            <input class="form-control pull-right text-right col-sx-10" id="Description" dir="rtl" style="font-size:initial">
+                            <p class="text-right"><i style="color:red"> * </i>תיאור <i class="fas fa-book"></i></p>
+                            <input class="form-control pull-right text-right col-sx-10" id="Description" dir="rtl" style="font-size:initial" placeholder="מה את\ה מוסר\ת?">
+                        </div>
+
+                        <div class="row" id="location_input">
+                            <p class="text-right"> מקום מסירה<i style="font-size:14px"> (לא חובה) </i> <i class="fas fa-map-marker-alt"></i></p>
+                            <input class="form-control pull-right text-right col-sx-10" id="Location" dir="rtl" style="font-size:initial" placeholder="איפה תמסור את חומרי הלימוד?">
+                        </div>
+
+                        <div class="row" id="phone_input">
+                            <p class="text-right"> טלפון<i style="font-size:14px"> (לא חובה) </i> <i class="fas fa-mobile-alt"></i></p>
+                            <input class="form-control pull-right text-right col-sx-10" id="Phone" dir="rtl" style="font-size:initial" placeholder="מספר הטלפון שלך">
                         </div>
 
                         <div class="row">
                             <div class="checkbox pull-right" id="checkbox_input">
-                                <label><input type="checkbox" id="agree-terms" style="width:15px;height:15px"> אני מסכים\ה שיצרו איתי קשר במייל האוניברסיטאי בנוגע למסירת חומרי הלימוד</label>
+                                <label><input type="checkbox" id="agree-terms" style="width:16px;height:16px"><i style="color:red"> * </i> אני מסכים\ה שיצרו איתי קשר במייל האוניברסיטאי בנוגע למסירת חומרי הלימוד</label>
                             </div>
                         </div>
                         <br /> <br />
                         <button class="btn btn-ps pull-right" id="giveaway_clear" onclick="giveaway_clear()">איפוס <i class="fas fa-eraser"></i></button>
-                        <button type="submit" id="submit_button" class="btn btn-ps pull-right" onclick="parse_and_upload_giveaway('{{university}}', '{{email}}', '{{username}}', '{{date}}')" data-toggle="popover" data-placement="left" data-content="יש למלא את כל השדות" data-trigger="focus"> שליחה <span class="glyphicon glyphicon-send"></span></button>
+                        <button type="submit" id="submit_button" class="btn btn-ps pull-right" onclick="parse_and_upload_giveaway('{{university}}', '{{email}}', '{{username}}', '{{date}}')" data-toggle="popover" data-placement="left" data-content="יש למלא את השדה המסומן" data-trigger="focus"> שליחה <span class="glyphicon glyphicon-send"></span></button>
 
                     </form>
-            </div>
+                </div>
                 <!-- submission modal-->
                 <div class="modal fade" id="submission_modal" role="dialog">
                     <div class="modal-dialog">
