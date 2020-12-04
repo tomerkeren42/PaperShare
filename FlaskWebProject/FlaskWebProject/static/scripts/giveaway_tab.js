@@ -41,7 +41,6 @@ function check_giveaway_submit(faculty, course, description, phone) {
                     }
                 }
                 else {
-                    alert("מספר הטלפון מכיל תו שאינו מספר");
                     document.getElementById("phone_input").setAttribute("class", "row has-error");
                 }
             }
