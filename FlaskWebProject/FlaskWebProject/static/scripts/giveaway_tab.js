@@ -36,6 +36,7 @@
     //
     //add_giveaway_to_db(university, email, user, faculty, course, description, location, phone, left_to_right_date(date));
 }
+
 function check_giveaway_submit() {
     $("[data-toggle='popover']").popover('destroy');
     document.getElementById("checkbox_input").setAttribute("style", "color:black");
@@ -81,7 +82,9 @@ function add_giveaway_form(email) {
     console.log("email: ", email);
 
     //var clone = $(".giveaway_inst").first().clone();
-    var clone = $(".giveaway_inst").clone();
+    var clone = $(".giveaway_inst").clone(); //.removeAttr("id");
+    
+
     var id = "giveaway_" + numItems;
     var faculties_select_id = "give_away_faculties_" + numItems;
 
@@ -101,6 +104,8 @@ function add_giveaway_form(email) {
     var faculties_select_class = document.getElementsByClassName("selectpicker");
     console.log("faculties_select by class: ", faculties_select_class);
 
+    console.log("clone: ", clone);
+    console.log("clone.childNodes: ", clone[0].childNodes);
     //var faculties_select_curr_id = faculties_select.id;
     //console.log("faculties_select_curr_id: ", faculties_select_curr_id);
     //
@@ -125,7 +130,6 @@ function remove_giveaway_row(CurrObj) {
     document.getElementById(obj_id).remove();
 }
 
-
 function giveaway_modal(action, university, email) {
     $('#submission_modal').modal('hide');
     document.getElementById("Description").value = "";
@@ -140,6 +144,7 @@ function giveaway_modal(action, university, email) {
     load_my_giveaways(university, email);
     return;
 }
+
 function giveaway_clear() {
     selectpicker_clear("give_away_courses");
     $('#give_away_faculties').selectpicker('val', '0');
@@ -150,6 +155,7 @@ function giveaway_clear() {
     document.getElementById("checkbox_input").setAttribute("style", "color:black");
     return;
 }
+
 function init_my_giveaway_table(university, email) {
     var table = document.getElementById("user_table");
     var upload_ref = get_uploads_ref(university);
@@ -178,8 +184,103 @@ function init_my_giveaway_table(university, email) {
         });
     });
 }
+
 function make_path(upload) {
     var path_array = upload.ref_.path.pieces_;
     var path = path_array[0] + "/" + path_array[1] + "/" + path_array[2] + "/" + path_array[3] + "/" + path_array[4];
     return path;
 }
+
+function create_new_giveaway_block() {
+    var main_container = document.getElementById("giveaway_container");
+
+    var numItems = $('.giveaway_inst').length
+    //var numItems = document.getElementsByClassName('giveaway_inst').length
+    //var numItems = document.getElementById("hat_id").length;
+    console.log("in create_new_giveaway_block, inst_num = ", numItems);
+
+    var id = "giveaway_" + numItems;
+    var faculties_input_id = "faculties_input_id" + numItems;
+    var faculties_select_id = "faculties_select_id" + numItems;
+
+    var block_div = document.createElement("div");
+    block_div.setAttribute("class", "giveaway_inst");
+    block_div.setAttribute("id", id);
+
+    //Header
+    var row_div = document.createElement("div");
+    block_div.setAttribute("class", "row");
+
+    var faculty_courses_header_p = document.createElement("p");
+    faculty_courses_header_p.setAttribute("class", "text-right");
+    faculty_courses_header_p.innerHTML = "פקולטה וקורס";
+
+    var header_icon = document.createElement("i");
+    header_icon.setAttribute("class", "fas fa-graduation-cap");
+    header_icon.setAttribute("id", "hat_id");
+
+    var header_star = document.createElement("i");
+    header_star.setAttribute("style", "color:red");
+    header_star.innerHTML = " * ";
+
+    faculty_courses_header_p.appendChild(header_star);
+    faculty_courses_header_p.appendChild(header_icon);
+    row_div.appendChild(faculty_courses_header_p);
+
+    //Faculty selection
+    var faculty_input_div = document.createElement("div");
+    faculty_input_div.setAttribute("class", "row pull - right");
+    faculty_input_div.setAttribute("style", "text-align: right; font-size: 20px;");
+    faculty_input_div.setAttribute("id", faculties_input_id);
+
+    var faculty_selection = document.createElement("select");
+    faculty_selection.setAttribute("class", "selectpicker pull-right");
+    faculty_selection.setAttribute("data-live-search", "true");
+    faculty_selection.setAttribute("title", "בחר פקולטה");
+    faculty_selection.setAttribute("id", faculties_select_id);
+    faculty_selection.setAttribute("onchange", "courses_dropdown(this, 'give_away_courses', '{{university}}');");
+    faculty_selection.setAttribute("dir", "rtl");
+    faculty_selection.setAttribute("style", "text-align: right; font-size: 20px;");
+
+    faculty_input_div.appendChild(faculty_selection);
+
+    //seatsDiv.appendChild(document.createElement("br"));
+
+
+    block_div.appendChild(row_div);
+    block_div.appendChild(faculty_input_div);
+    main_container.appendChild(block_div);
+
+
+}
+//<div class="giveaway_inst">
+//    <div class="row">
+//        <p class="text-right"><i style="color:red"> * </i>פקולטה וקורס <i class="fas fa-graduation-cap"></i></p>
+//    </div>
+//
+//    <!--Faculty selection-->
+//    <div class="row pull-right" style="text-align: right; font-size: 20px;" id="faculty_input">
+//        <select class="selectpicker pull-right" data-live-search="true" title="בחר פקולטה" id="give_away_faculties" onchange="courses_dropdown(this, 'give_away_courses', '{{university}}');" dir="rtl" style="text-align: right; font-size: 20px;">
+//            <option value="0" style="text-align: right; font-size: 20px;">Select a faculty</option>
+//        </select>
+//    </div>
+//    <br />
+//    <br />
+//
+//    <!--Course selection-->
+//    <div class="row pull-right" style="text-align: right; font-size: 20px;" id="course_input">
+//        <select class="selectpicker pull-right" data-live-search="true" title="בחר קורס" id="give_away_courses" dir="rtl">
+//            <option value="0">Select a faculty first</option>
+//        </select>
+//    </div>
+//    <br /><br />
+//
+//    <!--Description input-->
+//    <div class="row" id="description_input">
+//        <p class="text-right"><i style="color:red"> * </i>תיאור <i class="fas fa-book"></i></p>
+//        <input class="form-control pull-right text-right col-sx-10" id="Description" dir="rtl" style="font-size:initial" placeholder="מה את\ה מוסר\ת?">
+//    </div>
+//    <br />
+//    <hr />
+//    <br />
+//</div>
