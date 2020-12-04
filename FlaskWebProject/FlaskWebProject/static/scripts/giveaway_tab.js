@@ -89,13 +89,18 @@ function add_giveaway_form(email) {
     console.log("faculties_select_id: ", faculties_select_id);
 
     var close_btn_str = "<button type='button' data-id='" + id + "' onclick='remove_giveaway_row(this)' class='btn btn-danger remove-row'>הסר/י מסירה</button>";
-    console.log("close_btn_str: ", close_btn_str);
+    //console.log("close_btn_str: ", close_btn_str);
     clone.append(close_btn_str);
 
     clone.prop('id', id);
 
     //var faculties_select = clone.children().find("give_away_faculties");
-    //console.log("faculties_select: ", faculties_select);
+    var faculties_select_id = document.getElementById("give_away_faculties");
+    console.log("faculties_select by id: ", faculties_select_id);
+
+    var faculties_select_class = document.getElementsByClassName("selectpicker");
+    console.log("faculties_select by class: ", faculties_select_class);
+
     //var faculties_select_curr_id = faculties_select.id;
     //console.log("faculties_select_curr_id: ", faculties_select_curr_id);
     //
