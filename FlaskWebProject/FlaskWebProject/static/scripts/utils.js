@@ -7,6 +7,7 @@
 
     return res_course_name;
 }
+
 function selectpicker_clear(select_id) {
     var select = document.getElementById(select_id);
     while (select.options.length > 0) {
@@ -16,6 +17,7 @@ function selectpicker_clear(select_id) {
     $(jquery_select).selectpicker('val', 0);
     $('.selectpicker').selectpicker('refresh');
 }
+
 // creates the btn in the search table for more details
 function create_info_btn(data, debug_counter) {
 
@@ -74,6 +76,7 @@ function create_info_btn(data, debug_counter) {
     $('[data-toggle="popover"]').popover();
     return info_btn;
 }
+
 function create_button(is_remove, ref, email) {
     let button = document.createElement("button");
     button.setAttribute("class", "btn btn-ps-table pull-right");
@@ -112,6 +115,7 @@ function create_button(is_remove, ref, email) {
     }
     return button;
 }
+
 function sortTable(sort_by_col_num, table_name) {
     var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
     table = document.getElementById(table_name);
@@ -166,11 +170,13 @@ function sortTable(sort_by_col_num, table_name) {
         }
     }
 }
+
 function left_to_right_date(date) {
     let splitted_date = date.split("-");
     let new_date = splitted_date[2] + "-" + splitted_date[1] + "-" + splitted_date[0];
     return new_date;
 }
+
 function detectMob() {
     return Math.min(window.screen.width, window.screen.height) < 768 || navigator.userAgent.indexOf("Mobi") > -1;
 }

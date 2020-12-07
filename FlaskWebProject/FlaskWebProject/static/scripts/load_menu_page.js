@@ -2,6 +2,7 @@ function load_html(university, email) {
     load_faculties_dropdown(university);
     load_my_giveaways(university, email);
 }
+
 function load_faculties_dropdown(university) {
     // get list
     var faculties_list = universities_faculties_lists[university];
@@ -35,6 +36,7 @@ function load_faculties_dropdown(university) {
         cSelect = dSelect;
     }
 }
+
 function load_my_giveaways(university, email) {
     // toggle table on
     var table = document.getElementById("user_table");

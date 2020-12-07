@@ -32,18 +32,20 @@ def is_uni_valid(email):
             return False
 
 def microsoft_email_check(email):
-     body = '{"Username":"%s"}' % email
-     request = req.post(microsoft_url, data=body)
-     response = request.text
-     # write to a file for debug
-     #with open('microsoft_out.txt', 'a') as f:
-     #   print("response is: ", response, file=f)
-     #   print("request is:", request, "\n\n",  file=f)
-     is_exist = response.split('"IfExistsResult":')
-     if is_exist[1][0] == "0":
-         return True
-     else:
-         return False
+    print(f"in microsoft_email_check(): email is: {email}")
+    
+    body = '{"Username":"%s"}' % email
+    request = req.post(microsoft_url, data=body)
+    response = request.text
+    # write to a file for debug
+    #with open('microsoft_out.txt', 'a') as f:
+    #   print("response is: ", response, file=f)
+    #   print("request is:", request, "\n\n",  file=f)
+    is_exist = response.split('"IfExistsResult":')
+    if is_exist[1][0] == "0":
+        return True
+    else:
+        return False
 
 ## use for huji accounts
 def isitrealmail_email_check(email):
@@ -95,14 +97,14 @@ def login(app_DB):
     if (name == "debug"):
         app_DB.add_new_user(name, email, "Technion")
         return not_exist, not_uni, email, name, "Technion", False
- # check valid uni + in DB + valid server
+    # check valid uni + valid server + in DB
     if is_uni_valid(email):
         university = universities_dict[university_suff]
-        if app_DB.is_user_in_db(name, email, university) is False:
-            if is_server_valid(email, university):
+        if is_server_valid(email, university):
+            if app_DB.is_user_in_db(name, email, university) is False:
                 app_DB.add_new_user(name, email, university)
-            else:
-                not_exist = True
+        else:
+            not_exist = True
     else:
         not_uni = True
 

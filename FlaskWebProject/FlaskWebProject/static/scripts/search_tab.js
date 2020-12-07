@@ -48,6 +48,7 @@
     }
     $('.selectpicker').selectpicker('refresh');
 }
+
 function search_clear() {
     selectpicker_clear("search_courses");
     $('#search_faculties').selectpicker('val', '0');
@@ -62,6 +63,7 @@ function search_clear() {
     }
     return;
 }
+
 function load_table_on_search(university, email) {
 
     $("[data-toggle='popover']").popover('destroy');
@@ -155,6 +157,7 @@ function insert_table_row(table, data, email, search_table, debug_counter) {
     let course = row.insertCell(3);
     course.innerHTML = giveaway.Course;
 }
+
 //function get_data(data) {
 //    let data_arr = [];
 //    let giveaway = data.val();
@@ -177,6 +180,7 @@ function new_search_table_header(faculty, courses, show_all_courses) {
     // change in HTML  
     document.getElementById("table_caption").innerHTML = new_caption;
 }
+
 function new_mail_request(target_email, target_faculty, target_course) {
     // prepare data to send
     var course = target_course;
