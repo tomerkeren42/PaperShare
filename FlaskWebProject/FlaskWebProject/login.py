@@ -98,11 +98,11 @@ def login(app_DB):
  # check valid uni + in DB + valid server
     if is_uni_valid(email):
         university = universities_dict[university_suff]
-        if app_DB.is_user_in_db(name, email, university) is False:
-            if is_server_valid(email, university):
+        if is_server_valid(email, university):
+            if app_DB.is_user_in_db(name, email, university) is False:
                 app_DB.add_new_user(name, email, university)
-            else:
-                not_exist = True
+        else:
+            not_exist = True
     else:
         not_uni = True
 
