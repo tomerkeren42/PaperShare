@@ -76,7 +76,7 @@ function check_giveaway_submit() {
     return false;
 }
 
-function add_giveaway_form(email) {  
+function add_giveaway_form(university) {  
     var numItems = $('.giveaway_inst').length
     //console.log("number of giveaway_inst: ", numItems);
     //console.log("email: ", email);
@@ -139,7 +139,9 @@ function add_giveaway_form(email) {
     //}
     //faculties_select.id = faculties_select_id;
 
-    clone.insertBefore(".add");  
+    clone.insertBefore(".add");
+
+    load_faculties_dropdown(university, numItems);
     
     //console.log("clone id: ", clone.attr('id'));
 }

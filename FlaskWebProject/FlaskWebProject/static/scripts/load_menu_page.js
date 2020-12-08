@@ -1,20 +1,36 @@
 function load_html(university, email) {
-    load_faculties_dropdown(university);
+    load_faculties_dropdown(university, 0);
     load_my_giveaways(university, email);
 }
 
-function load_faculties_dropdown(university) {
+function load_faculties_dropdown(university, numItems) {
+    console.log("in load_faculties_dropdown(): university = ", university, " numItems = ", numItems);
+
+    var faculties_select_id;
     // get list
     var faculties_list = universities_faculties_lists[university];
     faculties_list.sort();
+
+
     // get faculty select by id
+    if (numItems == 0)
+        faculties_select_id = "give_away_faculties";
+    else
+        faculties_select_id = "give_away_faculties_" + numItems;
+
+    console.log("in load_faculties_dropdown(): faculties_select_id = ", faculties_select_id);
+    var dSelect = document.getElementById(faculties_select_id);
     var cSelect = document.getElementById("search_faculties");
-    var dSelect = document.getElementById("give_away_faculties");
+
     // remove default option
-    while (cSelect.options.length > 0) {
-        cSelect.remove(0);
+    while (dSelect.options.length > 0) {
+        console.log("in load_faculties_dropdown(): in the while(), dSelect.options.length = ", dSelect.options.length);
+        if (numItems == 0)
+            cSelect.remove(0);
         dSelect.remove(0);
     }
+
+    console.log("in load_faculties_dropdown(): out of the while()");
 
     // work on both selects
     for (var j = 0; j < 2; j++) {
@@ -26,14 +42,17 @@ function load_faculties_dropdown(university) {
             newOption.style.textAlign = "right";
             // add the new option
             try {
-                cSelect.add(newOption);  // this will fail in DOM browsers but is needed for IE
+                dSelect.add(newOption);  // this will fail in DOM browsers but is needed for IE
             }
             catch (e) {
-                cSelect.appendChild(newOption);
+                dSelect.appendChild(newOption);
             }
         }
         $('.selectpicker').selectpicker('refresh');
-        cSelect = dSelect;
+        if (numItems == 0)
+            dSelect = cSelect;
+            //cSelect = dSelect;
+        //dSelect = cSelect;
     }
 }
 
