@@ -1,4 +1,6 @@
 ﻿function courses_dropdown(selectObj, course_select_id, university) {
+    console.log("in courses_dropdown(), selectObj: ", selectObj);
+
     // get the index of the selected option 
     var idx = selectObj.selectedIndex;
     // get the value of the selected option 

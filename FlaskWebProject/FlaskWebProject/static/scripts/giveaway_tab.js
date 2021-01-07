@@ -79,71 +79,57 @@ function check_giveaway_submit() {
 function add_giveaway_form(university) {  
     var numItems = $('.giveaway_inst').length
     //console.log("number of giveaway_inst: ", numItems);
-    //console.log("email: ", email);
 
     //var clone = $(".giveaway_inst").first().clone();
     var clone = $(".giveaway_inst").first().clone();
     var clone_id = "giveaway_" + numItems;
     clone.prop('id', clone_id);
 
-    //console.log("id: ", id);
-    //console.log("faculties_select_id: ", faculties_select_id);
-
     var close_btn_str = "<button type='button' data-id='" + clone_id + "' onclick='remove_giveaway_row(this)' class='btn btn-danger remove-row'>הסר/י מסירה</button>";
-    //console.log("close_btn_str: ", close_btn_str);
     clone.append(close_btn_str);
 
-    //var faculties_select = clone.children().find("give_away_faculties");
-    //var faculties_select_id = document.getElementById("give_away_faculties");
-    //console.log("faculties_select by id: ", faculties_select_id);
-
-    //var faculties_select_class = document.getElementsByClassName("selectpicker");
-    //console.log("faculties_select by class: ", faculties_select_class);
-
-    //console.log("clone: ", clone);
-    //console.log("clone.childNodes: ", clone[0].childNodes);
+    console.log("clone.childNodes: ", clone[0].childNodes);
 
     var faculty_input = clone[0].childNodes[5];
     var faculty_input_div_id = "faculty_input_" + numItems;
     var faculties_select_id = "give_away_faculties_" + numItems;
-    faculty_input.setAttribute('id', faculty_input_div_id);
-    faculty_input.getElementsByClassName("selectpicker pull-right")[0].setAttribute('id', faculties_select_id);
-    faculty_input.getElementsByClassName("dropdown bootstrap-select pull-right bs3")[0].getElementsByClassName("btn dropdown-toggle bs-placeholder btn-default")[0].setAttribute('data-id', faculties_select_id);
+    var faculty_input_select = faculty_input.getElementsByClassName("selectpicker pull-right")[0]
 
     var course_input = clone[0].childNodes[13];
     var course_input_div_id = "course_input_" + numItems;
     var courses_select_id = "give_away_courses_" + numItems;
-    course_input.setAttribute('id', course_input_div_id);
-    course_input.getElementsByClassName("selectpicker pull-right")[0].setAttribute('id', courses_select_id);
-    course_input.getElementsByClassName("dropdown bootstrap-select pull-right bs3")[0].getElementsByClassName("btn dropdown-toggle bs-placeholder btn-default")[0].setAttribute('data-id', courses_select_id);
 
     var description_input = clone[0].childNodes[20];
     var description_input_div_id = "description_input_" + numItems;
     var description_input_id = "Description_" + numItems;
+
+    var faculty_input_onchange_func = "courses_dropdown(this, '" + courses_select_id + "', '" + university + "');";
+    faculty_input.setAttribute('id', faculty_input_div_id);
+    faculty_input_select.setAttribute('id', faculties_select_id);
+    faculty_input_select.setAttribute('onchange', faculty_input_onchange_func);
+    faculty_input.getElementsByClassName("dropdown bootstrap-select pull-right bs3")[0].getElementsByClassName("btn dropdown-toggle btn-default")[0].setAttribute('data-id', faculties_select_id);
+
+    course_input.setAttribute('id', course_input_div_id);
+    course_input.getElementsByClassName("selectpicker pull-right")[0].setAttribute('id', courses_select_id);
+    course_input.getElementsByClassName("dropdown bootstrap-select pull-right bs3")[0].getElementsByClassName("btn dropdown-toggle btn-default")[0].setAttribute('data-id', courses_select_id);
+
     description_input.setAttribute('id', description_input_div_id);
     description_input.getElementsByClassName("form-control pull-right text-right col-sx-10")[0].setAttribute('id', description_input_id);
 
     console.log("faculty_input: ", faculty_input);
+    console.log("faculty_input_select: ", faculty_input_select);
     console.log("course_input: ", course_input);
     console.log("description_input: ", description_input);
 
-    //console.log("faculty_input.getElementsByClassName()[0]: ", faculty_input.getElementsByClassName("selectpicker pull-right")[0]);
-    //console.log("test: ", faculty_input.getElementsByClassName("dropdown bootstrap-select pull-right bs3")[0].getElementsByClassName("btn dropdown-toggle bs-placeholder btn-default")[0]);
-
-    //var faculties_select_curr_id = faculties_select.id;
-    //console.log("faculties_select_curr_id: ", faculties_select_curr_id);
-    //
-    //
-    //while (faculties_select.options.length > 0) {
-    //    faculties_select.remove(0);
-    //}
-    //faculties_select.id = faculties_select_id;
-
     clone.insertBefore(".add");
 
-    load_faculties_dropdown(university, numItems);
-    
-    //console.log("clone id: ", clone.attr('id'));
+    //load_faculties_dropdown(university, numItems);////////////////////////////////////
+
+    //var test = "#" + faculties_select_id;
+    //$(test).selectpicker('val', '0');
+
+    //selectpicker_clear(faculties_select_id);
+    //$('#' + faculties_select_id).selectpicker('val', '0');
 }
 
 function remove_giveaway_row(CurrObj) {
